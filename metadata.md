@@ -2,9 +2,9 @@
 cloud: experience-cloud
 solution: Experience Cloud
 product: experience cloud
-type: Documentation
+type: Tutorials
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/deliverability.en
+git-repo: https://github.com/AdobeDocs/deliverability-learn.en
 index: yes
 ---
 
