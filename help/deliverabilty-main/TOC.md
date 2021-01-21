@@ -9,7 +9,7 @@ user-guide-description: Use this guide to learn key deliverability terms, concep
 + [Introduction](/help/introduction.md)
 + [Deliverability strategy and definition](/help/deliverability-strategy-and-definition.md)
 + [Other metrics that matter for deliverability](/help/other-metrics-for-deliverability.md)
-+ [Engagement](/help/engangement.md)
++ [Engagement](/help/engagement.md)
 + [Transition process - Switching email platforms](/help/transition-process-switching-email-platforms.md)
 + [First impressions — List collection and welcome emails](/help/first-impressions-list-collection-and-welcome-emails.md)
 + [Content best practices for optimal deliverability](/help/content-best-practices-for-optimal-delivery.md)
