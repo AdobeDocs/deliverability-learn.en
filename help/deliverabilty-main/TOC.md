@@ -4,8 +4,6 @@ user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Use this guide to learn key deliverability terms, concepts, and approaches to empower you to stay ahead of the curve. Use it to keep the email channel at the forefront of your marketing mix, with high priority on deliverability, inbox placement, and your revenue.
 ---
 
-# Deliverability Best Practices {#best-practices}
-
 # Adobe Campaign Deliverability Best Practice Guide {#deliverability-best-practice-guide}
 
 + [Introduction](/help/introduction.md)
