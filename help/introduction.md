@@ -27,7 +27,7 @@ This Deliverability Best Practice Guide is divided into the following chapters:
 
 1. [Deliverability strategy and definition](./deliverability-strategy-and-definition.md)
 2. [Other metrics that matter for deliverability](./other-metrics-for-deliverability.md)
-3. [Engagement](./engangement.md)
+3. [Engagement](./engagement.md)
 4. [Transition process - Switching email platforms](transition-process-switching-email-platforms.md)
 5. [First impressions — List collection and welcome emails](./first-impressions-list-collection-and-welcome-emails.md)
 6. [Content best practices for optimal deliverability](./content-best-practices-for-optimal-delivery.md)
