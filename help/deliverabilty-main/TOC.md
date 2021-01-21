@@ -1,5 +1,5 @@
 ---
-user-guide-title: Deliverability Best Practices
+user-guide-title: Deliverability 
 user-guide-breadcrumb: Deliverability
 user-guide-description: This is a description for the user guide that will be displayed on the landing page.
 ---
@@ -7,3 +7,5 @@ user-guide-description: This is a description for the user guide that will be di
 # Deliverability Best Practices {#best-practices}
 
 + [Overview](overview.md)
++ [Deliverability Best Practice Guide](../deliverability-best-practice-guide/introduction.md)
++ Campaign
