@@ -47,7 +47,7 @@ It is also a much better customer experience and will help to increase positive 
 
 A final key part of the reply-to strategy is that if you do have a real email address they can reply to, make sure someone is monitoring it and it’s not just an auto-response. If not monitored, the missed expectations can frustrate the customer and lead to complaints or lower engagement.
 
-## Additional resources
+## Product specific resources
 
 Campaign Standard
 * [Define the right audience](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
