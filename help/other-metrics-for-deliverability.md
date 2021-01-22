@@ -1,8 +1,8 @@
 ---
 title: Other metrics that matter for deliverability
-description: One of the best ways to identify a sending reputation issue is through the metrics. We'll take a look at some key deliverability metrics to monitor and how to use them to identify a reputation issue.
-feature: 
-topics: Deliverability
+description: One of the best ways to identify a sending reputation issue is through the metrics. Understand which key deliverability metrics to monitor and how to use them to identify a reputation issue.
+feature: Deliverability
+topics: 
 kt: 5256
 doc-type: article
 activity: understand
@@ -31,7 +31,7 @@ Here are some common examples of hard bounces:
   
 ### Soft bounces
 
-Soft bounces are temporary failures that ISPs generate when they have difficulty delivering mail. Soft failures will retry multiple times (with variance depending on use of custom or out-of-box Adobe Campaign delivery settings) in order to attempt a successful delivery. Addresses that continually soft bounce will not be added to quarantine until the maximum number of retries has been attempted (which again vary depending on settings). Some common causes of soft bounces include the following:
+Soft bounces are temporary failures that ISPs generate when they have difficulty delivering mail. Soft failures will retry multiple times (with variance depending on use of custom or out-of-box delivery settings) in order to attempt a successful delivery. Addresses that continually soft bounce will not be added to quarantine until the maximum number of retries has been attempted (which again vary depending on settings). Some common causes of soft bounces include the following:
 
 * Mailbox full
 * Receiving email server down
@@ -63,34 +63,37 @@ There are several anti-spam groups that allow for spam reporting at a broader le
 
 ## Spam traps
 
-Spam traps exist to help identify mail from fraudulent senders or those that aren’t following email best practices. The spam trap email address is generally not publicly published and are al-most impossible to identify. Delivering email to spam traps can impact your reputation with varying degrees of severity depending on the type of trap and the ISP. Learn more about the different types of spam traps in the following sections.
+Spam traps exist to help identify mail from fraudulent senders or those that aren’t following email best practices. The spam trap email address is generally not publicly published and are almost impossible to identify. Delivering email to spam traps can impact your reputation with varying degrees of severity depending on the type of trap and the ISP. Learn more about the different types of spam traps in the following sections.
 
 ### Recycled
 
-Recycled spam traps are addresses that were once valid but are no longer being used. One key way to keep lists as clean as possible is to regularly send email to your entire list and appropriately suppress bounced emails. This helps abandoned email addresses to be quarantined and withheld from further use. 
+Recycled spam traps are addresses that were once valid but are no longer being used. One key way to keep lists as clean as possible is to regularly send email to your entire list and appropriately suppress bounced emails. This helps abandoned email addresses to be quarantined and withheld from further use.
 
-In some cases, an address can become recycled within 30 days. Sending regularly is a vital aspect of good list hygiene, along with regularly suppressing inactive users. Reengagement campaigns are typically a part of sophisticated email marketing programs. This campaign style allows the sender to attempt to win back users that would otherwise no longer be mailed.
+In some cases, an address can become recycled within 30 days. Sending regularly is a vital aspect of good list hygiene, along with regularly suppressing inactive users. **Reengagement campaigns** are typically a part of sophisticated email marketing programs. This campaign style allows the sender to attempt to win back users that would otherwise no longer be mailed.
 
 ### Typo
 
-A typo spam trap is an address that contains a misspelling or malformation. This often occurs with known misspellings of major domains like Gmail (ex: gmial is a common typo). ISPs and other blocklist operators will register known bad domains to be used as a spam trap in order to identify spammers and measure sender health. The best way to prevent typo spam traps is to use a double opt-in process for list collection.
+A typo spam trap is an address that contains a misspelling or malformation. This often occurs with known misspellings of major domains like Gmail (ex: gmial is a common typo). ISPs and other blocklist operators will register known bad domains to be used as a spam trap in order to identify spammers and measure sender health. The best way to prevent typo spam traps is to use a **double opt-in process** for list collection.
 
 ### Pristine
 
-A pristine spam trap is an address that has no end user and has never had an end user. It’s an address that was created purely to identify spam email. This is the most impactful type of spam trap as it’s virtually impossible to identify and would require a substantial effort to clean from your list. Most blacklists utilize pristine spam traps to list unreputable senders. The only way to avoid pristine spam traps from infecting your broader marketing email list is to utilize a double opt-in process for list collection.
+A pristine spam trap is an address that has no end user and has never had an end user. It’s an address that was created purely to identify spam email. This is the most impactful type of spam trap as it is virtually impossible to identify and would require a substantial effort to clean from your list. Most blocklists utilize pristine spam traps to list unreputable senders. The only way to avoid pristine spam traps from infecting your broader marketing email list is to utilize a **double opt-in process** for list collection.
 
 ## Bulking
 
-Bulking is the delivery of mail into the spam or junk folder of an ISP. It’s identifiable when a low-er-than-normal open rate (and sometimes click rate) is paired with a high delivered rate. The causes for why emails are bulked varies by ISP. In general, though, if messages are being placed in the bulk folder, a flag that influences sending reputation (list hygiene, for example) requires reevaluation. It’s a signal that reputation is diminishing, which is a problem that needs to be corrected immediately before it affects further campaigns. Work with your Adobe Campaign deliver-ability consultant to remedy any bulking issues depending on your situation.
+Bulking is the delivery of mail into the spam or junk folder of an ISP. It is identifiable when a lower-than-normal open rate (and sometimes click rate) is paired with a high delivered rate. The causes for why emails are bulked varies by ISP. In general, though, if messages are being placed in the bulk folder, a flag that influences sending reputation (list hygiene, for example) requires reevaluation. It’s a signal that reputation is diminishing, which is a problem that needs to be corrected immediately before it affects further campaigns. Work with your Adobe deliverability consultant to remedy any bulking issues depending on your situation.
 
 ## Blocking
 
-A block occurs when spam indicators reach proprietary ISP thresholds and the ISP begins to block mail (noticeable through bounced mailing attempts) from a sender. There are various types of blocks. Generally, blocks occur specific to an IP address, but they can also occur at the sending domain or entity level. Resolving a block requires specific expertise, so please contact your Adobe Campaign deliverability consultant for assistance.
+A block occurs when spam indicators reach proprietary ISP thresholds and the ISP begins to block mail (noticeable through bounced mailing attempts) from a sender. There are various types of blocks. Generally, blocks occur specific to an IP address, but they can also occur at the sending domain or entity level. Resolving a block requires specific expertise, so please contact your Adobe deliverability consultant for assistance.
 
-## Blacklisting
+## Blocklisting
 
-A blacklisting occurs when a third-party blacklist manager registers spammer-like behavior associated with a sender. The cause of a blacklist is sometimes published by the blacklisting party. A listing is generally based on IP address, but in more severe cases it can be by IP range or even a sending domain. Resolving a blacklisting should involve support from your Adobe Campaign deliverability consultant in order to fully resolve and prevent further listings. Some listings are extremely severe and can cause long-lasting reputation issues that are difficult to resolve. The result of a blacklisting varies by the blacklist but has the potential to impact delivery of all email.
+A blocklisting occurs when a third-party blocklist manager registers spammer-like behavior associated with a sender. The cause of a blocklist is sometimes published by the blocklisting party. A listing is generally based on IP address, but in more severe cases it can be by IP range or even a sending domain. Resolving a blocklisting should involve support from your Adobe deliverability consultant in order to fully resolve and prevent further listings. Some listings are extremely severe and can cause long-lasting reputation issues that are difficult to resolve. The result of a blocklisting varies by the blocklist but has the potential to impact delivery of all email.
 
 ## Additional resources
 
-* [Delivery failure types and reasons](https://docs.adobe.com/content/help/en/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html#delivery-failure-types-and-reasons)
+Adobe Campaign Standard
+* [Delivery failure types and reasons](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=en#delivery-failure-types-and-reasons)
+* [Double opt-in process](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
+* [Monitoring deliverability](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html)

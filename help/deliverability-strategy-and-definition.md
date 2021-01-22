@@ -1,8 +1,8 @@
 ---
-title: Deliverability strategy and definition
-description: Designing successful email marketing campaigns depends on having a clear understanding of marketing goals, whether they’re for prospecting or customer relationship management (CRM) initiatives. This helps to determine who to target, what to promote, and when outreach is ideal.
-feature: 
-topics: Deliverability
+title: What is the deliverability strategy and how to define deliverability
+description: Understand how deliverability is defined, why it matters and the key deliverability metrics.
+feature: Deliverability
+topics: 
 kt: 5255
 doc-type: article
 activity: understand
@@ -11,36 +11,36 @@ team: ACS
 
 # Deliverability strategy and definition
 
-Designing successful email marketing campaigns depends on having a clear understanding of marketing goals, whether they’re for prospecting or customer relationship management (CRM) initiatives. This helps to determine who to target, what to promote, and when outreach is ideal. Here are some examples of email marketing strategy objectives:
+Designing successful email marketing campaigns depends on having a clear understanding of marketing goals, whether they’re for prospecting or customer relationship management (CRM) initiatives. This helps to determine who to target, what to promote, and when outreach is ideal.
 
 Here are some examples of email marketing strategy objectives:
 
 * Acquiring new customers
 * Converting prospects to first time buyers
-* Growing current customer relationships with additional client offerings 
+* Growing current customer relationships with additional client offerings
 * Retaining loyal customers
 * Enhancing customer satisfaction and brand loyalty
 * Reactivating lost or lapsed customers
 
 ## Deliverability defined
 
-There are two key metrics that play a role in the definition of deliverability. The delivered rate is the percentage of emails that don’t bounce and are accepted by the ISP. Next is inbox placement — this is applied to the messages that are accepted by the ISP and determines whether the email lands in the inbox or the spam folder.
+There are two key metrics that play a role in the definition of deliverability. The *delivered rate* is the percentage of emails that don’t bounce and are accepted by the ISP. Next is *inbox placement* — this is applied to the messages that are accepted by the ISP and determines whether the email lands in the inbox or the spam folder.
 
-It’s important to understand both delivered rate and the inbox placement rate in conjunction with one another when measuring email performance. A high delivered rate is not the only facet of deliverability. Just because a message is received via an ISP’s initial checkpoint doesn’t necessarily mean that your subscriber actually saw and interacted with your communication. 
+It is important to understand both delivered rate and the inbox placement rate in conjunction with one another when measuring email performance. A high delivered rate is not the only facet of deliverability. Just because a message is received via an ISP’s initial checkpoint doesn’t necessarily mean that your subscriber actually saw and interacted with your communication.
 
 ## Why deliverability matters
 
 If you don’t know whether your emails are getting delivered or whether they are landing in the inbox versus the spam folder, you should. Here’s why.
 
-Countless hours go into the planning and production of your email campaigns. If the emails bounce or ultimately land in your subscribers’ spam folder, your customers probably won’t read them, your call to action (CTA) won’t be acknowledged, and you’ll fall short of your revenue goals due to lost conversions. Put simply, you can’t afford to ignore deliverability. It’s crucial to the success of your email marketing efforts—and your bottom line.
+Countless hours go into the planning and production of your email campaigns. If the emails bounce or ultimately land in your subscribers’ spam folder, your customers probably won’t read them, your call to action (CTA) won’t be acknowledged, and you’ll fall short of your revenue goals due to lost conversions. Put simply, you can’t afford to ignore deliverability. It is crucial to the success of your email marketing efforts and your bottom line.
 
-Following deliverability best practices ensures that your email will have the best possible chance of opens, clicks, and the ultimate goal—conversion. You can write a brilliant subject line and have beautiful imagery and engaging content. But if that email doesn’t get delivered, the customer doesn’t have any opportunity to convert. All in all, in email deliverability, each step in the mail acceptance process is dependent on the former for program success.
+Following deliverability best practices ensures that your email will have the best possible chance of opens, clicks, and the ultimate goal - conversion. You can write a brilliant subject line and have beautiful imagery and engaging content. But if that email doesn’t get delivered, the customer doesn’t have any opportunity to convert. All in all, in email deliverability, each step in the mail acceptance process is dependent on the former for program success.
 
 ### Step 1: Email delivered
 
 Important factors for delivery:
 
-* **Solid infrastructure**: IP and domain configuration, feedback loop (FBL) setup (including complaint monitoring and processing), and regular bounce processing. For Adobe Campaign clients, Adobe is responsible for this setup on behalf of our clients.
+* **Solid infrastructure**: IP and domain configuration, feedback loop (FBL) setup (including complaint monitoring and processing), and regular bounce processing. For Adobe clients, Adobe is responsible for this setup on behalf of our clients.
 * **Strong authentication**: [!DNL Sender Policy Framework] (SPF), [!DNL DomainKeys Identified Mail] (DKIM), [!DNL Domain-based Message Authentication], Reporting, and Conformance (DMARC).
 * **High list quality**: Explicit opt-in, valid email acquisition methods, and engagement policies.
 * **Consistent sending cadence and minimization of volume fluctuations**.
@@ -48,7 +48,7 @@ Important factors for delivery:
 
 ### Step 2: Email inbox placement
 
-ISPs have unique, complex, and ever-changing algorithms to determine whether your email is placed in the inbox or the junk or spam folder.
+ISPs have unique, complex, and ever-changing algorithms to determine whether your email is placed in the inbox, the junk, or spam folder.
 
 Here are some important factors for inbox placement:
 
@@ -58,9 +58,9 @@ Here are some important factors for inbox placement:
 * Consistent volume
 * Low spam traps
 * Low hard bounce rate
-* Lack of blacklist issues
+* Lack of blocklist issues
 
-### Step 3: Email engagement—opens
+### Step 3: Email engagement — opens
 
 Here are some important factors for open rate:
 
@@ -71,7 +71,7 @@ Here are some important factors for open rate:
 * Frequency
 * Relevance or value of content
 
-### Step 4: Email engagement—clicks
+### Step 4: Email engagement — clicks
 
 Here are some important factors for click rate:
 
