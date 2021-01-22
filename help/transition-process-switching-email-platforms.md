@@ -1,5 +1,5 @@
 ---
-title: What do I need to know when switching email platforms
+title: What do I need to know when switching email platforms.
 description: When moving email service providers (ESPs), it’s not possible to also transition your existing, established IP addresses. It is important that you follow best practices for developing a positive reputation when starting afresh. 
 feature: Deliverability
 topics: 
@@ -9,7 +9,7 @@ activity: understand
 team: ACS
 ---
 
-# Transition process: switching email platforms
+# Transition process - switching email platforms
 
 When moving email service providers (ESPs), it is not possible to also transition your existing, established IP addresses. It is important that you follow best practices for developing a positive reputation when starting afresh. Because the new IP addresses you will be using do not yet have reputation, ISPs are unable to fully trust the mail coming from them and need to be cautious in what they allow to be delivered to their customers.
 
@@ -49,14 +49,66 @@ It is important to form a well-structured IP strategy to help establish a positi
 
 Behind the scenes, Adobe platforms are processing data regarding bounces, complaints, unsubscribes, and more. The setup of these feedback loops is an important aspect to deliverability. Complaints can damage a reputation, so you should email addresses that register complaints from your target audience. It’s important to note that Gmail doesn’t provide this data back. List unsubscribe headers and engagement filtering are especially important for Gmail subscribers, who now comprise the majority of subscriber databases.
 
+## Authentication
+
+Authentication is the process that ISPs use to validate the identity of a sender. The two most common authentication protocols are [!DNL Sender Policy Framework] (SPF) and [!DNL DomainKeys Identified Mail] (DKIM). These are not visible to the end user but do help ISPs filter email from verified senders. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) is gaining popularity, although its policies aren’t yet incorporated by all ISPs in their reputation systems.
+
+### SPF
+
+[!DNL Sender Policy Framework] (SPF) is an authentication method that allows the owner of a domain to specify which mail servers they use to send mail from that domain.
+
+### DKIM
+
+[!DNL Domain Keys Identified Mail] (DKIM) is an authentication method that is used to detect forged sender addresses (commonly called spoofing). If DKIM is enabled, it allows the receiver to confirm if the sender is authorized to send mail from that domain.
+
+### DMARC
+
+[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC) is an authentication method that allows domain owners the ability to protect their domain from unauthorized use. DMARC uses SPF or DKIM or both to allow a domain owner to control what happens to mail that fails authentication: delivered, quarantined, or rejected.
+
+## Targeting criteria
+
+When sending new traffic, only target your highest engaged users during the early phases of IP warming. This helps establish a positive reputation from the get-go to effectively build trust be-fore rolling in your less engaged audiences. Here’s a basic formula for engagement:
+
+![Formula for engagement](assets/formula-for-enagement.png)
+
+Typically, an engagement rate is based on a specific period of time. This metric can vary drastically depending on if the formula is applied on an overall level or for specific mailing types or campaigns. The specific targeting criteria needs to be provided by working with your Adobe deliverability consultant, since every sender and ISP varies and usually requires a customized plan.
+
+## ISP-specific considerations during IP warming
+
+ISPs have different rules and different ways of looking at their traffic. For example, Gmail is one of the most sophisticated ISPs because they look at engagement very strictly (opens and clicks) in addition to all other reputation measures. This requires a customized plan that only targets the highest engaged users at the onset. Other ISPs may require the same as well. Work with your Adobe deliverability consultant for a specific plan.
+
+## Volume
+
+The volume of mail you’re sending is critical to establishing a positive reputation. Put yourself in an ISPs shoes — if you start seeing a ton of traffic from someone you don’t know, it would be alarming. Sending large volume of mail right away is risky and is sure to cause reputation issues that are often difficult to resolve. It can be frustrating, time consuming, and costly to dig yourself out of poor reputation and bulking and blocking issues resulting from sending too much too soon.
+
+The volume thresholds vary by ISP and can also vary depending on your average engagement metrics. Some senders require a very low and slow ramp of volume, whereas others may allow for a steeper ramp in volume. We recommend working with an expert, like an Adobe deliverability consultant, to develop a customized volume plan.
+
+Here’s a list of hints and tips for how to transition smoothly:
+
+* **Permission** is the foundation of any successful email program.
+* **Low and slow** — start with low sending volumes and then increase as you establish your sender reputation.
+* A **tandem mailing strategy** allows you to ramp up volume on Campaign while winding down with your current ESP, without disrupting your email calendar.
+* **Engagement matters** — start with the subscribers who open and click your emails regularly.
+* **Follow the plan** — our recommendations have helped hundreds of Campaign clients successfully ramp up their email programs.
+* **Monitor your reply email account**. It’s a bad experience for your customer to use noreply@xyz.com or to not respond.
+* Inactive addresses can have a negative deliverability impact. **Reactivate and repermission on your current platform**, not your new IPs.
+* **Domains** — use a sending domain that’s a subdomain of your company’s actual domain
+  * For example, if your company domain is xyz.com, email.xyz.com provides more credibility to the ISPs than xyzemail.com
+* **Transparency** — registration details for your email domain should be available publicly and shouldn’t be private.
+
+In many circumstances, transactional mail doesn’t follow the traditional promotional warming approach. It’s obviously difficult to control volume in transactional mail due to its nature, since it generally requires a user interaction to trigger the email touch. In some cases, transactional mail can simply be transitioned without a formal plan. In other cases, it might be better to transition each message type over time to slowly grow the volume. For example, you may want to transition as follows:
+
+1. Purchase confirmations — high engagement generally
+2. Cart abandon—medium - high engagement generally
+3. Welcome emails — high engagement but can contain bad addresses depending on your list collection methods
+4. Winback emails — lower engagement generally
+
 ## Product specific resources
 
 Campaign Standard
 
-* [Control Panel: Full subdomain delegation] (https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)
-* 
+* [Control Panel: Full subdomain delegation](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)
 
 Campaign Classic
 
-* [Control Panel: Full subdomain delegation] (https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)
-
+* [Control Panel: Full subdomain delegation](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)

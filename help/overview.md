@@ -21,15 +21,13 @@ Let’s face it. Today, more than ever, you need to stand out. This means giving
 
 Use this guide to learn key deliverability terms, concepts, and approaches to empower you to stay ahead of the curve. Use it to keep the email channel at the forefront of your marketing mix, with high priority on deliverability, inbox placement, and your revenue.
 
-## Chapters
-
-This Deliverability Best Practice Guide is divided into the following chapters:
+This Deliverability Best Practice Guide covers the following topics:
 
 1. [Deliverability strategy and definition](/help/deliverability-strategy-and-definition.md)
 2. [Other metrics that matter for deliverability](help/other-metrics-for-deliverability.md)
 3. [Engagement](help/engagement.md)
 4. [Transition process - Switching email platforms](/help/transition-process-switching-email-platforms.md)
-5. [First impressions — List collection and welcome emails](/help/first-impressions-list-collection-and-welcome-emails.md)
+5. [First impressions - List collection and welcome emails](/help/first-impressions-list-collection-and-welcome-emails.md)
 6. [Content best practices for optimal deliverability](/help/content-best-practices-for-optimal-delivery.md)
 7. [Sender permanence](/help/sender-permanence.md)
 8. [Internet service provider specifics](/help/internet-service-provider-specifics/overview.md)

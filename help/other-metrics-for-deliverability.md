@@ -94,6 +94,7 @@ A blocklisting occurs when a third-party blocklist manager registers spammer-lik
 ## Product specific resources
 
 Adobe Campaign Standard
+
 * [Delivery failure types and reasons](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=en#delivery-failure-types-and-reasons)
 * [Double opt-in process](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
 * [Monitoring deliverability](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html)
