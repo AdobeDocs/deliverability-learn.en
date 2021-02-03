@@ -6,7 +6,7 @@ user-guide-description: Use this guide to learn key deliverability terms, concep
 
 # Adobe Campaign Deliverability Best Practice Guide {#deliverability-best-practice-guide}
 
-+ [Overview](/help/overview.md)
++ [Introduction](/help/introduction.md)
 + [Deliverability strategy and definition](/help/deliverability-strategy-and-definition.md)
 + [Other metrics that matter for deliverability](/help/other-metrics-for-deliverability.md)
 + [Engagement](/help/engagement.md)

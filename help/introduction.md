@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Introduction
 description: Use this guide to learn key deliverability terms, concepts, and approaches to empower you to stay ahead of the curve. Use it to keep the email channel at the forefront of your marketing mix, with high priority on deliverability, inbox placement, and your revenue.
 feature: Deliverability
 topics: 
@@ -9,7 +9,7 @@ activity: understand
 team: ACS
 ---
 
-# Adobe Deliverability Best Practice Guide - Overview
+# Adobe Deliverability Best Practice Guide - Introduction
 
 Email deliverability, a critical component to every sender’s marketing program success, is characterized by ever-changing criteria and rules. ISPs have a continual need to prevent spammers, so they’re obliged to develop sophisticated filtering techniques to protect their customers. Email senders can become unintentionally ensnared in those efforts. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
 
