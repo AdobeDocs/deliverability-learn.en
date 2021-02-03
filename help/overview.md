@@ -24,7 +24,7 @@ Use this guide to learn key deliverability terms, concepts, and approaches to em
 This Deliverability Best Practice Guide covers the following topics:
 
 1. [Deliverability strategy and definition](/help/deliverability-strategy-and-definition.md)
-2. [Other metrics that matter for deliverability](help/other-metrics-for-deliverability.md)
+2. [Other metrics that matter for deliverability](/help/other-metrics-for-deliverability.md)
 3. [Engagement](/help/engagement.md)
 4. [Transition process - Switching email platforms](/help/transition-process-switching-email-platforms.md)
 5. [First impressions - List collection and welcome emails](/help/first-impressions-list-collection-and-welcome-emails.md)
