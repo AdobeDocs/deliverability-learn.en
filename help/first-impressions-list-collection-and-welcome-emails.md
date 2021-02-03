@@ -1,6 +1,6 @@
 ---
 title: First impressions—list collection and welcome emails
-description: When looking to build a new relationship, making a good first impression is crucial. Without it, nothing else you say or do may be given a chance. The relationship between a brand and those choosing to interact with them is no different. Everything starts somewhere. And when it comes to running an email program, it starts with collecting email addresses and welcoming those sub-scribers to your program. Let’s check out how you can set yourself up for running a successful email program by making a good first impression in those areas. 
+description: Learn out how you can set yourself up for running a successful email program by making a good first impression. 
 feature: 
 topics: Deliverability
 kt: 5258
@@ -11,7 +11,7 @@ team: TM
 
 # First impressions — List collection and welcome emails
 
-When looking to build a new relationship, making a good first impression is crucial. Without it, nothing else you say or do may be given a chance. The relationship between a brand and those choosing to interact with them is no different. Everything starts somewhere. And when it comes to running an email program, it starts with collecting email addresses and welcoming those sub-scribers to your program. Let’s check out how you can set yourself up for running a successful email program by making a good first impression in those areas.
+When looking to build a new relationship, making a good first impression is crucial. Without it, nothing else you say or do may be given a chance. The relationship between a brand and those choosing to interact with them is no different. Everything starts somewhere. And when it comes to running an email program, it starts with collecting email addresses and welcoming those subscribers to your program. Let’s check out how you can set yourself up for running a successful email program by making a good first impression in those areas.
 
 ## Address collection and list growth
 
@@ -21,14 +21,13 @@ Some notes about these sign-up methods:
 
 **Physical store** list collection can present challenges due to verbal or written address inputs causing misspelling in the addresses. Sending a confirmation email as quickly as possible after in-store sign-ups is recommended.
 
-The most common form of **website sign-up** is “single opt-in.” This should be the absolute mini-mum standard you use to acquire email addresses. It’s when the holder of a specific email ad-dress grants a sender permission to send them marketing emails, usually by submitting the ad-dress via a web form or in-store signups. While it’s possible to run a successful email campaign using this method, it can be the cause of some problems.
+The most common form of **website sign-up** is “single opt-in.” This should be the absolute minimum standard you use to acquire email addresses. It’s when the holder of a specific email address grants a sender permission to send them marketing emails, usually by submitting the address via a web form or in-store signups. While it’s possible to run a successful email campaign using this method, it can be the cause of some problems.
 
 * Unconfirmed email addresses can have typos or be malformed, incorrect, or maliciously used. Typos and malformed addresses cause high bounce rates, which can and do provoke blocks issued by ISPs or IP reputation loss.
+
 * Malicious submission of known spam traps (sometimes called “list poisoning”) can cause huge problems with delivery and reputation if the owner of that trap takes action. It’s impossible to know if the recipient truly wants to be added to a marketing list without a confirmation. This makes it equally impossible to set the recipient's expectations and can lead to increased spam complaints—and sometimes blacklisting if the collected email happens to be a spam-trap.
   
 For guidance on how to minimize the issues presented in both physical store and single opt-in, go to the Data quality and hygiene section in this guide for the details and benefits of double opt-in.
-
-Subscribers often use throw-away addresses, expired addresses, or addresses that aren’t theirs in order to get what they want from a website but also avoid getting added to marketing lists. When this happens, marketers’ lists can result in having a high number of hard bounces, high spam complaint rates, and subscribers who don’t click, open, or positively engage with emails. This can be seen as a red flag for mailbox providers and ISPs.
 
 >[!NOTE]
 >
