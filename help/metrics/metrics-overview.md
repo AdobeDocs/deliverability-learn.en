@@ -13,7 +13,7 @@ team: ACS
 
 One of the best ways to identify a sending reputation issue is through the metrics. Let’s take a look at some key deliverability metrics to monitor and how to use them to identify a reputation issue.
 
-* [Bounces](/help/metrics/bounces.mdbounces.md)
+* [Bounces](/help/metrics/bounces.md)
 * [Complaints](/help/metrics/complaints.md)
 * [Spam traps](/help/metrics/spam-traps.md)
 * [Bulking and blocking](/help/metrics/bulking-and-blocking.md)
