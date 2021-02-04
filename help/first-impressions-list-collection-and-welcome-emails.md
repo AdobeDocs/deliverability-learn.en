@@ -9,7 +9,7 @@ activity: understand
 team: TM
 ---
 
-# First impressions — List collection and welcome emails
+# First impressions - List collection and welcome emails
 
 When looking to build a new relationship, making a good first impression is crucial. Without it, nothing else you say or do may be given a chance. The relationship between a brand and those choosing to interact with them is no different. Everything starts somewhere. And when it comes to running an email program, it starts with collecting email addresses and welcoming those subscribers to your program. Let’s check out how you can set yourself up for running a successful email program by making a good first impression in those areas.
 
