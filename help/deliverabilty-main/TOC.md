@@ -9,8 +9,8 @@ user-guide-description: Use this guide to learn key deliverability terms, concep
 + [Introduction](/help/introduction.md)
 + [Deliverability strategy and definition](/help/deliverability-strategy-and-definition.md)
 + Other metrics for deliverability {#metrics-for-deliverability}
-  + [Metrics - Overview](/help/metrics-overview.md)
-  + [Bounces](/help/metrics/bounces.mdbounces.md)
+  + [Metrics Overview](/help/metrics/metrics-overview.md)
+  + [Bounces](/help/metrics/bounces.md)
   + [Complaints](/help/metrics/complaints.md)
   + [Spam traps](/help/metrics/spam-traps.md)
   + [Bulking and blocking](/help/metrics/bulking-and-blocking.md)
