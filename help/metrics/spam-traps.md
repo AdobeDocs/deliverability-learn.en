@@ -27,7 +27,7 @@ A typo spam trap is an address that contains a misspelling or malformation. This
 
 A pristine spam trap is an address that has no end user and has never had an end user. It’s an address that was created purely to identify spam email. This is the most impactful type of spam trap as it is virtually impossible to identify and would require a substantial effort to clean from your list. Most blocklists utilize pristine spam traps to list unreputable senders. The only way to avoid pristine spam traps from infecting your broader marketing email list is to utilize a **double opt-in process** for list collection.
 
-# Product specific resources
+## Product specific resources
 
 **Adobe Campaign Classic**
 

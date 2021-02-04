@@ -28,4 +28,5 @@ There are several anti-spam groups that allow for spam reporting at a broader le
 ## Product specific resources
 
 **Adobe Campaign Standard**
-*[Complaints](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html#reporting)
+
+* [Complaints](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html#reporting)
