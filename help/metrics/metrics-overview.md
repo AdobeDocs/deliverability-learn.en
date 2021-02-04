@@ -1,8 +1,8 @@
 ---
 title: Other metrics that matter for deliverability
 description: Understand which key deliverability metrics to monitor and how to use them to identify a reputation issue.
-feature: Deliverability
-topics: 
+feature: Metrics
+topics: Deliverability
 kt: 5256
 doc-type: article
 activity: understand

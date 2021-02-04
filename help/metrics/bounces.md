@@ -1,8 +1,8 @@
 ---
 title: Bounces
 description: Learn about the different types of bounces
-feature: Bounces    
-topics: Metrics
+feature: Metrics
+topics: Deliverability
 kt: 7047
 doc-type: article
 activity: understand

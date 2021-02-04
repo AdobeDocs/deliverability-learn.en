@@ -1,8 +1,8 @@
 ---
 title: Engagement
 description: Engagement has become the single most important factor impacting inbox placement decisions.
-feature: Deliverability
-topics: 
+feature: Engagement
+topics: Deliverability
 kt: 5257
 doc-type: article
 activity: understand

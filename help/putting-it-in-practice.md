@@ -1,7 +1,7 @@
 ---
 title: Putting it in practice
 description: Sending permanence is the process of establishing a consistent sending volume and strategy in order to maintain ISP reputation.
-feature: 
+feature: Deliverability
 topics: Deliverability
 kt: 5264
 doc-type: article

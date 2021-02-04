@@ -2,7 +2,7 @@
 title: What do I need to know when switching email platforms.
 description: When moving email service providers (ESPs), it’s not possible to also transition your existing, established IP addresses. It is important that you follow best practices for developing a positive reputation when starting afresh. 
 feature: Deliverability
-topics: 
+topics: Deliverability
 kt: 5259
 doc-type: article
 activity: understand
