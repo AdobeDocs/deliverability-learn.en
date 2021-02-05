@@ -21,7 +21,10 @@ user-guide-description: Use this guide to learn key deliverability terms, concep
   + [Targeting criteria](/help/transition-process/targeting-criteria.md)
   + [ISP-specific considerations during IP warming](/help/transition-process/isp-specific-considerations-during-ip-warming.md)
   + [Volume](/help/transition-process/volume.md)
-+ [First impressions — List collection and welcome emails](/help/first-impressions-list-collection-and-welcome-emails.md)
++ First impressions — List collection and welcome emails {#first-impressions}
+  + [First impressions — List collection and welcome emails](/help/first-impressions/introduction.md)
+  + [Address collection and list growth](/help/first-impressions/address-collection-and-list-growth.md)
+  + [Welcome emails](/help/first-impressions/welcome-emails.md)
 + [Content best practices for optimal deliverability](/help/content-best-practices-for-optimal-delivery.md)
 + [Sender permanence](/help/sender-permanence.md)
 + Internet service provider specifics {#internet-service-provider-specifics}
