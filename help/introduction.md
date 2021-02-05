@@ -26,7 +26,7 @@ This Deliverability Best Practice Guide covers the following topics:
 1. [Deliverability strategy and definition](/help/deliverability-strategy-and-definition.md)
 2. [Other metrics that matter for deliverability](/help/metrics/metrics-overview.md)
 3. [Engagement](/help/engagement.md)
-4. [Transition process - Switching email platforms](/help/transition-process-switching-email-platforms.md)
+4. [Transition process - Switching email platforms](/help/transition-process/switching-email-platforms.md)
 5. [First impressions - List collection and welcome emails](/help/first-impressions-list-collection-and-welcome-emails.md)
 6. [Content best practices for optimal deliverability](/help/content-best-practices-for-optimal-delivery.md)
 7. [Sender permanence](/help/sender-permanence.md)

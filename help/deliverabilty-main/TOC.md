@@ -15,7 +15,12 @@ user-guide-description: Use this guide to learn key deliverability terms, concep
   + [Spam traps](/help/metrics/spam-traps.md)
   + [Bulking and blocking](/help/metrics/bulking-and-blocking.md)
 + [Engagement](/help/engagement.md)
-+ [Transition process - Switching email platforms](/help/transition-process-switching-email-platforms.md)
++ Transition process - Switching email platforms{#transition-process}
+  + [How to transition smoothly when switching email platforms](/help/transition-process/switching-email-platforms.md)
+  + [Infrastructure](/help/transition-process/infrastructure.md)
+  + [Targeting criteria](/help/transition-process/targeting-criteria.md)
+  + [ISP-specific considerations during IP warming](/help/transition-process/isp-specific-considerations-during-ip-warming.md)
+  + [Volume](/help/transition-process/volume.md)
 + [First impressions — List collection and welcome emails](/help/first-impressions-list-collection-and-welcome-emails.md)
 + [Content best practices for optimal deliverability](/help/content-best-practices-for-optimal-delivery.md)
 + [Sender permanence](/help/sender-permanence.md)
