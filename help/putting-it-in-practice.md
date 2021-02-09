@@ -21,7 +21,3 @@ There are four key pillars to success:
 4. Monitor, test, and adjust as you go.
 
 If you’re ever unclear or need assistance with an issue, please contact your Adobe deliverability consultant or deliverability expert for help.
-
-## Additional Resources
-
-* [Controlling Email Content - Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=en#testing-and-sending)

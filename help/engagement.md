@@ -52,4 +52,4 @@ A final key part of the reply-to strategy is that if you do have a real email ad
 **Adobe Campaign Standard**
 
 * [Define the right audience](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Fatigue rules](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [Fatigue rules (product documentation)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)

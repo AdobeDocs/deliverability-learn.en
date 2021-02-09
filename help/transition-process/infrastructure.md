@@ -57,12 +57,9 @@ Authentication is the process that ISPs use to validate the identity of a sender
 
 **Campaign Standard**
 
-* [Control Panel: Full subdomain delegation (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)
-
+* [Control Panel: Full subdomain delegation (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html):
   *Learn how to fully delegate a subdomain to Adobe Campaign Standard.* 
 
 **Campaign Classic**
 
-* [Control Panel: Full subdomain delegation (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html)
-
-  *Learn how to fully delegate a subdomain to Adobe Campaign Classic.*
+* [Control Panel: Full subdomain delegation (Tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html): *Learn how to fully delegate a subdomain to Adobe Campaign Classic.*
