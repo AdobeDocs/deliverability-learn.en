@@ -21,5 +21,5 @@ Content is key. You’ve already read our perspective on relevance, but here are
 
 **Campaign Standard**
 
-* [Controlling email content](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=en#testing-and-sending)
+* [Controlling email content (product documentation)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=en#testing-and-sending)
 

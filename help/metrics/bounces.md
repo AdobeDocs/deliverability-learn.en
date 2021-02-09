@@ -46,7 +46,6 @@ Soft bounces are temporary failures that ISPs generate when they have difficulty
 **Adobe Campaign Standard**
 
 * [List of reports - Bounce summary (product documentation)](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/bounce-summary.html?lang=en#reporting)
-
 * [Understanding delivery failures (product documentation)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=en#about-delivery-failures)
 
 **Adobe Campaign Classic**

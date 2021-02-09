@@ -21,7 +21,7 @@ Typically, an engagement rate is based on a specific period of time. This metric
 
 **Analytics**
 
-* [How To Increase Engagement and Retention Rates (Tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics)
+* [How to increase engagement and retention rates (tutorial)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *Identify engaged audiences through their behavior using Cohorts and know the underlying causes driving stickiness in your mobile apps. Use data science algorithms in Segment IQ to know the differences and similarities between segments.*
 
 **Campaign Standard**
 

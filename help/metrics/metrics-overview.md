@@ -29,8 +29,5 @@ One of the best ways to identify a sending reputation issue is through the metri
 **Adobe Campaign Classic**
 
 * [Monitoring deliverability](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html)
-  
-* [Delivery reports](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html)
-  
+* [Delivery reports](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html)  
 * [Understanding delivery failures](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=en#sending-messages)
-
