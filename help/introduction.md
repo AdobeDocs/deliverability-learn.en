@@ -33,9 +33,13 @@ This Deliverability Best Practice Guide covers the following topics:
 8. [Internet service provider specifics](/help/internet-service-provider-specifics/overview.md)
 9. [Ongoing monitoring](/help/ongoing-monitoring.md)
 10. [Putting it in practice](/help/putting-it-in-practice.md)
-  
+
 ## Sources
 
 [!DNL Heinz Tschabitscher], [“How Many People Use Email Worldwide?”](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, June 24, 2019.
 
 [!DNL Lori Lewis], [“2019: This Is What Happens in an Internet Minute”](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Merge, March 5, 2019.
+
+## Additional resources
+
+Download [adobe-deliverability-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
