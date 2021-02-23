@@ -1,5 +1,5 @@
 ---
-title: Other metrics that matter for deliverability
+title: Metrics for deliverability
 description: Understand which key deliverability metrics to monitor and how to use them to identify a reputation issue.
 feature: Metrics
 topics: Deliverability
@@ -9,7 +9,7 @@ activity: understand
 team: ACS
 ---
 
-# Other metrics that matter for deliverability
+# Metrics for deliverability
 
 One of the best ways to identify a sending reputation issue is through the metrics. Let’s take a look at some key deliverability metrics to monitor and how to use them to identify a reputation issue.
 
