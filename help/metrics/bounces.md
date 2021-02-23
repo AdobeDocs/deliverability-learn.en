@@ -39,7 +39,7 @@ Soft bounces are temporary failures that ISPs generate when they have difficulty
 >
 >Bounces are a key indicator of a reputation issue because they can highlight a bad data source (hard bounce) or a reputation issue with an ISP (soft bounce).
 >
->Soft bounces often occur as part of sending email and should be allowed to resolve during the retry processing before characterizing as a true deliverability issue. If your soft bounce rate is greater than 30 percent for a single ISP and do not resolve within 24 hours, it’s a good idea to raise a concern with your Adobe Campaign deliverability consultant.
+>Soft bounces often occur as part of sending email and should be allowed to resolve during the retry processing before characterizing as a true deliverability issue. If your soft bounce rate is greater than 30 percent for a single ISP and does not resolve within 24 hours, it’s a good idea to raise a concern with your Adobe Campaign deliverability consultant.
 
 ## Product specific resources
 

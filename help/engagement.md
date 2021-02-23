@@ -29,7 +29,7 @@ The right frequency is something each marketer must find for their specific mark
 
 ## Changing interests
 
-Subscriber interests are constantly evolving, and marketers need to understand that commitment to a brand may be temporary. Some subscribers will opt out, but many will just delete or ignore unwanted emails. From a consumer’s perspective, any message that is unsolicited or unwanted is perceived as spam. Therefore, marketers need to rely on **permission-based marketing** and **monitor engagement** for loss of interest. In order to achieve optimal inbox placement, we recommend that marketers strategically reengage subscribers using reactivation campaigns and a win-back strategy, which can be very useful tools to an email Marketer.
+Subscriber interests are constantly evolving, and marketers need to understand that commitment to a brand may be temporary. Some subscribers will opt out, but many will just delete or ignore unwanted emails. From a consumer’s perspective, any message that is unsolicited or unwanted is perceived as spam. Therefore, marketers need to rely on **permission-based marketing** and **monitor engagement** for loss of interest. In order to achieve optimal inbox placement, we recommend that marketers strategically reengage subscribers using reactivation campaigns and a win-back strategy, which can be very useful tools to an email marketer.
 
 A **win-back strategy** is when a special incentive is regularly sent to a specific portion of a marketing database in an attempt to reengage a list which has had low open and click activity. Positive responses are kept and the portion of the list that doesn’t respond is moved to an inactive status and would no longer be mailed to.
 

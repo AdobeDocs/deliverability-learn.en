@@ -43,7 +43,7 @@ In addition to all of the fields for the data you want to collect about your new
 
 ## Data quality and hygiene
 
-Collecting data is only part of the challenge. You also need to make sure the data is both accurate and usable. You should have basic format filters in place. An email address isn’t valid if it doesn’t include an “@” or “.” for example. Be sure to not allow common alias addresses, which are also referred to as role accounts (like “info,” “admin,” “sales,” “support,” and so on). Role ac-counts can present risk because, by their nature, the recipient contains a group of people as op-posed to a single subscriber. Expectations and tolerance can vary within a group, which risks complaints, varying engagement, unsubscribes, and general confusion.
+Collecting data is only part of the challenge. You also need to make sure the data is both accurate and usable. You should have basic format filters in place. An email address isn’t valid if it doesn’t include an “@” or “.” for example. Be sure to not allow common alias addresses, which are also referred to as role accounts (like “info,” “admin,” “sales,” “support,” and so on). Role accounts can present risk because, by their nature, the recipient contains a group of people as opposed to a single subscriber. Expectations and tolerance can vary within a group, which risks complaints, varying engagement, unsubscribes, and general confusion.
 
 Here are a few solutions to common issues you may run into with your email address data:
 
@@ -60,7 +60,7 @@ Applying a hidden field on your sign-up form is a great way to differentiate aut
 
 ## Legal guidelines
 
-Consult your lawyers to interpret local and national laws concerning email. Remember that email laws widely from amongst different countries and in some cases different local regions within a country.
+Consult your lawyers to interpret local and national laws concerning email. Remember that email laws vary widely from amongst different countries and in some cases different local regions within a country.
 
 * Be sure to collect a subscriber’s location information so that you’re compliant with the subscriber’s country laws. Without that detail, you may be limited in how you can market to the subscriber.
 * Any relevant laws are generally determined by the location of the recipient, not the sender. So you’ll need to know and follow the laws for any country where you might have a subscriber.
