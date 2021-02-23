@@ -9,7 +9,7 @@ hide: yes
 
 + [Introduction](/help/introduction.md)
 + [Deliverability strategy and definition](/help/deliverability-strategy-and-definition.md)
-+ Other metrics for deliverability {#metrics-for-deliverability}
++ Metrics for deliverability {#metrics-for-deliverability}
   + [Metrics Overview](/help/metrics/metrics-overview.md)
   + [Bounces](/help/metrics/bounces.md)
   + [Complaints](/help/metrics/complaints.md)
