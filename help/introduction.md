@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Use this guide to learn key deliverability terms, concepts, and approaches to empower you to stay ahead of the curve.
+description:  Learn key deliverability terms, concepts, and approaches to empower you to ensure your marketing program success.
 feature: Deliverability
 kt: 5321
 doc-type: Tutorial
