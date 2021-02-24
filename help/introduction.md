@@ -1,8 +1,7 @@
 ---
 title: Introduction
-description: Use this guide to learn key deliverability terms, concepts, and approaches to empower you to stay ahead of the curve. Use it to keep the email channel at the forefront of your marketing mix, with high priority on deliverability, inbox placement, and your revenue.
+description: Use this guide to learn key deliverability terms, concepts, and approaches to empower you to stay ahead of the curve.
 feature: Deliverability
-topics: Deliverability
 kt: 5321
 doc-type: Tutorial
 activity: understand
