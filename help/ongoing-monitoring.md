@@ -1,6 +1,6 @@
 ---
 title: Ongoing monitoring
-description: What are issues you need to look out for.
+description: Which issues do you need to look out for.
 feature: Monitoring
 topics: Deliverability
 kt: 5320
