@@ -3,7 +3,7 @@ title: Sender permanence
 description: Sending permanence is the process of establishing a consistent sending volume and strategy in order to maintain ISP reputation.
 feature: Sender Permanence
 topics: Deliverability
-kt: 5260
+kt: 5261
 doc-type: article
 activity: understand
 team: TM

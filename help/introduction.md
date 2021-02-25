@@ -1,14 +1,14 @@
 ---
-title: Introduction
+title: Introduction to deliverability best practices
 description:  Learn key deliverability terms, concepts, and approaches to empower you to ensure your marketing program success.
 feature: Deliverability
 kt: 5321
-doc-type: Tutorial
+doc-type: article
 activity: understand
 team: ACS
 ---
 
-# Adobe Deliverability Best Practice Guide - Introduction
+# Introduction to deliverability best practices
 
 Email deliverability, a critical component to every sender’s marketing program success, is characterized by ever-changing criteria and rules. ISPs have a continual need to prevent spammers, so they’re obliged to develop sophisticated filtering techniques to protect their customers. Email senders can become unintentionally ensnared in those efforts. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
 
