@@ -4,6 +4,7 @@ description: Understand which key deliverability metrics to monitor and how to u
 feature: Metrics
 topics: Deliverability
 kt: 5256
+thumbnail: kt5256.jpg
 doc-type: article
 activity: understand
 team: ACS

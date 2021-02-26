@@ -3,7 +3,8 @@ title: Bulking and blocking emails
 description: Learn why ISPs place email messages in bulk folders or block them.
 feature: Metrics
 topics: Deliverability
-kt: 5256
+kt: 7051
+thumbnail: kt7051.jpg
 doc-type: article
 activity: understand
 team: ACS

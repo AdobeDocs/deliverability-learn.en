@@ -4,6 +4,7 @@ description: The volume of mail you’re sending is critical to establishing a p
 feature: Transition Process
 topics: Deliverability
 kt: 7055
+thumbnail: kt7055.jpg
 doc-type: article
 activity: understand
 team: ACS

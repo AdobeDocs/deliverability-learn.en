@@ -4,6 +4,7 @@ description: Which issues do you need to look out for.
 feature: Monitoring
 topics: Deliverability
 kt: 5263
+thumbnail: kt5263.jpg
 doc-type: article
 activity: understand
 team: TM

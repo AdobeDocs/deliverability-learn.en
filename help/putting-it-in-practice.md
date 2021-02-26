@@ -4,6 +4,7 @@ description: Sending permanence is the process of establishing a consistent send
 feature: Deliverability
 topics: Deliverability
 kt: 5264
+thumbnail: kt5264.jpg
 doc-type: article
 activity: understand
 team: TM

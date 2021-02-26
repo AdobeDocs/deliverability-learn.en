@@ -4,6 +4,7 @@ description: Learn what is required to properly construct an email infrastructur
 feature: Transition Process
 topics: Deliverability
 kt: 7052
+thumbnail: kt7052.jpg
 doc-type: article
 activity: understand
 team: ACS

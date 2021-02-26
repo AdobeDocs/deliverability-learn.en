@@ -4,6 +4,7 @@ description: Understand how deliverability is defined, why it matters and the ke
 feature: Deliverability
 topics: Deliverability
 kt: 5255
+thumbnail: kt5255.jpg
 doc-type: article
 activity: understand
 team: ACS

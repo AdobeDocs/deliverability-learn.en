@@ -4,6 +4,7 @@ description: Learn how to establish a positive reputation from the get-go to eff
 feature: Transition Process
 topics: Deliverability
 kt: 7053
+thumbnail: kt7053.jpg
 doc-type: article
 activity: understand
 team: ACS

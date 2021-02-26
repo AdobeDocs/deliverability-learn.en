@@ -4,6 +4,7 @@ description: Engagement has become the single most important factor impacting in
 feature: Engagement
 topics: Deliverability
 kt: 5257
+thumbnail: kt5257.jpg
 doc-type: article
 activity: understand
 team: ACS

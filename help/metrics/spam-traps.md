@@ -4,6 +4,7 @@ description: Learn about the different types of spam traps.
 feature: Metrics
 topics: Deliverability
 kt: 7050
+thumbnail: kt7050.jpg
 doc-type: article
 activity: understand
 team: ACS

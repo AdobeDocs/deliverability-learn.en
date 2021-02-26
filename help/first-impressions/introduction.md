@@ -4,6 +4,7 @@ description: Learn out how you can set yourself up for running a successful emai
 feature: Audiences, Email
 topics: Deliverability
 kt: 5258
+thumbnail: kt5258.jpg
 doc-type: article
 activity: understand
 team: TM

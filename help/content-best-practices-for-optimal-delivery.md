@@ -4,6 +4,7 @@ description: Content is key. You’ve already read our perspective on relevance,
 feature: Content
 topics: Deliverability
 kt: 5260
+thumbnail: kt5260.jpg
 doc-type: article
 activity: understand
 team: TM

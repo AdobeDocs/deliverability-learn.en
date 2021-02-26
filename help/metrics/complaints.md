@@ -4,6 +4,7 @@ description: Learn about complaints which are registered when a user indicates t
 feature: Metrics
 topics: Deliverability
 kt: 7048
+thumbnail: kt7048.jpg
 doc-type: article
 activity: understand
 team: ACS

@@ -3,6 +3,7 @@ title: ISP-specific considerations during IP warming
 description: 
 topics: Deliverability
 kt: 7054
+thumbnail: kt7054.jpg
 doc-type: article
 activity: understand
 team: ACS

@@ -4,6 +4,7 @@ description: When moving email service providers (ESPs), it’s not possible to 
 feature: Deliverability
 topics: Deliverability
 kt: 5259
+thumbnail: kt5259.jpg
 doc-type: article
 activity: understand
 team: ACS

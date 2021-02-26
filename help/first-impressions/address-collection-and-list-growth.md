@@ -4,6 +4,7 @@ description: Learn what the best sources for new email addresses are, how to ens
 feature: Audiences
 topics: Deliverability
 kt: 7063
+thumbnail: kt7063.jpg
 doc-type: article
 activity: understand
 team: TM
