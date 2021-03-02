@@ -14,7 +14,7 @@ team: ACS
 
 Successful deliverability depends on a strong foundation. Email infrastructure is a core element. A properly constructed email infrastructure includes multiple components - namely domain(s) and IP address(es). These components are like the machinery behind the emails you send and they are oftentimes the anchor of sending reputation. Deliverability consultants ensure that these elements are set up properly during implementation, but due to the reputation element, it is important for you to have this basic understanding.
 
-## Domain setup and strategy
+## Domain setup and strategy {#domain-setup-and-strategy}
 
 Times have changed, and some ISPs (like Gmail and Yahoo) now incorporate domain reputation as an additional point when it comes to attaching email reputation to a sender. Your domain reputation is based on your sending domain instead of your IP address. This means that your brand takes precedence when it comes to ISP filtering decisions.
 
@@ -25,7 +25,7 @@ Part of the onboarding process for new senders on Adobe platforms include settin
 * Consider using a subdomain of your parent domain to legitimize your sending domain.
 * Separate your subdomains for Transactional and Marketing message categories. This will help your email traffic flow on a more reliable basis as ISPs look for this sending method, which is a known email best practice and is highly recommended.
 
-## IP strategy
+## IP strategy {#ip-strategy}
 
 It is important to form a well-structured IP strategy to help establish a positive reputation. The number of IPs and setup varies depending on your business model and marketing goals. Work with an expert to develop a clear strategy to start off right. Consider these things that are important to note:
 
@@ -38,7 +38,7 @@ It is important to form a well-structured IP strategy to help establish a positi
 
 Behind the scenes, Adobe platforms are processing data regarding bounces, complaints, unsubscribes, and more. The setup of these feedback loops is an important aspect to deliverability. Complaints can damage a reputation, so you should email addresses that register complaints from your target audience. It’s important to note that Gmail doesn’t provide this data back. List unsubscribe headers and engagement filtering are especially important for Gmail subscribers, who now comprise the majority of subscriber databases.
 
-## Authentication
+## Authentication {#authentication}
 
 Authentication is the process that ISPs use to validate the identity of a sender. The two most common authentication protocols are [!DNL Sender Policy Framework] (SPF) and [!DNL DomainKeys Identified Mail] (DKIM). These are not visible to the end user but do help ISPs filter email from verified senders. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) is gaining popularity, although its policies aren’t yet incorporated by all ISPs in their reputation systems.
 
