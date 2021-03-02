@@ -14,6 +14,8 @@ team: ACS
 
 Spam traps exist to help identify mail from fraudulent senders or those that aren’t following email best practices. The spam trap email address is generally not publicly published and are almost impossible to identify. Delivering email to spam traps can impact your reputation with varying degrees of severity depending on the type of trap and the ISP. Learn more about the different types of spam traps in the following sections.
 
+Learn more on identifying and avoiding spam traps in [this section](../../help/additional-resources/all-about-spam-traps.md).
+
 ## Recycled
 
 Recycled spam traps are addresses that were once valid but are no longer being used. One key way to keep lists as clean as possible is to regularly send email to your entire list and appropriately suppress bounced emails. This helps abandoned email addresses to be quarantined and withheld from further use.
@@ -33,6 +35,7 @@ A pristine spam trap is an address that has no end user and has never had an end
 **Adobe Campaign Classic**
 
 * [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=en#using-spamassassin)
+* [Create a subscription form with double opt-in](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
