@@ -1,45 +1,28 @@
 ---
-title: Introduction to deliverability best practices
-description:  Learn key deliverability terms, concepts, and approaches to empower you to ensure your marketing program success.
+title: Duplicates
+description:  Learn how to identify and limit duplicates to improve your deliverability when managing your platform.
 feature: Deliverability
-kt: 5321
-thumbnail: kt5321.jpg
+kt: 
+thumbnail: 
 doc-type: article
 activity: understand
 team: ACS
 ---
 
-# Introduction to deliverability best practices
+# Duplicates {#duplicates}
 
-Email deliverability, a critical component to every sender’s marketing program success, is characterized by ever-changing criteria and rules. ISPs have a continual need to prevent spammers, so they’re obliged to develop sophisticated filtering techniques to protect their customers. Email senders can become unintentionally ensnared in those efforts. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
+Having duplicate email addresses can have multiple consequences:
 
-According to [!DNL Lifewire], more than 3.8 billion email addresses exist today. On top of that, social media consultants [!DNL Lori Lewis] and [!DNL Chad Callahan] report that 188 million emails are sent every minute, which encompasses more than half of the world’s population. But gone are the days of sending maximum amounts of email for minimal conversion. Reality is that consideration of volume alone puts your highly engaged customers at risk of not receiving their emails. This can have major revenue implications for you as a sender. Viewing email as a low-cost channel with unlimited potential is challenging and fragile.
+* The same message being sent more than once. Even if Adobe performs a deduplication procedure by default before sending, there is nothing to stop the same message being sent by different actions having the same content when a target is split.
+* Unsubscription requests not honored. If a recipient unsubscribes after receiving a message, their duplicate profile will still be eligible for future messages.
 
-In this digital era, people expect to be wowed—quickly. They want that “ah ha” moment with everyone they choose to interact with, and competition is fierce. Between devices like computers, cell phones and smart home equipment, and the content supported, such as instant messaging, email, web, push and social media applications, consumers are incessantly bombarded with content. If a message isn’t compelling, they’re apt to delete it or entirely disengage.
+Besides this side-stepping of opt-in procedures, this situation will likely lead users to consider the messages as spam and to trigger a denylist procedure at the ISP.
 
-Let’s face it. Today, more than ever, you need to stand out. This means giving your customers unique, personalized, and extremely relevant customer experiences. Otherwise, you risk losing a customer forever. It’s imperative to have an integrated, dynamic, multichannel strategy that motivates your audience to stay engaged.
+You must be especially prudent when performing operations on the database:
 
-Use this guide to learn key deliverability terms, concepts, and approaches to empower you to stay ahead of the curve. Use it to keep the email channel at the forefront of your marketing mix, with high priority on deliverability, inbox placement, and your revenue.
+* Imports must be meticulously configured, in particular when choosing the reconciliation key.
+* Changed email addresses can also be a source of duplicates. In particular, two addresses with different domains may be routed to the same mailbox, for example in the case of a company that has changed name and has maintained the former domain for a certain period of time: joe.doe@amce-co.com and joe.doe@acme-rebranded.com.
+* Automatic imports, whether they be of lists or from other databases are elements to be taken into account when managing profiles. What happens when you delete or move a profile in another partition? It might be recreated in the initial partition by an automatic import, for example, when a purchase order is placed.
+* Storing profiles in different folders can be implemented using views rather than partitions. In this way, you are sure that the profiles are in the same physical partition while still enabling the adequate rights to be displayed and managed.
 
-This Deliverability Best Practice Guide covers the following topics:
-
-1. [Deliverability strategy and definition](/help/deliverability-strategy-and-definition.md)
-2. [Metrics for deliverability](/help/metrics/metrics-overview.md)
-3. [Engagement](/help/engagement.md)
-4. [Transition process - Switching email platforms](/help/transition-process/switching-email-platforms.md)
-5. [First impressions - List collection and welcome emails](/help/first-impressions/address-collection-and-list-growth.md)
-6. [Content best practices for optimal deliverability](/help/content-best-practices-for-optimal-delivery.md)
-7. [Sender permanence](/help/sender-permanence.md)
-8. [Internet service provider specifics](/help/internet-service-provider-specifics/overview.md)
-9. [Ongoing monitoring](/help/ongoing-monitoring.md)
-    [Putting it in practice](/help/putting-it-in-practice.md)
-
-## Sources
-
-[!DNL Heinz Tschabitscher], [“How Many People Use Email Worldwide?”](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, June 24, 2019.
-
-[!DNL Lori Lewis], [“2019: This Is What Happens in an Internet Minute”](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Merge, March 5, 2019.
-
-## Additional resources
-
-Download [adobe-deliverability-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
+There are, all the same, cases in which duplicates between the different partitions are normal. For example, when sending for third-parties or different company entities, it is logical for the same person to be a recipient for different reasons. It is, however, rarely normal to find duplicates within the same partition.
