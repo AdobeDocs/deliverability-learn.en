@@ -14,7 +14,10 @@ team: ACS
 **General**
 
 * [All about Spam traps](../../help/additional-resources/all-about-spam-traps.md)
-* [Increase your email reputation with IP warming](../../)
+* [Increase your email reputation with IP warming](../../help/additional-resources/increase-reputation-with-ip-warming.md)
+* [Domain name setup](../../help/additional-resources/domain-name-setup.md)
+* [CSR and SSL certificate request process](../../help/additional-resources/csr-ssl-certificate-request.md)
+* [IP Certification](../../help/additional-resources/ip-certification.md)
 
 **Adobe Campaign**
 
