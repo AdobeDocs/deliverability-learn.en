@@ -1,45 +1,35 @@
 ---
-title: Introduction to deliverability best practices
-description:  Learn key deliverability terms, concepts, and approaches to empower you to ensure your marketing program success.
+title: IP Certification
+description:  Learn about the IP Certification sending best practice program, to help ensure emails are received without being blocked.
 feature: Deliverability
-kt: 5321
-thumbnail: kt5321.jpg
+kt: 
+thumbnail: 
 doc-type: article
 activity: understand
 team: ACS
 ---
 
-# Introduction to deliverability best practices
+# IP Certification {#ip-certification}
 
-Email deliverability, a critical component to every sender’s marketing program success, is characterized by ever-changing criteria and rules. ISPs have a continual need to prevent spammers, so they’re obliged to develop sophisticated filtering techniques to protect their customers. Email senders can become unintentionally ensnared in those efforts. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
+IP Certification is a sending best practices program that helps ensuring that emails are received without being blocked by antispam filters or other email blocking systems.
 
-According to [!DNL Lifewire], more than 3.8 billion email addresses exist today. On top of that, social media consultants [!DNL Lori Lewis] and [!DNL Chad Callahan] report that 188 million emails are sent every minute, which encompasses more than half of the world’s population. But gone are the days of sending maximum amounts of email for minimal conversion. Reality is that consideration of volume alone puts your highly engaged customers at risk of not receiving their emails. This can have major revenue implications for you as a sender. Viewing email as a low-cost channel with unlimited potential is challenging and fragile.
+Currently two providers offer IP Certification: Return Path and Certified Senders Alliance.
 
-In this digital era, people expect to be wowed—quickly. They want that “ah ha” moment with everyone they choose to interact with, and competition is fierce. Between devices like computers, cell phones and smart home equipment, and the content supported, such as instant messaging, email, web, push and social media applications, consumers are incessantly bombarded with content. If a message isn’t compelling, they’re apt to delete it or entirely disengage.
+Certified senders are on allowlist which are used by global mailbox providers and email security companies. These commercial allowlists are based on a system that allows the sender to bypass antispam filters altogether or be assigned incremental points as they enter the system.
 
-Let’s face it. Today, more than ever, you need to stand out. This means giving your customers unique, personalized, and extremely relevant customer experiences. Otherwise, you risk losing a customer forever. It’s imperative to have an integrated, dynamic, multichannel strategy that motivates your audience to stay engaged.
+The [Return Path Certification](https://www.validity.com/products/returnpath/certification/) program offers a number of benefits, including the following:
+* A measurable increase in inbox placement at top mailbox providers like Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru, and more
+* Favorable reputation and treatment at critical filters like Cloudmark, SpamAssassin, and Cisco Ironport
+* A compliance team dedicated to 24/7 monitoring, providing with security alerts and working with you through the resolution of any compromises
+* Mailbox provider data delivering detailed information about KPIs, placement, and Certification performance
+* Simplified and faster IP warming, including stronger reputation and recognition when migrating or obtaining a new IP address
 
-Use this guide to learn key deliverability terms, concepts, and approaches to empower you to stay ahead of the curve. Use it to keep the email channel at the forefront of your marketing mix, with high priority on deliverability, inbox placement, and your revenue.
+The [Certified Senders Alliance](https://certified-senders.org/certification-process/) Certification offers amongst other benefits:
+* Certification of senders of commercial emails who can comply with high quality standards
+* Improved delivery and deliverability of commercial emails to increase the inbox placement rate and reduce spam filtering
+* Protection from legal and financial risks by fully complying with legal standards
+* Protecting reputation by means of early warnings from the CSA Complaints Office and daily spam trap reports
 
-This Deliverability Best Practice Guide covers the following topics:
+ISPs are free to use these services and the number of ISPs can vary depending on the allowlist.
 
-1. [Deliverability strategy and definition](/help/deliverability-strategy-and-definition.md)
-2. [Metrics for deliverability](/help/metrics/metrics-overview.md)
-3. [Engagement](/help/engagement.md)
-4. [Transition process - Switching email platforms](/help/transition-process/switching-email-platforms.md)
-5. [First impressions - List collection and welcome emails](/help/first-impressions/address-collection-and-list-growth.md)
-6. [Content best practices for optimal deliverability](/help/content-best-practices-for-optimal-delivery.md)
-7. [Sender permanence](/help/sender-permanence.md)
-8. [Internet service provider specifics](/help/internet-service-provider-specifics/overview.md)
-9. [Ongoing monitoring](/help/ongoing-monitoring.md)
-    [Putting it in practice](/help/putting-it-in-practice.md)
-
-## Sources
-
-[!DNL Heinz Tschabitscher], [“How Many People Use Email Worldwide?”](https://www.lifewire.com/how-many-email-users-are-there-1171213), Lifewire, June 24, 2019.
-
-[!DNL Lori Lewis], [“2019: This Is What Happens in an Internet Minute”](https://www.allaccess.com/merge/archive/29580/2019-this-is-what-happens-in-an-internet-minute), Merge, March 5, 2019.
-
-## Additional resources
-
-Download [adobe-deliverability-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
+However, because more and more ISPs build their antispam filters based on each inbox owner's behavior rather than analyzing the message content itself, using IP Certification cannot be a guarantee of inbox placement or even delivery.
