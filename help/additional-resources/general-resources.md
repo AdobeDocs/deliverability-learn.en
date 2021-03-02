@@ -11,10 +11,13 @@ team: ACS
 
 # Additional resources
 
-General
+**General**
 
-[All about Spam traps](../../help/additional-resources/spam-traps.md)
+* [All about Spam traps](../../help/additional-resources/all-about-spam-traps.md)
+* [Increase your email reputation with IP warming](../../)
 
-Campaign Classic
+**Adobe Campaign**
 
-Campaign Standard
+* [Adobe Campaign](../../help/additional-resources/campaign.md)
+* [Campaign Classic](../../help/additional-resources/campaign-classic.md)
+* [Campaign Standard](../../help/additional-resources/campaign-standard.md)
