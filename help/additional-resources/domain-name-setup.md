@@ -1,6 +1,6 @@
 ---
 title: Domain name setup
-description:  Learn .
+description:  Learn how to configure your Adobe product for domain name setup and delegation.
 feature: Deliverability
 kt: 
 thumbnail: 
