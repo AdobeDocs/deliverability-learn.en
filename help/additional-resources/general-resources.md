@@ -1,9 +1,9 @@
 ---
-title: Introduction to deliverability best practices
-description:  Learn key deliverability terms, concepts, and approaches to empower you to ensure your marketing program success.
+title: Additional resources
+description:  This section lists a number of additional resources on deliverability, including general resources and specific resources per product.
 feature: Deliverability
-kt: 5321
-thumbnail: kt5321.jpg
+kt: 
+thumbnail: 
 doc-type: article
 activity: understand
 team: ACS
@@ -24,3 +24,7 @@ team: ACS
 * [Adobe Campaign](../../help/additional-resources/campaign.md)
 * [Campaign Classic](../../help/additional-resources/campaign-classic.md)
 * [Campaign Standard](../../help/additional-resources/campaign-standard.md)
+
+**Customer Journey Management**
+
+**Marketo**

@@ -28,7 +28,7 @@ Related topics:
 * [IP strategy](../../help/transition-process/infrastructure.md#ip-strategy)
 * [ISP-specific considerations during IP warming](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
 
-## IP Warming: Why is it done?
+## IP Warming: Why is it done? {#why-ip-warming}
 
 Internet Service Providers (ISPs) or Mailbox Providers (MBPs) take precautions when they detect an unfamiliar IP and sending domain. This is standard procedure associated with any new sending IPs, regardless of sender type. ISPs/MBPs put the IP and sending domain under high scrutiny to determine if the emails being sent from this IP and domain are spam or not.  This is standard procedure associated with any new sending IPs, regardless of sender type.
 
