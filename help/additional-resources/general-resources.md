@@ -18,6 +18,11 @@ team: ACS
 * [Domain name setup](../../help/additional-resources/domain-name-setup.md)
 * [CSR and SSL certificate request process](../../help/additional-resources/csr-ssl-certificate-request.md)
 * [IP Certification](../../help/additional-resources/ip-certification.md)
+* Authentication
+* Feedback loops
+* Third-party monitoring tools
+* Re-engagement best practices
+* Denylist databases
 
 **Adobe Campaign**
 
