@@ -18,18 +18,14 @@ team: ACS
 * [Domain name setup](../../help/additional-resources/domain-name-setup.md)
 * [CSR and SSL certificate request process](../../help/additional-resources/csr-ssl-certificate-request.md)
 * [IP Certification](../../help/additional-resources/ip-certification.md)
-* Authentication
-* Feedback loops
-* Third-party monitoring tools
-* Re-engagement best practices
-* Denylist databases
+* [Authentication](../../help/additional-resources/authentication.md)
+* [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)
+* [Re-engagement best practices](../../help/additional-resources/re-engagement.md)
+* [Blocklist databases](../../help/additional-resources/blocklist-databases.md)
 
-**Adobe Campaign**
+**Adobe products**
 
-* [Adobe Campaign](../../help/additional-resources/campaign.md)
-* [Campaign Classic](../../help/additional-resources/campaign-classic.md)
+* [Campaign Classic](../../help/additional-resources/campaign-calssic.md)
 * [Campaign Standard](../../help/additional-resources/campaign-standard.md)
-
-**Customer Journey Management**
-
-**Marketo**
+* Customer Journey Management
+* Marketo

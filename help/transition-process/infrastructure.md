@@ -38,6 +38,8 @@ It is important to form a well-structured IP strategy to help establish a positi
 
 Behind the scenes, Adobe platforms are processing data regarding bounces, complaints, unsubscribes, and more. The setup of these feedback loops is an important aspect to deliverability. Complaints can damage a reputation, so you should email addresses that register complaints from your target audience. It’s important to note that Gmail doesn’t provide this data back. List unsubscribe headers and engagement filtering are especially important for Gmail subscribers, who now comprise the majority of subscriber databases.
 
+Learn more on implementing a feedback loop for a Campaign Classic instance in [this section](../../help/additional-resources/campaign-classic.md#feedback-loop-acc).
+
 ## Authentication {#authentication}
 
 Authentication is the process that ISPs use to validate the identity of a sender. The two most common authentication protocols are [!DNL Sender Policy Framework] (SPF) and [!DNL DomainKeys Identified Mail] (DKIM). These are not visible to the end user but do help ISPs filter email from verified senders. [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC) is gaining popularity, although its policies aren’t yet incorporated by all ISPs in their reputation systems.
@@ -53,6 +55,8 @@ Authentication is the process that ISPs use to validate the identity of a sender
 ### DMARC
 
 [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC) is an authentication method that allows domain owners the ability to protect their domain from unauthorized use. DMARC uses SPF or DKIM or both to allow a domain owner to control what happens to mail that fails authentication: delivered, quarantined, or rejected.
+
+Learn more on SPF, DKIM, and DMARC authentication methods in [this section](../../help/additional-resources/authentication.md).
 
 ## Product specific resources
 

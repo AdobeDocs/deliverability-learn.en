@@ -34,3 +34,13 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
   + [Verizon Media Group (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Ongoing monitoring](/help/ongoing-monitoring.md)
 + [Putting it in practice](/help/putting-it-in-practice.md)
++ Additional resources{#additional-resources}
+  + [All about Spam traps](/help/additional-resources/all-about-spam-traps.md)
+  + [Increase your email reputation with IP warming](/help/additional-resources/increase-reputation-with-ip-warming.md)
+  + [Domain name setup](/help/additional-resources/domain-name-setup.md)
+  + [CSR and SSL certificate request process](/help/additional-resources/csr-ssl-certificate-request.md)
+  + [IP Certification](/help/additional-resources/ip-certification.md)
+  + [Authentication](/help/additional-resources/authentication.md)
+  + [Third-party monitoring tools](/help/additional-resources/third-party-monitoring-tools.md)
+  + [Re-engagement best practices](/help/additional-resources/re-engagement.md)
+  + [Blocklist databases](/help/additional-resources/blocklist-databases.md)

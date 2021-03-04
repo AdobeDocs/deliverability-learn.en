@@ -183,9 +183,13 @@ https://res.subdomain.customer.com/r/test
 
 A successful result will give environment information, and the address bar in the URL will not complain about an invalid SSL certificate.
 
-Successful result in Google Chrome (rest of the URL/result hidden for anonymity):
+Successful result in Google Chrome:
+
+![](../../help/assets/ssl-google-successful-result.png)
 
 Unsuccessful result in Google Chrome (SSL certificate not installed properly):
+
+![](../../help/assets/ssl-google-unsuccessful-result.png)
 
 You can also check the validity period of the certificate (e.g. in Google Chrome by clicking on 'Secure' > Certificate).
 
