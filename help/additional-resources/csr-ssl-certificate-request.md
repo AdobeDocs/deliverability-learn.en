@@ -16,7 +16,7 @@ Once you have delegated a domain to Adobe for sending email (see [Domain name se
 For example, if you have delegated email.example.com to Adobe for sending emails, Adobe will create subdomains such as the following:
 * *t.email.example.com* - for tracking links
 * *m.email.example.com* - for mirror pages
-* *res.email.example.com* - for hosted resources (for example, images)
+* *res.email.example.com* - for hosted resources (such as images)
 
 It is recommended to secure these domains via SSL (HTTPS), as unsecured links (HTTP) are vulnerable to interception and will flag up warnings on modern browsers.
 
@@ -39,7 +39,7 @@ To install SSL certificates on these subdomains, the process involves requesting
 | Intermediate CA | Certificate Authority of Intermediate Certificates included in a chain(ed) certificate.
 | Intermediate Certificate | A certificate authority issues certificates in the form of a tree structure. A root certificate is the top-most certificate of the tree.</br>Any certificate in between your certificate and the root certificate is called a chain or intermediate certificate. |
 | Low Assurance Certificate	| A Low Assurance Certificate, also referred as domain validated certificate includes only the domain name in the certificate (and not business/organization name). |
-| PEM | PEM (Privacy Enhanced Mail) is a certificate with .PEM extension which contain ASCII Base64) data.</br>Such certificates start with a " - - - - - BEGIN CERTIFICATE- - - - -" line. |
+| PEM | PEM (Privacy Enhanced Mail) is a certificate with .PEM extension which contain ASCII (Base64) data.</br>Such certificates start with a " - - - - - BEGIN CERTIFICATE- - - - -" line. |
 | SAN | The Subject Alternative Names are additional host names (sites, IP addresses, common names, etc.) that should be signed as part of a single SSL Certificate. |
 | Self Signed Certificate | A self-signed certificate is a certificate that is signed by the person creating it rather than a trusted certificate authority.</br>Self-signed certificates can enable the same level of encryption as a certificate signed by a CA, but there are two major drawbacks: a visitor's connection could be hijacked allowing an attacker view all the data sent (thus defeating the purpose of encrypting the connection) and the certificate cannot be revoked like a trusted certificate can. |
 | SSL | SSL (Secure Sockets Layer) is the standard security technology for establishing an encrypted link between a web server and a browser. |
