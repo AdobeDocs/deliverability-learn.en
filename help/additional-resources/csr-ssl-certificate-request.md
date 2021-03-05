@@ -1,6 +1,6 @@
 ---
-title: CSR and SSL certificate request process
-description:  Learn how to install SSL certificates on the subdomains you delegated to Adobe.
+title: CSR and SSL Certificate request process
+description:  Learn how to install SSL Certificates on the subdomains you delegated to Adobe.
 feature: Deliverability
 kt: 
 thumbnail: 
@@ -9,7 +9,7 @@ activity: understand
 team: ACS
 ---
 
-# CSR and SSL certificate request process
+# CSR and SSL Certificate request process
 
 Once you have delegated a domain to Adobe for sending email (see [Domain name setup](../../help/additional-resources/domain-name-setup.md)), Adobe will create and use certain subdomains for specific functions.
 
@@ -20,24 +20,26 @@ For example, if you have delegated email.example.com to Adobe for sending emails
 
 It is recommended to secure these domains via SSL (HTTPS), as unsecured links (HTTP) are vulnerable to interception and will flag up warnings on modern browsers.
 
-To install SSL certificates on these subdomains, the process involves requesting a CSR file and subsequently purchasing SSL certificates for Adobe to install or renew.
+To install SSL Certificates on these subdomains, the process involves requesting a CSR file and subsequently purchasing SSL Certificates for Adobe to install or renew.
 
 >[!CAUTION]
 >
->Before installing an SSL certificate, make sure you are aware of the prerequisites listed on [this page](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate).
+>Before installing an SSL Certificate, make sure you are aware of the prerequisites listed on [this page](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate).
+>
+>Adobe will only support up to 2048-bit Certificates. 4096-bit Certificates are not yet supported.
 
 ## Glossary
 
 | Term | Description |
 |--- |--- |
-| CA (Certificate Authority) | An SSL certificate provider that issues digital certificates to organizations or individuals after verifying their identity, such as DigiCert, Symantec, etc.<ul><li>A trusted CA is usually considered as a third-party CA which issues root certificate.</li><li>If the certificate is signed by the same organization/company that is using the certificate, it is classified as untrusted CA even when they are SSL certificates, such as Self Signed Certificates.</li></ul> |
-| Chain Certificate | A certificate which includes a root certificate and one or more Intermediate Certificates is called a Chain (or Chained) Certificate. |
-| CSR (Certificate Signing Request) | A block of encoded text that is given to a Certificate Authority when applying for an SSL Certificate. It is usually generated on the server where the certificate will be installed. |
+| CA (Certificate Authority) | An SSL Certificate provider that issues digital certificates to organizations or individuals after verifying their identity, such as DigiCert, Symantec, etc.<ul><li>A trusted CA is usually considered as a third-party CA which issues a Root Certificate.</li><li>If the Certificate is signed by the same organization/company that is using the Certificate, it is classified as untrusted CA even when they are SSL Certificates, such as Self Signed Certificates.</li></ul> |
+| Chain Certificate | A Certificate which includes a root Certificate and one or more Intermediate Certificates is called a Chain (or Chained) Certificate. |
+| CSR (Certificate Signing Request) | A block of encoded text that is given to a Certificate Authority when applying for an SSL Certificate. It is usually generated on the server where the Certificate will be installed. |
 | DER (Distinguished Encoding Rules) |  A certificate extension type. The .der extension is used for binary DER encoded certificates. These files may also support the .cer or .crt extension. |
-| EV (Extended Validation) Certificate | An EV Certificate is a new type of certificate that is designed to prevent phishing attacks. It requires extended validation of your business and of the person ordering the certificate. |
+| EV (Extended Validation) Certificate | An EV Certificate is a new type of Certificate that is designed to prevent phishing attacks. It requires extended validation of your business and of the person ordering the Certificate. |
 | High Assurance Certificate | High Assurance Certificates are issued by the CA after verifying ownership of the domain name and valid business registration. |
 | Intermediate CA | A Certificate Authority of Intermediate Certificates included in a Chain Certificate.
-| Intermediate Certificate | A Certificate Authority issues certificates in the form of a tree structure. The Root Certificate is the top-most certificate of the tree. Any certificate between your certificate and the Root Certificate is called a chain or Intermediate Certificate. |
+| Intermediate Certificate | A Certificate Authority issues certificates in the form of a tree structure. The Root Certificate is the top-most certificate of the tree. Any certificate between your Certificate and the Root Certificate is called a chain or Intermediate Certificate. |
 | Low Assurance Certificate	| A Low Assurance Certificate, also referred as Domain Validated Certificate, includes only the domain name in the certificate (and not the business/organization name). |
 | PEM (Privacy Enhanced Mail) | A certificate with a .pem extension which contains ASCII (Base64) data. Such certificates start with a " - - - - - BEGIN CERTIFICATE - - - - -" line. |
 | Root Certificate | A Certificate Authority issues certificates in the form of a tree structure. The Root Certificate is the top-most certificate of the tree. |
@@ -48,13 +50,13 @@ To install SSL certificates on these subdomains, the process involves requesting
 
 ## Main steps
 
-1. Get a Certificate Signing Request (CSR) file and provide the required information (country, state, city, organization name, organizational unit name, etc.) to Adobe Customer Care, via the submission of a Support ticket.
-1. Adobe generates a certificate signing request (CSR) file and provides it to you.
-1. Check the CSR file and verify that all information you provided is correct.
-1. Use the CSR details to generate a certificate signed by a trusted Certification Authority<!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server-->.
-1. Client provides SSL certificate (and intermediate chain/certificate too if applicable)  to Adobe client Care, who request internal team (Adobe TechOps) to install it;
-1. (Adobe TechOps) install the certificate.
-1. Client tests that certificate is successfully installed (test the URLs for each secured subdomain).
+1. Get a Certificate Signing Request (CSR) file and provide the required information (country, state, city, organization name, organizational unit name, etc.) to Adobe Customer Care, via the submission of a Support ticket. Adobe generates a Certificate Signing Request (CSR) file and provides it to you.
+1. Validate the CSR file and verify that all information you provided is correct.
+1. Use the CSR details to generate a Certificate signed by a trusted Certification Authority<!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server-->.
+1. Validate the SSL Certificate and verify it matches the CSR.
+1. Provide the SSL Certificate (and Intermediate Chain/Certificate too if applicable)  to Adobe, who will install it.
+1. Test that the SSL Certificate is successfully installed<!--(test the URLs for each secured subdomain)-->.
+1. Monitor the SSL Certificate validity period.
 
 ## Detailed process
 
@@ -65,13 +67,13 @@ You must identify the domain names and the functions (tracking, mirror pages, we
 >
 >Adobe can help in defining the domain names and functions to involve. For more information, contact your Adobe Customer Success Manager.
 
-### Step 1 - Obtain a CSR file
+### Step 1 - Get a CSR file
 
 To obtain a CSR (Certificate Signing Request) file, follow the steps below.
 
-**If you have access to [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html):**
+**If you have access to [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html):**<!--SPECIFIC TO CAMPAIGN?-->
 
-Follow the instructions on [this page](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) to generate and download a CSR file from the Control Panel.
+Follow the instructions on [this page](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-Certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) to generate and download a CSR file from the Control Panel.
 
 **Otherwise:**
 
@@ -81,7 +83,7 @@ Here are a few best practices to follow:
 
 * Raise one request per delegated subdomain.
 * It is possible to combine multiple subdomains into a single CSR request, but only within the same environment. For example, in Campaign Classic, the marketing server, the [mid-sourcing server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/mid-sourcing-server.html) and the [execution instance](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/creating-a-shared-connection.html) are three separate environments.
-* You must get a new CSR before any SSL certificate renewal. Do not use an old CSR file from one year ago or more.
+* You must get a new CSR before any SSL Certificate renewal. Do not use an old CSR file from one year ago or more.
 
 You will need to provide the following information :
 
@@ -89,16 +91,14 @@ You will need to provide the following information :
 |--- |--- |--- |
 | Common Name [CN] | t.subdomain.customer.com | This can be any of the relevant domains, but usually the tracking domain. |
 | Instance URL | mycompany.campaign.adobe.com | Provide the Adobe instance URL. | 
-| Subject Alternative Name [SAN] | t.subdomain.customer.com | Make sure to include tracking subdomain as a SAN |
-| State (or Province Name) [ST]	| London | If applicable. Must be full name, not abbreviated. |
+| Subject Alternative Name [SAN] | t.subdomain.customer.com</br>m.subdomain.customer.com</br>res.subdomain.customer.com | Make sure to include tracking subdomain as a SAN. |
+| State (or Province Name) [ST]	| London | If applicable. The value must be a full name, not abbreviated. |
 | Organizational Unit Name [OU]	| IT | e.g. section. |
 | Country [C] | GB | This must be a two-letter code. Access the full country list [here](https://www.ssl.com/csrs/country_codes/).</br>*Note: For United Kingdom, use GB (not UK).* |
 | Environment URL | https://client-mid-prod1.campaign.adobe.com |
 | Client Name | My Company Ltd.	|
 | City/Locality Name [L] | London |
 | Organization Name [O] | ACME |
-| Subject Alternative Name [SAN] | m.subdomain.customer.com |
-| Subject Alternative Name [SAN] | res.subdomain.customer.com |
 
 >[!NOTE]
 >
@@ -106,127 +106,111 @@ You will need to provide the following information :
 
 ### Step 2 - Validate the CSR file
 
-After submitting your request with the relevant information, Adobe generates and provides you with a certificate signing request (CSR) file.
+After submitting your request with the relevant information, Adobe generates and provides you with a Certificate signing request (CSR) file.
 
 The text in the resulting CSR file should start with **"-----BEGIN CERTIFICATE REQUEST-----"**.
 
-Once you receive the CSR file from Adobe, check that the correct parameters and domain names are included, and validate it.
-
-Follow the steps below to verify CSR file:
+Once you receive the CSR file from Adobe, check that the correct parameters and domain names are included, and follow the steps below to verify the CSR file:
 
 1. Copy and paste the CSR file text into an online decoder such as https://www.sslshopper.com/csr-decoder.html, https://www.certlogik.com/decoder/, or https://www.entrust.net/ssl-technical/csr-viewer.cfm.
-1. Alternatively, you can use the *OpenSSL* command locally on a Linux machine. For more on this, refer to [this page](https://www.question-defense.com/2009/09/22/use-openssl-to-verify-the-contents-of-a-csr-before-submitting-for-a-ssl-certificate).
+    Alternatively, you can use the *OpenSSL* command locally on a Linux machine. For more on this, refer to [this page](https://www.question-defense.com/2009/09/22/use-openssl-to-verify-the-contents-of-a-csr-before-submitting-for-a-ssl-certificate).
 1. Verify that all the checks are successful.
 1. Check that all the data match the details you provided upon submitting your request.
 
-<!--Once the CSR is verified, proceed to use the CSR to purchase an SSL certificate.-->
+<!--Once the CSR is verified, proceed to use the CSR to purchase an SSL Certificate.-->
 
 ### Step 3 - Generate the SSL Certificate
 
 Once the CSR file is provided, you must purchase and generate an SSL Certificate for the appropriate domains using the CSR file.
 
-* The Certificate must be in PEM format.
-* The Certificate should not be longer than 2048 bits.
-* The Certificate must be signed by a valid CA (Certification Authority).
-* The Certificate  must include all SANs (Subject Alternative Names) as mentioned in the CSR file.
+* The SSL Certificate:
+    * must be in Apache PEM format;
+    * should not be longer than 2048 bits;
+    * must be signed by a valid CA (Certification Authority);
+    * must include all SANs (Subject Alternative Names) as mentioned in the CSR file.
 * If there are one or more Intermediate Certificates, you must provide the Root Certificate and all Intermediate Certificates to Adobe.
-* You can chose any certificate validity period, but Adobe recommends long enough validity period, such as two years.
+* You can set any certificate validity period, but Adobe recommends to choose it long enough, such as two years.
 
 >[!NOTE]
 >
->If you are using your own internal tools to request certificate or a portal provided by a CA to request certificate, make sure to use the same details as provided in the CSR request to avoid any delays or discrepancies in the certificate generation process.
+>If you are using your own internal tools or a portal provided by a CA to request the Certificate, make sure to use the same details as provided in the CSR request to avoid any delays or discrepancies in the certificate generation process.
 
-### Step 4 - Validate SSL Certificate
+### Step 4 - Validate the SSL Certificate
 
-Once the SSL certificate is generated, please validate it before sending it to Adobe; e.g. decode and check that the correct parameters and domain names are included.
+Once the SSL Certificate is generated, you must validate it before sending it to Adobe. To do so, follow the steps below:
 
-**Steps to verify SSL Certificate:**
+1. Make sure the Certificate have the .pem extension. If this is not the case, convert it to PEM format. You can make the conversion using *OpenSSL*.
+1. Confirm that the Certificate starts with **"-----BEGIN CERTIFICATE-----"**.
+1. Copy the Certificate text into an online decoder, such as https://www.sslshopper.com/certificate-decoder.html.
+    Alternatively, you can use the *OpenSSL* command locally on a Linux machine. For more on this, refer to [this page](https://www.shellhacks.com/decode-ssl-certificate/).
+1. Make sure the Certificate resolves properly including the Common Name, SAN, Issuer and Validity Period.
+1. If the SSL Certificate verification is successful, check that the Certificate matches the CSR using [this page](https://www.sslshopper.com/certificate-key-matcher.html).
+1. Select **Check if a CSR and a Certificate match** and enter your Certificate and your CSR in the corresponding fields. They should match.
 
-1. Make sure the certificate is in .PEM format. If they are in any other format, convert it to PEM format if possible. Normally you can convert the certificates to PEM using OpenSSL.
-1. Confirm that the certificate starts with "-----BEGIN CERTIFICATE-----".
-1. Copy certificate text into an online decoder, e.g. https://www.sslshopper.com/certificate-decoder.html. Or use OpenSSL command locally on a linux machine: https://www.shellhacks.com/decode-ssl-certificate/
-1. Make sure certificate resolves properly including the Common Name, SAN, Issuer and Validity Period.
+### Step 5 - Request the SSL Certificate installation
 
-If SSL Certificate verification is good, verify if the certificate matches the CSR.
+**If you have access to [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html):**<!--SPECIFIC TO CAMPAIGN?-->
 
-**Steps to compare SSL Certificate with CSR:**
-
-1. Use https://www.sslshopper.com/certificate-key-matcher.html and do "certificate+CSR matching".
-1. The certificate and CSR should match.
-
-### Step 5 - Request SSL Certificate Installation
-
-**If you have access to Control Panel:**
-
-Upload the certificate to Control Panel.
-
-See documentation: https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=en#installing-ssl-certificate
+Follow the instructions on [this page](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate) to upload the Certificate to Control Panel.
 
 **Otherwise:**
 
-Create another Support ticket via https://adminconsole.adobe.com/ to request Adobe to install the certificate on the Adobe Campaign servers.
+Create another Support ticket via https://adminconsole.adobe.com/ to request Adobe to install the Certificate on the Adobe server(s).
 
 You’ll need to provide:
 
-* The certificate file, root certificate and any intermediate certificates (attached to the ticket). Preferably in Apache PEM format.
-* Ticket number of the previous ticket raised for CSR
-* The same data that was provided for the CSR ticket (including environment URL, State, City/Locality, Organization Name, Organization Unit ID, Names to Secure etc.)
+* The Certificate file, the Root Certificate and any Intermediate Certificates (attached to the ticket), preferably in Apache PEM format.
+* The number of the previous Suuport ticket raised for the CSR.
+* The same data that was provided for the CSR ticket (including Common Name, Instance URL, State, City/Locality, Organization Name, Organization Unit ID, etc.).
 
-### Step 6 - Test SSL Certificate installation
+### Step 6 - Test the SSL Certificate installation
 
-Once SSL Certificates are installed and confirmed by Adobe Customer Care, before closing the SSL installation ticket, it is recommended to test that the SSL certificate has been successfully installed for all URLs.
+Once the SSL Certificates is installed and confirmed by Adobe Customer Care, test that it has been successfully installed for all URLs.
 
-Perform below tests + configuration in AC and tests mentioned in next steps before you confirm the ticket to be closed.
+Perform the tests below before closing the SSL installation ticket. Also make sure you update any specific configuration as instructed in [this section](#update-configuration).
 
-Navigate to the following URLs in your browser:
+Navigate to the following URLs in your browser (replace email.customer.com with your subdomain):
 
-Example URLs to test with (replace email.customer.com with your subdomain):
+* https://subdomain.customer.com/r/test <!--(for Webapp subdomains only, does not apply for Email subdomains)-->
+* https://t.subdomain.customer.com/r/test
+* https://m.subdomain.customer.com/r/test
+* https://res.subdomain.customer.com/r/test
 
-https://subdomain.customer.com/r/test (for Webapp subdomains only, does not apply for Email subdomains)
-
-https://t.subdomain.customer.com/r/test
-
-https://m.subdomain.customer.com/r/test
-
-https://res.subdomain.customer.com/r/test
-
-A successful result will give environment information, and the address bar in the URL will not complain about an invalid SSL certificate.
-
-Successful result in Google Chrome:
+A successful result will give environment information, and the address bar in the URL will indicate that the connection is secure. For example, you can see the following message in Google Chrome:
 
 ![](../../help/assets/ssl-google-successful-result.png)
 
-Unsuccessful result in Google Chrome (SSL certificate not installed properly):
+If the SSL Certificate is not installed properly, you will see the following warning:
 
 ![](../../help/assets/ssl-google-unsuccessful-result.png)
 
-You can also check the validity period of the certificate (e.g. in Google Chrome by clicking on 'Secure' > Certificate).
+### Step 7 - Check the Certificate validity period
 
-It is the client's responsibility to check validity period and raise a ticket to request an updated certificate to be installed, at least 2 weeks before certificate expiry (hence strongly recommended for the client to put in a process to monitor certificate expiry). You do not need to request an additional CSR, unless the CSR details have changed.
+In your browser you can also check the validity period of the Certificate. For example, in Google Chrome click **Secure** > **Certificate**.
+
+It is your responsibility to check the validity period. Adobe recommends you implement a process to monitor certificate expiry.
+
+Learn more on what happens when your SSL Certificate expires in [this article](https://www.thesslstore.com/blog/what-happens-when-your-ssl-certificate-expires/).
+
+You should create a Support ticket to request an updated Certificate to be installed at least two weeks before the Certificate expiry date. You do not need to request an additional CSR, unless the CSR details have changed.
+
+**If you have access to [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html):**<!--SPECIFIC TO CAMPAIGN?-->
+
+If your environment is hosted by Adobe in an AWS environment, you can use Control Panel to renew the Certificate before it expires. Learn more in [this section](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
+
+### Update any specific configuration {#update-configuration}
+
+<!--SPECIFIC TO CAMPAIGN?-->
+
+Once you are confident the SSL Certificates is installed properly, you can update all references in your Adobe solution from HTTP to HTTPS.
 
 >[!NOTE]
 >
->Control Panel for Adobe AWS hosted environments
->
->If your Adobe Campaign environment is hosted by Adobe in an AWS environment, you can use the Control Panel feature to verify successful installation of SSL certs &/or renew the certificates before it expires.
->
->See: https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html > Subdomains and Certificates menu on the left.
+>For Campaign Classic, the URLs to update are mainly located in the [Deployment wizard](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) and in the [External accounts](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/external-accounts.html#installing-campaign-classic) (tracking, mirror page and public resource domains). For Campaign Standard, refer to [Branding configuration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
 
-### Update any specific configuration in Adobe Campaign
+Once configurations are updated, new emails will be sent with HTTPS URLs rather than HTTP. To check the URLs are now secure, you can quickly perform the following tests: 
 
-You can update all references in Campaign from HTTP to HTTPS, once you are confident the SSL certificates are installed properly.
+* Upload an image from your Adobe product. Once the image gets uploaded, the URL returned should be HTTPS.
+* Create a test email delivery with a mirror page link, some images, text and an unsubscription link. Send out the email to an external email ID (such as your Gmail address). Once received, open the email and make sure all the links inside the email open correctly in their HTTPS form (not HTTP), without any SSL Certificate warnings or errors.
 
-For Adobe Campaign Classic, this would usually be the URLs in Deployment Wizard and External Accounts, for tracking/mirror page/public resource domains. For ACS, this will be under "Brand Settings".
-
-Once configurations are done in Adobe Campaign, new emails will be sent with HTTPS URLs rather than HTTP (easiest way to test is to send out a test email that contains at least one mirror page and one public resource/image). A few easy tests are below: 
-
-1. Upload an image from AC. Once the image gets uploaded the URL returned should be HTTPS.
-1. Create a test email delivery with Mirror Page, Some images + texts + unsubscription link. Send out the email to an external email ID, e.g. your Gmail address. Open the mail and ensure all the links inside the email open correctly in their HTTPS form (not HTTP) without any SSL certificate warnings/errors.
-
-Then, new emails will be sent with HTTPS URLs rather than HTTP (easiest way to test is to send out a test email that contains at least one mirror page and one public resource/image).
-
-Useful article: https://www.thesslstore.com/blog/what-happens-when-your-ssl-certificate-expires/
-
->[!CAUTION]
->
->Adobe will only support up to 2048-bit certificates. 4096-bit certificates are not yet supported.
+<!--Then, new emails will be sent with HTTPS URLs rather than HTTP (easiest way to test is to send out a test email that contains at least one mirror page and one public resource/image).-->
