@@ -15,7 +15,9 @@ team: ACS
 
 SPF (Sender Policy Framework) is an email authentication standard that allows the owner of a domain to specify which email servers are allowed to send email on behalf of that domain. This standard uses the domain in the email's "Return-Path" header (also referred to as the "Envelope From" address).
 
-A [tool](https://www.kitterman.com/spf/validate.html) is available to verify an SPF record.
+>[!NOTE]
+>
+>A tool is available to verify an SPF record. Learn more [here](https://www.kitterman.com/spf/validate.html).
 
 The SPF is a technique that, to a certain extent,enables you to make sure that the domain name used in an email is not forged. When a message is a received from a domain, the DNS server of the domain is queried. The response is a short record (the SPF record) that details which servers are authorized to send emails from this domain. If we assume that only the owner of the domain has the means to change this record, we can consider that this technique does not allow the sender address to be forged, at least not the part from the right of the "@".
 

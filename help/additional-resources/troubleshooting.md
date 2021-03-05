@@ -15,11 +15,13 @@ Below are a few best practices that can help to identify and address deliverabil
 
 ## Identify a deliverability issue {#identify-deliverability-issue}
 
-The following elements may draw your attention:
+To identify a possible issue, the elements listed on [that page](../../help/ongoing-monitoring.md) may draw your attention.
 
-* Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.
-* Subscriber activity: opens, clicks and/or transactions are lower than usual.
-* Seed accounts show filtered or non-delivered mailings.
+<!--
+Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.
+Subscriber activity: opens, clicks and/or transactions are lower than usual.
+Seed accounts show filtered or non-delivered mailings.
+-->
 
 ## Hypothesize potential causes {#potential-causes}
 
@@ -38,7 +40,7 @@ Ask yourself the following questions to identify the possible causes to your del
 
 ### Complaints
 
-Complaints are defined by subscribers who **report email as a spam** by hitting the corresponding button from their inbox.
+[Complaints](../../help/metrics/complaints.md) are defined by subscribers who report email as a spam by hitting the corresponding button from their inbox.
 
 If your delivery issue was caused by complaints:
 * You need to try to determine why recipients are complaining.
