@@ -59,7 +59,7 @@ Note: Adobe client Solutions/Consulting can help assist/define this; please get 
 
 ## Detailed steps
 
-### Request CSR file
+### Step 1 - Request CSR file
 
 **If you have access to Control Panel:**
 
@@ -98,7 +98,7 @@ You will need to provide the following information :
 >
 >Replace "subdomain.customer.com" with your delegated subdomain, and the other example values with the appropriate values.
 
-### Validate CSR file
+### Step 2 - Validate CSR file
 
 The text in the resulting CSR file should start with **"-----BEGIN CERTIFICATE REQUEST-----"**.
 
@@ -112,7 +112,7 @@ Once you receive the CSR file from Adobe, please validate it and check that the 
 
 Once the CSR is verified, proceed to use the CSR to purchase an SSL certificate.
 
-### Generate SSL Certificate
+### Step 3 - Generate SSL Certificate
 
 Once the CSR file is provided, the client must then purchase/generate an SSL certificate for the appropriate domains using the CSR file. 
 
@@ -127,7 +127,7 @@ Once the CSR file is provided, the client must then purchase/generate an SSL cer
 >
 >Often a client has their own internal tools to request certificate or portal provided by CA to request certificate. Please be sure to use the same details as provided in CSR request to avoid any delays or discrepancies in certificate generation process.
 
-### Validate SSL Certificate
+### Step 4 - Validate SSL Certificate
 
 Once the SSL certificate is generated, please validate it before sending it to Adobe; e.g. decode and check that the correct parameters and domain names are included.
 
@@ -145,7 +145,7 @@ If SSL Certificate verification is good, verify if the certificate matches the C
 1. Use https://www.sslshopper.com/certificate-key-matcher.html and do "certificate+CSR matching".
 1. The certificate and CSR should match.
 
-### Request SSL Certificate Installation
+### Step 5 - Request SSL Certificate Installation
 
 **If you have access to Control Panel**
 
@@ -163,7 +163,7 @@ You’ll need to provide:
 * Ticket number of the previous ticket raised for CSR
 * The same data that was provided for the CSR ticket (including environment URL, State, City/Locality, Organization Name, Organization Unit ID, Names to Secure etc.)
 
-### Test SSL Certificate installation
+### Step 6 - Test SSL Certificate installation
 
 Once SSL Certificates are installed and confirmed by Adobe Customer Care, before closing the SSL installation ticket, it is recommended to test that the SSL certificate has been successfully installed for all URLs.
 

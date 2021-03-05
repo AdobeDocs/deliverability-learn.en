@@ -74,7 +74,7 @@ Consequently, it’s not uncommon to receive deferral or throttled messages when
 
 Achieving a normal flow of traffic through to the ISPs that defer new senders may take a few days. Even so, do not stop sending mail – just continue to focus on only sending to your most highly engaged email subscribers.
 
-In rare cases, the ISP blocks the new sender. We’ll be monitoring your Campaign account, and if such a block is suspected, we’ll reach out to the ISP to try and help remedy the situation to the best of our ability.
+In rare cases, the ISP blocks the new sender. Adobe will be monitoring your account, and if such a block is suspected, will reach out to the ISP to try and help remedy the situation in the best possible way.
 
 Remember that consistency is key here. Irregular sending volume patterns and infrequent mailing patterns will cause some deliverability challenges along the way.
 

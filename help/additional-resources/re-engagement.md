@@ -11,7 +11,7 @@ team: ACS
 
 # Re-engagement best practices {#re-engagement}
 
-While implementing deliverability, some of the best practices consist in trying to maintain a healthy subscriber base and improve deliverability through re-engagement strategies.
+While implementing deliverability, some of the best practices consist in trying to maintain a healthy subscriber base and improve deliverability through re-engagement (or win-back) strategies.
 
 * Maintaining a healthy subscriber base is one of the major aspects to ensure good and consistent delivery. Many deliverability issues arise from poor data practices and maintenance.
 * One of the most common issues that marketers face today is inactive subscriber activity (also referred to as low or non-engagement) which can adversely affect delivery of email and low ROI.
@@ -28,7 +28,7 @@ ISPs such as AOL, Gmail, Microsoft and Yahoo! view non-engagement as unwanted em
 
 ## How should you approach inactivity? {#how-should-you-approach-inactivity-}
 
-Customers who use the Adobe platform can view inactivity within their instance by reviewing the open and click data according to the segment. Since non-engagement can hinder delivery, the first thought can be to just remove subscribers from the database. However, this may prove to be a wrong option in some cases. Therefore, a re-engagement (also known as a win back) strategy is the best recommendation to retain the subscribers that are interested in receiving mail, and gradually phase out those who no longer show activity.
+Customers who use the Adobe platform can view inactivity within their instance by reviewing the open and click data according to the segment. Since non-engagement can hinder delivery, the first thought can be to just remove subscribers from the database. However, this may prove to be a wrong option in some cases. Therefore, a re-engagement (also known as a win-back) strategy is the best recommendation to retain the subscribers that are interested in receiving mail, and gradually phase out those who no longer show activity.
 
 **Related topics:**
 
