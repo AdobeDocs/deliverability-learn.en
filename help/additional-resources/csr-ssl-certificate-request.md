@@ -30,102 +30,111 @@ To install SSL certificates on these subdomains, the process involves requesting
 
 | Term | Description |
 |--- |--- |
-| CA | Certificate Authority. This is an SSL certificate provider that issues digital certificates to organizations or individuals after verifying their identity.</br>e.g. DigiCert, Symantec, etc.</br>Trusted CA - This is normally considered as 3rd party CA who issues root certificate.</br>Untrusted CA - If the certificate is signed by same organisation/company who is using the certificate, its classified as untrusted CA even when they are SSL certificates. e.g. Self Signed Certificates |
-| Chain Certificate | Certificate which includes a root certificate and one or more Intermediate certificates is called a Chain or Chained Certificate. |
-| CSR | CSR stands for Certificate Signing Request. It's a block of encoded text that is given to a Certificate Authority when applying for an SSL Certificate.</br>It is usually generated on the server where the certificate will be installed. |
-| DER | DER (Distinguished Encoding Rules) is a certificate extension type. The .DER extension is used for binary DER encoded certificates. These files may also bear the .CER or the .CRT extension. |
-| Extended Validation Certificate | An EV Certificate is a new type of certificate that is designed to prevent phishing attacks. It requires extended validation of your business and of the person ordering the certificate. |
+| CA (Certificate Authority) | An SSL certificate provider that issues digital certificates to organizations or individuals after verifying their identity, such as DigiCert, Symantec, etc.<ul><li>A trusted CA is usually considered as a third-party CA which issues root certificate.</li><li>If the certificate is signed by the same organization/company that is using the certificate, it is classified as untrusted CA even when they are SSL certificates, such as Self Signed Certificates.</li></ul> |
+| Chain Certificate | A certificate which includes a root certificate and one or more Intermediate Certificates is called a Chain (or Chained) Certificate. |
+| CSR (Certificate Signing Request) | A block of encoded text that is given to a Certificate Authority when applying for an SSL Certificate. It is usually generated on the server where the certificate will be installed. |
+| DER (Distinguished Encoding Rules) |  A certificate extension type. The .der extension is used for binary DER encoded certificates. These files may also support the .cer or .crt extension. |
+| EV (Extended Validation) Certificate | An EV Certificate is a new type of certificate that is designed to prevent phishing attacks. It requires extended validation of your business and of the person ordering the certificate. |
 | High Assurance Certificate | High Assurance Certificates are issued by the CA after verifying ownership of the domain name and valid business registration. |
-| Intermediate CA | Certificate Authority of Intermediate Certificates included in a chain(ed) certificate.
-| Intermediate Certificate | A certificate authority issues certificates in the form of a tree structure. A root certificate is the top-most certificate of the tree.</br>Any certificate in between your certificate and the root certificate is called a chain or intermediate certificate. |
-| Low Assurance Certificate	| A Low Assurance Certificate, also referred as domain validated certificate includes only the domain name in the certificate (and not business/organization name). |
-| PEM | PEM (Privacy Enhanced Mail) is a certificate with .PEM extension which contain ASCII (Base64) data.</br>Such certificates start with a " - - - - - BEGIN CERTIFICATE- - - - -" line. |
-| SAN | The Subject Alternative Names are additional host names (sites, IP addresses, common names, etc.) that should be signed as part of a single SSL Certificate. |
-| Self Signed Certificate | A self-signed certificate is a certificate that is signed by the person creating it rather than a trusted certificate authority.</br>Self-signed certificates can enable the same level of encryption as a certificate signed by a CA, but there are two major drawbacks: a visitor's connection could be hijacked allowing an attacker view all the data sent (thus defeating the purpose of encrypting the connection) and the certificate cannot be revoked like a trusted certificate can. |
-| SSL | SSL (Secure Sockets Layer) is the standard security technology for establishing an encrypted link between a web server and a browser. |
-| Wildcard Certificate | A Wildcard Certificate can secure an unlimited number of first level sub domains on a single domain name. e.g. *.adobe.com |
+| Intermediate CA | A Certificate Authority of Intermediate Certificates included in a Chain Certificate.
+| Intermediate Certificate | A Certificate Authority issues certificates in the form of a tree structure. The Root Certificate is the top-most certificate of the tree. Any certificate between your certificate and the Root Certificate is called a chain or Intermediate Certificate. |
+| Low Assurance Certificate	| A Low Assurance Certificate, also referred as Domain Validated Certificate, includes only the domain name in the certificate (and not the business/organization name). |
+| PEM (Privacy Enhanced Mail) | A certificate with a .pem extension which contains ASCII (Base64) data. Such certificates start with a " - - - - - BEGIN CERTIFICATE - - - - -" line. |
+| Root Certificate | A Certificate Authority issues certificates in the form of a tree structure. The Root Certificate is the top-most certificate of the tree. |
+| SAN (Subject Alternative Name) | The Subject Alternative Names are additional host names (sites, IP addresses, common names, etc.) that should be signed as part of a single SSL Certificate. |
+| Self Signed Certificate | A certificate that is signed by the person creating it rather than a trusted certificate authority. Self-signed certificates can enable the same level of encryption as a certificate signed by a CA, but there are two major drawbacks: a visitor's connection could be hijacked allowing an attacker to view all the data sent (thus defeating the purpose of encrypting the connection) and the certificate cannot be revoked like a trusted certificate can. |
+| SSL (Secure Sockets Layer) |  The standard security technology for establishing an encrypted link between a web server and a browser. |
+| Wildcard Certificate | A Wildcard Certificate can secure an unlimited number of first level subdomains on a single domain name, such as *.adobe.com. |
 
-## CRS and SSL process main steps
+## Main steps
 
-1. Client identifies the domain names to secure, and the functions to secure (tracking, mirror pages, webapps…);
-Note: Adobe client Solutions/Consulting can help assist/define this; please get in touch with your client Success Manager for more information.
-1. Client requests a certificate signing request (CSR) file and provides their required CSR/SSL certificate information (country, state, locality  (city), organization name, organizational unit name) to Adobe client Care, via a Support ticket on Extranet;
-1. Adobe client Care provides forwards the request to internal infrastructure team (Adobe TechOps);
-1. Adobe TechOps generate a certificate signing request (CSR) file and provide it to the Client via client Care.
-1. Client uses the CSR details and generate certificate signed by a trusted certification authority, taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server.
+1. Get a Certificate Signing Request (CSR) file and provide the required information (country, state, city, organization name, organizational unit name, etc.) to Adobe Customer Care, via the submission of a Support ticket.
+1. Adobe generates a certificate signing request (CSR) file and provides it to you.
+1. Check the CSR file and verify that all information you provided is correct.
+1. Use the CSR details to generate a certificate signed by a trusted Certification Authority<!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server-->.
 1. Client provides SSL certificate (and intermediate chain/certificate too if applicable)  to Adobe client Care, who request internal team (Adobe TechOps) to install it;
 1. (Adobe TechOps) install the certificate.
 1. Client tests that certificate is successfully installed (test the URLs for each secured subdomain).
 
-## Detailed steps
+## Detailed process
 
-### Step 1 - Request CSR file
+### Prerequisites
 
-**If you have access to Control Panel:**
+You must identify the domain names and the functions (tracking, mirror pages, webapps, etc.) to secure.
+>[!NOTE]
+>
+>Adobe can help in defining the domain names and functions to involve. For more information, contact your Adobe Customer Success Manager.
 
-Follow the instructions to generate and download a CSR file from the Control Panel:
+### Step 1 - Obtain a CSR file
 
-https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates
+To obtain a CSR (Certificate Signing Request) file, follow the steps below.
+
+**If you have access to [Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html):**
+
+Follow the instructions on [this page](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) to generate and download a CSR file from the Control Panel.
 
 **Otherwise:**
 
-Create Support ticket via https://adminconsole.adobe.com/ to request a CSR file from Adobe for the required subdomain(s).
+Create a Support ticket via https://adminconsole.adobe.com/ to obtain a CSR file from Adobe Customer Care for the required subdomain(s).
 
-**Best Practices:**
+Here are a few best practices to follow:
 
-* Raise one CSR/SSL request per delegated sub-domain.
-* If it is a customer requirement, it is possible to combine multiple sub-domains into a single CSR request, but only within the same environment, e.g. ACC MKT, ACC mid-sourcing and ACC RT (Message Center) are 3 separate environments.
-* Create/request a new CSR before any SSL certificate renewal. Do not use previous/old CSR files from 1-2 years ago.
+* Raise one request per delegated subdomain.
+* It is possible to combine multiple subdomains into a single CSR request, but only within the same environment. For example, in Campaign Classic, the marketing server, the [mid-sourcing server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/mid-sourcing-server.html) and the [execution instance](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/creating-a-shared-connection.html) are three separate environments.
+* You must get a new CSR before any SSL certificate renewal. Do not use an old CSR file from one year ago or more.
 
 You will need to provide the following information :
 
 | Information to provide in CSR Support ticket | Example value | Note |
 |--- |--- |--- |
-| Common Name [CN] | t.subdomain.customer.com | This could be any of the relevant domains, but usually the tracking domain. | 
-| Instance URL | mycompany.campaign.adobe.com | Provide AC instance URL | 
-| Subject Alternative Name [SAN]: | t.subdomain.customer.com | Make sure to include tracking subdomain as a SAN |
+| Common Name [CN] | t.subdomain.customer.com | This can be any of the relevant domains, but usually the tracking domain. |
+| Instance URL | mycompany.campaign.adobe.com | Provide the Adobe instance URL. | 
+| Subject Alternative Name [SAN] | t.subdomain.customer.com | Make sure to include tracking subdomain as a SAN |
 | State (or Province Name) [ST]	| London | If applicable. Must be full name, not abbreviated. |
 | Organizational Unit Name [OU]	| IT | e.g. section. |
-| Country [C] | GB | 2-letter code. For United Kingdom it's GB (not UK).</br>For full list, see here: https://www.ssl.com/csrs/country_codes/ |
+| Country [C] | GB | This must be a two-letter code. Access the full country list [here](https://www.ssl.com/csrs/country_codes/).</br>*Note: For United Kingdom, use GB (not UK).* |
 | Environment URL | https://client-mid-prod1.campaign.adobe.com |
 | Client Name | My Company Ltd.	|
 | City/Locality Name [L] | London |
 | Organization Name [O] | ACME |
-| Subject Alternative Name [SAN]: | m.subdomain.customer.com |
-| Subject Alternative Name [SAN]: | res.subdomain.customer.com |
+| Subject Alternative Name [SAN] | m.subdomain.customer.com |
+| Subject Alternative Name [SAN] | res.subdomain.customer.com |
 
 >[!NOTE]
 >
 >Replace "subdomain.customer.com" with your delegated subdomain, and the other example values with the appropriate values.
 
-### Step 2 - Validate CSR file
+### Step 2 - Validate the CSR file
+
+After submitting your request with the relevant information, Adobe generates and provides you with a certificate signing request (CSR) file.
 
 The text in the resulting CSR file should start with **"-----BEGIN CERTIFICATE REQUEST-----"**.
 
-Once you receive the CSR file from Adobe, please validate it and check that the correct parameters and domain names are included.
+Once you receive the CSR file from Adobe, check that the correct parameters and domain names are included, and validate it.
 
-**Steps to verify CSR File:**
+Follow the steps below to verify CSR file:
 
-1. Paste the CSR File text into an online decoder: https://www.sslshopper.com/csr-decoder.html or https://www.certlogik.com/decoder/ or https://www.entrust.net/ssl-technical/csr-viewer.cfm etc.
-1. Alternatively, you can use OpenSSL command locally on a linux machine: https://www.question-defense.com/2009/09/22/use-openssl-to-verify-the-contents-of-a-csr-before-submitting-for-a-ssl-certificate
-1. All checks should be OK. i.e. CSR should resolve correctly and all the details mentioned in it should match the details you provided in CSR request.
+1. Copy and paste the CSR file text into an online decoder such as https://www.sslshopper.com/csr-decoder.html, https://www.certlogik.com/decoder/, or https://www.entrust.net/ssl-technical/csr-viewer.cfm.
+1. Alternatively, you can use the *OpenSSL* command locally on a Linux machine. For more on this, refer to [this page](https://www.question-defense.com/2009/09/22/use-openssl-to-verify-the-contents-of-a-csr-before-submitting-for-a-ssl-certificate).
+1. Verify that all the checks are successful.
+1. Check that all the data match the details you provided upon submitting your request.
 
-Once the CSR is verified, proceed to use the CSR to purchase an SSL certificate.
+<!--Once the CSR is verified, proceed to use the CSR to purchase an SSL certificate.-->
 
-### Step 3 - Generate SSL Certificate
+### Step 3 - Generate the SSL Certificate
 
-Once the CSR file is provided, the client must then purchase/generate an SSL certificate for the appropriate domains using the CSR file. 
+Once the CSR file is provided, you must purchase and generate an SSL Certificate for the appropriate domains using the CSR file.
 
-* The certificate must be in PEM format. 
-* The certificate should not be longer than 2048-bit.
-* The certificate must be signed by a valid CA (Certification Authority). 
-* The certificate  must include all SANs (Subject Alternative Names) as mentioned in the CSR. 
-* If there are one or more intermediate certificates, client should provide ROOT + All Intermediate Certificates to Adobe.
-1. You can chose certificate validity period as per their wish, but it's recommended to have certificates with longer validity period e.g. 2 years. 
+* The Certificate must be in PEM format.
+* The Certificate should not be longer than 2048 bits.
+* The Certificate must be signed by a valid CA (Certification Authority).
+* The Certificate  must include all SANs (Subject Alternative Names) as mentioned in the CSR file.
+* If there are one or more Intermediate Certificates, you must provide the Root Certificate and all Intermediate Certificates to Adobe.
+* You can chose any certificate validity period, but Adobe recommends long enough validity period, such as two years.
 
 >[!NOTE]
 >
->Often a client has their own internal tools to request certificate or portal provided by CA to request certificate. Please be sure to use the same details as provided in CSR request to avoid any delays or discrepancies in certificate generation process.
+>If you are using your own internal tools to request certificate or a portal provided by a CA to request certificate, make sure to use the same details as provided in the CSR request to avoid any delays or discrepancies in the certificate generation process.
 
 ### Step 4 - Validate SSL Certificate
 
@@ -147,13 +156,13 @@ If SSL Certificate verification is good, verify if the certificate matches the C
 
 ### Step 5 - Request SSL Certificate Installation
 
-**If you have access to Control Panel**
+**If you have access to Control Panel:**
 
 Upload the certificate to Control Panel.
 
 See documentation: https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=en#installing-ssl-certificate
 
-**Otherwise: **
+**Otherwise:**
 
 Create another Support ticket via https://adminconsole.adobe.com/ to request Adobe to install the certificate on the Adobe Campaign servers.
 
@@ -220,4 +229,4 @@ Useful article: https://www.thesslstore.com/blog/what-happens-when-your-ssl-cert
 
 >[!CAUTION]
 >
->Adobe will only support up to 2048 bit certificates. 4096 bit certificates are not yet supported.
+>Adobe will only support up to 2048-bit certificates. 4096-bit certificates are not yet supported.
