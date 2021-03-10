@@ -36,7 +36,7 @@ For more on MX management, refer to [this section](../../installation/using/emai
 
 TLS (Transport Layer Security) is an encryption protocol that can be used to secure the connection between two email servers and protect the content of an email from being read by anyone other than the intended recipients.
 
-<!--#### Configuring the application {#configuring-the-application}
+#### Configuring the application {#configuring-the-application}
 
 To define the domain used for the HELO command, edit the instance's configuration file (conf/config-instance.xml) and define a "localDomain" attribute as follows:
 
@@ -63,9 +63,11 @@ defines the 2 IP addresses 12.34.56.78 and 12.34.56.79 as authorized to send ema
 Recommendations for defining an SPF record:
 
 * Add **~all** (SoftFail) or **-all** (Fail) at the end to reject all servers other than those defined. Without this, servers will be able to forge this domain (with a Neutral evaluation).
-* Do not add **ptr** (openspf.org recommends against this as costly and unreliable).-->
+* Do not add **ptr** (openspf.org recommends against this as costly and unreliable).
 
 ## Authentication
+
+Learn more on the different forms of email authentication in [this section](../../help/additional-resources/authentication.md).
 
 ### DKIM {#dkim-acc}
 
@@ -152,9 +154,9 @@ List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessa
 
 Gmail, Outlook.com and Microsoft Outlook support this method and an unsubscribe button is available directly in their interface. This technique lowers complaint rates.
 
-![](assets/s_tn_del_msn_unsubscribe_list.png)
+![](../assets/s_tn_del_msn_unsubscribe_list.png)
 
-![](assets/s_tn_del_gmail_unsubscribe_list.png)
+![](../assets/s_tn_del_gmail_unsubscribe_list.png)
 
 You can implement the **List-Unsubscribe** by:
 
@@ -185,7 +187,7 @@ The rule must contain the script that generates the command line and it must be 
 
    Example:
 
-   ![](assets/s_tn_del_unsubscribe_param.png)
+   ![](../assets/s_tn_del_unsubscribe_param.png)
 
 ## Email optimization {#email-optimization}
 

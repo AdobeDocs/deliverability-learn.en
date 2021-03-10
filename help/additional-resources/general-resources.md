@@ -11,7 +11,7 @@ team: ACS
 
 # Additional resources
 
-**General**
+## General
 
 * [All about Spam traps](../../help/additional-resources/all-about-spam-traps.md)
 * [Increase your email reputation with IP warming](../../help/additional-resources/increase-reputation-with-ip-warming.md)
@@ -23,15 +23,14 @@ team: ACS
 * [Blocklist databases](../../help/additional-resources/blocklist-databases.md)
 * [Troubleshooting](../../help/additional-resources/troubleshooting.md)
 
-**Adobe products**
+## Adobe products
 
-* [Campaign Classic](../../help/additional-resources/campaign-calssic.md)
-* [Campaign Standard](../../help/additional-resources/campaign-standard.md)
-* Customer Journey Management
-* Marketo
+**Campaign**
 
-Campaign
+* [Domain name setup](../../help/putting-it-in-practice/ac-domain-name-setup.md)
+* [CSR and SSL certificate request process](../../help/putting-it-in-practice/ac-ssl-certificate-request.md)
+* [Campaign Classic - Technical recommendations](../../help/putting-it-in-practice/acc-technical-recommendations.md)
 
-* [Domain name setup](../../help/additional-resources/domain-name-setup.md)
-* [CSR and SSL certificate request process](../../help/additional-resources/csr-ssl-certificate-request.md)
-* [Technical recommendations - Campaign Classic](../../help/additional-resources/technical-recommendations.md)
+**Customer Journey Management**
+
+**Marketo**
