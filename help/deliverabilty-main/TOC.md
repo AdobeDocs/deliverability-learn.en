@@ -15,7 +15,7 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
   + [Spam traps](/help/metrics/spam-traps.md)
   + [Bulking and blocking](/help/metrics/bulking-and-blocking.md)
 + [Engagement](/help/engagement.md)
-+ Transition process - Switching email platforms{#transition-process}
++ Transition process - Switching email platforms {#transition-process}
   + [How to transition smoothly when switching email platforms](/help/transition-process/switching-email-platforms.md)
   + [Infrastructure](/help/transition-process/infrastructure.md)
   + [Targeting criteria](/help/transition-process/targeting-criteria.md)
@@ -33,12 +33,15 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
   + [Microsoft (Hotmail, Outlook, Windows Live etc.)](/help/internet-service-provider-specifics/microsoft.md)
   + [Verizon Media Group (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Ongoing monitoring](/help/ongoing-monitoring.md)
-+ [Putting it in practice](/help/putting-it-in-practice.md)
-+ Additional resources{#additional-resources}
++ Putting it in practice {#putting-it-in-practice}
+  + [Key pillars to success](/help/putting-it-in-practice.md)
+  + Campaign {#campaign}
+    + [Domain name setup](/help/additional-resources/domain-name-setup.md)
+    + [CSR and SSL certificate request process](/help/additional-resources/csr-ssl-certificate-request.md)
+    + [Technical recommendations - Campaign Classic](/help/additional-resources/technical-recommendations.md)
++ Additional resources {#additional-resources}
   + [All about spam traps](/help/additional-resources/all-about-spam-traps.md)
   + [Increase your email reputation with IP warming](/help/additional-resources/increase-reputation-with-ip-warming.md)
-  + [Domain name setup](/help/additional-resources/domain-name-setup.md)
-  + [CSR and SSL certificate request process](/help/additional-resources/csr-ssl-certificate-request.md)
   + [Authentication](/help/additional-resources/authentication.md)
   + [IP Certification](/help/additional-resources/ip-certification.md)
   + [Third-party monitoring tools](/help/additional-resources/third-party-monitoring-tools.md)

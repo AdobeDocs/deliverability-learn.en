@@ -26,3 +26,16 @@ You must be especially prudent when performing operations on the database:
 * Storing profiles in different folders can be implemented using views rather than partitions. In this way, you are sure that the profiles are in the same physical partition while still enabling the adequate rights to be displayed and managed.
 
 There are, all the same, cases in which duplicates between the different partitions are normal. For example, when sending for third-parties or different company entities, it is logical for the same person to be a recipient for different reasons. It is, however, rarely normal to find duplicates within the same partition.
+
+## Product specific resources
+
+Deduplicating addresses protects your sending reputation and ensures good quarantine management. Learn more in the following product documentation sections:
+
+**Adobe Campaign Classic**
+
+* [Deduplication activity](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/deduplication.html)
+* [Using the Deduplication activity’s Merge functionality](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html)
+
+**Adobe Campaign Standard**
+
+* [Deduplicating the data from an imported file](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-use-case/data-management/deduplicating-data-imported-file.html)

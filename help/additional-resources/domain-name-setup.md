@@ -13,7 +13,7 @@ team: ACS
 
 This document describes the business and technical requirements for domain name setup and delegation. You will need to select an email sending subdomain and, optionally, an externally facing subdomain to host web components (landing pages, opt-out page) for the Adobe platform you are using.
 
-## Sub-Domains
+## Subdomains
 
 With Adobe, digital marketing can truly become the contextual engine that powers your brand’s customer engagement marketing program.  Email continues to be the foundation of digital marketing programs. However, reaching the inbox has become more difficult than ever.
 
@@ -29,7 +29,7 @@ By delegating a sub-domain for use with Adobe Campaign, clients can rely on Adob
 Clients to keep their brand image by using a DNS alias with its domain names
 Adobe to autonomously implement all the technical best practices to fully optimize deliverability during emailing
 
-## DNS Setup Options
+## DNS setup options
 
 In order to provide a cloud-based managed service, Adobe strongly encourages clients to use sub-domain delegation when deploying Adobe Campaign.  However, Adobe does offer clients an alternative option – CNAME setup – for configuring DNS.
 
@@ -38,7 +38,7 @@ In order to provide a cloud-based managed service, Adobe strongly encourages cli
 | Sub-domain delegation to Adobe Campaign | Client delegates a sub-domain (email.example.com) to Adobe. In this scenario, Adobe is able to deliver the Campaign as a managed service by controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking of email campaigns. | Complete management of the sub-domain and all DNS records required for Adobe Campaign. | Proper delegation of the sub-domain to Adobe |
 |Use of CNAMEs | Client creates a sub-domain and uses CNAMEs to point to Adobe-specific records.  Using this setup, both Adobe and the customer share responsibility for maintaining DNS. | Management of DNS records required for Adobe Campaign. | Creation and control of the sub-domain and creation/management of the CNAME records required for Adobe Campaign. |
 
-## Required DNS Records
+## Required DNS records
 
 | Record Type | Purpose | Examples Record/Content |
 |--- |--- |--- |
@@ -86,7 +86,7 @@ Complete the table below, first line is only an example.
 | Subdomain | From address | From name | Reply-to address |
 |--- |--- |--- |--- |
 | emails.customer.com | news@emails.customer.com | Customer | customercare@customer.com |
-|  </br>|  |  |  |
+| </br> | </br> | </br> | </br> |
 
 >[!NOTE]
 >
@@ -96,20 +96,23 @@ Complete the table below, first line is only an example.
 >* When sending emails from Adobe Campaign, the “From Address” mailbox is not monitored and marketing users cannot access this mailbox. Adobe Campaign also does not offer the ability to Auto-Reply or Auto-Forward emails received in this mailbox.
 >* The Campaign From/Sender address and Error address cannot be “abuse” or “postmaster”.
 
-## Delegating Sub-Domains
+## Delegating subdomains
 
 The subdomain(s) chosen to be used for the Adobe Campaign platform must be delegated by creating four name server (NS) records.  This allows the subdomain to be properly delegated to Adobe.  Below is an example of a subdomain delegation and the respective DNS instructions.  Please substitute ‘emails.customer.com’ with the subdomain you wish to delegate.  Please note that the subdomain must be unique and cannot already be in use by another party (for example, an existing ESP or MSP).
 
-| Delegated subdomain | DNS Instructions |
+| Delegated subdomain | DNS instructions |
 |--- |--- |
-<subdomain>
-| <subdomain> NS a.ns.campaign.adobe.com. | <subdomain> NS b.ns.campaign.adobe.com. | <subdomain> NS c.ns.campaign.adobe.com. | <subdomain> NS d.ns.campaign.adobe.com.
+| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com. </br> `<subdomain>` NS b.ns.campaign.adobe.com. </br> `<subdomain>` NS c.ns.campaign.adobe.com. </br> `<subdomain>` NS d.ns.campaign.adobe.com. |
 
-Tracking, Mirror pages, Resources
+## Tracking, Mirror pages, Resources
+
 Once the email sending subdomain(s) is/are properly delegated to Adobe Campaign, the Adobe TechOps team will create two or more lower-level domains to manage tracking and mirror pages independently.
 
 | Type | Domain |
-| Mirror pages | m.<subdomain> | Tracking | t.<subdomain> | Resources | res.<subdomain> |
+|--- |--- |
+| Mirror pages | m.`<subdomain>` |
+| Tracking | t.`<subdomain>` |
+| Resources | res.`<subdomain>` |
 
 ## Cloud deployment (optional)
 
@@ -117,7 +120,7 @@ This only applies if the Adobe Campaign Classic is fully hosted in the cloud by 
 
 Any surveys, web forms, and landing pages to be developed are managed through Adobe Campaign fully hosted in the cloud.  If required, an additional subdomain may be delegated to Adobe (e.g. web.customer.com) to use for any web components within the tool.  Please note that the subdomain needs to be unique and can’t be used by another party (for example, an existing ESP or MSP).
 
-| Delegated subdomain | DNS Instructions |
+| Delegated subdomain | DNS instructions |
 |--- |--- |
 | `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com.</br>`<subdomain>` NS b.ns.campaign.adobe.com.</br>`<subdomain>` NS c.ns.campaign.adobe.com.</br>`<subdomain>` NS d.ns.campaign.adobe.com. |
 
@@ -140,7 +143,7 @@ Firewall(s) will also need to be configured to allow access to the Adobe Campaig
 The subdomain to host web components will be visible to customers, so be sure to make it properly branded and simple to remember as it may need to be typed in manually, e.g. https://web.customer.com.
 If any forms need to be hosted on secure pages (HTTPS) addition technical configuration will be required, described below.
 
-| Delegated subdomain | DNS Instructions |
+| Delegated subdomain | DNS instructions |
 |--- |--- |
 | `<subdomain>` | `<subdomain>` CNAME `<internal customer server>` |
 

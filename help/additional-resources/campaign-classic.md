@@ -11,7 +11,9 @@ team: ACS
 
 # Campaign Classic specific resources
 
-## DKIM {#dkim-acc}
+## Authentication
+
+### DKIM {#dkim-acc}
 
 >[!NOTE]
 >
@@ -19,7 +21,7 @@ team: ACS
 
 Using [DKIM](../../help/additional-resources/authentication.md#dkim) with Campaign Classic requires the following prerequisites:
 
-**Adobe Campaign option declaration**: in Adobe Campaign the DKIM private key is based on a DKIM selector and a domain. It is not currently possible to create multiple private keys for the same domain/sub-domain with different selectors. It is not possible to define which selector domain/sub-domain must be used for the authentication in neither the platform or the email. The platform will alternatively select one of the private keys, which means the authentication has a high chance of failing.
+**Adobe Campaign option declaration**: in Adobe Campaign, the DKIM private key is based on a DKIM selector and a domain. It is not currently possible to create multiple private keys for the same domain/sub-domain with different selectors. It is not possible to define which selector domain/sub-domain must be used for the authentication in neither the platform or the email. The platform will alternatively select one of the private keys, which means the authentication has a high chance of failing.
 
 >[!NOTE]
 >

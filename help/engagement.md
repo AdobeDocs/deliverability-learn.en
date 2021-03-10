@@ -32,7 +32,7 @@ The right frequency is something each marketer must find for their specific mark
 
 Subscriber interests are constantly evolving, and marketers need to understand that commitment to a brand may be temporary. Some subscribers will opt out, but many will just delete or ignore unwanted emails. From a consumer’s perspective, any message that is unsolicited or unwanted is perceived as spam. Therefore, marketers need to rely on **permission-based marketing** and **monitor engagement** for loss of interest. In order to achieve optimal inbox placement, we recommend that marketers strategically reengage subscribers using reactivation campaigns and a win-back strategy, which can be very useful tools to an email marketer.
 
-A **win-back strategy** is when a special incentive is regularly sent to a specific portion of a marketing database in an attempt to reengage a list which has had low open and click activity. Positive responses are kept and the portion of the list that doesn’t respond is moved to an inactive status and would no longer be mailed to. Learn more on win-back strategies in the [Re-engagement best practices](../../help/additional-resources/re-engagement.md) section.
+A **win-back strategy** is when a special incentive is regularly sent to a specific portion of a marketing database in an attempt to reengage a list which has had low open and click activity. Positive responses are kept and the portion of the list that doesn’t respond is moved to an inactive status and would no longer be mailed to.
 
 A **reactivation campaign** is similar but is used to reconfirm a list one time, which is useful when dealing with old, stale lists — ones that haven’t been mailed to for over 12 months, or even years. This type of campaign is also typically enforced by blocklists in order to resolve a block. The subscribers that are not successfully reengaged through this process should be excluded from future email promotions.
 
@@ -48,9 +48,18 @@ It is also a much better customer experience and will help to increase positive 
 
 A final key part of the reply-to strategy is that if you do have a real email address they can reply to, make sure someone is monitoring it and it’s not just an auto-response. If not monitored, the missed expectations can frustrate the customer and lead to complaints or lower engagement.
 
+## Additional resources
+
+Learn more on win-back strategies in the [Re-engagement best practices](../help/additional-resources/re-engagement.md) section.
+
 ## Product specific resources
+
+**Adobe Campaign Classic**
+
+* [Define the right audience](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
+* [Pressure rules](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
 
 **Adobe Campaign Standard**
 
 * [Define the right audience](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Fatigue rules (product documentation)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [Fatigue rules](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
