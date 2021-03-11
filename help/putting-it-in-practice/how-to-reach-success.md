@@ -12,6 +12,8 @@ team: TM
 
 # Putting it in practice
 
+## Reach deliverability success
+
 As we’ve covered in this guide, there are many nuances to deliverability and following best practices. 
 
 There are four key pillars to success:
@@ -22,3 +24,18 @@ There are four key pillars to success:
 4. Monitor, test, and adjust as you go.
 
 If you’re ever unclear or need assistance with an issue, please contact your Adobe deliverability consultant or deliverability expert for help.
+
+## Product-specific resources
+
+Additionally, this section lists a number of product-specific resources to help you implement deliverability and reach success with your Adobe solutions.
+
+**Campaign**
+
+* [Domain name setup](../../help/putting-it-in-practice/ac-domain-name-setup.md)
+* [CSR and SSL certificate request process](../../help/putting-it-in-practice/ac-ssl-certificate-request.md)
+* [Starting a new platform](../../help/putting-it-in-practice/ac-starting-new-platform.md)
+* [Campaign Classic - Technical recommendations](../../help/putting-it-in-practice/acc-technical-recommendations.md)
+
+**Customer Journey Management**
+
+**Marketo**
