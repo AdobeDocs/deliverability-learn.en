@@ -13,7 +13,7 @@ team: ACS
 
 ## General
 
-* [All about Spam traps](../../help/additional-resources/all-about-spam-traps.md)
+* [All about spam traps](../../help/additional-resources/all-about-spam-traps.md)
 * [Increase your email reputation with IP warming](../../help/additional-resources/increase-reputation-with-ip-warming.md)
 * [Authentication](../../help/additional-resources/authentication.md)
 * [IP Certification](../../help/additional-resources/ip-certification.md)

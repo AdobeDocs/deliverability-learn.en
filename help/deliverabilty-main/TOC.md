@@ -34,11 +34,14 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
   + [Verizon Media Group (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Ongoing monitoring](/help/ongoing-monitoring.md)
 + Putting it in practice {#putting-it-in-practice}
-  + [Key pillars to success](/help/key-pillars-to-success.md)
+  + [How to reach success](/help/putting-it-in-practice/how-to-reach-success.md)
   + Campaign {#campaign}
     + [Domain name setup](/help/putting-it-in-practice/ac-domain-name-setup.md)
-    + [CSR and SSL certificate request process](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
+    + [SSL certificate request process](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
+    + [Starting a new platform](/help/putting-it-in-practice/ac-starting-new-platform.md)
     + [Campaign Classic - Technical recommendations](/help/putting-it-in-practice/acc-technical-recommendations.md)
+  + Customer Journey Management {#customer-journey-management}
+  + Marketo {#marketo}
 + Additional resources {#additional-resources}
   + [All about spam traps](/help/additional-resources/all-about-spam-traps.md)
   + [Increase your email reputation with IP warming](/help/additional-resources/increase-reputation-with-ip-warming.md)
