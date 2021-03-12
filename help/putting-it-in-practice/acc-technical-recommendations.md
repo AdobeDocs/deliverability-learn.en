@@ -1,14 +1,16 @@
 ---
-solution: Campaign Classic
-product: campaign
-title: Technical recommendations for improving deliverability with Adobe Campaign Classic
+title: Campaign Classic - Technical recommendations
 description: Discover techniques, configurations, and tools that you can use to improve your deliverability rate with Adobe Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+feature: Putting it in practice
+topics: Deliverability
+kt: 
+thumbnail: 
+doc-type: article
+activity: understand
+team: ACS
 ---
 
-# Technical recommendations{#technical-recommendations}
+# Campaign Classic - Technical recommendations {#technical-recommendations}
 
 Several techniques, configurations, and tools that you can use to improve your deliverability rate when using Adobe Campaign Classic are listed below.
 
@@ -22,21 +24,23 @@ An important point in the network configuration is making sure a correct reverse
 
 The domain choice for a reverse DNS has an impact when dealing with certain ISPs. AOL, in particular, only accepts feedback loops with an address in the same domain as the reverse DNS (see [Feedback loop](#feedback-loop)).
 
-A tool is available to verify the configuration of a domain: [https://mxtoolbox.com/SuperTool.aspx](https://mxtoolbox.com/SuperTool.aspx).
+>[!NOTE]
+>
+>You can use [this external tool](https://mxtoolbox.com/SuperTool.aspx) to verify the configuration of a domain.
 
 ### MX rules {#mx-rules}
 
 MX rules (Mail eXchanger) are the rules that manage communication between a sending server and a receiving server.
 
-More precisely, they are used to control the speed at which the Campaign MTA (Message Transfer Agent) sends emails to each individual email domain or ISP (e.g. hotmail.com, comcast.net). These rules are typically based on limits published by the ISPs (e.g. do not include more than 20 messages per each SMTP connection).
+More precisely, they are used to control the speed at which the Adobe Campaign MTA (Message Transfer Agent) sends emails to each individual email domain or ISP (e.g. hotmail.com, comcast.net). These rules are typically based on limits published by the ISPs (e.g. do not include more than 20 messages per each SMTP connection).
 
-For more on MX management, refer to [this section](../../installation/using/email-deliverability.md#mx-configuration).
+For more on MX management in Adobe Campaign Classic, refer to [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
 
 ### TLS {#tls}
 
 TLS (Transport Layer Security) is an encryption protocol that can be used to secure the connection between two email servers and protect the content of an email from being read by anyone other than the intended recipients.
 
-#### Configuring the application {#configuring-the-application}
+### Sender's domain {#sender-domain}
 
 To define the domain used for the HELO command, edit the instance's configuration file (conf/config-instance.xml) and define a "localDomain" attribute as follows:
 
@@ -50,7 +54,7 @@ To define the domain used for the HELO command, edit the instance's configuratio
 
 The MAIL FROM domain is the domain used in technical bounce messages. This address is defined in the deployment wizard or via the NmsEmail_DefaultErrorAddr option.
 
-#### DNS configuration {#dns-configuration}
+### SPF record {#dns-configuration}
 
 An SPF record can currently be defined on a DNS server as a TXT type record (code 16) or an SPF type record (code 99). An SPF record takes the form of a character string. For example:
 
@@ -58,32 +62,36 @@ An SPF record can currently be defined on a DNS server as a TXT type record (cod
 v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 ```
 
-defines the 2 IP addresses 12.34.56.78 and 12.34.56.79 as authorized to send emails for the domain. **~all** means that any other address should be interpreted as a SoftFail.
+defines the two IP addresses, 12.34.56.78 and 12.34.56.79, as authorized to send emails for the domain. **~all** means that any other address should be interpreted as a SoftFail.
 
 Recommendations for defining an SPF record:
 
 * Add **~all** (SoftFail) or **-all** (Fail) at the end to reject all servers other than those defined. Without this, servers will be able to forge this domain (with a Neutral evaluation).
 * Do not add **ptr** (openspf.org recommends against this as costly and unreliable).
 
+>[!NOTE]
+>
+>Learn more on SPF in [this section](/help/additional-resources/authentication.md#spf).
+
 ## Authentication
 
-Learn more on the different forms of email authentication in [this section](../../help/additional-resources/authentication.md).
+>[!NOTE]
+>
+>Learn more on the different forms of email authentication in [this section](/help/additional-resources/authentication.md).
 
 ### DKIM {#dkim-acc}
 
 >[!NOTE]
 >
->For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages), DKIM email authentication signing is done by the Enhanced MTA for all messages with all domains.
 
-Using [DKIM](../../help/additional-resources/authentication.md#dkim) with Campaign Classic requires the following prerequisites:
+Using [DKIM](/help/additional-resources/authentication.md#dkim) with Adobe Campaign Classic requires the following prerequisite:
 
 **Adobe Campaign option declaration**: in Adobe Campaign, the DKIM private key is based on a DKIM selector and a domain. It is not currently possible to create multiple private keys for the same domain/sub-domain with different selectors. It is not possible to define which selector domain/sub-domain must be used for the authentication in neither the platform or the email. The platform will alternatively select one of the private keys, which means the authentication has a high chance of failing.
 
->[!NOTE]
->
->* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the [Domain management rules](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#sending-messages). If not, follow the same configuration steps (private/public key) as for DomainKeys (which replaced DKIM).
->* It is not necessary to enable both DomainKeys and DKIM for the same domain as DKIM is an improved version of DomainKeys.
->* The following domains currently validate DKIM: AOL, Gmail.
+* If you have configured DomainKeys for your Adobe Campaign instance, you just need to select **dkim** in the [Domain management rules](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules). If not, follow the same configuration steps (private/public key) as for DomainKeys (which replaced DKIM).
+* It is not necessary to enable both DomainKeys and DKIM for the same domain as DKIM is an improved version of DomainKeys.
+* The following domains currently validate DKIM: AOL, Gmail.
 
 ## Feedback loop {#feedback-loop-acc}
 
@@ -132,17 +140,13 @@ This header can be used as an alternative to the "Report as SPAM" icon. It will 
 
 Using this functionality helps to protect your reputation and feedback will be executed as an unsubscription.
 
->[!NOTE]
->
->This functionality is available from Build 6831.
-
 To use List-Unsubscribe, you must enter a command line similar to as follows:
 
 ```
 List-Unsubscribe: mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe
 ```
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >The example above is based on the recipient table. If database implementation is done from another table, make sure to reword the command line with the correct information.
 
@@ -154,14 +158,10 @@ List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessa
 
 Gmail, Outlook.com and Microsoft Outlook support this method and an unsubscribe button is available directly in their interface. This technique lowers complaint rates.
 
-![](../assets/s_tn_del_msn_unsubscribe_list.png)
+You can implement the **List-Unsubscribe** by either:
 
-![](../assets/s_tn_del_gmail_unsubscribe_list.png)
-
-You can implement the **List-Unsubscribe** by:
-
-* directly adding the command line in the delivery template - see [this section](#adding-a-command-line-in-a-delivery-template),
-* or, creating a typology rule - see [this section](#creating-a-typology-rule).
+* Directly [adding the command line in the delivery template](#adding-a-command-line-in-a-delivery-template)
+* [Creating a typology rule](#creating-a-typology-rule)
 
 ### Adding a command line in a delivery template {#adding-a-command-line-in-a-delivery-template}
 
@@ -188,6 +188,8 @@ The rule must contain the script that generates the command line and it must be 
    Example:
 
    ![](../assets/s_tn_del_unsubscribe_param.png)
+
+Learn how to create typology rules in Adobe Campaign Classic in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ## Email optimization {#email-optimization}
 

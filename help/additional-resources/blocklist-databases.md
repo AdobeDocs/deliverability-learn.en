@@ -1,5 +1,5 @@
 ---
-title: Blocklist databases
+title: Real-time Blackhole Lists
 description:  Learn about databases of IP addresses and domains that are reputed to be used by spammers.
 feature: Deliverability
 kt: 
@@ -9,7 +9,7 @@ activity: understand
 team: ACS
 ---
 
-# Blocklist databases
+# Real-time Blackhole Lists
 
 Several organizations maintain databases of IP addresses and domains that are reputed to be used by spammers. Consulting these sites can be useful to understand why certain messages were rejected as spam. It is generally possible to request the removal of an address erroneously added to these lists.
 

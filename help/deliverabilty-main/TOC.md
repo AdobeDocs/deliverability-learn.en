@@ -50,5 +50,5 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
   + [IP Certification](/help/additional-resources/ip-certification.md)
   + [Third-party monitoring tools](/help/additional-resources/third-party-monitoring-tools.md)
   + [Re-engagement best practices](/help/additional-resources/re-engagement.md)
-  + [Blocklist databases](/help/additional-resources/blocklist-databases.md)
+  + [Real-time Blackhole Lists](/help/additional-resources/blocklist-databases.md)
   + [Troubleshooting](/help/additional-resources/troubleshooting.md)

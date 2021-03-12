@@ -26,4 +26,4 @@ A blocklisting occurs when a third-party blocklist manager registers spammer-lik
 
 ## Additional resources
 
-* [Denylist databases](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/block-list-databases.html?lang=en#sending-messages)
+[Blocklist databases](/help/additional-resources/blocklist-databases.md)
