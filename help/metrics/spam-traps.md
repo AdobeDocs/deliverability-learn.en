@@ -30,7 +30,8 @@ A pristine spam trap is an address that has no end user and has never had an end
 
 ## Additional resources
 
-Learn more on identifying and avoiding spam traps in [this section](../../help/additional-resources/all-about-spam-traps.md).
+* Learn more on identifying and avoiding spam traps in [this section](/help/additional-resources/all-about-spam-traps.md).
+* Learn more on how to improve deliverability through re-engagement strategies in [this section](/help/additional-resources/re-engagement.md).
 
 ## Product specific resources
 

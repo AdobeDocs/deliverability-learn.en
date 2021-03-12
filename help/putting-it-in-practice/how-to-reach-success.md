@@ -25,7 +25,7 @@ There are four key pillars to success:
 
 If you’re ever unclear or need assistance with an issue, please contact your Adobe deliverability consultant or deliverability expert for help.
 
-## Product-specific resources
+## Product specific resources
 
 Additionally, this section lists a number of product-specific resources to help you implement deliverability and reach success with your Adobe solutions.
 
@@ -36,6 +36,10 @@ Additionally, this section lists a number of product-specific resources to help 
 * [Starting a new platform](../../help/putting-it-in-practice/ac-starting-new-platform.md)
 * [Campaign Classic - Technical recommendations](../../help/putting-it-in-practice/acc-technical-recommendations.md)
 
+<!--
+
 **Customer Journey Management**
 
 **Marketo**
+
+-->

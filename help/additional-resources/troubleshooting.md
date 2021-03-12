@@ -9,13 +9,13 @@ activity: understand
 team: ACS
 ---
 
-# Troubleshooting {#troubleshooting}
+# Deliverability troubleshooting {#troubleshooting}
 
 Below are a few best practices that can help to identify and address deliverability issues.
 
 ## Identify a deliverability issue {#identify-deliverability-issue}
 
-To identify a possible issue, the elements listed on [that page](../../help/ongoing-monitoring.md) may draw your attention.
+To identify a possible issue, the elements listed on [that page](/help/ongoing-monitoring.md) may draw your attention.
 
 <!--
 Mailing or campaign metrics: unsubscribe, abuse complaint and/or bounce rates are higher than usual.
@@ -40,13 +40,13 @@ Ask yourself the following questions to identify the possible causes to your del
 
 ### Complaints
 
-[Complaints](../../help/metrics/complaints.md) are defined by subscribers who report email as a spam by hitting the corresponding button from their inbox.
+[Complaints](/help/metrics/complaints.md) are defined by subscribers who report email as a spam by hitting the corresponding button from their inbox.
 
 If your delivery issue was caused by complaints:
 * You need to try to determine why recipients are complaining.
 * You may also want to consider moving your unsubscribe link to the top of your email. This will encourage subscribers to unsubscribe instead of complaining with the spam button.
 
-Senders can glean a wealth of information from their [feedback loop](../../delivery/using/technical-recommendations.md#feedback-loop) complaints:
+Senders can glean a wealth of information from their [feedback loop](/help/transition-process/infrastructure.md#feedback-loops) complaints:
 * It is important to bucket the data and look for patterns in things like opt-in source, how long the address has been subscribed, or even certain behavioral demographics.
 * Complaints can often identify a risky data source or segment within the file. Risky is defined as most likely to complain, which can damage reputation, and in turn, inbox rates.
 
@@ -70,6 +70,6 @@ As part of ongoing reputation maintenance, it is important to understand how eng
 
 1. Determine active (‘safe’) segments for each vertical. This is typically subscribers who have been active within the last 3-6 months.
 1. Reduce frequency to inactives.
-1. Create a [re-engagement](../../delivery/using/re-engagement-best-practices.md) series for moderate risk inactives. This is typically 6-9 months without engagement.
+1. Create a [re-engagement](/help/additional-resources/re-engagement.md) series for moderate risk inactives. This is typically 6-9 months without engagement.
 1. Develop a reconfirmation campaign for higher risk inactives. This is typically subscribers who haven’t engaged with an email in 9-12 months.
 1. Finally, set a drop-off rule and remove subscribers who haven’t opened your emails in 'x' months. We typically recommend 12+ months, but this can differ based on sales and buying cycle.

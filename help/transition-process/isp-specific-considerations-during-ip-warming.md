@@ -18,3 +18,7 @@ See the [Internet service provider specifics](/help/internet-service-provider-sp
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft (Hotmail, Outlook, Windows Live etc.)](/help/internet-service-provider-specifics/microsoft.md)
 * [Verizon Media Group (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
+
+## Additional resources
+
+Learn more on increasing your email reputation with IP warming in [this section](/help/additional-resources/increase-reputation-with-ip-warming.md).

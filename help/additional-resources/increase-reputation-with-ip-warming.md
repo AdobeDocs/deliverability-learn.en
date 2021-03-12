@@ -23,7 +23,7 @@ Adobe requires customers to share their configuration to help the Adobe Delivera
 
 At the outset, you’ll be assigned your own dedicated IP (Internet Protocol) addresses. In the context of sending email, an IP address is the route that’s used to deliver your email messages to your customers. IP addresses and domains are used to identify senders on a network to the receiving ISPs. Adobe assigns the appropriate number of dedicated IP addresses for sending emails, based on your sending volume, email programs, data segmentation practices, and your contract.
 
-Related topics:
+**Related topics:**
 * [How to transition smoothly when switching email platforms](../../help/transition-process/switching-email-platforms.md)
 * [IP strategy](../../help/transition-process/infrastructure.md#ip-strategy)
 * [ISP-specific considerations during IP warming](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
@@ -36,7 +36,7 @@ ISPs will examine carefully the sending volume, send frequency, complaints, and 
 
 Naturally, this process of examining these data points takes time, and it cannot be achieved in a day or two. Reputation is built over time. This process is like letting a stranger in your home. Would you have reservations about having someone you have never met enter your home?
 
-Very likely the answer is yes. You would want to analyze this person and their motives. Do they mean harm? Are they a threat? ISPs do the same to protect their network from malicious or unwanted traffic. Positive reputation metrics will help you go a long way in a successful IP warming process. That’s why we stress the importance of starting off with sending small email volumes and starting to send to your highly engaged customers first. For more on this, see [Targeting criteria when sending new traffic](../../help/transition-process/targeting-criteria.md).
+Very likely the answer is yes. You would want to analyze this person and their motives. Do they mean harm? Are they a threat? ISPs do the same to protect their network from malicious or unwanted traffic. Positive reputation metrics will help you go a long way in a successful IP warming process. That’s why we stress the importance of starting off with sending small email volumes and starting to send to your highly engaged customers first. For more on this, see [Targeting criteria when sending new traffic](/help/transition-process/targeting-criteria.md).
 
 Sending large quantities of email from a brand new IP or IPs right out of the gate is a poor practice and will likely cause you some deliverability difficulties. It’s important to note that even if you start to send small volumes and gradually increase them as recommended, it is still necessary to follow email best practices.
 
@@ -58,7 +58,7 @@ Some of the data points examined are:
 * Email bounces
 * Subscriber engagement
 
-ISPs require very specific technical configurations that align with their policies and best practices. Adobe configures your IPs and delegated subdomains to identify you as a responsible and trusted sender. This is called [email authentication](../../help/transition-process/infrastructure.md#authentication). Authentication helps receivers validate whether a sender has the rights to send from that IP or domain.
+ISPs require very specific technical configurations that align with their policies and best practices. Adobe configures your IPs and delegated subdomains to identify you as a responsible and trusted sender. This is called [email authentication](/help/transition-process/infrastructure.md#authentication). Authentication helps receivers validate whether a sender has the rights to send from that IP or domain.
 
 Authentication allows the ISPs to validate that the company sending from a domain or IP has the right to do so. It’s essentially done to prove your identity and to make sure that you are not pretending to be someone else, and that someone else is not pretending to be you.
 
@@ -80,7 +80,7 @@ Remember that consistency is key here. Irregular sending volume patterns and inf
 
 ### Complaints
 
-[Complaints](../../help/metrics/complaints.md) occur when a subscriber labels an email as spam through their email program. This sends a notice to the ISP about the complaint activity. If there are enough of these complaints that come into the ISP, that ISP will act to protect its customers – possibly block a large number of emails from getting to the subscribers or direct a portion of emails to the bulk folder as opposed to subscribers' inboxes. If your delivery issue is caused by complaints, it’s important to determine why recipients are complaining.
+[Complaints](/help/metrics/complaints.md) occur when a subscriber labels an email as spam through their email program. This sends a notice to the ISP about the complaint activity. If there are enough of these complaints that come into the ISP, that ISP will act to protect its customers – possibly block a large number of emails from getting to the subscribers or direct a portion of emails to the bulk folder as opposed to subscribers' inboxes. If your delivery issue is caused by complaints, it’s important to determine why recipients are complaining.
 
 Subscribers complain for a variety of reasons. Sometimes a subscriber doesn’t want to receive any more email from you, perhaps because they feel they’re getting too many messages on the same topic, they weren’t expecting the message, or don’t remember signing up to receive your emails. 
 
@@ -96,7 +96,7 @@ ISPs look for consistent volume and good data quality. You will slowly and stead
 
 Email traffic should deploy in a slow and steady progression, increasing each week until the entire list has been sent. In addition, each segment will follow the schedule until completion. Start with the most recent subscribers first, and finish with the least engaged subscribers last. Please also note that certain ISPs may require a more customized approach due to how they handle new traffic.
 
-Learn more on [engagement](../../help/engagement.md).
+Learn more on [engagement](/help/engagement.md).
 
 ## Stay the course
 

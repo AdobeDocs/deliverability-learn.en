@@ -48,10 +48,6 @@ It is also a much better customer experience and will help to increase positive 
 
 A final key part of the reply-to strategy is that if you do have a real email address they can reply to, make sure someone is monitoring it and it’s not just an auto-response. If not monitored, the missed expectations can frustrate the customer and lead to complaints or lower engagement.
 
-## Additional resources
-
-Learn more on win-back strategies in the [Re-engagement best practices](../help/additional-resources/re-engagement.md) section.
-
 ## Product specific resources
 
 **Adobe Campaign Classic**
@@ -63,3 +59,8 @@ Learn more on win-back strategies in the [Re-engagement best practices](../help/
 
 * [Define the right audience](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
 * [Fatigue rules](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+
+## Additional resources
+
+Learn more on re-engagement (or win-back) strategies in [this section](/help/additional-resources/re-engagement.md).
+

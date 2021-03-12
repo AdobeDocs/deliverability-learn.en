@@ -22,19 +22,13 @@ While implementing deliverability, some of the best practices consist in trying 
 
 ## How do ISPs view non-engagement activity? {#how-do-isps-view-non-engagement-activity-}
 
-For years, ISPs have used engagement feedback metrics from their users to decide where to place messages, or whether at all they should deliver them. User engagement consists of both positive and negative feedback and ISPs monitor both on a constant basis. Having no engagement is perhaps one of the main contributors of negative engagement. From a deliverability perspective, consistently sending campaigns to users who show no engagement can also lower the overall reputation of your IP address and domains.
+For years, ISPs have used engagement feedback metrics from their users to decide where to place messages, or whether at all they should deliver them. User [engagement](/help/engagement.md) consists of both positive and negative feedback and ISPs monitor both on a constant basis. Having no engagement is perhaps one of the main contributors of negative engagement. From a deliverability perspective, consistently sending campaigns to users who show no engagement can also lower the overall reputation of your IP address and domains.
 
 ISPs such as AOL, Gmail, Microsoft and Yahoo! view non-engagement as unwanted email and start redirecting messages to the spam folder. Additionally, these subscribers may no longer own the email account and this can be used as a "recycled" spam trap. This means the address was invalid for some time and all messages are rejected. If your subscriber management system is not removing "hard bounced" addresses, it's very likely are mailing spam traps that lead to significant delivery issues.
 
 ## How should you approach inactivity? {#how-should-you-approach-inactivity-}
 
 Customers who use the Adobe platform can view inactivity within their instance by reviewing the open and click data according to the segment. Since non-engagement can hinder delivery, the first thought can be to just remove subscribers from the database. However, this may prove to be a wrong option in some cases. Therefore, a re-engagement (also known as a win-back) strategy is the best recommendation to retain the subscribers that are interested in receiving mail, and gradually phase out those who no longer show activity.
-
-**Related topics:**
-
-[Tracking logs in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
-[Tracking logs in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
-[Message tracking in Customer Journey Management](https://experienceleague.adobe.com/docs/customer-journey-management/using/reporting/message-tracking.html)
 
 ## Do re-engagement campaigns really work? {#do-re-engagement-campaigns-really-work-}
 
@@ -72,3 +66,14 @@ Subscribers that engage with the campaign by following the open or click activit
   Once the subscriber has taken an action, a landing page with the confirmation of their re-subscription can be offered. Below is an example of the landing page:
 
   ![](../../help/assets/deliverability_implementation_4.png)
+
+## Product specific resources
+
+**Adobe Campaign**
+
+* [Tracking logs in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
+* [Tracking logs in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
+
+**Adobe Customer Journey Management**
+
+* [Message tracking](https://experienceleague.adobe.com/docs/customer-journey-management/using/reporting/message-tracking.html)

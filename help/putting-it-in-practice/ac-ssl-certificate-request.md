@@ -198,10 +198,12 @@ Once configurations are updated, new emails will be sent with HTTPS URLs rather 
 * Upload an image from Adobe Campaign. Once the image gets uploaded, the URL returned should be HTTPS.
 * Create a test email delivery including a mirror page link, some images, text and an unsubscription link. Send out the email to an external email ID (such as your Gmail address). Once received, open the email and make sure all the links inside the email open correctly in their HTTPS form (not HTTP), without any SSL certificate warnings or errors.
 
-## Additional resources
+## Product specific resources
 
-The whole process and detailed steps to add SSL certificates and secure your subdomains **using the Control Panel** are presented on these tutorial pages:
+**Campaign Classic**
 
-* [Adding SSL certificates - Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html)
+* [Control Panel: Adding SSL certificates (tutorial)](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) - Learn how to add SSL certificates to secure your subdomains.
 
-* [Adding SSL certificates - Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html)
+**Campaign Standard**
+
+* [Control Panel: Adding SSL certificates (tutorial)](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) - Learn how to add SSL certificates to secure your subdomains.

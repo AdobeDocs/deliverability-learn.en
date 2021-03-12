@@ -34,11 +34,9 @@ It is important to form a well-structured IP strategy to help establish a positi
 * Separating traffic for messaging types is key. It is important to, at a bare minimum, separate marketing and transactional mail on separate IP pools.
 * Depending on your mail strategy, it may also be advisable to separate different products or marketing streams on different IP pools if your reputation is drastically different. Some marketers also segment by region. Separating the IP for traffic with a lower reputation will not fix the reputation issue, but it will prevent issues with your “good” reputation email deliveries. After all, you don’t want to sacrifice your good audience for a riskier one.
 
-## Feedback loops
+## Feedback loops {#feedback-loops}
 
 Behind the scenes, Adobe platforms are processing data regarding bounces, complaints, unsubscribes, and more. The setup of these feedback loops is an important aspect to deliverability. Complaints can damage a reputation, so you should email addresses that register complaints from your target audience. It’s important to note that Gmail doesn’t provide this data back. List unsubscribe headers and engagement filtering are especially important for Gmail subscribers, who now comprise the majority of subscriber databases.
-
-Learn more on implementing a feedback loop for a Campaign Classic instance in [this section](../../help/additional-resources/campaign-classic.md#feedback-loop-acc).
 
 ## Authentication {#authentication}
 
@@ -56,14 +54,16 @@ Authentication is the process that ISPs use to validate the identity of a sender
 
 [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC) is an authentication method that allows domain owners the ability to protect their domain from unauthorized use. DMARC uses SPF or DKIM or both to allow a domain owner to control what happens to mail that fails authentication: delivered, quarantined, or rejected.
 
-Learn more on SPF, DKIM, and DMARC authentication methods in [this section](../../help/additional-resources/authentication.md).
-
 ## Product specific resources
 
-**Campaign Standard**
+**Campaign**
 
-* [Control Panel: Full subdomain delegation (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html): *Learn how to fully delegate a subdomain to Adobe Campaign Standard.*
+* Learn how to fully delegate a subdomain to Adobe Campaign Classic or Standard in [this section](/help/putting-it-in-practice/ac-domain-name-setup.md).
+* [Control Panel: Full subdomain delegation (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Learn how to fully delegate a subdomain to Adobe Campaign Classic.*
+* [Control Panel: Full subdomain delegation (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Learn how to fully delegate a subdomain to Adobe Campaign Standard.*
+* Learn more on implementing a feedback loop for a Campaign Classic instance in [this section](/help/putting-it-in-practice/acc-technical-recommendations.md#feedback-loop-acc).
 
-**Campaign Classic**
+## Additional resources
 
-* [Control Panel: Full subdomain delegation (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html): *Learn how to fully delegate a subdomain to Adobe Campaign Classic.*
+* Learn more on SPF, DKIM, and DMARC authentication methods in [this section](/help/additional-resources/authentication.md).
+* Learn more on increasing your email reputation with IP warming in [this section](/help/additional-resources/increase-reputation-with-ip-warming.md).

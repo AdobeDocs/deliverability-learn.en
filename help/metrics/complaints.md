@@ -28,6 +28,10 @@ There are several anti-spam groups that allow for spam reporting at a broader le
 
 ## Product specific resources
 
+**Adobe Campaign Classic**
+
+* [Tracking indicators](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#tracking-indicators)
+
 **Adobe Campaign Standard**
 
-* [Complaints](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html#reporting) report
+* [Complaints report](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/complaints.html#reporting)
