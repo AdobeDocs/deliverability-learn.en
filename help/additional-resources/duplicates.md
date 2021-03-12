@@ -1,7 +1,8 @@
 ---
 title: Duplicates
 description:  Learn how to identify and limit duplicates to improve your deliverability when managing your platform.
-feature: Deliverability
+feature: Additional resources
+topics: Deliverability
 kt: 
 thumbnail: 
 doc-type: article

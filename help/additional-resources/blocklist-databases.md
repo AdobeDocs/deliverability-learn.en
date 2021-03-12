@@ -1,7 +1,8 @@
 ---
 title: Real-time Blackhole Lists
-description:  Learn about databases of IP addresses and domains that are reputed to be used by spammers.
-feature: Deliverability
+description:  Learn about databases of IP addresses and domains likely to be used by spammers.
+feature: Additional resources
+topics: Deliverability
 kt: 
 thumbnail: 
 doc-type: article

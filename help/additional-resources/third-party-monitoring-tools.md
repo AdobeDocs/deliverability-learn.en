@@ -1,7 +1,8 @@
 ---
 title: Third-party monitoring tools
 description:  Discover some external monitoring solutions in addition to the Adobe deliverability internal tools.
-feature: Deliverability
+feature: Additional resources
+topics: Deliverability
 kt: 
 thumbnail: 
 doc-type: article
@@ -24,3 +25,14 @@ team: ACS
 [250ok](https://250ok.com/) is a complementary monitoring solution to the Adobe deliverability internal tools which provides IP and domain denylists, and reputation indicators.
 
 The information provided is real-time, which allows for a pro-active assistance.
+
+
+## Product specific resources
+
+**Adobe Campaign Classic**
+
+* [Monitoring deliverability](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html) 
+
+**Adobe Campaign Standard**
+
+* [Monitoring deliverability](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=en#testing-and-sending)

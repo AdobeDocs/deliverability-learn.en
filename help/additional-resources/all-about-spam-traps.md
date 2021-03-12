@@ -1,7 +1,8 @@
 ---
 title: All about spam traps
 description:  Learn how to understand, identify, and avoid spam traps when managing deliverability.
-feature: Deliverability
+feature: Additional resources
+topics: Deliverability
 kt: 
 thumbnail: 
 doc-type: article
@@ -11,9 +12,7 @@ team: ACS
 
 # All about spam traps
 
-<!--CAN BE MOVED TO help/metrics/spam-traps.md-->
-
-A spam trap is a valid address, without error message when emails are sent to. A spam trap has a main mission: identify spammers or senders without data hygiene process.
+A [spam trap](/help/metrics/spam-traps.md) is a valid address, without error message when emails are sent to. A spam trap has a main mission: identify spammers or senders without data hygiene process.
 
 ## Who manages these spam trap addresses?
 The first type of spam trap addresses is the IP and Domain blocklist company such as SpamHaus, Sorbs, SpamCop. These companies have a huge network of addresses which are dispatched on various Internet pages as website, blog, forums so that theirs addresses are collected by spammers.

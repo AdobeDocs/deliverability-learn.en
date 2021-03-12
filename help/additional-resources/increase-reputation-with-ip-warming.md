@@ -1,7 +1,8 @@
 ---
 title: Increase your email reputation with IP warming
 description:  Learn why it is important to improve your email reputation with IP warming, and how to proceed for optimal deliverability.
-feature: Deliverability
+feature: Additional resources
+topics: Deliverability
 kt: 
 thumbnail: 
 doc-type: article

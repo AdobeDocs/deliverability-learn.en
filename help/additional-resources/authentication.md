@@ -1,7 +1,8 @@
 ---
 title: Authentication
 description:  Learn more on SPF, DKIM, and DMARC authentication methods in this section.
-feature: Deliverability
+feature: Additional resources
+topics: Deliverability
 kt: 
 thumbnail: 
 doc-type: article

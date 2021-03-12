@@ -1,7 +1,8 @@
 ---
 title: Troubleshooting
 description:  Learn how to identify and address deliverability issues.
-feature: Deliverability
+feature: Additional resources
+topics: Deliverability
 kt: 
 thumbnail: 
 doc-type: article

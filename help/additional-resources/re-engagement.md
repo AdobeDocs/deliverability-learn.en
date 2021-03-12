@@ -1,7 +1,8 @@
 ---
 title: Re-engagement best practices
 description:  Learn how to improve deliverability through re-engagement best practices.
-feature: Deliverability
+feature: Additional resources
+topics: Deliverability
 kt: 
 thumbnail: 
 doc-type: article
