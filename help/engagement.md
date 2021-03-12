@@ -62,5 +62,4 @@ A final key part of the reply-to strategy is that if you do have a real email ad
 
 ## Additional resources
 
-Learn more on re-engagement (or win-back) strategies in [this section](/help/additional-resources/re-engagement.md).
-
+* Learn more on re-engagement (or win-back) strategies in [this section](/help/additional-resources/re-engagement.md).

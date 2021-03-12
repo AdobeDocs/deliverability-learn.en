@@ -26,9 +26,5 @@ Typically, an engagement rate is based on a specific period of time. This metric
 
 **Campaign Standard**
 
-* [AI-powered emails: Predictive engagement scoring](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=en#predictive-scoring)
-
-**Campaign Classic**
-
-* [Improving your reputation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/improve-reputation.html)
+* [AI-powered emails: Predictive engagement scoring](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
   

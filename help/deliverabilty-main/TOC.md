@@ -43,7 +43,7 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
   + Customer Journey Management {#customer-journey-management}
   + Marketo {#marketo}
 + Additional resources {#additional-resources}
-  + [Overview](help/additional-resources/general-resources.md)
+  + [Overview](/help/additional-resources/general-resources.md)
   + [All about spam traps](/help/additional-resources/all-about-spam-traps.md)
   + [Increase your email reputation with IP warming](/help/additional-resources/increase-reputation-with-ip-warming.md)
   + [Authentication](/help/additional-resources/authentication.md)

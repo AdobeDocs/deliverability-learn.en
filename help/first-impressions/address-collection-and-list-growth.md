@@ -22,7 +22,7 @@ The most common form of **website sign-up** is “single opt-in.” This should 
 
 * Unconfirmed email addresses can have typos or be malformed, incorrect, or maliciously used. Typos and malformed addresses cause high bounce rates, which can and do provoke blocks issued by ISPs or IP reputation loss.
 
-* Malicious submission of known spam traps (sometimes called “list poisoning”) can cause huge problems with delivery and reputation if the owner of that trap takes action. It’s impossible to know if the recipient truly wants to be added to a marketing list without a confirmation. This makes it equally impossible to set the recipient's expectations and can lead to increased spam complaints—and sometimes blacklisting if the collected email happens to be a spam-trap.
+* Malicious submission of known spam traps (sometimes called “list poisoning”) can cause huge problems with delivery and reputation if the owner of that trap takes action. It’s impossible to know if the recipient truly wants to be added to a marketing list without a confirmation. This makes it equally impossible to set the recipient's expectations and can lead to increased spam complaints — and sometimes blocklisting if the collected email happens to be a spam trap.
   
 For guidance on how to minimize the issues presented in both physical store and single opt-in, go to the [Data quality and hygiene](#data-quality-and-hygiene) section in this guide for the details and benefits of double opt-in.
 
@@ -84,3 +84,13 @@ Collecting addresses at a booth or through another official, clearly branded met
 
 **Sweepstakes**
 Sweepstakes provide large numbers of email addresses quickly. But these subscribers want the prize, not your emails. They may not have even paid attention to the name of who would be reaching out to them. These subscribers are likely to complain and mark your mail as spam, and they may be unlikely to ever engage or make a purchase.
+
+## Product specific resources
+
+**Adobe Campaign Classic**
+
+* [Create a subscription form with double opt-in](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+
+**Adobe Campaign Standard**
+
+* [Double opt-in process](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)

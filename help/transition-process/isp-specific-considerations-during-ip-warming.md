@@ -21,4 +21,4 @@ See the [Internet service provider specifics](/help/internet-service-provider-sp
 
 ## Additional resources
 
-Learn more on increasing your email reputation with IP warming in [this section](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* Learn more on increasing your email reputation with IP warming in [this section](/help/additional-resources/increase-reputation-with-ip-warming.md).

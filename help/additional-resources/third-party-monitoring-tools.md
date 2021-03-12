@@ -26,13 +26,10 @@ team: ACS
 
 The information provided is real-time, which allows for a pro-active assistance.
 
-
 ## Product specific resources
 
-**Adobe Campaign Classic**
+**Adobe Campaign**
 
-* [Monitoring deliverability](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html) 
+* [Monitoring deliverability in Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html)
 
-**Adobe Campaign Standard**
-
-* [Monitoring deliverability](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=en#testing-and-sending)
+* [Monitoring deliverability in Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=en#testing-and-sending)

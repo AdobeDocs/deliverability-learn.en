@@ -26,4 +26,4 @@ A blocklisting occurs when a third-party blocklist manager registers spammer-lik
 
 ## Additional resources
 
-Learn more on [Real-time Blackhole Lists](/help/additional-resources/blocklist-databases.md) that maintain databases of IP addresses and domains likely to be used by spammers.
+* Learn more on [Real-time Blackhole Lists](/help/additional-resources/blocklist-databases.md) that maintain databases of IP addresses and domains likely to be used by spammers.

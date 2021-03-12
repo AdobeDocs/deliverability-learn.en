@@ -35,3 +35,17 @@ In many circumstances, transactional mail doesn’t follow the traditional promo
 2. Cart abandon—medium - high engagement generally
 3. Welcome emails — high engagement but can contain bad addresses depending on your list collection methods
 4. Winback emails — lower engagement generally
+
+## Product specific resources
+
+**Campaign**
+
+* Learn more about managing deliverability when starting a new platform with Adobe Campaign in [this section](/help/putting-it-in-practice/ac-starting-new-platform.md).
+* Learn how to send using multiple waves with Adobe Campaign Classic in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* Learn how to fully delegate a subdomain to Adobe Campaign Classic or Standard in [this section](/help/putting-it-in-practice/ac-domain-name-setup.md).
+* [Control Panel: Full subdomain delegation (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Learn how to fully delegate a subdomain to Adobe Campaign Classic.*
+* [Control Panel: Full subdomain delegation (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Learn how to fully delegate a subdomain to Adobe Campaign Standard.*
+
+## Additional resources
+
+* Learn more on increasing your email reputation with IP warming in [this section](/help/additional-resources/increase-reputation-with-ip-warming.md).

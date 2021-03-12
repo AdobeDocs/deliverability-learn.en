@@ -1,6 +1,6 @@
 ---
 title: Authentication
-description:  Learn more on SPF, DKIM, and DMARC authentication methods in this section.
+description:  Learn more on SPF, DKIM, and DMARC authentication methods.
 feature: Additional resources
 topics: Deliverability
 kt: 

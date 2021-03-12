@@ -35,4 +35,4 @@ Here are some ways to help identify a possible issue where you might need expert
 
 ## Additional resources
 
-Learn more on how you can address deliverability issues in [this section](/help/additional-resources/troubleshooting.md).
+* Learn how you can address deliverability issues in [this section](/help/additional-resources/troubleshooting.md).

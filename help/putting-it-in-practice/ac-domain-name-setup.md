@@ -1,7 +1,8 @@
 ---
 title: Domain name setup
-description:  Learn how to configure your Adobe product for domain name setup and delegation.
-feature: Deliverability
+description:  Learn how to delegate a subdomain to Adobe Campaign.
+feature: Putting it in practice
+topics: Deliverability
 kt: 
 thumbnail: 
 doc-type: article

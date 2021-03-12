@@ -55,7 +55,7 @@ ISPs use sophisticated technology in order to make educated decisions about whet
 Some of the data points examined are:
 
 * Spam trap hits
-* Blacklist hits
+* Blocklist hits
 * Email bounces
 * Subscriber engagement
 

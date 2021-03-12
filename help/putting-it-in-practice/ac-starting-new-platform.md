@@ -1,11 +1,13 @@
 ---
-solution: Campaign Classic
-product: campaign
-title: Starting a new platform with Adobe Campaign Classic
-description: Learn more about managing deliverability when starting a new platform with Adobe Campaign Classic.
-audience: delivery
-content-type: reference
-topic-tags: deliverability-management
+title: Starting a new platform
+description: Learn more about managing deliverability when starting a new platform with Adobe Campaign.
+feature: Putting it in practice
+topics: Deliverability
+kt: 
+thumbnail: 
+doc-type: article
+activity: understand
+team: ACS
 ---
 
 # Starting a new platform {#starting-new-platform}

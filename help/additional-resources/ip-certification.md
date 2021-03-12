@@ -1,6 +1,6 @@
 ---
 title: IP Certification
-description:  Learn about the IP Certification sending best practice program, to help ensure emails are received without being blocked.
+description:  Learn about the IP Certification sending best practice program, which helps ensuring emails are received without being blocked.
 feature: Additional resources
 topics: Deliverability
 kt: 

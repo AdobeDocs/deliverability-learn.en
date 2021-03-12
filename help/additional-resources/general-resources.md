@@ -21,5 +21,5 @@ This section lists a number of additional resources on deliverability, such as s
 * [Duplicates](../../help/additional-resources/duplicates.md)
 * [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)
 * [Re-engagement best practices](../../help/additional-resources/re-engagement.md)
-* [Blocklist databases](../../help/additional-resources/blocklist-databases.md)
+* [Real-time Blackhole Lists](../../help/additional-resources/blocklist-databases.md)
 * [Troubleshooting](../../help/additional-resources/troubleshooting.md)

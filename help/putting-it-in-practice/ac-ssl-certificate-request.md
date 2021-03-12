@@ -1,7 +1,8 @@
 ---
-title: CSR and SSL Certificate request process
-description:  Learn how to install SSL Certificates on the subdomains you delegated to Adobe.
-feature: Deliverability
+title: SSL Certificate request process
+description:  Learn how to install SSL certificates on the subdomains you delegated to Adobe.
+feature: Putting it in practice
+topics: Deliverability
 kt: 
 thumbnail: 
 doc-type: article

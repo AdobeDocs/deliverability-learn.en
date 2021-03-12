@@ -34,7 +34,9 @@ MX rules (Mail eXchanger) are the rules that manage communication between a send
 
 More precisely, they are used to control the speed at which the Adobe Campaign MTA (Message Transfer Agent) sends emails to each individual email domain or ISP (e.g. hotmail.com, comcast.net). These rules are typically based on limits published by the ISPs (e.g. do not include more than 20 messages per each SMTP connection).
 
-For more on MX management in Adobe Campaign Classic, refer to [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
+>[!NOTE]
+>
+>For more on MX management in Adobe Campaign Classic, refer to [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration).
 
 ### TLS {#tls}
 
@@ -189,7 +191,9 @@ The rule must contain the script that generates the command line and it must be 
 
    ![](../assets/s_tn_del_unsubscribe_param.png)
 
-Learn how to create typology rules in Adobe Campaign Classic in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+>[!NOTE]
+>
+>Learn how to create typology rules in Adobe Campaign Classic in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ## Email optimization {#email-optimization}
 
@@ -197,7 +201,9 @@ Learn how to create typology rules in Adobe Campaign Classic in [this section](h
 
 SMTP (Simple mail transfer protocol) is an Internet standard for email transmission.
 
-The SMTP errors that aren't checked by a rule are listed in the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Delivery log qualification]** folder. These error messages are by default interpreted as unreachable soft errors. The most common errors must be identified and a corresponding rule added in **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** if you wish to correctly qualify the feedback from the SMTP servers. Without this, the platform will perform unnecessary retries (case of unknown users) or wrongly place certain recipients in quarantine after a given number of tests.
+The SMTP errors that aren't checked by a rule are listed in the **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Delivery log qualification]** folder. These error messages are by default interpreted as unreachable soft errors.
+
+The most common errors must be identified and a corresponding rule added in **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Mail rule sets]** if you wish to correctly qualify the feedback from the SMTP servers. Without this, the platform will perform unnecessary retries (case of unknown users) or wrongly place certain recipients in quarantine after a given number of tests.
 
 ### Dedicated IPs {#dedicated-ips}
 
