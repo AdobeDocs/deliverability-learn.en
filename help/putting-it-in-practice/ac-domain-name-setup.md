@@ -14,6 +14,10 @@ team: ACS
 
 This document describes the business and technical requirements for domain name setup and delegation. You will need to select an email sending subdomain and, optionally, an externally facing subdomain to host web components (landing pages, opt-out page) for the Adobe platform you are using.
 
+>[!NOTE]
+>
+>You can also set up new subdomains using the Control Panel (available as beta). Learn more in [this section](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read).
+
 ## Subdomains
 
 With Adobe, digital marketing can truly become the contextual engine that powers your brand’s customer engagement marketing program.  Email continues to be the foundation of digital marketing programs. However, reaching the inbox has become more difficult than ever.
@@ -21,6 +25,7 @@ With Adobe, digital marketing can truly become the contextual engine that powers
 Creating a sub-domain for email campaigns allows brands to isolate varying types of traffic (marketing vs. corporate for example) into specific IP pools and with specific domains, which will speed the [IP warming process](../../help/additional-resources/increase-reputation-with-ip-warming.md) and improve deliverability overall. If you share a domain and it gets blocked or added to the block list it could impact your corporate mail delivery, but reputation issues or blocks on a domain specific to your email marketing communications will impact just that flow of email.  Using your main domain as the sender or ‘From’ address for multiple mail streams could also break email authentication, causing your messages to be blocked or placed in the spam folder. 
 
 ### Delegation
+
 Domain name delegation is a method that allows the owner of a domain name (technically: a DNS zone) to delegate a subdivision of it (technically: a DNS zone under it, which can be called a sub-zone) to another entity. Basically, if a customer is handling the zone "example.com", he can delegate the sub-zone "marketing.example.com" to Adobe Campaign.
 
 This means that Adobe Campaign’s DNS servers will have full authority on only that zone and not the top-level domain. Adobe Campaign’s DNS servers will provide authoritative answers to queries on domain names in that zone, such as "t.marketing.example.com" itself but not “www.example.com”.
@@ -35,7 +40,7 @@ Adobe to autonomously implement all the technical best practices to fully optimi
 In order to provide a cloud-based managed service, Adobe strongly encourages clients to use sub-domain delegation when deploying Adobe Campaign.  However, Adobe does offer clients an alternative option – CNAME setup – for configuring DNS.
 
 | Option | Description | Adobe Responsibilities | Client Responsibilities |
-|--- |--- |--- |--- |
+|--- |------- |--- |--- |
 | Sub-domain delegation to Adobe Campaign | Client delegates a sub-domain (email.example.com) to Adobe. In this scenario, Adobe is able to deliver the Campaign as a managed service by controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking of email campaigns. | Complete management of the sub-domain and all DNS records required for Adobe Campaign. | Proper delegation of the sub-domain to Adobe |
 |Use of CNAMEs | Client creates a sub-domain and uses CNAMEs to point to Adobe-specific records.  Using this setup, both Adobe and the customer share responsibility for maintaining DNS. | Management of DNS records required for Adobe Campaign. | Creation and control of the sub-domain and creation/management of the CNAME records required for Adobe Campaign. |
 
@@ -43,7 +48,7 @@ In order to provide a cloud-based managed service, Adobe strongly encourages cli
 
 | Record Type | Purpose | Examples Record/Content |
 |--- |--- |--- |
-| MX | Specify mail servers for incoming messages | <i>email.example.com</i></br><i>10 inbound.email.example.com</i>
+| MX | Specify mail servers for incoming messages | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF (TXT) | Sender Policy Framework | <i>email.example.com</i></br>"v=spf1 redirect=__spf.campaign.adobe.com" |
 | DKIM (TXT) | DomainKeys Identified Mail | <i>client._domainkey.email.example.com</i></br>"v=DKIM1; k=rsa;" "DKIMPUBLICKEY HERE" |
 | DMARC (TXT) | Domain-based Message Authentication | Reporting & Conformance | _dmarc.email.example.com</br>“v=DMARC1; p=none; rua=mailto:mailauth-reports@myemail.com” |
@@ -92,7 +97,7 @@ Complete the table below, first line is only an example.
 >[!NOTE]
 >
 >* The purpose of the “Reply-To Address” field is when you want the recipient to reply to a different address than the “From Address”.  While not a required field, Adobe strongly recommends that the “Reply-To Address” be valid and linked to a monitored mailbox.  This mailbox must be hosted by the customer.  It could be a support mailbox, e.g.  customercare@customer.com, where emails are read and responded to.
->* If no “Reply-To Address” is chosen by the customer, then the default address is always <tenant>-<type>-<env>@<subdomain>.
+>* If no “Reply-To Address” is chosen by the customer, then the default address is always `<tenant>-<type>-<env>@<subdomain>`.
 >* When the “Reply-To Address” is set up this way, replies will be sent to an unmonitored mailbox.
 >* When sending emails from Adobe Campaign, the “From Address” mailbox is not monitored and marketing users cannot access this mailbox. Adobe Campaign also does not offer the ability to Auto-Reply or Auto-Forward emails received in this mailbox.
 >* The Campaign From/Sender address and Error address cannot be “abuse” or “postmaster”.
@@ -166,6 +171,7 @@ Parameters established by Adobe are only valid from the time that the delegation
 These delegations will be accepted provided that the CLIENT chooses the associated domain names that are dedicated to deliveries via the Adobe Campaign tool, and that the delegation prerequisites detailed in the relevant document are correctly implemented.
 
 ## Discontinuation of services
+
 At any moment, the CLIENT will be able to make a written demand to no longer benefit from the delegation services and to take on the necessary DNS configurations themselves.
 
 If this should happen, Adobe will provide the CLIENT with an estimate detailing the number of service days necessary to return back to non-domain-delegation mode.

@@ -12,7 +12,7 @@ team: ACS
 
 # SSL certificate request process
 
-Once you have delegated a domain to Adobe for sending email (see [Domain name setup](../../help/additional-resources/domain-name-setup.md)), Adobe will create and use certain subdomains for specific functions.
+Once you have delegated a domain to Adobe for sending email (see [Domain name setup](/help/putting-it-in-practice/ac-domain-name-setup.md)), Adobe will create and use certain subdomains for specific functions.
 
 For example, if you have delegated *email.example.com* to Adobe for sending emails, Adobe will create subdomains such as the following:
 * *t.email.example.com* - for tracking links
@@ -39,7 +39,7 @@ To install SSL certificates on these subdomains, the process involves requesting
 | DER (Distinguished Encoding Rules) |  A certificate extension type. The .der extension is used for binary DER encoded certificates. These files may also support the .cer or .crt extension. |
 | EV (Extended Validation) certificate | An EV certificate is a new type of certificate that is designed to prevent phishing attacks. It requires extended validation of your business and of the person ordering the certificate. |
 | High assurance certificate | High assurance certificates are issued by the CA after verifying ownership of the domain name and valid business registration. |
-| Intermediate CA | A Certificate Authority of intermediate certificates included in a chain certificate.
+| Intermediate CA | A Certificate Authority of intermediate certificates included in a chain certificate. |
 | Intermediate certificate | A Certificate Authority issues certificates in the form of a tree structure. The root certificate is the top-most certificate of the tree. Any certificate between your certificate and the root certificate is called a chain or intermediate certificate. |
 | Low assurance certificate | A low assurance certificate, also referred as domain validated certificate, includes only the domain name in the certificate (and not the business/organization name). |
 | PEM (Privacy Enhanced Mail) | A certificate with a .pem extension which contains ASCII (Base64) data. Such certificates start with a " - - - - - BEGIN CERTIFICATE - - - - -" line. |
@@ -83,20 +83,32 @@ Here are a few best practices to follow:
 * It is possible to combine multiple subdomains into a single CSR request, but only within the same environment. For example, in Campaign Classic, the marketing server, the [mid-sourcing server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/mid-sourcing-server.html) and the [execution instance](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/creating-a-shared-connection.html) are three separate environments.
 * You must get a new CSR before any SSL certificate renewal. Do not use an old CSR file from one year ago or more.
 
-You will need to provide the following information :
+You will need to provide the following information.
+
+>[!CAUTION]
+>
+>All the fields indicated in the tables below must be filled in. Otherwise, the CSR request cannot be processed.
+
+**Information to provide with the assistance of the Adobe team:**
 
 | Information to provide | Example value | Note |
 |--- |--- |--- |
+| Client Name | My Company Inc.	| Name of your organization. This field is used by Adobe for tracking your request (it will not be part of the CSR/SSL certificate).
+| Adobe Campaign Environment URL | https://client-mid-prod1.campaign.adobe.com | Adobe Campaign instance URL.
 | Common Name [CN] | t.subdomain.customer.com | This can be any of the relevant domains, but usually the tracking domain. |
-| Instance URL | mycompany.campaign.adobe.com | Provide the Adobe instance URL. | 
-| Subject Alternative Name [SAN] | t.subdomain.customer.com</br>m.subdomain.customer.com</br>res.subdomain.customer.com | Make sure to include tracking subdomain as a SAN. |
-| State (or Province Name) [ST]	| Illinois | If applicable. The value must be a full name, not abbreviated. |
-| Organizational Unit Name [OU]	| IT |
+| Subject Alternative Name [SAN] | t.subdomain.customer.com | Make sure to include tracking subdomain as a SAN. |
+| Subject Alternative Name [SAN] | m.subdomain.customer.com |
+| Subject Alternative Name [SAN] | res.subdomain.customer.com |
+
+**Information to provide by your IT/SSL internal team:**
+
+| Information to provide | Example value | Note |
+|--- |--- |--- |
 | Country [C] | US | This must be a two-letter code. Access the full country list [here](https://www.ssl.com/csrs/country_codes/).</br>*Note: For United Kingdom, use GB (not UK).* |
-| Environment URL | https://client-mid-prod1.campaign.adobe.com |
-| Client Name | My Company Inc.	|
+| State (or Province Name) [ST]	| Illinois | If applicable. The value must be a full name, not abbreviated. |
 | City/Locality Name [L] | Chicago |
 | Organization Name [O] | ACME |
+| Organizational Unit Name [OU]	| IT |
 
 >[!NOTE]
 >

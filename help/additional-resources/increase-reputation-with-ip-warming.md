@@ -50,6 +50,7 @@ This is the most important component of managing and growing a subscriber email 
 Learn more on [Adobe’s Acceptable Use Policy](https://www.adobe.com/legal/terms/aup.html).
 
 ## Reputation Metrics: What are ISPs looking for?
+
 ISPs use sophisticated technology in order to make educated decisions about whether or not to deliver email they’re receiving from external networks. They sometimes have complicated and proprietary algorithms in their toolset to aid them in this process.
 
 Some of the data points examined are:
