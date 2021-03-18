@@ -93,8 +93,8 @@ You will need to provide the following information.
 
 | Information to provide | Example value | Note |
 |--- |--- |--- |
-| Client Name | My Company Inc.	| Name of your organization. This field is used by Adobe for tracking your request (it will not be part of the CSR/SSL certificate).
-| Adobe Campaign Environment URL | https://client-mid-prod1.campaign.adobe.com | Adobe Campaign instance URL.
+| Client Name | My Company Inc.	| Name of your organization. This field is used by Adobe for tracking your request (it will not be part of the CSR/SSL certificate). |
+| Adobe Campaign Environment URL | https://client-mid-prod1.campaign.adobe.com | Adobe Campaign instance URL. |
 | Common Name [CN] | t.subdomain.customer.com | This can be any of the relevant domains, but usually the tracking domain. |
 | Subject Alternative Name [SAN] | t.subdomain.customer.com | Make sure to include tracking subdomain as a SAN. |
 | Subject Alternative Name [SAN] | m.subdomain.customer.com |
