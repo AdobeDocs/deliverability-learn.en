@@ -97,8 +97,8 @@ You will need to provide the following information.
 | Adobe Campaign Environment URL | https://client-mid-prod1.campaign.adobe.com | Adobe Campaign instance URL. |
 | Common Name [CN] | t.subdomain.customer.com | This can be any of the relevant domains, but usually the tracking domain. |
 | Subject Alternative Name [SAN] | t.subdomain.customer.com | Make sure to include tracking subdomain as a SAN. |
-| Subject Alternative Name [SAN] | m.subdomain.customer.com |
-| Subject Alternative Name [SAN] | res.subdomain.customer.com |
+| Subject Alternative Name [SAN] | m.subdomain.customer.com |  |
+| Subject Alternative Name [SAN] | res.subdomain.customer.com |  |
 
 **Information to provide by your IT/SSL internal team:**
 
@@ -106,9 +106,9 @@ You will need to provide the following information.
 |--- |--- |--- |
 | Country [C] | US | This must be a two-letter code. Access the full country list [here](https://www.ssl.com/csrs/country_codes/).</br>*Note: For United Kingdom, use GB (not UK).* |
 | State (or Province Name) [ST]	| Illinois | If applicable. The value must be a full name, not abbreviated. |
-| City/Locality Name [L] | Chicago |
-| Organization Name [O] | ACME |
-| Organizational Unit Name [OU]	| IT |
+| City/Locality Name [L] | Chicago |  |
+| Organization Name [O] | ACME |  |
+| Organizational Unit Name [OU]	| IT |  |
 
 >[!NOTE]
 >
