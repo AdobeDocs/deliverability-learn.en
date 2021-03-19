@@ -13,6 +13,8 @@ team: ACS
 
 Email deliverability, a critical component to every sender’s marketing program success, is characterized by ever-changing criteria and rules. ISPs have a continual need to prevent spammers, so they’re obliged to develop sophisticated filtering techniques to protect their customers. Email senders can become unintentionally ensnared in those efforts. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.
 
+### Bad heading
+
 According to [!DNL Lifewire], more than 3.8 billion email addresses exist today. On top of that, social media consultants [!DNL Lori Lewis] and [!DNL Chad Callahan] report that 188 million emails are sent every minute, which encompasses more than half of the world’s population. But gone are the days of sending maximum amounts of email for minimal conversion. Reality is that consideration of volume alone puts your highly engaged customers at risk of not receiving their emails. This can have major revenue implications for you as a sender. Viewing email as a low-cost channel with unlimited potential is challenging and fragile.
 
 In this digital era, people expect to be wowed—quickly. They want that “ah ha” moment with everyone they choose to interact with, and competition is fierce. Between devices like computers, cell phones and smart home equipment, and the content supported, such as instant messaging, email, web, push and social media applications, consumers are incessantly bombarded with content. If a message isn’t compelling, they’re apt to delete it or entirely disengage.
