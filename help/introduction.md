@@ -32,7 +32,7 @@ This Deliverability Best Practice Guide covers the following topics:
 7. [Sender permanence](/help/sender-permanence.md)
 8. [Internet service provider specifics](/help/internet-service-provider-specifics/overview.md)
 9. [Ongoing monitoring](/help/ongoing-monitoring.md)
-10. [Putting it in practice](/help/putting-it-in-practice/how-to-reach-success.md)
+10. [Putting it in practice](/help/putting-it-in-practice/putting-it-in-practice.md)
 11. [Additional resources](/help/additional-resources/general-resources.md)
 
 ## Sources
