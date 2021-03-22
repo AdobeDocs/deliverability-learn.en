@@ -10,9 +10,7 @@ activity: understand
 team: TM
 ---
 
-# Putting it in practice
-
-## Reach deliverability success
+# Putting it in practice - Overview
 
 As we’ve covered in this guide, there are many nuances to deliverability and following best practices. 
 

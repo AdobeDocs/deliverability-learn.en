@@ -34,7 +34,7 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
   + [Verizon Media Group (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Ongoing monitoring](/help/ongoing-monitoring.md)
 + Putting it in practice {#putting-it-in-practice}
-  + [How to reach success](/help/putting-it-in-practice/how-to-reach-success.md)
+  + [Overview](/help/putting-it-in-practice/putting-it-in-practice.md)
   + Campaign {#campaign}
     + [Domain name setup](/help/putting-it-in-practice/ac-domain-name-setup.md)
     + [SSL certificate request process](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
