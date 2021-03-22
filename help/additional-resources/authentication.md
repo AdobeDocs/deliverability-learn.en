@@ -30,7 +30,7 @@ Checking the SPF provides an evaluation of the validity of the sender's domain:
 * **Neutral**: The domain queried does not enable evaluation.
 * **Pass**: The domain is considered authentic.
 * **Fail**: The domain is forged and the message should be rejected.
-* **SoftFail**: The domain is probably forged but the message should not be rejected solely on the basis of this result.
+* **SoftFail**: The domain is probably forged but the message should not be rejected solely based on this result.
 * **TempError**: A temporary error stopped the evaluation. The message can be rejected.
 * **PermError**: The SPF records of the domain are invalid.
 
@@ -38,7 +38,7 @@ It is worth noting that records made at the level of the DNS servers can take up
 
 ## DKIM {#dkim}
 
-DKIM (DomainKeys Identified Mail) authentication is a successor to SPF and uses public-key cryptography that allows the receiving email server to verify that a message was in fact sent by the person or entity it claims it was sent by, and whether or not the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the "From" or "Sender" header.
+DKIM (DomainKeys Identified Mail) authentication is a successor to SPF. It uses public-key cryptography that allows the receiving email server to verify that a message was in fact sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the "From" or "Sender" header.
 
 DKIM comes from a combination of the DomainKeys, Yahoo! and Cisco Identified Internet Mail authentication principles and is used to check the authenticity of the sender domain and guarantee the integrity of the message.
 
@@ -46,14 +46,14 @@ DKIM replaced **DomainKeys** authentication.
 
 Using DKIM requires some prerequisites:
 
-* **Security**: Encryption is a key element of the DKIM. To ensure the security level of the DKIM, 1024b is the best practice recommended encryption size. Lower DKIM keys will not be considered as valid by the majority of access providers.
-* **Reputation**: Reputation is based on the IP and/or the domain, but the less transparent DKIM selector is also a key element to be taken into account. Choosing the selector is important: avoid keeping the “default” one which could be used by anyone and therefore has a very weak reputation. You must implement a different selector for **retention vs. acquisition communications** and for authentication.
+* **Security**: Encryption is a key element of the DKIM. To ensure the security level of the DKIM, 1024b is the best practice recommended encryption size. Lower DKIM keys are not considered as valid by the majority of access providers.
+* **Reputation**: Reputation is based on the IP and/or the domain, but the less transparent DKIM selector is also a key element to be taken into account. Choosing the selector is important: avoid keeping the “default” one which could be used by anyone and therefore has a weak reputation. You must implement a different selector for **retention vs. acquisition communications** and for authentication.
 
 Learn more on DKIM prerequisite when using Campaign Classic in [this section](/help/putting-it-in-practice/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 
-DMARC (Domain-based Message Authentication, Reporting and Conformance) is the most recent form of email authentication, and it relies on both SPF and DKIM authentication to determine whether an email passes or fails. DMARC is unique and powerful in two very important ways:
+DMARC (Domain-based Message Authentication, Reporting and Conformance) is the most recent form of email authentication, and it relies on both SPF and DKIM authentication to determine whether an email passes or fails. DMARC is unique and powerful in two important ways:
 
 * Conformance – it allows the sender to instruct the ISPs on what to do with any message that fails to authenticate (for example: do not accept it).
 * Reporting – it provides the sender with a detailed report showing all messages that failed DMARC authentication, along with the "From" domain and IP address used for each. This allows a company to identify legitimate email that's failing authentication and needs some type of "fix" (for example, adding IP addresses to their SPF record), as well as the sources and prevalence of phishing attempts on their email domains.

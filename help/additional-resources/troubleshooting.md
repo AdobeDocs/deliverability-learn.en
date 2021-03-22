@@ -44,7 +44,7 @@ Ask yourself the following questions to identify the possible causes to your del
 [Complaints](/help/metrics/complaints.md) are defined by subscribers who report email as a spam by hitting the corresponding button from their inbox.
 
 If your delivery issue was caused by complaints:
-* You need to try to determine why recipients are complaining.
+* You must try to determine why recipients are complaining.
 * You may also want to consider moving your unsubscribe link to the top of your email. This will encourage subscribers to unsubscribe instead of complaining with the spam button.
 
 Senders can glean a wealth of information from their [feedback loop](/help/transition-process/infrastructure.md#feedback-loops) complaints:
@@ -65,7 +65,7 @@ Complaints also stem from subscribers who just no longer want to receive email:
 
 ### Engagement
 
-In addition to complaints and data validity, ISPs are concentrating more than ever on **positive engagement** to make delivery decisions. They are looking to see whether your subscribers are opening your emails, or deleting them without reading them. Because they don’t share this data with senders, we must utilize the information that we have available and translate opens/clicks/transactions as engagement. 
+In addition to complaints and data validity, ISPs are concentrating more than ever on **positive engagement** to make delivery decisions. They are looking to see whether your subscribers are opening your emails, or deleting them without reading them. Because they don’t share this data with senders, we must use the information that we have available and translate opens/clicks/transactions as engagement. 
 
 As part of ongoing reputation maintenance, it is important to understand how engaged subscribers are on your list and develop a **recency risk hierarchy** for the subscribers on each file. Recency is defined as last open/click/transact or sign-up date. This time-frame may differ by vertical. To do this:
 

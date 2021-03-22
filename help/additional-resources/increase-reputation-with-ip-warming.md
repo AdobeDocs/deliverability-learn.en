@@ -33,11 +33,11 @@ At the outset, you’ll be assigned your own dedicated IP (Internet Protocol) ad
 
 Internet Service Providers (ISPs) or Mailbox Providers (MBPs) take precautions when they detect an unfamiliar IP and sending domain. This is standard procedure associated with any new sending IPs, regardless of sender type. ISPs/MBPs put the IP and sending domain under high scrutiny to determine if the emails being sent from this IP and domain are spam or not.  This is standard procedure associated with any new sending IPs, regardless of sender type.
 
-ISPs will examine carefully the sending volume, send frequency, complaints, and bounce rates generated from these mailings. These are all checked closely because these are indicators of reputation of the sender – be it good or bad.
+ISPs examine carefully the sending volume, send frequency, complaints, and bounce rates generated from these mailings. These are all checked closely because they are indicators of reputation of the sender – be it good or bad.
 
 Naturally, this process of examining these data points takes time, and it cannot be achieved in a day or two. Reputation is built over time. This process is like letting a stranger in your home. Would you have reservations about having someone you have never met enter your home?
 
-Very likely the answer is yes. You would want to analyze this person and their motives. Do they mean harm? Are they a threat? ISPs do the same to protect their network from malicious or unwanted traffic. Positive reputation metrics will help you go a long way in a successful IP warming process. That’s why we stress the importance of starting off with sending small email volumes and starting to send to your highly engaged customers first. For more on this, see [Targeting criteria when sending new traffic](/help/transition-process/targeting-criteria.md).
+Very likely the answer is yes. You would want to analyze this person and their motives. Do they mean harm? Are they a threat? ISPs do the same to protect their network from malicious or unwanted traffic. Positive reputation metrics help you go a long way in a successful IP warming process. That’s why we stress the importance of starting off with sending small email volumes and starting to send to your highly engaged customers first. For more on this, see [Targeting criteria when sending new traffic](/help/transition-process/targeting-criteria.md).
 
 Sending large quantities of email from a brand new IP or IPs right out of the gate is a poor practice and will likely cause you some deliverability difficulties. It’s important to note that even if you start to send small volumes and gradually increase them as recommended, it is still necessary to follow email best practices.
 
@@ -60,31 +60,31 @@ Some of the data points examined are:
 * Email bounces
 * Subscriber engagement
 
-ISPs require very specific technical configurations that align with their policies and best practices. Adobe configures your IPs and delegated subdomains to identify you as a responsible and trusted sender. This is called [email authentication](/help/transition-process/infrastructure.md#authentication). Authentication helps receivers validate whether a sender has the rights to send from that IP or domain.
+ISPs require specific technical configurations that align with their policies and best practices. Adobe configures your IPs and delegated subdomains to identify you as a responsible and trusted sender. This is called [email authentication](/help/transition-process/infrastructure.md#authentication). Authentication helps receivers validate whether a sender has the rights to send from that IP or domain.
 
 Authentication allows the ISPs to validate that the company sending from a domain or IP has the right to do so. It’s essentially done to prove your identity and to make sure that you are not pretending to be someone else, and that someone else is not pretending to be you.
 
-At Adobe, we will configure SPF and DKIM by default and we will configure DMARC by request. ISPs reference SPF and DKIM as the primary forms of authentication. Many ISPs are also incorporating DMARC (Domain-based Message Authentication, Reporting & Conformance) into their filtering decisions. Unauthenticated emails aren’t necessarily blocked, but they’ll go through additional filtering.
+At Adobe, we will configure SPF and DKIM by default and we will configure DMARC by request. ISPs reference SPF and DKIM as the primary forms of authentication. Many ISPs are also incorporating DMARC (Domain-based Message Authentication, Reporting & Conformance) into their filtering decisions. Unauthenticated emails aren’t necessarily blocked, but they go through additional filtering.
 
 ## IP Warming: What to expect
 
 ### Throttled or blocked mail
 
-Spammers are sending from new IPs all the time – they will burn through a pool of IPs until they get shut down and repeat the process on another pool of IPs. As a result, ISPs treat traffic being sent from new IPs very carefully. They will block IPs from sending large amount of email because they will suspect that this is malicious activity being executed by spammers.
+Spammers are sending from new IPs all the time – they will burn through a pool of IPs until they get shut down and repeat the process on another pool of IPs. As a result, ISPs treat traffic being sent from new IPs carefully. They block IPs from sending large amount of email because they suspect that this is malicious activity being executed by spammers.
 
 Consequently, it’s not uncommon to receive deferral or throttled messages when you start mailing from your new IPs. After a few retries, the message is usually accepted and delivered.
 
-Achieving a normal flow of traffic through to the ISPs that defer new senders may take a few days. Even so, do not stop sending mail – just continue to focus on only sending to your most highly engaged email subscribers.
+Achieving a normal flow of traffic through to the ISPs that defer new senders may take a few days. Even so, do not stop sending mail – continue to focus on only sending to your most highly engaged email subscribers.
 
-In rare cases, the ISP blocks the new sender. Adobe will be monitoring your account, and if such a block is suspected, will reach out to the ISP to try and help remedy the situation in the best possible way.
+In rare cases, the ISP blocks the new sender. Adobe is monitoring your account, and if such a block is suspected, will reach out to the ISP to try and help remedy the situation in the best possible way.
 
 Remember that consistency is key here. Irregular sending volume patterns and infrequent mailing patterns will cause some deliverability challenges along the way.
 
 ### Complaints
 
-[Complaints](/help/metrics/complaints.md) occur when a subscriber labels an email as spam through their email program. This sends a notice to the ISP about the complaint activity. If there are enough of these complaints that come into the ISP, that ISP will act to protect its customers – possibly block a large number of emails from getting to the subscribers or direct a portion of emails to the bulk folder as opposed to subscribers' inboxes. If your delivery issue is caused by complaints, it’s important to determine why recipients are complaining.
+[Complaints](/help/metrics/complaints.md) occur when a subscriber labels an email as spam through their email program. This sends a notice to the ISP about the complaint activity. If there are enough of these complaints that come into the ISP, that ISP will act to protect its customers – possibly block many emails from getting to the subscribers or direct a portion of emails to the bulk folder as opposed to subscribers' inboxes. If your delivery issue is caused by complaints, it’s important to determine why recipients are complaining.
 
-Subscribers complain for a variety of reasons. Sometimes a subscriber doesn’t want to receive any more email from you, perhaps because they feel they’re getting too many messages on the same topic, they weren’t expecting the message, or don’t remember signing up to receive your emails. 
+Subscribers complain for various reasons. Sometimes a subscriber doesn’t want to receive any more email from you, perhaps because they feel they’re getting too many messages on the same topic, they weren’t expecting the message, or don’t remember signing up to receive your emails. 
 
 ### Data validity
 

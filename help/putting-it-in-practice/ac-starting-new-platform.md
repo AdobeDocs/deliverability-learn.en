@@ -39,7 +39,7 @@ Below are listed the main principles to be followed when starting up a new platf
 
 * **Progressively increase the volumes sent** to avoid being marked as spam. Do not target the whole database from the very start, but rather add an extra fraction of the list each time you send. This should enable you to increase the volume at each step while reducing the overall rate of invalid addresses. To ensure smooth development of the start-up phase, you can use waves.
 
-* **Send regularly**. To a certain extent it is better to send small shots regularly rather than large campaigns sporadically.
+* **Send regularly**. To a certain extent, it is better to send small shots regularly rather than large campaigns sporadically.
 * **Pay close attention to the delivery reports**. High error indicators can mean a technical setting is badly configured.
 
 ## Additional resources

@@ -27,7 +27,7 @@ To install SSL certificates on these subdomains, the process involves requesting
 >
 >Before installing an SSL certificate, make sure you are aware of the prerequisites listed on [this page](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate).
 >
->Adobe will only support up to 2048-bit certificates. 4096-bit certificates are not yet supported.
+>Adobe only supports up to 2048-bit certificates. 4096-bit certificates are not yet supported.
 
 ## Glossary
 
@@ -35,7 +35,7 @@ To install SSL certificates on these subdomains, the process involves requesting
 |--- |--- |
 | CA (Certificate Authority) | An SSL certificate provider that issues digital certificates to organizations or individuals after verifying their identity, such as DigiCert, Symantec, etc.<ul><li>A trusted CA is usually considered as a third-party CA which issues a root certificate.</li><li>If the certificate is signed by the same organization/company that is using the certificate, it is classified as untrusted CA even when they are SSL certificates, such as self-signed certificates.</li></ul> |
 | Chain certificate | A certificate which includes a root certificate and one or more intermediate certificates is called a chain (or chained) certificate. |
-| CSR (Certificate Signing Request) | A block of encoded text that is given to a Certificate Authority when applying for an SSL certificate. It is usually generated on the server where the certificate will be installed. |
+| CSR (Certificate Signing Request) | A block of encoded text that is given to a Certificate Authority when applying for an SSL certificate. It is usually generated on the server where the certificate is installed. |
 | DER (Distinguished Encoding Rules) |  A certificate extension type. The .der extension is used for binary DER encoded certificates. These files may also support the .cer or .crt extension. |
 | EV (Extended Validation) certificate | An EV certificate is a new type of certificate that is designed to prevent phishing attacks. It requires extended validation of your business and of the person ordering the certificate. |
 | High assurance certificate | High assurance certificates are issued by the CA after verifying ownership of the domain name and valid business registration. |
@@ -47,7 +47,7 @@ To install SSL certificates on these subdomains, the process involves requesting
 | SAN (Subject Alternative Name) | The subject alternative names are additional host names (sites, IP addresses, common names, etc.) that should be signed as part of a single SSL certificate. |
 | Self-signed certificate | A certificate that is signed by the person creating it rather than a trusted certificate authority. Self-signed certificates can enable the same level of encryption as a certificate signed by a CA, but there are two major drawbacks:<ul><li>A visitor's connection could be hijacked allowing an attacker to view all the data sent (thus defeating the purpose of encrypting the connection)</li><li> The certificate cannot be revoked like a trusted certificate can.</li></ul> |
 | SSL (Secure Sockets Layer) |  The standard security technology for establishing an encrypted link between a web server and a browser. |
-| Wildcard certificate | A wildcard certificate can secure an unlimited number of first level subdomains on a single domain name, such as *.adobe.com. |
+| Wildcard certificate | A wildcard certificate can secure an unlimited number of first-level subdomains on a single domain name, such as *.adobe.com. |
 
 ## Main steps
 
@@ -80,7 +80,7 @@ To obtain a CSR (Certificate Signing Request) file, follow the steps below.
 Here are a few best practices to follow:
 
 * Raise one request per delegated subdomain.
-* It is possible to combine multiple subdomains into a single CSR request, but only within the same environment. For example, in Campaign Classic, the marketing server, the [mid-sourcing server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/mid-sourcing-server.html) and the [execution instance](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/creating-a-shared-connection.html) are three separate environments.
+* It is possible to combine multiple subdomains into a single CSR request, but only within the same environment. For example, in Campaign Classic, the marketing server, the [mid-sourcing server](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/mid-sourcing-server.html), and the [execution instance](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/creating-a-shared-connection.html) are three separate environments.
 * You must get a new CSR before any SSL certificate renewal. Do not use an old CSR file from one year ago or more.
 
 You will need to provide the following information.
@@ -118,7 +118,7 @@ You will need to provide the following information.
 
 After submitting your request with the relevant information, Adobe generates and provides you with a Certificate Signing Request (CSR) file.
 
-The text in the resulting CSR file should start with **"-----BEGIN CERTIFICATE REQUEST-----"**.
+The text in the resulting CSR file must start with **"-----BEGIN CERTIFICATE REQUEST-----"**.
 
 Once you receive the CSR file from Adobe, follow the steps below:
 
@@ -138,7 +138,7 @@ Once the CSR file is provided, you must purchase and generate an SSL certificate
     * must be signed by a valid CA (Certification Authority);
     * must include all SANs (Subject Alternative Names) as mentioned in the CSR file.
 * If there are one or more intermediate certificates, you must provide the root certificate and all intermediate certificates to Adobe.
-* You can set any certificate validity period, but Adobe recommends to choose it long enough (two years for example).
+* You can set any certificate validity period, but Adobe recommends choosing it long enough (two years for example).
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ You’ll need to provide:
 
 ### Step 6 - Test the SSL certificate installation
 
-Once the SSL certificates is installed and confirmed by Adobe Customer Care, make sure that it has been successfully installed for all URLs.
+Once the SSL certificate is installed and confirmed by Adobe Customer Care, make sure that it has been successfully installed for all URLs.
 
 Perform the tests below before closing the SSL installation ticket. Also make sure you update any specific configuration as instructed in [this section](#update-configuration).
 
@@ -204,12 +204,12 @@ Once you are confident the requested SSL certificates are installed properly, yo
 
 >[!NOTE]
 >
->For Campaign Classic, the URLs to update are mainly located in the [Deployment wizard](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) and in the [External accounts](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/external-accounts.html#installing-campaign-classic) (tracking, mirror page and public resource domains). For Campaign Standard, refer to [Branding configuration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
+>For Campaign Classic, the URLs to update are mainly located in the [Deployment wizard](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) and in the [External accounts](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/external-accounts.html#installing-campaign-classic) (tracking, mirror page, and public resource domains). For Campaign Standard, refer to [Branding configuration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
 
 Once configurations are updated, new emails will be sent with HTTPS URLs rather than HTTP. To check the URLs are now secure, you can quickly perform the following tests: 
 
 * Upload an image from Adobe Campaign. Once the image gets uploaded, the URL returned should be HTTPS.
-* Create a test email delivery including a mirror page link, some images, text and an unsubscription link. Send out the email to an external email ID (such as your Gmail address). Once received, open the email and make sure all the links inside the email open correctly in their HTTPS form (not HTTP), without any SSL certificate warnings or errors.
+* Create a test email delivery including a mirror page link, some images, text, and an unsubscription link. Send out the email to an external email ID (such as your Gmail address). Once received, open the email and make sure all the links inside the email open correctly in their HTTPS form (not HTTP), without any SSL certificate warnings or errors.
 
 ## Product specific resources
 
