@@ -12,7 +12,7 @@ team: ACS
 
 # SSL certificate request process
 
-Once you have delegated a domain to Adobe for sending email (see [Domain name setup](/help/putting-it-in-practice/ac-domain-name-setup.md)), Adobe will create and use certain subdomains for specific functions.
+Once you have delegated a domain to Adobe for sending email (see [Domain name setup](/help/additional-resources/ac-domain-name-setup.md)), Adobe will create and use certain subdomains for specific functions.
 
 For example, if you have delegated *email.example.com* to Adobe for sending emails, Adobe will create subdomains such as the following:
 * *t.email.example.com* - for tracking links

@@ -40,9 +40,9 @@ In many circumstances, transactional mail doesn’t follow the traditional promo
 
 **Campaign**
 
-* Learn more about managing deliverability when starting a new platform with Adobe Campaign in [this section](/help/putting-it-in-practice/ac-starting-new-platform.md).
+* Learn more about managing deliverability when starting a new platform with Adobe Campaign in [this section](/help/additional-resources/ac-starting-new-platform.md).
 * Learn how to send using multiple waves with Adobe Campaign Classic in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
-* Learn how to fully delegate a subdomain to Adobe Campaign Classic or Standard in [this section](/help/putting-it-in-practice/ac-domain-name-setup.md).
+* Learn how to fully delegate a subdomain to Adobe Campaign Classic or Standard in [this section](/help/additional-resources/ac-domain-name-setup.md).
 * [Control Panel: Full subdomain delegation (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Learn how to fully delegate a subdomain to Adobe Campaign Classic.*
 * [Control Panel: Full subdomain delegation (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Learn how to fully delegate a subdomain to Adobe Campaign Standard.*
 

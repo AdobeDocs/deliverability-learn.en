@@ -33,19 +33,20 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
   + [Microsoft (Hotmail, Outlook, Windows Live etc.)](/help/internet-service-provider-specifics/microsoft.md)
   + [Verizon Media Group (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Ongoing monitoring](/help/ongoing-monitoring.md)
-+ Putting it in practice {#putting-it-in-practice}
-  + [Overview](/help/putting-it-in-practice/putting-it-in-practice.md)
-  + Campaign {#campaign}
-    + [Domain name setup](/help/putting-it-in-practice/ac-domain-name-setup.md)
-    + [SSL certificate request process](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
-    + [Starting a new platform](/help/putting-it-in-practice/ac-starting-new-platform.md)
-    + [Campaign Classic - Technical recommendations](/help/putting-it-in-practice/acc-technical-recommendations.md)
-+ Additional resources {#additional-resources}
++ [Putting it in practice](/help/putting-it-in-practice.md)
++ Apendix: Additional resources {#additional-resources}
   + [Overview](/help/additional-resources/general-resources.md)
-  + [All about spam traps](/help/additional-resources/all-about-spam-traps.md)
-  + [Increase your email reputation with IP warming](/help/additional-resources/increase-reputation-with-ip-warming.md)
-  + [Authentication](/help/additional-resources/authentication.md)
-  + [Duplicates](/help/additional-resources/duplicates.md)
-  + [Re-engagement best practices](/help/additional-resources/re-engagement.md)
-  + [Real-time Blackhole Lists](/help/additional-resources/blocklist-databases.md)
-  + [Troubleshooting](/help/additional-resources/troubleshooting.md)
+  + Generic resources {#generic-resources}
+    + [All about spam traps](/help/additional-resources/all-about-spam-traps.md)
+    + [Increase your email reputation with IP warming](/help/additional-resources/increase-reputation-with-ip-warming.md)
+    + [Authentication](/help/additional-resources/authentication.md)
+    + [Duplicates](/help/additional-resources/duplicates.md)
+    + [Re-engagement best practices](/help/additional-resources/re-engagement.md)
+    + [Real-time Blackhole Lists](/help/additional-resources/blocklist-databases.md)
+    + [Troubleshooting](/help/additional-resources/troubleshooting.md)
+  + Product specific resources {#product-specific-resources}
+    + Campaign {#campaign}
+      + [Domain name setup](/help/additional-resources/ac-domain-name-setup.md)
+      + [SSL certificate request process](/help/additional-resources/ac-ssl-certificate-request.md)
+      + [Starting a new platform](/help/additional-resources/ac-starting-new-platform.md)
+      + [Campaign Classic - Technical recommendations](/help/additional-resources/acc-technical-recommendations.md)
