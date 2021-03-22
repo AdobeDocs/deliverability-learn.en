@@ -31,15 +31,7 @@ Additionally, this section lists a number of product-specific resources to help 
 
 **Campaign**
 
-* [Domain name setup](../../help/putting-it-in-practice/ac-domain-name-setup.md)
-* [CSR and SSL certificate request process](../../help/putting-it-in-practice/ac-ssl-certificate-request.md)
-* [Starting a new platform](../../help/putting-it-in-practice/ac-starting-new-platform.md)
-* [Campaign Classic - Technical recommendations](../../help/putting-it-in-practice/acc-technical-recommendations.md)
-
-<!--
-
-**Customer Journey Management**
-
-**Marketo**
-
--->
+* [Domain name setup](/help/putting-it-in-practice/ac-domain-name-setup.md)
+* [CSR and SSL certificate request process](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
+* [Starting a new platform](/help/putting-it-in-practice/ac-starting-new-platform.md)
+* [Campaign Classic - Technical recommendations](/help/putting-it-in-practice/acc-technical-recommendations.md)
