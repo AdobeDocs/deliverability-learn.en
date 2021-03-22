@@ -20,10 +20,10 @@ Content is key. You’ve already read our perspective on relevance, but here are
 
 ## Product specific resources
 
-**Campaign Standard**
-
-* [Controlling email content (product documentation)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=en#testing-and-sending)
-
 **Campaign Classic**
 
-* [Controlling your message content (product documentation)](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+* [Controlling your message content](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
+
+**Campaign Standard**
+
+* [Controlling email content](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)

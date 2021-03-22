@@ -50,7 +50,16 @@ A final key part of the reply-to strategy is that if you do have a real email ad
 
 ## Product specific resources
 
+**Adobe Campaign Classic**
+
+* [Define the right audience](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
+* [Pressure rules](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+
 **Adobe Campaign Standard**
 
 * [Define the right audience](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [Fatigue rules (product documentation)](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [Fatigue rules](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+
+## Additional resources
+
+* Learn more on re-engagement (or win-back) strategies in [this section](/help/additional-resources/re-engagement.md).
