@@ -49,7 +49,7 @@ Using DKIM requires some prerequisites:
 * **Security**: Encryption is a key element of the DKIM. To ensure the security level of the DKIM, 1024b is the best practice recommended encryption size. Lower DKIM keys are not considered as valid by the majority of access providers.
 * **Reputation**: Reputation is based on the IP and/or the domain, but the less transparent DKIM selector is also a key element to be taken into account. Choosing the selector is important: avoid keeping the “default” one which could be used by anyone and therefore has a weak reputation. You must implement a different selector for **retention vs. acquisition communications** and for authentication.
 
-Learn more on DKIM prerequisite when using Campaign Classic in [this section](/help/putting-it-in-practice/acc-technical-recommendations.md#dkim-acc).
+Learn more on DKIM prerequisite when using Campaign Classic in [this section](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 

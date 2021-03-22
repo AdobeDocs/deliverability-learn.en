@@ -58,10 +58,10 @@ Authentication is the process that ISPs use to validate the identity of a sender
 
 **Campaign**
 
-* Learn how to fully delegate a subdomain to Adobe Campaign Classic or Standard in [this section](/help/putting-it-in-practice/ac-domain-name-setup.md).
+* Learn how to fully delegate a subdomain to Adobe Campaign Classic or Standard in [this section](/help/additional-resources/ac-domain-name-setup.md).
 * [Control Panel: Full subdomain delegation (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Learn how to fully delegate a subdomain to Adobe Campaign Classic.*
 * [Control Panel: Full subdomain delegation (tutorial)](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *Learn how to fully delegate a subdomain to Adobe Campaign Standard.*
-* Learn more on implementing a feedback loop for a Campaign Classic instance in [this section](/help/putting-it-in-practice/acc-technical-recommendations.md#feedback-loop-acc).
+* Learn more on implementing a feedback loop for a Campaign Classic instance in [this section](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## Additional resources
 
