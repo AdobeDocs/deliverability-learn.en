@@ -34,7 +34,7 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
   + [Verizon Media Group (Yahoo, AOL, Verizon, etc.)](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [Ongoing monitoring](/help/ongoing-monitoring.md)
 + [Putting it in practice](/help/putting-it-in-practice.md)
-+ Apendix: Additional resources {#additional-resources}
++ Appendix: Additional resources {#additional-resources}
   + [Overview](/help/additional-resources/general-resources.md)
   + Generic resources {#generic-resources}
     + [All about spam traps](/help/additional-resources/all-about-spam-traps.md)
