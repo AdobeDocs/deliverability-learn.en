@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 solution: Experience Cloud
 product: experience cloud
 type: Tutorial
