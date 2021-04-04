@@ -8,8 +8,8 @@ thumbnail:
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
 ---
-
 # SSL certificate request process
 
 Once you have delegated a domain to Adobe for sending email (see [Domain name setup](/help/additional-resources/ac-domain-name-setup.md)), Adobe will create and use certain subdomains for specific functions.

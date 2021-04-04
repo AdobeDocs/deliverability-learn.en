@@ -7,8 +7,8 @@ kt: 5319
 doc-type: article
 activity: understand
 team: TM
+exl-id: d706cb90-828a-4ab3-8f93-c9bd71553d63
 ---
-
 # [!DNL Microsoft] ([!DNL Hotmail], [!DNL Outlook], [!DNL Windows Live], etc.) 
 
 [!DNL Microsoft] is generally the second- or third- largest provider depending on the makeup of your list, and they do handle traffic slightly different from other ISPs.

@@ -8,8 +8,8 @@ thumbnail: kt7047.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 6338eb67-3efd-476e-8b26-97bbb6a1d35f
 ---
-
 # Bounces
 
 Bounces are the result of a delivery attempt and failure where the ISP provides back failure notices. Bounce handling processing is a critical part of list hygiene. After a given email has bounced several times in a row, this process flags it for suppression. The number and type of bounces required to trigger suppression vary from system to system. This process prevents systems from continuing to send invalid email addresses. Bounces are one of the key pieces of data that ISPs use to determine IP reputation. Keeping an eye on this metric is very important. “Delivered” versus “bounced” is probably the most common way of measuring the delivery of marketing messages: the higher the delivered percentage is, the better.

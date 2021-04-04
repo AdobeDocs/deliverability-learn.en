@@ -8,8 +8,8 @@ thumbnail: kt7051.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 4b280f90-73b9-4b88-adb8-57b6a46ddad7
 ---
-
 # Bulking and blocking
 
 ## Bulking

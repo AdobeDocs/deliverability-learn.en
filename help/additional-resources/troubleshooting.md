@@ -8,8 +8,8 @@ thumbnail:
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 4cc85124-e7e4-4cd5-99a9-23d2d8cf08fe
 ---
-
 # Deliverability troubleshooting {#troubleshooting}
 
 Below are a few best practices that can help to identify and address deliverability issues.

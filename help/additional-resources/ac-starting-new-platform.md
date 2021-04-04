@@ -8,8 +8,8 @@ thumbnail:
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 6c9ade01-3052-4311-af80-888294820024
 ---
-
 # Starting a new platform {#starting-new-platform}
 
 Maintaining your domain and IP address reputation is essential when setting up a new platform to use with Adobe Campaign.

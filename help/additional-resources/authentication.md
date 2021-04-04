@@ -8,8 +8,8 @@ thumbnail:
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 03609139-b39b-4051-bcde-9ac7c5358b87
 ---
-
 # Authentication
 
 ## SPF {#spf}

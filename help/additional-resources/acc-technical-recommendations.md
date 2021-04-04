@@ -8,8 +8,8 @@ thumbnail:
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
 ---
-
 # Campaign Classic - Technical recommendations {#technical-recommendations}
 
 Several techniques, configurations, and tools that you can use to improve your deliverability rate when using Adobe Campaign Classic are listed below.

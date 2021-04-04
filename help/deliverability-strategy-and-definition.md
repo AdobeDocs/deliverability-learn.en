@@ -8,8 +8,8 @@ thumbnail: kt5255.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
 ---
-
 # Deliverability strategy and definition
 
 Designing successful email marketing campaigns depends on having a clear understanding of marketing goals, whether they’re for prospecting or customer relationship management (CRM) initiatives. This helps to determine who to target, what to promote, and when outreach is ideal.

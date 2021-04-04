@@ -8,8 +8,8 @@ thumbnail: kt5261.jpg
 doc-type: article
 activity: understand
 team: TM
+exl-id: f57de522-1361-43a3-8f8b-f9a191986529
 ---
-
 # Sender permanence
 
 Sending permanence is the process of establishing a consistent sending volume and strategy in order to maintain ISP reputation. Here are some reasons why sender permanence is important:

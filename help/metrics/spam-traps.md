@@ -8,8 +8,8 @@ thumbnail: kt7050.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: ffacc1b1-bf3f-466e-9a1d-63aad4d2ec45
 ---
-
 # Spam traps
 
 Spam traps exist to help identify mail from fraudulent senders or those that aren’t following email best practices. The spam trap email address is generally not publicly published and are almost impossible to identify. Delivering email to spam traps can impact your reputation with varying degrees of severity depending on the type of trap and the ISP. Learn more about the different types of spam traps in the following sections.
@@ -44,4 +44,3 @@ A pristine spam trap is an address that has no end user and has never had an end
 
 * [Preview your email and anti-spam analysis](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html#designing-content)
 * [Double opt-in process](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
-  

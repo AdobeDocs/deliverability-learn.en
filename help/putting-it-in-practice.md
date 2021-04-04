@@ -8,8 +8,8 @@ thumbnail: kt5264.jpg
 doc-type: article
 activity: understand
 team: TM
+exl-id: 49988fd7-6e1d-4f00-abc2-77d16662543a
 ---
-
 # Putting it in practice
 
 As we’ve covered in this guide, there are many nuances to deliverability and following best practices. 

@@ -7,8 +7,8 @@ thumbnail: kt5321.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 ---
-
 # Introduction to deliverability best practices
 
 Email deliverability, a critical component to every sender’s marketing program success, is characterized by ever-changing criteria and rules. ISPs have a continual need to prevent spammers, so they’re obliged to develop sophisticated filtering techniques to protect their customers. Email senders can become unintentionally ensnared in those efforts. Effectively navigating in this digital world requires regular tuning of your email strategy, with consideration to key deliverability trends, to best reach your audiences.

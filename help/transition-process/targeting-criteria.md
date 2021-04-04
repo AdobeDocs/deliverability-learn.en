@@ -8,8 +8,8 @@ thumbnail: kt7053.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: e6a855ba-a929-477f-a339-6861a755a529
 ---
-
 # Targeting criteria
 
 When sending new traffic, only target your highest engaged users during the early phases of IP warming. This helps establish a positive reputation from the get-go to effectively build trust before rolling in your less engaged audiences. Here’s a basic formula for engagement:
@@ -27,4 +27,3 @@ Typically, an engagement rate is based on a specific period of time. This metric
 **Campaign Standard**
 
 * [AI-powered emails: Predictive engagement scoring](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
-  

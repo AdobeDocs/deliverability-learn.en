@@ -8,8 +8,8 @@ thumbnail:
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 45cdcda0-70e4-47f4-8713-a834500e7881
 ---
-
 # All about spam traps
 
 A [spam trap](/help/metrics/spam-traps.md) is a valid address, without error message when emails are sent to. A spam trap has a main mission: identify spammers or senders without data hygiene process.

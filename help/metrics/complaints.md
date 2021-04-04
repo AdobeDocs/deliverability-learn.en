@@ -8,8 +8,8 @@ thumbnail: kt7048.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 0343820d-f5af-4b8a-bcab-dbb47ae7aecb
 ---
-
 # Complaints
 
 Complaints are registered when a user indicates that an email is unwanted or unexpected. This subscriber action is typically logged through either the subscriber’s email client when they hit the spam button or via a third-party spam reporting system.

@@ -7,8 +7,8 @@ kt:
 doc-type: article
 activity: understand
 team: TM
+exl-id: cf0c9ccf-ae67-4f95-a8cf-1e23b657aa16
 ---
-
 # Internet service provider specifics
 
 ISPs aren’t all the same. They focus on different things when determining what email to allow through to their users’ inbox and what email gets filtered to the spam folder or not let through at all.

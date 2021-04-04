@@ -8,8 +8,8 @@ thumbnail: kt7063.jpg
 doc-type: article
 activity: understand
 team: TM
+exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 ---
-
 # Address collection and list growth
 
 The best sources of new email addresses are direct sources like sign-ups on your website or in physical stores. In those situations, you can control the experience to make sure it’s positive and that the subscriber is interested in getting email from your brand.
@@ -94,4 +94,3 @@ Sweepstakes provide large numbers of email addresses quickly. But these subscrib
 **Adobe Campaign Standard**
 
 * [Double opt-in process](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
-

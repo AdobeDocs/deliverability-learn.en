@@ -8,8 +8,8 @@ thumbnail: kt5256.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: d781a0b6-5670-4958-8649-f061e7e9a84f
 ---
-
 # Metrics for deliverability
 
 One of the best ways to identify a sending reputation issue is through the metrics. Let’s take a look at some key deliverability metrics to monitor and how to use them to identify a reputation issue.

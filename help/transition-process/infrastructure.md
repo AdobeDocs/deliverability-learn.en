@@ -8,8 +8,8 @@ thumbnail: kt7052.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
 ---
-
 # Infrastructure
 
 Successful deliverability depends on a strong foundation. Email infrastructure is a core element. A properly constructed email infrastructure includes multiple components - namely domain(s) and IP address(es). These components are like the machinery behind the emails you send and they are oftentimes the anchor of sending reputation. Deliverability consultants ensure that these elements are set up properly during implementation, but due to the reputation element, it is important for you to have this basic understanding.

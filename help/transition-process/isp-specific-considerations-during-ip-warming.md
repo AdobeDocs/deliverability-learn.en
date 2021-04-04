@@ -7,8 +7,8 @@ thumbnail: kt7054.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 7d61c81c-aa40-47a6-9869-1953a6ad22b2
 ---
-
 # ISP-specific considerations during IP warming
 
 ISPs have different rules and different ways of looking at their traffic. For example, Gmail is one of the most sophisticated ISPs because they look at engagement very strictly (opens and clicks) in addition to all other reputation measures. This requires a customized plan that only targets the highest engaged users at the onset. Other ISPs may require the same as well. Work with your Adobe deliverability consultant for a specific plan.

@@ -8,8 +8,8 @@ thumbnail: kt7055.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
 ---
-
 # Volume
 
 The volume of mail you’re sending is critical to establishing a positive reputation. Put yourself in an ISPs shoes — if you start seeing a ton of traffic from someone you don’t know, it would be alarming. Sending large volume of mail right away is risky and is sure to cause reputation issues that are often difficult to resolve. It can be frustrating, time consuming, and costly to dig yourself out of poor reputation and bulking and blocking issues resulting from sending too much too soon.

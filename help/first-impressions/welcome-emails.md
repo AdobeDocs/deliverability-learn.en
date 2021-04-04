@@ -8,8 +8,8 @@ thumbnail: kt7064.jpg
 doc-type: article
 activity: understand
 team: TM
+exl-id: 1007b0ea-7a62-4b46-ba32-191df64a15be
 ---
-
 # Welcome emails
 
 ## Developing a welcome strategy

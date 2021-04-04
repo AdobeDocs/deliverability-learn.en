@@ -8,8 +8,8 @@ thumbnail:
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
 ---
-
 # Re-engagement best practices {#re-engagement}
 
 While implementing deliverability, some of the best practices consist in trying to maintain a healthy subscriber base and improve deliverability through re-engagement (or win-back) strategies.

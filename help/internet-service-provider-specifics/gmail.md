@@ -7,8 +7,8 @@ kt: 5262
 doc-type: article
 activity: understand
 team: TM
+exl-id: a7319c85-32b5-4a9e-bee9-24f13630c408
 ---
-
 # [!DNL Gmail]
 
 [!DNL Gmail] makes up the largest portion of most senders’ email lists. They also tend to treat email a bit differently than everyone else.

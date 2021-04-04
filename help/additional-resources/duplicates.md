@@ -8,8 +8,8 @@ thumbnail:
 doc-type: article
 activity: understand
 team: ACS
+exl-id: f89dbb38-a8d4-4294-b017-6fed72591593
 ---
-
 # Duplicates {#duplicates}
 
 Having duplicate email addresses can have multiple consequences:

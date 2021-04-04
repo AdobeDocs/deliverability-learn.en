@@ -8,8 +8,8 @@ thumbnail: kt5260.jpg
 doc-type: article
 activity: understand
 team: TM
+exl-id: f0172fa5-1c7e-4ccc-8ac5-4357611d13ec
 ---
-
 # Content best practices for optimal deliverability
 
 Content is key. You’ve already read our perspective on relevance, but here are a few additional tips to optimizing your deliverability when it comes to content:
