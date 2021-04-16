@@ -2,6 +2,7 @@
 cloud: Experience Cloud
 solution: Experience Cloud
 product: experience cloud
+feature-set: Campaign
 type: Tutorial
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/deliverability-learn.en
