@@ -50,3 +50,6 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
       + [SSL certificate request process](/help/additional-resources/ac-ssl-certificate-request.md)
       + [Starting a new platform](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic - Technical recommendations](/help/additional-resources/acc-technical-recommendations.md)
++ Technotes (hidden)
+  + [Apple Privacy](/help/apple-privacy-faq.md)
+
