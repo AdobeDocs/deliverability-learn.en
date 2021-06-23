@@ -1,12 +1,12 @@
 ---
-title: Apple Mail Privacy Protection FAQ June 23 2021
-description: Apple Mail Privacy Protection FAQ June 23 2021
+title: Apple Mail Privacy Protection FAQ
+description: Apple Mail Privacy Protection FAQ
 feature: Deliverability
 topics: Deliverability
 hide: yes
 hidefromtoc: yes
 ---
-# Apple Mail Privacy Protection FAQ June 23 2021
+# Apple Mail Privacy Protection FAQ
 
 This FAQ provides initial guidance in response to Apple’s announcement regarding their iOS 15 release, including [Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). These changes are coming in September, and we will continue to update this document and provide guidance to our customers.
 
