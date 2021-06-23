@@ -24,8 +24,7 @@ Tracking pixels within Apple Mail will be disabled, which means that marketers w
 
 ## Are there other impacts?
 
-Apple will, by default, hide IP address information in its native Mail app, Safari browser, and iCloud services. Measuring open rates is not the only aspect of email marketing impacted by Apple’s Mail Privacy Protection. Email opens drive send-time optimization strategies, real-time personalization, re-engagement campaigns, and automated multi-wave campaigns. These changes mean that marketers
-must begin planning to determine what these strategies will look like for Apple users once iOS 15 is released and the privacy protection capabilities take hold this fall. Adobe will help our customers navigate these changes with updates, guidance and thought leadership.
+Apple will, by default, hide IP address information in its native Mail app, Safari browser, and iCloud services. Measuring open rates is not the only aspect of email marketing impacted by Apple’s Mail Privacy Protection. Email opens drive send-time optimization strategies, real-time personalization, re-engagement campaigns, and automated multi-wave campaigns. These changes mean that marketers must begin planning to determine what these strategies will look like for Apple users once iOS 15 is released and the privacy protection capabilities take hold this fall. Adobe will help our customers navigate these changes with updates, guidance and thought leadership.
 
 ## Does this announcement pertain to all emails opened on an Apple device?
 
