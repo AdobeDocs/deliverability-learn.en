@@ -1,6 +1,6 @@
 ---
 title: ISP-specific considerations during IP warming
-description: 
+description: ISPs have different rules and different ways of looking at their traffic. This requires a customized plan that targets only the highest engaged users at the onset.
 topics: Deliverability
 kt: 7054
 thumbnail: kt7054.jpg
