@@ -1,7 +1,6 @@
 ---
 title: All about spam traps
 description:  Learn how to understand, identify, and avoid spam traps when managing deliverability.
-feature: Additional resources
 topics: Deliverability
 kt: 
 thumbnail: 

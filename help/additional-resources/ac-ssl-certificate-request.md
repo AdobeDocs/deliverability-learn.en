@@ -1,7 +1,6 @@
 ---
 title: SSL Certificate request process
 description:  Learn how to install SSL certificates on the subdomains you delegated to Adobe.
-feature: Putting it in practice
 topics: Deliverability
 kt: 
 thumbnail: 

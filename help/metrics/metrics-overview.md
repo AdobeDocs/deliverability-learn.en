@@ -1,7 +1,6 @@
 ---
 title: Metrics for deliverability
 description: Understand which key deliverability metrics to monitor and how to use them to identify a reputation issue.
-feature: Metrics
 topics: Deliverability
 kt: 5256
 thumbnail: kt5256.jpg

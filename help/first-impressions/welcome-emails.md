@@ -1,7 +1,6 @@
 ---
 title: Welcome emails
 description: Understand which key elements to consider when building your welcome emails.
-feature: Email
 topics: Deliverability
 kt: 7064
 thumbnail: kt7064.jpg

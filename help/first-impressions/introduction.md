@@ -1,7 +1,6 @@
 ---
 title: First impressions—list collection and welcome emails
 description: Learn out how you can set yourself up for running a successful email program by making a good first impression. 
-feature: Audiences, Email
 topics: Deliverability
 kt: 5258
 thumbnail: kt5258.jpg

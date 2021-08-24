@@ -1,7 +1,6 @@
 ---
 title: Additional resources
 description:  This section lists a number of additional resources on deliverability.
-feature: Additional resources
 topics: Deliverability
 kt: 
 thumbnail: 

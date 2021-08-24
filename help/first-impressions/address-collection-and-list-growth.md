@@ -1,7 +1,6 @@
 ---
 title: Address collection and list growth
 description: Learn what the best sources for new email addresses are, how to ensure high data quality, and alignment with legal guidelines. 
-feature: Audiences
 topics: Deliverability
 kt: 7063
 thumbnail: kt7063.jpg
