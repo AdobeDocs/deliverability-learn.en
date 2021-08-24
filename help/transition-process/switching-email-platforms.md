@@ -1,7 +1,6 @@
 ---
 title: How to transition smoothly when switching email platforms.
 description: When moving email service providers (ESPs), it’s not possible to also transition your existing, established IP addresses. It is important that you follow best practices for developing a positive reputation when starting afresh. 
-feature: Deliverability
 topics: Deliverability
 kt: 5259
 thumbnail: kt5259.jpg

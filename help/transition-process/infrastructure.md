@@ -1,7 +1,6 @@
 ---
 title: Infrastructure
 description: Learn what is required to properly construct an email infrastructure. 
-feature: Transition Process
 topics: Deliverability
 kt: 7052
 thumbnail: kt7052.jpg

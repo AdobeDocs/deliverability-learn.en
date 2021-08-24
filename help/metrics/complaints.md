@@ -1,7 +1,6 @@
 ---
 title: Complaints
 description: Learn about complaints which are registered when a user indicates that an email is unwanted or unexpected. 
-feature: Metrics
 topics: Deliverability
 kt: 7048
 thumbnail: kt7048.jpg

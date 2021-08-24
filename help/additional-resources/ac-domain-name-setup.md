@@ -1,7 +1,6 @@
 ---
 title: Domain name setup
 description:  Learn how to delegate a subdomain to Adobe Campaign.
-feature: Putting it in practice
 topics: Deliverability
 kt: 
 thumbnail: 

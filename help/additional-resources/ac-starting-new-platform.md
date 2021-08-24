@@ -1,7 +1,6 @@
 ---
 title: Starting a new platform
 description: Learn more about managing deliverability when starting a new platform with Adobe Campaign.
-feature: Putting it in practice
 topics: Deliverability
 kt: 
 thumbnail: 

@@ -1,7 +1,6 @@
 ---
 title: Apple Mail Privacy Protection FAQ
 description: Apple Mail Privacy Protection FAQ
-feature: Deliverability
 topics: Deliverability
 hide: yes
 hidefromtoc: yes

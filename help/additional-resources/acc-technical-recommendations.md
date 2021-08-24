@@ -1,7 +1,6 @@
 ---
 title: Campaign Classic - Technical recommendations
 description: Discover techniques, configurations, and tools that you can use to improve your deliverability rate with Adobe Campaign Classic.
-feature: Putting it in practice
 topics: Deliverability
 kt: 
 thumbnail: 

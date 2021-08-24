@@ -1,7 +1,6 @@
 ---
 title: What is the deliverability strategy and how to define deliverability
 description: Understand how deliverability is defined, why it matters and the key deliverability metrics.
-feature: Deliverability
 topics: Deliverability
 kt: 5255
 thumbnail: kt5255.jpg
