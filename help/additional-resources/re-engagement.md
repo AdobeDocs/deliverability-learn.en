@@ -2,8 +2,6 @@
 title: Re-engagement best practices
 description:  Learn how to improve deliverability through re-engagement strategies.
 topics: Deliverability
-kt: 
-thumbnail: 
 doc-type: article
 activity: understand
 team: ACS
@@ -24,7 +22,7 @@ While implementing deliverability, some of the best practices consist in trying 
 
 For years, ISPs have used engagement feedback metrics from their users to decide where to place messages, or whether at all they should deliver them. User [engagement](/help/engagement.md) consists of both positive and negative feedback and ISPs monitor both on a constant basis. Having no engagement is perhaps one of the main contributors of negative engagement. From a deliverability perspective, consistently sending campaigns to users who show no engagement can also lower the overall reputation of your IP address and domains.
 
-ISPs such as Gmail, Microsoft, and OATH view non-engagement as unwanted email and start redirecting messages to the spam folder. Also, these subscribers may no longer own the email account, and this can be used as a "recycled" spam trap. This means the address was invalid for some time and all messages are rejected. If your subscriber management system is not removing "hard bounced" addresses, it's very likely mailing to spam traps that can lead to significant delivery issues.
+ISPs such as Gmail, Microsoft®, and OATH view non-engagement as unwanted email and start redirecting messages to the spam folder. Also, these subscribers may no longer own the email account, and this can be used as a "recycled" spam trap. This means that the address was invalid for some time and all messages are rejected. If your subscriber management system is not removing "hard bounced" addresses, it's likely mailing to spam traps that can lead to significant delivery issues.
 
 ## How should you approach inactivity? {#how-should-you-approach-inactivity-}
 
@@ -40,7 +38,7 @@ According to a Return Path study, re-engagement campaigns came out with a result
 
 ### Phase 1 {#phase-1}
 
-* The first step is to identify subscribers who have very little to no open or click activity, and accordingly segment this group based on a set time frame. The rule of thumb is to review subscribers who have not opened or clicked an email within the last 90 days. However, this varies according to the nature of the business (for example, seasonal sending).
+* The first step is to identify subscribers who have little to no open or click activity, and accordingly segment this group based on a set time frame. The rule of thumb is to review subscribers who have not opened or clicked an email within the last 90 days. However, this varies according to the nature of the business (for example, seasonal sending).
 * Another point to keep in mind while defining timeframes is that ISPs and denylist companies consider engagement to be anywhere between 1.5 and 1.8 years. Also, behavioral activities such as purchases and website activity, or other touch points, such as preferences during the sign-up phase or first point of contact.
 
 ### Phase 2 {#phase-2}
@@ -58,16 +56,16 @@ Subscribers that engage with the campaign by following the open or click activit
 
 ### Phase 4 {#phase-4}
 
-* The next phase is to identify subscribers who continually show no activity and gradually reduce sending emails to them over a period of time. If there is no activity within the past year, it is good to put the subscribers email subscription on hold. Although they have shown no interest in the email content, there is always a last chance to have them re-activate their subscription by sending a one-time re-confirmation campaign.
-* Re-confirmation campaigns are a good way to ask subscribers who are inactive for a long time if they want to remain on the subscription list. When creating the campaign, it is preferable to add a "click here" link so they can confirm the action and verify their address. This way, the action can be recorded in the database. Below is an example of a reconfirmation email:
+* The next phase is to identify subscribers who continually show no activity and gradually reduce sending emails to them over a period of time. If there is no activity within the past year, it is good to put the subscribers email subscription on hold. Although they have shown no interest in the email content, there is always a last chance to have them reactivate their subscription by sending a one-time reconfirmation campaign.
+* Reconfirmation campaigns are a good way to ask subscribers who are inactive for a long time if they want to remain on the subscription list. When creating the campaign, it is preferable to add a "click here" link so they can confirm the action and verify their address. This way, the action can be recorded in the database. Below is an example of a reconfirmation email:
 
   ![](../../help/assets/deliverability_implementation_3.png)
 
-  Once the subscriber has taken an action, a landing page with the confirmation of their re-subscription can be offered. Below is an example of the landing page:
+  Once the subscriber has taken an action, a landing page with the confirmation of their resubscription can be offered. Below is an example of the landing page:
 
   ![](../../help/assets/deliverability_implementation_4.png)
 
-## Product specific resources
+## Product-specific resources
 
 **Adobe Campaign**
 
@@ -76,4 +74,4 @@ Subscribers that engage with the campaign by following the open or click activit
 
 **Adobe Customer Journey Management**
 
-* [Message tracking](https://experienceleague.adobe.com/docs/customer-journey-management/using/reporting/message-tracking.html)
+* [Message tracking](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html)

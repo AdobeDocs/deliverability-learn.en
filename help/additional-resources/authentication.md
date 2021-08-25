@@ -2,8 +2,6 @@
 title: Authentication
 description:  Learn more on SPF, DKIM, and DMARC authentication methods.
 topics: Deliverability
-kt: 
-thumbnail: 
 doc-type: article
 activity: understand
 team: ACS

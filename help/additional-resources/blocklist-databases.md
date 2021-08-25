@@ -1,9 +1,7 @@
 ---
 title: Real-time Blackhole Lists
 description:  Learn about organizations which maintain lists of IP addresses and domains likely to be used by spammers.
-topics: Deliverability
-kt: 
-thumbnail: 
+topics: Deliverability 
 doc-type: article
 activity: understand
 team: ACS

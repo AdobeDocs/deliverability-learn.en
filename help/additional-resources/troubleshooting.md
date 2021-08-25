@@ -2,8 +2,6 @@
 title: Deliverability troubleshooting
 description:  Learn how to identify and address deliverability issues.
 topics: Deliverability
-kt: 
-thumbnail: 
 doc-type: article
 activity: understand
 team: ACS

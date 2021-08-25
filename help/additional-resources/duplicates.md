@@ -2,8 +2,6 @@
 title: Duplicates
 description:  Learn how to identify and limit duplicates to improve deliverability.
 topics: Deliverability
-kt: 
-thumbnail: 
 doc-type: article
 activity: understand
 team: ACS

@@ -1,9 +1,7 @@
 ---
 title: All about spam traps
 description:  Learn how to understand, identify, and avoid spam traps when managing deliverability.
-topics: Deliverability
-kt: 
-thumbnail: 
+topics: Deliverability 
 doc-type: article
 activity: understand
 team: ACS

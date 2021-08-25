@@ -2,8 +2,6 @@
 title: Additional resources
 description:  This section lists a number of additional resources on deliverability.
 topics: Deliverability
-kt: 
-thumbnail: 
 doc-type: article
 activity: understand
 team: ACS

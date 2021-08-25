@@ -2,8 +2,6 @@
 title: SSL Certificate request process
 description:  Learn how to install SSL certificates on the subdomains you delegated to Adobe.
 topics: Deliverability
-kt: 
-thumbnail: 
 doc-type: article
 activity: understand
 team: ACS
@@ -203,7 +201,7 @@ Once you are confident the requested SSL certificates are installed properly, yo
 
 >[!NOTE]
 >
->For Campaign Classic, the URLs to update are mainly located in the [Deployment wizard](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) and in the [External accounts](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/external-accounts.html#installing-campaign-classic) (tracking, mirror page, and public resource domains). For Campaign Standard, refer to [Branding configuration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
+>For Campaign Classic, the URLs to update are mainly located in the [Deployment wizard](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard) and in the [External accounts](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html) (tracking, mirror page, and public resource domains). For Campaign Standard, refer to [Branding configuration](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity).
 
 Once configurations are updated, new emails will be sent with HTTPS URLs rather than HTTP. To check the URLs are now secure, you can quickly perform the following tests: 
 
