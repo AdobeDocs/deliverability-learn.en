@@ -51,5 +51,5 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
       + [Starting a new platform](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic - Technical recommendations](/help/additional-resources/acc-technical-recommendations.md)
 + Technotes (hidden){#technotes}
-  + [Apple Privacy](/help/technotes/apple-mail-privacy-faq.md)
-
+  + [Apple Privacy FAQ](/help/technotes/apple-mail-privacy-faq.md)
+  + [Implement BIMI](/help/technotes/implement-bimi.md)
