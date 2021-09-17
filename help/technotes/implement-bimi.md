@@ -6,11 +6,11 @@ hide: yes
 hidefromtoc: yes
 ---
 
-# Implement Gmail's Brand Indicators for Message Identification (BIMI)
+# Implement Gmail's [!DNL Brand Indicators for Message Identification] (BIMI)
 
 Gmail recently announced that they would be [rolling out general support of BIMI](https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace). There are a number of items you will have to deal with before you can take advantage of this though including: Verified Mark Certificates, Trademarked Logos, Properly formatted Logos, DMARC setup, and finally publishing a BIMI record to your DNS. We will review all of these steps in this article.
 
-Brand Indicators for Message Identification (BIMI) is an industry standard that allows an approved logo to appear next to a sender’s email in participating platforms. Not only is this eye catching possibly boosting engagement, it also helps confirm the authenticity of the sender reducing the risk of phishing and other spammy tactics.  
+[!DNL Brand Indicators for Message Identification] (BIMI) is an industry standard that allows an approved logo to appear next to a sender’s email in participating platforms. Not only is this eye catching possibly boosting engagement, it also helps confirm the authenticity of the sender reducing the risk of phishing and other spammy tactics.  
 
 ## Verified Mark Certificate 
 
@@ -20,7 +20,7 @@ VMCs will be similar to SSL certificates in some ways. You will need one VMC for
 
 ## Logo Trademark 
 
-Before you can get your VMC, there is another key step that must be completed: to get a VMC the logo you want to have displayed must be registered with one of 8 approved global trademark and patent offices.  
+Before you can get your VMC, there is another key step that must be completed. To get a VMC the logo you want to have displayed must be registered with one of 8 approved global trademark and patent offices.  
 
 * United States Patent and Trademark Office (USPTO)
 * Canadian Intellectual Property Office
@@ -58,7 +58,7 @@ You can get the details around that entry and even use a free BIMI checker at th
 
 ## Key Takeaways 
 
-If you are an Adobe Campaign or Marketo client, Adobe can help you with creating the BIMI DNS update: contact Adobe Customer Care to request one. Adobe can also help with troubleshooting if BIMI is not working correctly for you.  
+If you are an [!DNL Adobe Campaign] or Marketo client, Adobe can help you with creating the BIMI DNS update: contact Adobe Customer Care to request one. Adobe can also help with troubleshooting if BIMI is not working correctly for you.  
 
 For help with Trademarks or Verified Mark Certificates, work with your legal team and an authorized VMC vendor.  
 
