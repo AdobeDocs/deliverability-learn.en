@@ -44,12 +44,11 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
     + [Re-engagement best practices](/help/additional-resources/re-engagement.md)
     + [Real-time Blackhole Lists](/help/additional-resources/blocklist-databases.md)
     + [Troubleshooting](/help/additional-resources/troubleshooting.md)
-  + Product specific resources {#product-specific-resources}
-    + Campaign {#campaign}
-      + [Domain name setup](/help/additional-resources/ac-domain-name-setup.md)
-      + [SSL certificate request process](/help/additional-resources/ac-ssl-certificate-request.md)
-      + [Starting a new platform](/help/additional-resources/ac-starting-new-platform.md)
-      + [Campaign Classic - Technical recommendations](/help/additional-resources/acc-technical-recommendations.md)
-+ Technotes (hidden){#technotes}
-  + [Apple Privacy FAQ](/help/technotes/apple-mail-privacy-faq.md)
-  + [Implement BIMI](/help/technotes/implement-bimi.md)
+  + Resources for [!DNL Adobe Campaign] {#campaign}
+    + [Domain name setup](/help/additional-resources/ac-domain-name-setup.md)
+    + [SSL certificate request process](/help/additional-resources/ac-ssl-certificate-request.md)
+    + [Starting a new platform](/help/additional-resources/ac-starting-new-platform.md)
+    + [Campaign Classic - Technical recommendations](/help/additional-resources/acc-technical-recommendations.md)
+  + Technotes (hidden){#technotes}
+    + [Apple Privacy FAQ](/help/technotes/apple-mail-privacy-faq.md)
+    + [Implement BIMI](/help/technotes/implement-bimi.md)
