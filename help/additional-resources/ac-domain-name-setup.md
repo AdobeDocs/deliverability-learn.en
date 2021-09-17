@@ -48,10 +48,22 @@ In order to provide a cloud-based managed service, Adobe strongly encourages cli
 | MX | Specify mail servers for incoming messages | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF (TXT) | Sender Policy Framework | <i>email.example.com</i></br>"v=spf1 redirect=__spf.campaign.adobe.com" |
 | DKIM (TXT) | DomainKeys Identified Mail | <i>client._domainkey.email.example.com</i></br>"v=DKIM1; k=rsa;" "DKIMPUBLICKEY HERE" |
-| DMARC (TXT) | Domain-based Message Authentication | Reporting & Conformance | _dmarc.email.example.com</br>“v=DMARC1; p=none; rua=mailto:mailauth-reports@myemail.com” |
 | Hosts Records (A) | Mirror pages, image hosting, and tracking links, all sending domains | m.email.example.com IN A 123.111.100.99</br>t.email.example.com IN A 123.111.100.98</br>email.example.com IN A 123.111.100.97 |
 | Reverse DNS (PTR) | Maps the client IP addresses to a client branded hostname | 18.101.100.192.in-addr.arpa domain name pointer r18.email.example.com |
-| CNAME | Provides an alias to another domain name | t1.email.example.com is an alias for | t1.email.example.campaign.adobe.com |
+| CNAME | Provides an alias to another domain name | t1.email.example.com is an alias for t1.email.example.campaign.adobe.com |
+
+
+Domain-based Message Authentication, Reporting, and Conformance (DMARC) is recommended to authenticate mail senders and ensure that destination email systems trust messages sent from your domain.
+
+Example of DMARC TXT record:
+
+```
+_dmarc.email.example.com
+
+“v=DMARC1; p=none; rua=mailto:mailauth-reports@myemail.com” 
+```
+
+You can implement DMARC manually or contact Adobe to assist you to set up DMARC for your brand. 
 
 ## Setup Requirements
 
