@@ -9,6 +9,13 @@ exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
 ---
 # Additional resources - Overview
 
+## What's new
+
+Refer to the following technotes to learn more about recent updates about deliverability.
+
+* [Implement Gmail's Brand Indicators for Message Identification (BIMI)](../technotes/implement-bimi.md)
+* [Apple Mail Privacy Protection FAQ](../technotes/apple-mail-privacy-faq.md)
+
 ## Generic resources
 
 This section lists some additional resources on deliverability, such as specific recommendations and best practices, other tools, or troubleshooting procedures.
@@ -29,7 +36,7 @@ This section lists some additional resources on deliverability, such as specific
 
 Additionally, this section lists a number of product-specific resources to help you implement deliverability and reach success with your Adobe solutions.
 
-**Campaign**
+**[!DNL Adobe Campaign]**
 
 * [Domain name setup](../../help/additional-resources/ac-domain-name-setup.md)
 * [CSR and SSL certificate request process](../../help/additional-resources/ac-ssl-certificate-request.md)

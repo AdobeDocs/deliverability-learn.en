@@ -2,8 +2,6 @@
 title: Apple Mail Privacy Protection FAQ
 description: Apple Mail Privacy Protection FAQ
 topics: Deliverability
-hide: yes
-hidefromtoc: yes
 exl-id: c4b9839d-db1a-4bbc-a1d5-385dddca95a8
 ---
 # Apple Mail Privacy Protection FAQ
