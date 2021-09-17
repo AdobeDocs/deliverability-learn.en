@@ -33,7 +33,9 @@ If the logo you want displayed is not registered, or is not registered with one 
 
 ## Logo Image Format 
 
-This would also be a good time to make sure that your logo will meet the BIMI logo requirements for format. It must be in SVG format and adhere to SVG Portable/Secure (SVG-P/S) profile. Guidance around how to do so can be found at the [BIMI Working Group](https://bimigroup.org/svg-conversion-tools-released).
+This would also be a good time to make sure that your logo will meet the BIMI logo requirements for format. 
+
+It must be in SVG format and adhere to SVG Portable/Secure (SVG-P/S) profile. Guidance around how to do so can be found at the [BIMI Working Group](https://bimigroup.org/svg-conversion-tools-released).
 
 ## DMARC 
 
