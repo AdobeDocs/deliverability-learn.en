@@ -4,8 +4,8 @@ description: Learn how to implement BIMI
 topics: Deliverability
 hide: yes
 hidefromtoc: yes
+exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
 ---
-
 # Implement Gmail's [!DNL Brand Indicators for Message Identification] (BIMI)
 
 Gmail recently announced that they would be [rolling out general support of BIMI](https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace). There are a number of items you will have to deal with before you can take advantage of this though including: Verified Mark Certificates, Trademarked Logos, Properly formatted Logos, DMARC setup, and finally publishing a BIMI record to your DNS. We will review all of these steps in this article.
@@ -62,4 +62,4 @@ If you are an [!DNL Adobe Campaign] or Marketo client, Adobe can help you with c
 
 For help with Trademarks or Verified Mark Certificates, work with your legal team and an authorized VMC vendor.  
 
-Getting BIMI setup for Gmail may not be a quick process, but it is one that can have significant benefits both from a Marketing and a Security perspective. 
+Getting BIMI setup for Gmail may not be a quick process, but it is one that can have significant benefits both from a Marketing and a Security perspective.
