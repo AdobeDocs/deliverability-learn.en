@@ -18,7 +18,9 @@ The iOS 15 release will be available this fall, possibly as early as September. 
 
 ## What impact will this have on tracking and measuring the results of email campaigns?
 
-Tracking pixels within Apple Mail will be disabled, which means that marketers will no longer reliably tell when an email is opened. While disabling tracking pixels is not new, several providers have taken similar measures in the past. Apple’s Mail app has broad adoption across many providers. Therefore, the impact could be more significant than previously experienced when other providers have chosen to disable tracking pixels by default. The privacy protections, which need the user’s consent, would apply to any email opened on Apple’s Mail app (Gmail, Yahoo, Outlook etc.). If the user uses the Gmail app or another mail app, the privacy controls will not be affected. For context, the [Apple mobile device market share](https://www.counterpointresearch.com/global-smartphone-share/) for Q1 was 17% globally and 55% US.
+Data from tracking pixels within Apple Mail will no longer be accurate, which means that marketers will no longer be able to reliably tell when an email is opened. While pre-loading images and pixels and using proxies to anonymize data is not new, several providers have taken similar measures in the past, the extent, method, and scope of implementation is new.
+
+Apple’s Mail app has broad adoption across many providers. Therefore, the impact could be more significant than previously experienced when other providers have chosen to disable tracking pixels by default. The privacy protections, which need the user’s consent, would apply to any email opened on Apple’s Mail app (Gmail, Yahoo, Outlook etc.). If the user uses the Gmail app or another mail app, the privacy controls will not be affected. For context, the [Apple mobile device market share](https://www.counterpointresearch.com/global-smartphone-share/) for Q1 was 17% globally and 55% US.
 
 ## Are there other impacts?
 
