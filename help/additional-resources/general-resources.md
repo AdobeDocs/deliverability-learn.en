@@ -14,7 +14,6 @@ exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
 Refer to the following technotes to learn more about recent updates about deliverability.
 
 * [Implement Gmail's Brand Indicators for Message Identification (BIMI)](../technotes/implement-bimi.md)
-* [Apple Mail Privacy Protection FAQ](../technotes/apple-mail-privacy-faq.md)
 
 ## Generic resources
 
