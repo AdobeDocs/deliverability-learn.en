@@ -58,7 +58,7 @@ You can get the details around that entry and even use a free BIMI checker at th
 
 ## Key Takeaways 
 
-If you are an [!DNL Adobe Campaign] or Marketo client, Adobe can help you with creating the BIMI DNS update: contact Adobe Customer Care to request one. Adobe can also help with troubleshooting if BIMI is not working correctly for you.  
+If you are an [!DNL Adobe Campaign] client, Adobe can help you with creating the BIMI DNS update: contact Adobe Customer Care to request one. Adobe can also help with troubleshooting if BIMI is not working correctly for you.  
 
 For help with Trademarks or Verified Mark Certificates, work with your legal team and an authorized VMC vendor.  
 
