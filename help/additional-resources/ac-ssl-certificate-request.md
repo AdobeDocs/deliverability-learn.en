@@ -120,7 +120,7 @@ The text in the resulting CSR file must start with **"-----BEGIN CERTIFICATE REQ
 Once you receive the CSR file from Adobe, follow the steps below:
 
 1. Copy and paste the CSR file text into an online decoder such as https://www.sslshopper.com/csr-decoder.html, <!--https://www.certlogik.com/decoder/,--> or https://www.entrust.net/ssl-technical/csr-viewer.cfm.
-    Alternatively, you can use the *OpenSSL* command locally on a Linux machine. For more on this, refer to [this external page](https://www.question-defense.com/2009/09/22/use-openssl-to-verify-the-contents-of-a-csr-before-submitting-for-a-ssl-certificate).
+    Alternatively, you can use the *OpenSSL* command locally on a Linux machine. 
 1. Verify that all the checks are successful.
 1. Check that the correct parameters and domain names are included.
 1. Check that all the other data match the details you provided upon submitting your request.
