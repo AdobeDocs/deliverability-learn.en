@@ -33,7 +33,7 @@ Per standard bounce handling logic, Adobe Campaign automatically added these rec
 To find the recipients who were affected by this issue, or in case this happens again with any other ISP, please see the instructions below:
 
 * For Campaign Classic v7 and Campaign v8, refer to [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
-* For Campaign Standard, refer to [this page](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
+* For Campaign Standard, refer to [this page](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
 
 
