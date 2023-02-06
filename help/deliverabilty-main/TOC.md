@@ -51,3 +51,5 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
     + [Campaign Classic - Technical recommendations](/help/additional-resources/acc-technical-recommendations.md)
   + Technotes{#technotes}
     + [Implement BIMI](/help/technotes/implement-bimi.md)
+    + [Update bounces after Italia Online outage](/help/technotes/update-bounces-after-it-outage.md)
+
