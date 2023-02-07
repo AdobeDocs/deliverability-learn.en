@@ -2,6 +2,7 @@
 title: Update bounce qualification after Italia Online outage
 description: Learn how to update bounce qualification after Italia Online outage
 feature: Deliverability
+exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 ---
 # Update incorrect hard bounces after Italia Online outage {#update-bounce-italia}
 
@@ -34,6 +35,3 @@ To find the recipients who were affected by this issue, or in case this happens 
 
 * For Campaign Classic v7 and Campaign v8, refer to [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 * For Campaign Standard, refer to [this page](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
-
-
-
