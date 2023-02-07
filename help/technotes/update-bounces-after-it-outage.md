@@ -2,6 +2,7 @@
 title: Update bounce qualification after Italia Online outage
 description: Learn how to update bounce qualification after Italia Online outage
 feature: Deliverability
+exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 ---
 # Update incorrect hard bounces after Italia Online outage {#update-bounce-italia}
 
