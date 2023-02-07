@@ -29,9 +29,20 @@ Symptoms were:
 
 ## Process to update{#outage-update}
 
+### Adobe Campaign{#ac-update}
+
 Per standard bounce handling logic, Adobe Campaign automatically added these recipients to the quarantine list with a **[!UICONTROL Status]** setting of **[!UICONTROL Quarantine]**. To correct this, you need to update your quarantine table in Campaign by finding and removing these recipients, or changing their **[!UICONTROL Status]** to **[!UICONTROL Valid]** so that the nightly clean-up workflow will remove them. 
 
 To find the recipients who were affected by this issue, or in case this happens again with any other ISP, please see the instructions below:
 
 * For Campaign Classic v7 and Campaign v8, refer to [this page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 * For Campaign Standard, refer to [this page](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
+
+### Adobe Journey Optimizer{#ajo-update}
+
+Per standard bounce handling logic, Adobe Journey Optimizer automatically added these email addresses to the suppression list with a **[!UICONTROL Reason]** setting of **[!UICONTROL Invalid Recipient]**. To correct this, you need to update the suppression list by finding and removing these email addresses. 
+
+Once identified, these addresses can be manually removed from the suppression list using the **[!UICONTROL Delete]** button. These addresses can then be included in future email campaigns. 
+
+Learn more in [this section](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
+
