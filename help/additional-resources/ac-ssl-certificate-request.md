@@ -64,7 +64,7 @@ To install SSL certificates on these subdomains, the process involves requesting
 You must identify the domain names and the functions (tracking, mirror pages, webapps, etc.) to secure.
 >[!NOTE]
 >
->Adobe can help in defining the domain names and functions to involve. For more information, contact your Adobe Customer Success Manager.
+>Adobe can help in defining the domain names and functions to involve. For more information, contact your Adobe Account Team.
 
 ### Step 1 - Get a CSR file
 
@@ -158,7 +158,7 @@ Once the SSL certificate is generated, you must validate it before sending it to
 
 * Otherwise, create another Support ticket via https://adminconsole.adobe.com/ to request Adobe to install the certificate on the Adobe server(s).
 
-You’ll need to provide:
+You'll need to provide:
 
 * The certificate file, the root certificate and any intermediate certificates (attached to the ticket), preferably in Apache PEM format.
 * The number of the previous Support ticket raised for the CSR.
