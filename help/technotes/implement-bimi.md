@@ -16,7 +16,7 @@ BIMI does not directly improve deliverability or your reputation. It can help bu
 
 ## How does it look like?
 
-You can find some examples of implementations from different providers and more details on whixh providers do display the logo on the [BIMI Group's page](https://bimigroup.org/where-is-my-bimi-logo-displayed/).
+You can find some examples of implementations from different providers and more details on whixh providers do display the logo on the [BIMI Group's page](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}.
 
 ## Who is the BIMI Group?
 
@@ -26,7 +26,7 @@ The BIMI Group consists of several stakeholders from different areas of the indu
 
 ## Who is supporting BIMI?
 
-The mailbox providers' list supporting BIMI is growing steadily. An up-to-date list can be found [here](https://bimigroup.org/bimi-infographic/) for both supporting providers as well as providers considering BIMI.
+The mailbox providers' list supporting BIMI is growing steadily. An up-to-date list can be found [here](https://bimigroup.org/bimi-infographic/){target="_blank"} for both supporting providers as well as providers considering BIMI.
 
 As of April 2023, the list includes Gmail, Yahoo, La Poste, Fastmail, Onet.pl and Zone, Proofpoint as an anti-spam appliance and Apple Mail (from iOS 16 onwards).
 
@@ -59,7 +59,7 @@ In addition to DMARC on the sending domain, DMARC also needs to be employed on e
 
 ### Creation of your brand logo {#create-brand-logo}
 
-The logo creation needs to follow the requirements to 100%. Please always refer to the [BIMI Group's guidelines](https://bimigroup.org/creating-bimi-svg-logo-files/).
+The logo creation needs to follow the requirements to 100%. Please always refer to the [BIMI Group's guidelines](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"}.
 
 Besides the technical requirements, there are some practical recommendations like having a square logo, having a solid color as background and others. These recommendations are for best visualization.
 Please note that non-compliance can lead to the logo not being displayed. 
@@ -96,10 +96,10 @@ Even going through the effort and expenses for a VMC doesn't take away this part
 
 ## Tips and Tricks
 
-* The BIMI Group offers a handy validation tool for BIMI. If you want to double check if everything is set up and ready, or just want to see if the logo is compliant, go to [this link](https://bimigroup.org/bimi-generator/). For the latter just click **[!UICONTROL Generate BIMI]** and enter a placeholder domain but the correct logo URL. The inspector will tell you if the logo is compliant.
+* The BIMI Group offers a handy validation tool for BIMI. If you want to double check if everything is set up and ready, or just want to see if the logo is compliant, go to [this link](https://bimigroup.org/bimi-generator/){target="_blank"}. For the latter just click **[!UICONTROL Generate BIMI]** and enter a placeholder domain but the correct logo URL. The inspector will tell you if the logo is compliant.
 
 * You can safely start off without a VMC, there is no harm on your reputation if your BIMI record doesn't include a VMC URL, but the logo can already be shown in Yahoo.
 
 * Implementing DMARC on an organizational level is a large undertaking. Some companies are specialized to help brands achieve a full DMARC adoption.
 
-* An extensive list of frequently asked questions is published [here](https://bimigroup.org/faqs-for-senders-esps/).
+* An extensive list of frequently asked questions is published [here](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"}.
