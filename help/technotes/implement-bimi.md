@@ -70,7 +70,7 @@ A Verified Mark Certificate (VMC) is only needed for some mailbox providers like
 
 A Verified Mark Certificate is a legal validation that the brand can use the logo. A certification authority will check this through the trademark office where the brand logo is registered. This process involves several legal validations and checks, and can take some time. Currently two CAs (certificate authorities) are issuing VMCs: Digicert and Entrust. The first set of trademark offices are US, Canada, EU, UK, Germany, Japan, Australia, and Spain.
 
-As a rule of thumb, you will need one VMC per logo. Having a VMC for your organizational domain will cover subdomains, and with an added feature even different domains. In case you have different logos, more than one VMC is needed. The Certification Authority or partner you choose to work with will help you set this up.
+As a general rule, you will need one VMC per logo. Having a VMC for your organizational domain will cover subdomains, and with an added feature even different domains. In case you have different logos, more than one VMC is needed. The Certification Authority or partner you choose to work with will help you set this up.
 
 >[!NOTE]
 >
