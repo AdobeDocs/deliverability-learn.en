@@ -2,7 +2,7 @@
 title: Infrastructure
 description: Learn what is required to properly construct an email infrastructure. 
 topics: Deliverability
-kt: 7052
+jira: KT-7052
 thumbnail: kt7052.jpg
 doc-type: article
 activity: understand

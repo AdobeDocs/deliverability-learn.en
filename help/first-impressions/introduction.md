@@ -2,7 +2,7 @@
 title: First impressions—list collection and welcome emails
 description: Learn out how you can set yourself up for running a successful email program by making a good first impression. 
 topics: Deliverability
-kt: 5258
+jira: KT-5258
 thumbnail: kt5258.jpg
 doc-type: article
 activity: understand

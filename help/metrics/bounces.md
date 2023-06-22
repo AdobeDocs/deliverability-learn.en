@@ -2,7 +2,7 @@
 title: Bounces
 description: Learn about the different types of bounces.
 topics: Deliverability
-kt: 7047
+jira: KT-7047
 thumbnail: kt7047.jpg
 doc-type: article
 activity: understand

@@ -2,7 +2,7 @@
 title: Metrics for deliverability
 description: Understand which key deliverability metrics to monitor and how to use them to identify a reputation issue.
 topics: Deliverability
-kt: 5256
+jira: KT-5256
 thumbnail: kt5256.jpg
 doc-type: article
 activity: understand

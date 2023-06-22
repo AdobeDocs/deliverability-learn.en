@@ -2,7 +2,7 @@
 title: Ongoing monitoring
 description: Which issues do you need to look out for.
 topics: Deliverability
-kt: 5263
+jira: KT-5263
 thumbnail: kt5263.jpg
 doc-type: article
 activity: understand

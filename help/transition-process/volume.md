@@ -2,7 +2,7 @@
 title: Volume - Tips for how to transition smoothly
 description: The volume of mail you’re sending is critical to establishing a positive reputation. Learn what you can do to transition smoothly.
 topics: Deliverability
-kt: 7055
+jira: KT-7055
 thumbnail: kt7055.jpg
 doc-type: article
 activity: understand

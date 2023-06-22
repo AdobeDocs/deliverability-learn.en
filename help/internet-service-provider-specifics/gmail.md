@@ -2,7 +2,7 @@
 title: Gmail
 description: Gmail makes up the largest portion of most senders’ email lists. They also tend to treat email a bit differently than everyone else.
 topics: Deliverability
-kt: 5262
+jira: KT-5262
 doc-type: article
 activity: understand
 team: TM

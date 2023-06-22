@@ -2,7 +2,7 @@
 title: Content best practices for optimal deliverability
 description: Content is key. You’ve already read our perspective on relevance, but here are a few additional tips to optimizing your deliverability when it comes to content.
 topics: Deliverability
-kt: 5260
+jira: KT-5260
 thumbnail: kt5260.jpg
 doc-type: article
 activity: understand

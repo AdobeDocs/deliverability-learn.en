@@ -2,7 +2,7 @@
 title: Targeting criteria
 description: Learn how to establish a positive reputation from the get-go to effectively build trust before rolling in your less engaged audiences.
 topics: Deliverability
-kt: 7053
+jira: KT-7053
 thumbnail: kt7053.jpg
 doc-type: article
 activity: understand
