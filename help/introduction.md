@@ -35,7 +35,7 @@ This Deliverability Best Practice Guide covers the following topics:
 
 >[!NOTE]
 >
->Download [adobe-deliverability-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
+>Download [adobe-deliverability-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)(english only)
 
 ## Sources
 
