@@ -5,6 +5,8 @@ jira: KT-5321
 thumbnail: kt5321.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 ---

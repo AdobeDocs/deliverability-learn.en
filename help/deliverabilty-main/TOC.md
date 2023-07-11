@@ -2,6 +2,9 @@
 user-guide-title: Deliverability Best Practice Guide
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: Learn key deliverability terms, concepts, and approaches to empower you to ensure your marketing program success.
+feature: Deliverability
+role: Leader, User
+level: Beginner
 ---
 
 # Adobe Campaign Deliverability Best Practice Guide {#deliverability-best-practice-guide}

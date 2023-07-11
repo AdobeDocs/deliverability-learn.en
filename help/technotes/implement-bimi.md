@@ -2,6 +2,8 @@
 title: Implement Gmail's Brand Indicators for Message Identification (BIMI)
 description: Learn how to implement BIMI
 topics: Deliverability
+role: Admin
+level: Beginner
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
 ---
 # Implement [!DNL Brand Indicators for Message Identification] (BIMI)

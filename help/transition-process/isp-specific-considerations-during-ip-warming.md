@@ -6,6 +6,8 @@ jira: KT-7054
 thumbnail: kt7054.jpg
 doc-type: article
 activity: understand
+role: Admin
+level: Beginner
 team: ACS
 exl-id: 7d61c81c-aa40-47a6-9869-1953a6ad22b2
 ---

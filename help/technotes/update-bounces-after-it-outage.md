@@ -5,6 +5,8 @@ feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: yes
 hidefromtoc: yes
+role: Admin
+level: Beginner
 ---
 # Update incorrect hard bounces after Italia Online outage {#update-bounce-italia}
 

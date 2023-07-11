@@ -5,6 +5,8 @@ topics: Deliverability
 jira: KT-5319
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: d706cb90-828a-4ab3-8f93-c9bd71553d63
 ---
@@ -20,11 +22,11 @@ Here are some highlights:
 
 ## What data do they make available
 
-[!DNL Microsoft]’s proprietary sender reporting tool, [!DNL Smart Network Data Services] (SNDS), lets you see metrics around how much mail you are sending and how much mail is accepted, as well as complaints and spam traps. Keep in mind that the data shared is a sample and doesn’t reflect exact numbers, but it does best represent how [!DNL Microsoft] views you as a sender. [!DNL Microsoft] doesn’t provide information on their trusted user group publicly, but that data is available through the [!DNL Return Path Certification] program for an additional fee.
+[!DNL Microsoft]'s proprietary sender reporting tool, [!DNL Smart Network Data Services] (SNDS), lets you see metrics around how much mail you are sending and how much mail is accepted, as well as complaints and spam traps. Keep in mind that the data shared is a sample and doesn't reflect exact numbers, but it does best represent how [!DNL Microsoft] views you as a sender. [!DNL Microsoft] doesn't provide information on their trusted user group publicly, but that data is available through the [!DNL Return Path Certification] program for an additional fee.
 
 ## Sender reputation
 
-[!DNL Microsoft] has been traditionally focused on sending IP in their reputation evaluations and filtering decisions. They’re actively working on expanding their sending domain capabilities as well. Both are largely driven by the traditional reputation influencers, like complaints and spam traps. Deliverability can also be heavily influenced by the Return Path Certification program, which does have specific quantitative and qualitative program requirements.
+[!DNL Microsoft] has been traditionally focused on sending IP in their reputation evaluations and filtering decisions. They're actively working on expanding their sending domain capabilities as well. Both are largely driven by the traditional reputation influencers, like complaints and spam traps. Deliverability can also be heavily influenced by the Return Path Certification program, which does have specific quantitative and qualitative program requirements.
 
 ## Insights
 

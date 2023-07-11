@@ -1,22 +1,24 @@
 ---
 title: Verizon Media Group (Yahoo, AOL, Verizon, etc.)
-description: "[!DNL Verizon Media Group] is generally one of the top three domains for most B2C lists. They behave somewhat uniquely, as they’ll generally throttle or bulk mail if reputation issues arise."
+description: "[!DNL Verizon Media Group] is generally one of the top three domains for most B2C lists. They behave somewhat uniquely, as they'll generally throttle or bulk mail if reputation issues arise."
 topics: Deliverability
 jira: KT-5320
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
 ---
 # [!DNL Verizon Media Group] (Yahoo, AOL, Verizon, etc.)
 
-[!DNL Verizon Media Group] is generally one of the top three domains for most B2C lists. They behave somewhat uniquely, as they’ll generally throttle or bulk mail if reputation issues arise.
+[!DNL Verizon Media Group] is generally one of the top three domains for most B2C lists. They behave somewhat uniquely, as they'll generally throttle or bulk mail if reputation issues arise.
 
 Here are some highlights:
 
 ## What data is important
 
-[!DNL Verizon Media Group] (VMG) has built and maintains their own proprietary spam filters, using a mixture of content and URL filtering and spam complaints. Along with Gmail, they’re one of the early adopting ISPs that filter email by domain as well as IP address.
+[!DNL Verizon Media Group] (VMG) has built and maintains their own proprietary spam filters, using a mixture of content and URL filtering and spam complaints. Along with Gmail, they're one of the early adopting ISPs that filter email by domain as well as IP address.
 
 ## What data do they make available
 
@@ -24,7 +26,7 @@ VMG has an FBL used to feed complaint information back to senders. They are also
 
 ## Sender reputation
 
-A sender’s reputation is made up of a combination of IP address, domain, and from address. Reputation is calculated using the traditional components, including complaints, spam traps, inactive or malformed addresses, and engagement. VMG uses rate limiting (also known as throttling) along with bulk foldering to defend against spam. They complement their internal filtering systems with some [!DNL Spamhaus] black lists, including the PBL, SBL, and XBL to protect their users.
+A sender's reputation is made up of a combination of IP address, domain, and from address. Reputation is calculated using the traditional components, including complaints, spam traps, inactive or malformed addresses, and engagement. VMG uses rate limiting (also known as throttling) along with bulk foldering to defend against spam. They complement their internal filtering systems with some [!DNL Spamhaus] black lists, including the PBL, SBL, and XBL to protect their users.
 
 ## Insights
 

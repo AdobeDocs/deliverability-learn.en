@@ -6,12 +6,14 @@ jira: KT-5255
 thumbnail: kt5255.jpg
 doc-type: article
 activity: understand
+role: Admin, Leader, User
+level: Beginner
 team: ACS
 exl-id: 5285eda9-5099-48d5-b150-ce2c376ee549
 ---
 # Deliverability strategy and definition
 
-Designing successful email marketing campaigns depends on having a clear understanding of marketing goals, whether they’re for prospecting or customer relationship management (CRM) initiatives. This helps to determine who to target, what to promote, and when outreach is ideal.
+Designing successful email marketing campaigns depends on having a clear understanding of marketing goals, whether they're for prospecting or customer relationship management (CRM) initiatives. This helps to determine who to target, what to promote, and when outreach is ideal.
 
 Here are some examples of email marketing strategy objectives:
 
@@ -24,17 +26,17 @@ Here are some examples of email marketing strategy objectives:
 
 ## Deliverability defined
 
-There are two key metrics that play a role in the definition of deliverability. The *delivered rate* is the percentage of emails that don’t bounce and are accepted by the ISP. Next is *inbox placement* — this is applied to the messages that are accepted by the ISP and determines whether the email lands in the inbox or the spam folder.
+There are two key metrics that play a role in the definition of deliverability. The *delivered rate* is the percentage of emails that don't bounce and are accepted by the ISP. Next is *inbox placement* — this is applied to the messages that are accepted by the ISP and determines whether the email lands in the inbox or the spam folder.
 
-It is important to understand both delivered rate and the inbox placement rate in conjunction with one another when measuring email performance. A high delivered rate is not the only facet of deliverability. Just because a message is received via an ISP’s initial checkpoint doesn’t necessarily mean that your subscriber actually saw and interacted with your communication.
+It is important to understand both delivered rate and the inbox placement rate in conjunction with one another when measuring email performance. A high delivered rate is not the only facet of deliverability. Just because a message is received via an ISP's initial checkpoint doesn't necessarily mean that your subscriber actually saw and interacted with your communication.
 
 ## Why deliverability matters
 
-If you don’t know whether your emails are getting delivered or whether they are landing in the inbox versus the spam folder, you should. Here’s why.
+If you don't know whether your emails are getting delivered or whether they are landing in the inbox versus the spam folder, you should. Here's why.
 
-Countless hours go into the planning and production of your email campaigns. If the emails bounce or ultimately land in your subscribers’ spam folder, your customers probably won’t read them, your call to action (CTA) won’t be acknowledged, and you’ll fall short of your revenue goals due to lost conversions. Put simply, you can’t afford to ignore deliverability. It is crucial to the success of your email marketing efforts and your bottom line.
+Countless hours go into the planning and production of your email campaigns. If the emails bounce or ultimately land in your subscribers' spam folder, your customers probably won't read them, your call to action (CTA) won't be acknowledged, and you'll fall short of your revenue goals due to lost conversions. Put simply, you can't afford to ignore deliverability. It is crucial to the success of your email marketing efforts and your bottom line.
 
-Following deliverability best practices ensures that your email will have the best possible chance of opens, clicks, and the ultimate goal - conversion. You can write a brilliant subject line and have beautiful imagery and engaging content. But if that email doesn’t get delivered, the customer doesn’t have any opportunity to convert. All in all, in email deliverability, each step in the mail acceptance process is dependent on the former for program success.
+Following deliverability best practices ensures that your email will have the best possible chance of opens, clicks, and the ultimate goal - conversion. You can write a brilliant subject line and have beautiful imagery and engaging content. But if that email doesn't get delivered, the customer doesn't have any opportunity to convert. All in all, in email deliverability, each step in the mail acceptance process is dependent on the former for program success.
 
 ### Step 1: Email delivered
 
@@ -77,7 +79,7 @@ Here are some important factors for click rate:
 
 * Email delivered, landed in the inbox, and opened
 * Strong CTA
-  * This is the primary action you want to achieve from your audience. Normally, it’s a click on a URL. Make sure it’s clear and easy for the user to find.
+  * This is the primary action you want to achieve from your audience. Normally, it's a click on a URL. Make sure it's clear and easy for the user to find.
 * Relevance or value of content
 
 ### Step 5: Conversion
@@ -91,7 +93,7 @@ Here are some important factors for conversion:
 
 ### Potential impact on revenue
 
-Conversion is key, but what’s the alternative? Your deliverability strategy can strengthen or wreak havoc on email marketing program nirvana. The following chart illustrates the potential loss in revenue that a weak deliverability policy can have on your marketing program. As demonstrated, for a business with a 2 percent conversion rate and average purchase of $100, every 10 percent reduction in inbox placement equals an almost $20,000 loss in revenue. Keep in mind that these numbers are unique for every sender.
+Conversion is key, but what's the alternative? Your deliverability strategy can strengthen or wreak havoc on email marketing program nirvana. The following chart illustrates the potential loss in revenue that a weak deliverability policy can have on your marketing program. As demonstrated, for a business with a 2 percent conversion rate and average purchase of $100, every 10 percent reduction in inbox placement equals an almost $20,000 loss in revenue. Keep in mind that these numbers are unique for every sender.
 
 | Sent | Percent   | Delivered | Percent  | Inbox | Number not in inbox | Conversion rate | Number of lost  | Average  | Lost      |
 |------|-----------|-----------|----------|-------|---------------------|-----------------|-----------------|----------|-----------|
