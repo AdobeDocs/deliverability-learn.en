@@ -5,6 +5,7 @@ user-guide-description: Learn key deliverability terms, concepts, and approaches
 feature: Deliverability
 role: Leader, User
 level: Beginner
+auto-video-transcripts: true
 ---
 
 # Adobe Campaign Deliverability Best Practice Guide {#deliverability-best-practice-guide}
