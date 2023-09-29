@@ -7,9 +7,7 @@ level: Beginner
 ---
 # Implement [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)
 
-The purpose of this document is to provide the reader further information on the email authentication method,
-DMARC. Through explaining how DMARC works and its various policy options, readers will better understand
-DMARC’s impact on Email Deliverability. 
+The purpose of this document is to provide the reader further information on the email authentication method, DMARC. Through explaining how DMARC works and its various policy options, readers will better understand DMARC’s impact on Email Deliverability. 
 
 ## What is DMARC? {#about}
 
@@ -106,5 +104,5 @@ Once these changes are saved, you will be able to move forward with your DMARC i
 
 ## Useful Links {#links}
 
-* [DMARC.org](https://dmarc.org/)
-* [M3AAWG Email Authentication](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf)
+* [DMARC.org](https://dmarc.org/){target="_blank"}
+* [M3AAWG Email Authentication](https://www.m3aawg.org/sites/default/files/document/M3AAWG_Email_Authentication_Update-2015.pdf){target="_blank"}
