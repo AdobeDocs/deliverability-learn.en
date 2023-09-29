@@ -17,12 +17,10 @@ Domain-based Message Authentication, Reporting and Conformance, is an email auth
 
 DMARC has three policy options:
 
-* **Monitor (p=none):** Instructs the mailbox provider/ISP to do whatever they would normally do to
-the message.
-* **Quarantine (p=quarantine):** Instructs the mailbox provider/ISP to deliver mail that does not
-pass DMARC to the recipient's spam or junk folder.
-* **Reject (p=reject):** Instructs the mailbox provider/ISP to block mail that does not pass DMARC
-resulting in a bounce.
+* **Monitor (p=none):** Instructs the mailbox provider/ISP to do whatever they would normally do to the message.
+* **Quarantine (p=quarantine):** Instructs the mailbox provider/ISP to deliver mail that does not pass DMARC to the recipient's spam or junk folder.
+* **Reject (p=reject):** Instructs the mailbox provider/ISP to block mail that does not pass DMARC resulting in a bounce.
+
 ## How does DMARC work? {#how}
 
 SPF and DKIM are both used to associate an email with a domain and work together to authenticate email. DMARC takes this one step further and helps to prevent spoofing by matching the Domain checked by DKIM and SPF. To pass DMARC, a message must pass SPF or DKIM. If both of these fail authentication, DMARC will fail, and the email will be delivered according to your selected DMARC policy.
@@ -51,8 +49,6 @@ recommended to slowly roll out DMARC implementation by escalating your DMARC pol
     >[!NOTE]
     >
     >Please use this policy with caution and determine if it is appropriate for your organization.
-
-
 
 ## DMARC Reporting {#reporting}
 

@@ -55,6 +55,6 @@ auto-video-transcripts: true
     + [Campaign Classic - Technical recommendations](/help/additional-resources/acc-technical-recommendations.md)
   + Technotes{#technotes}
     + [Implement DMARC](/help/technotes/implement-dmarc.md)
-    * [Implement BIMI](/help/technotes/implement-bimi.md)
+    + [Implement BIMI](/help/technotes/implement-bimi.md)
     + [Update bounces after Italia Online outage](/help/technotes/update-bounces-after-it-outage.md)
 
