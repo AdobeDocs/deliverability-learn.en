@@ -90,15 +90,15 @@ A common reason for DMARC failures is misalignment between the ‘From’ and �
 
 1. Within your Delivery Template, review what address is currently set as your ‘From’ address. 
 
-    ![](../assets/dmarc1.png){width="70%}
+    ![](../assets/dmarc1.png)
 
 1. From here, select ‘Properties’ which will allow you to further edit your delivery template. In this window, select SMTP and uncheck “Use the default error address defined for the platform” if selected. Delivery templates in Adobe Campaign select this checkbox by default. The default Error Address may not be the address associated with the From Address in this delivery template. 
 
-    ![](../assets/dmarc2.png){width="70%}
+    ![](../assets/dmarc2.png)
 
 1. When this box is unchecked, a text field appears that will allow you to enter a unique Error Address that uses the same domain as set in the From Address.
 
-    ![](../assets/dmarc3.png){width="70%}
+    ![](../assets/dmarc3.png)
 
 Once these changes are saved, you will be able to move forward with your DMARC implementation with correct domain alignment.
 
