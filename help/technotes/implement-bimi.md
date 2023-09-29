@@ -4,6 +4,7 @@ description: Learn how to implement BIMI
 topics: Deliverability
 role: Admin
 level: Beginner
+jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
 ---
 # Implement [!DNL Brand Indicators for Message Identification] (BIMI)
@@ -62,6 +63,8 @@ In addition to DMARC on the sending domain, DMARC also needs to be employed on e
 ### Creation of your brand logo {#create-brand-logo}
 
 The logo creation needs to follow the requirements to 100%. Please always refer to the [BIMI Group's guidelines](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"}.
+
+The logo needs to be stored in a secure location (HTTPS), in case a content delivery network (CDN) is used any protection which prevents Mailbox Providers from getting the logo (e.g. Bot Protection) needs to be disabled.
 
 Besides the technical requirements, there are some practical recommendations like having a square logo, having a solid color as background and others. These recommendations are for best visualization.
 Please note that non-compliance can lead to the logo not being displayed. 
