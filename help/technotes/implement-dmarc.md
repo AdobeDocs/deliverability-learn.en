@@ -4,6 +4,7 @@ description: Learn how to implement BIMI
 topics: Deliverability
 role: Admin
 level: Beginner
+exl-id: f1c14b10-6191-4202-9825-23f948714f1e
 ---
 # Implement [!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)
 
