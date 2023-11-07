@@ -1,7 +1,6 @@
 ---
 title: Guidance around the announced changes at [!DNL Google] and [!DNL Yahoo]
 description: Guidance around the announced changes at [!DNL Google] and [!DNL Yahoo]
-version: Classic v7, Standard
 role: Admin
 level: Experienced
 doc-type: Article
