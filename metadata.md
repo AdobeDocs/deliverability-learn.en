@@ -3,6 +3,7 @@ cloud: Experience Cloud
 solution: Experience Cloud
 product: experience cloud
 feature-set: Campaign
+version: Classic v7, Standard, v8
 type: Tutorial
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/deliverability-learn.en
