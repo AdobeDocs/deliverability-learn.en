@@ -1,8 +1,7 @@
 ---
 cloud: Experience Cloud
-solution: Experience Cloud
 product: experience cloud
-feature-set: Campaign, Journey Optimizer, Marketo
+feature-set: Campaign, Journey Optimizer, Marketo 
 solution: Campaign Classic v7, Campaign Standard, Campaign v8, Marketo Engage
 type: Tutorial
 mini-toc-levels: 2
