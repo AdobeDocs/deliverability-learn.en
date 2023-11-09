@@ -87,6 +87,10 @@ DMARC records have multiple components called DMARC tags. Each tag has a value t
 
 ## DMARC & Adobe Campaign {#campaign}
 
+>[!NOTE]
+>
+>If your Campaign instance is hosted on AWS, you can implement DMARC for your subdomains with the Control Panel. [Learn how to implement DMARC Records using Control Panel](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
+
 A common reason for DMARC failures is misalignment between the ‘From’ and ‘Errors-To’ or ‘Return-Path’ Address. To avoid this, when setting up DMARC, it is recommended to double check your ‘From’ and ‘Errors-To’ address settings in your Delivery Templates.
 
 1. Within your Delivery Template, review what address is currently set as your ‘From’ address. 
