@@ -47,9 +47,9 @@ For Adobe Campaign and Adobe Journey Optimizer Adobe recommends using both "mail
 
 >[!INFO]
 > For more information about how to implement list-unsubscribe for your solution please check:
-> * [[!DNL Adobe Campaign Classic]: Technical recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} 
->* [[!DNL Adobe Campaign Standard]: What is the List-Unsubscribe header? And how can this be implemented in ACS?](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
->* [[!DNL Adobe Journey Optimizer]:Email opt-out management](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
+> * [!DNL Adobe Campaign Classic]: [Technical recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} 
+>* [!DNL Adobe Campaign Standard]: [What is the List-Unsubscribe header? And how can this be implemented in ACS?](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
+>* [!DNL Adobe Journey Optimizer]: [Email opt-out management](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
 >
 > Or reach out to Adobe Customer Support team at any time.
 
