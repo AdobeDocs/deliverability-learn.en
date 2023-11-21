@@ -55,6 +55,7 @@ The need for list-unsubscribe headers does not apply to transactional emails. Pl
 >
 > Or reach out to Adobe Customer Support team at any time.
 
+
 ## Process Unsubscribes within 2 days:
 
 This has been a recommended best practice for a while, as every email you deploy to someone who unsubscribed typically results in a spam complaint, so the sooner you stop sending them email the better. Again, legal requirements may be a lot longer in some cases, but [!DNL Google] and [!DNL Yahoo] will know that their user unsubscribed via List-Unsubscribe and that you are still sending them email on day 3, and they have stated they will not allow senders who do that to continue sending email to ANY of their users.
