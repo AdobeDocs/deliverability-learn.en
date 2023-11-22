@@ -7,8 +7,8 @@ doc-type: Article
 last-substantial-update: 2023-11-06
 jira: KT-14320
 thumbnail: KT-14320.jpeg
+exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
 ---
-
 # Guidance around the announced changes at [!DNL Google] and [!DNL Yahoo]
 
 On October 3rd both [!DNL Google] and [!DNL Yahoo] jointly announced planned changes via their blogs. These changes are designed to keep their users safer and provide a better email experience by enforcing some common industry best practices as new requirements starting in February 2024.
