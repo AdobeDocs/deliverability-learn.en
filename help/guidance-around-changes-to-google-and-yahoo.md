@@ -11,7 +11,7 @@ exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
 ---
 # Guidance around the announced changes at [!DNL Google] and [!DNL Yahoo]
 
-On October 3rd both [!DNL Google] and [!DNL Yahoo] jointly announced planned changes via their blogs. These changes are designed to keep their users safer and provide a better email experience by enforcing some common industry best practices as new requirements starting in February 2024.
+On October 3rd both [!DNL Google] and [!DNL Yahoo] jointly announced planned changes via their blogs. These changes are designed to keep their users safer and provide a better email experience by enforcing some common industry best practices as new requirements starting on February 1st, 2024.
 
 [https://blog.google/products/gmail/gmail-security-authentication-spam-protection/](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 
@@ -34,6 +34,9 @@ If you are an Adobe customer most of what they are requiring is already part of 
 ## DMARC:
 
 [!DNL Google] and [!DNL Yahoo] will both be requiring that you have a DMARC record for any domain you use to send email to them. They are NOT currently requiring a p=reject or p=quarantine setting, so a setting of p=none, commonly called the "monitoring" setting, is perfectly acceptable. This will not change how your emails are processed, they will do what they would normally do without DMARC. Setting this up is the first step to protecting yourself with DMARC, and in addition to the new benefit of helping you send email to [!DNL Google] and [!DNL Yahoo] it can also help you see if there are authentication issues anywhere within your email eco-system.
+
+The rules for DMARC are not changing, which means that unless configured to prevent it, a DMARC record on the parent domain (adobe.com as example) will be inherited and cover any subdomain (such as email.adobe.com). You do not need different DMARC records for your subdomains, unless you want or need to add them for a variety of business reasons.
+
 DMARC is fully supported in Adobe currently but is not required. Use any free DMARC checker to see if you have DMARC setup for your subdomains, and if you do not, talk to your Adobe support team to see how best to go about getting that setup. 
 
 You can also find more information about DMARC and how to implement it [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html){target="_blank"} for Adobe Campaign or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} for Marketo Engage.
@@ -42,10 +45,19 @@ You can also find more information about DMARC and how to implement it [here](ht
 
 Don't panic. [!DNL Google] and [!DNL Yahoo] are not talking about the unsubscribe links in your email body or footer that might be clicked on by a security bot just doing its job or by accident. What they mean is the List-Unsubscribe header functionality for either the "mailto" or "http/URL" versions. This is the function within the [!DNL Yahoo] and Gmail UIs where users can click unsubscribe. Gmail even prompts users who click on "Report Spam" to see if they meant to unsubscribe instead, which can reduce the number of complaints you get (complaints hurt your reputation) by turning them into unsubscribes instead (doesn't hurt your reputation).
 It is important to note that [!DNL Google] and [!DNL Yahoo] are both referring to the "http/URL" option by the name "1-Click", and this is intentional. Technically the original "http/URL" option allowed you to redirect recipients to a website. That is not the focus of [!DNL Yahoo] and [!DNL Google], who both reference the updated RFC8058 which focuses on processing the unsubscribe via an HTTPS POST request instead of a website, making it "1-Click".
+
+Today, [!DNL Gmail] accepts the “mailto” list-unsubscribe option. [!DNL Gmail] has said that “mailto” does not meet their expectations going forward, and starting in February senders will need to have the “post” list-unsubscribe option enabled.
+
+[!DNL Yahoo] has said they will continue to honor the “mailto” option, for now, but that they too will be requiring “post” in the future.
+
+Adobe recommends using both “mailto” and "post/1-Click” list-unsubscribe options. Adobe is working on enabling “post” support on all of our email sending platforms to support our users with meeting these requirements, further updates to come around this.
+
 For Marketo Engage, Adobe has already enabled the "mailto" option and does not currently support the "http/URL" option. Further updates on that to come.
 For Adobe Campaign and Adobe Journey Optimizer Adobe recommends using both "mailto" and "1-Click" options.
 
 The need for list-unsubscribe headers does not apply to transactional emails. Please note that triggered messages such as Abandoned Cart and similar communications not generated by the subscriber are considered marketing by mailbox providers like [!DNL Google] and [!DNL Yahoo] and those would need list-unsubscribe.
+
+[!DNL Google] and [!DNL Yahoo] are both aware that in some cases a recipient will unsubscribe and then re-subscribe at a later date. While they are not willing to share the secret sauce of how they identify these situations they are working on methods to avoid penalizing senders incorrectly in these cases.
 
 >[!INFO]
 > For more information about how to implement list-unsubscribe for your solution please check:
@@ -71,6 +83,8 @@ Keeping low complaint rates under 0.2% has been a best practice for a long time.
 * Similarly, maintaining a high spam rate will lead to increased spam classification. It can take time for improvements in spam rate to reflect positively on spam classification.
 [!DNL Yahoo] has stated that their complaint threshold will be in the 0.30% range as well.
 
+[!DNL Google] and [!DNL Yahoo]’s goal is not to punish senders for a single bad day or a mistake that causes a temporary spike in complaints. Instead, they are focusing on senders who have high complaint rates over an extended period of time or a pattern of bad sending behavior.
+
 If you need assistance monitoring your complaint rates, or would like help with strategies to reduce complaints, please talk with your Adobe Deliverability Consultant, or speak with your account team about adding a Deliverability Consultant if you do not already have one.
 
 ## How will this impact me as a marketer?
@@ -82,3 +96,8 @@ We are here to help, so if you have any questions or need support, please talk w
 ## Are there ways around this?
 
 While this is always a question that comes up, the reality is that these changes make sense for the end users of [!DNL Google] and [!DNL Yahoo]'s platforms. They are motivated by those users' expectations to enforce these rules. We do not recommend trying to circumvent any of these changes, but rather take a step back and think about how to accommodate these changes.
+
+## Final Note:
+
+Please know that this does not currently apply to emails sent to [!DNL Yahoo].JP or [!DNL Gmail] Workspace accounts, it does apply to emails coming from those locations though.
+
