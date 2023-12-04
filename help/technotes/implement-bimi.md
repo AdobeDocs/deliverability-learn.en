@@ -66,7 +66,7 @@ The logo creation needs to follow the requirements to 100%. Please always refer 
 
 The logo needs to be stored in a secure location (HTTPS), in case a content delivery network (CDN) is used any protection which prevents Mailbox Providers from getting the logo (e.g. Bot Protection) needs to be disabled.
 
-Besides the technical requirements, there are some practical recommendations like having a square logo, having a solid color as background and others. These recommendations are for best visualization. Some providers have their own requirements which are additional to the ones by the BIMI working group. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"}. for example requires the logo to be at least 96 x 96 pixels.
+Besides the technical requirements, there are some practical recommendations like having a square logo, having a solid color as background and others. These recommendations are for best visualization. Some providers have their own requirements which are additional to the ones by the BIMI working group. [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"} for example requires the logo to be at least 96 x 96 pixels.
 Please note that non-compliance can lead to the logo not being displayed. 
 
 ### Verified Mark Certificate (VMC) {#vmc}
