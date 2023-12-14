@@ -83,7 +83,7 @@ Keeping low complaint rates under 0.2% has been a best practice for a long time.
 * Maintaining a low spam rate makes senders more resilient to occasional spikes in user feedback.
 * Similarly, maintaining a high spam rate will lead to increased spam classification. It can take time for improvements in spam rate to reflect positively on spam classification.
 
-[!DNL Yahoo] has stated that their complaint threshold will be in the 0.30% range as well.
+[!DNL Yahoo] has stated that their complaint threshold will be the 0.30% range as well.
 
 [!DNL Google] and [!DNL Yahoo]’s goal is not to punish senders for a single bad day or a mistake that causes a temporary spike in complaints. Instead, they are focusing on senders who have high complaint rates over an extended period of time or a pattern of bad sending behavior.
 
