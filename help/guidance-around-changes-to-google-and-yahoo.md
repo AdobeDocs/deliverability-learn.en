@@ -108,7 +108,10 @@ Please know that this does not currently apply to emails sent to [!DNL Yahoo].JP
 
 ## Additional Resources (Not Specific to these changes):
 
-[!DNL Google Sender Guidelines](https://support.google.com/mail/answer/81126)
-[!DNL Google FAQ](https://support.google.com/a/answer/14229414?sjid=2864589551334481470-NC)
-[!DNL Yahoo Sender Guidelines](https://senders.yahooinc.com/best-practices/)
-[!DNL Yahoo FAQ](https://senders.yahooinc.com/faqs/)
+[!DNL Google Sender Guidelines](https://support.google.com/mail/answer/81126){target="_blank"}
+
+[!DNL Google FAQ](https://support.google.com/a/answer/14229414?sjid=2864589551334481470-NC){target="_blank"}
+
+[!DNL Yahoo Sender Guidelines](https://senders.yahooinc.com/best-practices/){target="_blank"}
+
+[!DNL Yahoo FAQ](https://senders.yahooinc.com/faqs/){target="_blank"} 
