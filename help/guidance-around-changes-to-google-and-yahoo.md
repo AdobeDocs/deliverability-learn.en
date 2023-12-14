@@ -25,7 +25,9 @@ The email deliverability experts at Adobe have read through these blog posts and
 
 ## So, what exactly are [!DNL Google] and [!DNL Yahoo] doing?
 
-In the world of email there are legal requirements, practical requirements, and general best practices. Legal requirements vary widely from location to location and are not part of this topic. Instead, [!DNL Google] and [!DNL Yahoo] are taking best practices and turning them into practical requirements. None of the items [!DNL Google] and [!DNL Yahoo] are going to start requiring in February are new, and have often been best practice recommendations for years, but adoption has been slow and uneven in the industry. This is [!DNL Google] and [!DNL Yahoo]'s way of helping progress that adoption process by saying "If you want to deploy email to our users (this may represent a significant portion of your email list, in some cases as high as 70%, depending on region and industry) you need to do these things."
+In the world of email there are legal requirements, practical requirements, and general best practices. Legal requirements vary widely from location to location and are not part of this topic. Instead, [!DNL Google] and [!DNL Yahoo] are taking best practices and turning them into practical requirements. 
+
+None of the items [!DNL Google] and [!DNL Yahoo] are going to start requiring in February are new, and have often been best practice recommendations for years, but adoption has been slow and uneven in the industry. This is [!DNL Google] and [!DNL Yahoo]'s way of helping progress that adoption process by saying "If you want to deploy email to our users (this may represent a significant portion of your email list, in some cases as high as 70%, depending on region and industry) you need to do these things."
 
 ## What are the details?
 
@@ -44,9 +46,10 @@ You can also find more information about DMARC and how to implement it [here](ht
 ## 1-Click (List) Unsubscribe:
 
 Don't panic. [!DNL Google] and [!DNL Yahoo] are not talking about the unsubscribe links in your email body or footer that might be clicked on by a security bot just doing its job or by accident. What they mean is the List-Unsubscribe header functionality for either the "mailto" or "http/URL" versions. This is the function within the [!DNL Yahoo] and Gmail UIs where users can click unsubscribe. Gmail even prompts users who click on "Report Spam" to see if they meant to unsubscribe instead, which can reduce the number of complaints you get (complaints hurt your reputation) by turning them into unsubscribes instead (doesn't hurt your reputation).
-It is important to note that [!DNL Google] and [!DNL Yahoo] are both referring to the "http/URL" option by the name "1-Click", and this is intentional. Technically the original "http/URL" option allowed you to redirect recipients to a website. That is not the focus of [!DNL Yahoo] and [!DNL Google], who both reference the updated RFC8058 which focuses on processing the unsubscribe via an HTTPS POST request instead of a website, making it "1-Click".
 
-Today, [!DNL Gmail] accepts the “mailto” list-unsubscribe option. [!DNL Gmail] has said that “mailto” does not meet their expectations going forward, and starting in February senders will need to have the “post” list-unsubscribe option enabled.
+It is important to note that [!DNL Google] and [!DNL Yahoo] are both referring to the "http/URL" option by the name "1-Click", and this is intentional. Technically the original "http/URL" option allowed you to redirect recipients to a website. That is not the focus of [!DNL Yahoo] and [!DNL Google], who both reference the updated [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} which focuses on processing the unsubscribe via an HTTPS POST request instead of a website, making it "1-Click".
+
+Today, Gmail accepts the “mailto” list-unsubscribe option. Gmail has said that “mailto” does not meet their expectations going forward, and senders will need to have the “post” list-unsubscribe option enabled. Those senders who already have list-unsubscribe of some type in place will have until June 1st 2024 to have “1-click” list-unsubscribe in place.
 
 [!DNL Yahoo] has said they will continue to honor the “mailto” option, for now, but that they too will be requiring “post” in the future.
 
@@ -90,7 +93,9 @@ If you need assistance monitoring your complaint rates, or would like help with 
 ## How will this impact me as a marketer?
 
 Failing to stick to these new requirements from Gmail and [!DNL Yahoo] is expected to result in emails landing into the spam folder or getting blocked (i.e., getting a bounce back from the MBP indicating the email was not delivered).
+
 As such, Adobe strongly recommends you go through the changes outlined above and ensure you start complying with them as soon as possible. Now is also a great time to start benchmarking your performance at [!DNL Yahoo] and [!DNL Google] to allow you to see if there is any material change to your metrics come February.
+
 We are here to help, so if you have any questions or need support, please talk with your Adobe Deliverability Consultant or speak with your account team about adding a Deliverability Consultant if you do not already have one.
 
 ## Are there ways around this?
@@ -101,3 +106,9 @@ While this is always a question that comes up, the reality is that these changes
 
 Please know that this does not currently apply to emails sent to [!DNL Yahoo].JP or [!DNL Gmail] Workspace accounts, it does apply to emails coming from those locations though.
 
+## Additional Resources (Not Specific to these changes):
+
+[!DNL Google Sender Guidelines](https://support.google.com/mail/answer/81126)
+[!DNL Google FAQ](https://support.google.com/a/answer/14229414?sjid=2864589551334481470-NC)
+[!DNL Yahoo Sender Guidelines](https://senders.yahooinc.com/best-practices/)
+[!DNL Yahoo FAQ](https://senders.yahooinc.com/faqs/)
