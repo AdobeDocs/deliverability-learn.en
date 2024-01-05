@@ -61,11 +61,11 @@ The need for list-unsubscribe headers does not apply to transactional emails. Pl
 
 >[!INFO]
 > Adobe is working on enabling “post” support on all of our email sending platforms to support our users with meeting these requirements:
+> 
 > * [!DNL Adobe Campaign Classic V7/V8]: Fully supports POST 1-Click today. Updates to step by step setup will be published [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} by mid-January 
 >* [!DNL Adobe Campaign Standard]: Is being updated to support POST 1-Click. Check back for updates soon. Instructions for setup will be provided [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
 >* [!DNL Adobe Journey Optimizer]: Fully supports POST 1-Click today. Updates to step by step setup will be published [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} by mid-January
->
-> Marketo: Is being updated to support POST 1-Click. Once ready it will be auto-applied where required.
+> * [!DNL Marketo]: Is being updated to support POST 1-Click. Once ready it will be auto-applied where required.
 
 
 ## Process Unsubscribes within 2 days:
@@ -93,7 +93,7 @@ If you need assistance monitoring your complaint rates, or would like help with 
 
 Updates to timelines have been forthcoming since the original announcement in October. The most recent timelines look like:
 
-[!DNL Gmail]:
+## [!DNL Gmail]:
 
 February 2024 – Temporary bounces designed to provide warning of non-compliance will begin. Emails will still be delivered as normal after a short delay if you are not yet in compliance. If you are fully in compliance there will be no temporary bounces and you won’t notice a thing.
 
@@ -101,7 +101,7 @@ April 2024 – Blocks will begin for senders who are not in compliance with ever
 
 June 1st, 2024 – Any sender not in full compliance, including List-Unsubscribe 1-Click, will experience blocking.
 
-[!DNL Yahoo]:
+## [!DNL Yahoo]:
 
 Has not provided exact dates, but has said “the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out”.
 
