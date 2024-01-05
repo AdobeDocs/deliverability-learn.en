@@ -35,7 +35,7 @@ If you are an Adobe customer most of what they are requiring is already part of 
 
 ## DMARC:
 
-[!DNL Google] and [!DNL Yahoo] will both be requiring that you have a DMARC record for any domain you use to send email to them. They are NOT currently requiring a p=reject or p=quarantine setting, so a setting of p=none, commonly called the "monitoring" setting, is perfectly acceptable. This will not change how your emails are processed, they will do what they would normally do without DMARC. Setting this up is the first step to protecting yourself with DMARC, and in addition to the new benefit of helping you send email to [!DNL Google] and [!DNL Yahoo] it can also help you see if there are authentication issues anywhere within your email eco-system.
+[!DNL Google] and [!DNL Yahoo] will both be requiring that you have a DMARC record for any domain you use to send email to them. They are NOT currently requiring a p=reject or p=quarantine setting, so a setting of p=none, commonly called the "monitoring" setting, is perfectly acceptable for now. This will not change how your emails are processed, they will do what they would normally do without DMARC. Setting this up is the first step to protecting yourself with DMARC, and in addition to the new benefit of helping you send email to [!DNL Google] and [!DNL Yahoo] it can also help you see if there are authentication issues anywhere within your email eco-system.
 
 The rules for DMARC are not changing, which means that unless configured to prevent it, a DMARC record on the parent domain (adobe.com as example) will be inherited and cover any subdomain (such as email.adobe.com). You do not need different DMARC records for your subdomains, unless you want or need to add them for a variety of business reasons.
 
@@ -60,12 +60,12 @@ The need for list-unsubscribe headers does not apply to transactional emails. Pl
 [!DNL Google] and [!DNL Yahoo] are both aware that in some cases a recipient will unsubscribe and then re-subscribe at a later date. While they are not willing to share the secret sauce of how they identify these situations they are working on methods to avoid penalizing senders incorrectly in these cases.
 
 >[!INFO]
-> For more information about how to implement list-unsubscribe for your solution please check:
-> * [!DNL Adobe Campaign Classic]: [Technical recommendations](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} 
->* [!DNL Adobe Campaign Standard]: [What is the List-Unsubscribe header? And how can this be implemented in ACS?](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
->* [!DNL Adobe Journey Optimizer]: [Email opt-out management](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
+> Adobe is working on enabling “post” support on all of our email sending platforms to support our users with meeting these requirements:
+> * [!DNL Adobe Campaign Classic V7/V8]: Fully supports POST 1-Click today. Updates to step by step setup will be published [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} by mid-January 
+>* [!DNL Adobe Campaign Standard]: Is being updated to support POST 1-Click. Check back for updates soon. Instructions for setup will be provided [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
+>* [!DNL Adobe Journey Optimizer]: Fully supports POST 1-Click today. Updates to step by step setup will be published [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} by mid-January
 >
-> Or reach out to Adobe Customer Support team at any time.
+> Marketo: Is being updated to support POST 1-Click. Once ready it will be auto-applied where required.
 
 
 ## Process Unsubscribes within 2 days:
@@ -88,6 +88,22 @@ Keeping low complaint rates under 0.2% has been a best practice for a long time.
 [!DNL Google] and [!DNL Yahoo]’s goal is not to punish senders for a single bad day or a mistake that causes a temporary spike in complaints. Instead, they are focusing on senders who have high complaint rates over an extended period of time or a pattern of bad sending behavior.
 
 If you need assistance monitoring your complaint rates, or would like help with strategies to reduce complaints, please talk with your Adobe Deliverability Consultant, or speak with your account team about adding a Deliverability Consultant if you do not already have one.
+
+## What timelines are we looking at?
+
+Updates to timelines have been forthcoming since the original announcement in October. The most recent timelines look like:
+
+[!DNL Gmail]:
+
+February 2024 – Temporary bounces designed to provide warning of non-compliance will begin. Emails will still be delivered as normal after a short delay if you are not yet in compliance. If you are fully in compliance there will be no temporary bounces and you won’t notice a thing.
+
+April 2024 – Blocks will begin for senders who are not in compliance with everything except List-Unsubscribe 1-Click. Only a portion of non-compliant email will be blocked at first, with the % blocked increasing over time.
+
+June 1st, 2024 – Any sender not in full compliance, including List-Unsubscribe 1-Click, will experience blocking.
+
+[!DNL Yahoo]:
+
+Has not provided exact dates, but has said “the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out”.
 
 ## How will this impact me as a marketer?
 
