@@ -169,10 +169,10 @@ The command line must be added in the additional section of the email's SMTP hea
 
 This addition can be done in each email, or in existing delivery templates. You can also create a new delivery template that includes this functionality.
 
-1.	List-Unsubscribe: <mailto:unsubscribe@domain.com> 
+1;	List-Unsubscribe: <mailto:unsubscribe@domain.com> 
 Clicking the unsubscribe link opens the user’s default email client. This typology rule must be added in a typology used for creating email.
 
-2.	List-Unsubscribe: <https://domain.com/unsubscribe.jsp> 
+2;	List-Unsubscribe: <https://domain.com/unsubscribe.jsp> 
 Clicking the unsubscribe link redirects the user to your unsubscribe form.
 ![image](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
 
@@ -193,18 +193,18 @@ The rule must contain the script that generates the command line and it must be 
 
 Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. To comply with the One-Click List-Unsubscribe requirement senders must: 
  
-1.	Add in a “List-Unsubscribe-Post: List-Unsubscribe=One-Click” 
-2.	Include a URI unsubscribe Link 
-3.	Support reception of the HTTP POST response from the receiver, which Adobe Campaign supports. 
+1;	Add in a “List-Unsubscribe-Post: List-Unsubscribe=One-Click” 
+2;	Include a URI unsubscribe Link 
+3;	Support reception of the HTTP POST response from the receiver, which Adobe Campaign supports. 
  
 To configure One-Click List-Unsubscribe directly: 
  
 •	Add in the following “Unsubscribe recipients no-click” web application  
-1.	Go to Resources -> Online -> Web Applications 
-2.	Upload the "Unsubscribe recipients no-click" XML 
+1;	Go to Resources -> Online -> Web Applications 
+2;	Upload the "Unsubscribe recipients no-click" XML 
 •	Configure List-Unsubscribe and List-Unsubscribe-Post 
-1.	Go to the SMTP section of the Delivery Properties. 
-2.	Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line): 
+1;	Go to the SMTP section of the Delivery Properties. 
+2;	Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line): 
  
 List-Unsubscribe-Post: List-Unsubscribe=One-Click 
 List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%> 
