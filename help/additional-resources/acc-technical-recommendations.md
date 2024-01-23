@@ -333,7 +333,6 @@ if ( headerUnsubPost === "" ) {
   
 // Return true to indicate success 
 return true; 
-![image](https://git.corp.adobe.com/storage/user/38257/files/19aa6e14-0a23-4332-b21b-546da77995d6)
 ```
 
 * Add your new rule to a Typology to an email (Default typology is ok).
