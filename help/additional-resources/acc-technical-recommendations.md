@@ -214,7 +214,13 @@ subject=unsubscribe%=message.mimeMessageId%>
  
 The above example will enable One-Click List-Unsubscribe for ISPs who support One-Click, while ensuring that receivers who do not support URL list-unsubscribe can still request a unsubscribe via email. 
  
-Click here to see how to configure One-Click List-Unsubscribe via Typology Rule.
+
+### Creating Typology Rule to Support One-Click List-Unsubscribe:
+
+1 * Create the new Typology Rule 
+From the Navigation Tree click new to create a new Typology 
+![image](https://git.corp.adobe.com/storage/user/38257/files/b8d48b7f-0f33-4118-b61d-e60351c68260)
+
 
 ## Email optimization {#email-optimization}
 
