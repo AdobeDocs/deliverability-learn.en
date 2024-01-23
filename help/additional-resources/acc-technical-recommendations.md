@@ -133,16 +133,17 @@ Adobe Campaign's Deliverability service manages your subscription to feedback lo
 
 ### About List-Unsubscribe {#about-list-unsubscribe}
 
-Adding an SMTP header called **List-Unsubscribe** is mandatory to ensure optimal deliverability management.
+Adding an SMTP header called **List-Unsubscribe** is mandatory to ensure optimal deliverability management.Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. To understand how to configure One-Click List-Unsubscribe please see below.
 
-This header can be used as an alternative to the "Report as SPAM" icon. It will display as an unsubscription link in the email interface.
 
-Using this functionality helps to protect your reputation and feedback will be executed as an unsubscription.
+This header can be used as an alternative to the "Report as SPAM" icon. It will display as an unsubscribe link in the email interface.
+
+Using this functionality helps to protect your reputation and feedback will be executed as an unsubscribe.
 
 To use List-Unsubscribe, you must enter a command line similar to as follows:
 
 ```
-List-Unsubscribe: mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe
+List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
 ```
 
 >[!CAUTION]
@@ -152,7 +153,7 @@ List-Unsubscribe: mailto: client@newsletter.example.com?subject=unsubscribe?body
 The following command line can be used to create a dynamic **List-Unsubscribe**:
 
 ```
-List-Unsubscribe: mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%
+List-Unsubscribe: <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
 Gmail, Outlook.com, and Microsoft Outlook support this method and an unsubscribe button is available directly in their interface. This technique lowers complaint rates.
@@ -168,6 +169,14 @@ The command line must be added in the additional section of the email's SMTP hea
 
 This addition can be done in each email, or in existing delivery templates. You can also create a new delivery template that includes this functionality.
 
+1.	List-Unsubscribe: <mailto:unsubscribe@domain.com> 
+Clicking the unsubscribe link opens the user’s default email client. This typology rule must be added in a typology used for creating email.
+
+2.	List-Unsubscribe: <https://domain.com/unsubscribe.jsp> 
+Clicking the unsubscribe link redirects the user to your unsubscribe form.
+![image](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+
+
 ### Creating a typology rule {#creating-a-typology-rule}
 
 The rule must contain the script that generates the command line and it must be included in the email header.
@@ -176,21 +185,33 @@ The rule must contain the script that generates the command line and it must be 
 >
 >We recommend creating a typology rule: the List-Unsubscribe functionality will be automatically added in each email.
 
-1. List-Unsubscribe: &lt;mailto:unsubscribe@domain.com&gt;
-
-   Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
-
-1. List-Unsubscribe: `<https://domain.com/unsubscribe.jsp>`
-
-   Clicking the **unsubscribe** link redirects the user to your unsubscription form.
-
-   Example:
-
-   ![](../assets/s_tn_del_unsubscribe_param.png)
-
 >[!NOTE]
 >
 >Learn how to create typology rules in Adobe Campaign Classic in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+
+### One-Click List Unsubscribe
+
+Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. To comply with the One-Click List-Unsubscribe requirement senders must: 
+ 
+1.	Add in a “List-Unsubscribe-Post: List-Unsubscribe=One-Click” 
+2.	Include a URI unsubscribe Link 
+3.	Support reception of the HTTP POST response from the receiver, which Adobe Campaign supports. 
+ 
+To configure One-Click List-Unsubscribe directly: 
+ 
+•	Add in the following “Unsubscribe recipients no-click” web application  
+1.	Go to Resources -> Online -> Web Applications 
+2.	Upload the "Unsubscribe recipients no-click" XML 
+•	Configure List-Unsubscribe and List-Unsubscribe-Post 
+1.	Go to the SMTP section of the Delivery Properties. 
+2.	Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line): 
+ 
+List-Unsubscribe-Post: List-Unsubscribe=One-Click 
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%> 
+ 
+The above example will enable One-Click List-Unsubscribe for ISPs who support One-Click, while ensuring that receivers who do not support URL list-unsubscribe can still request a unsubscribe via email. 
+ 
+Click here to see how to configure One-Click List-Unsubscribe via Typology Rule.
 
 ## Email optimization {#email-optimization}
 
