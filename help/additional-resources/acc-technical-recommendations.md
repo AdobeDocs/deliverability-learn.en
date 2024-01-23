@@ -206,10 +206,11 @@ To configure One-Click List-Unsubscribe directly:
 * Go to the SMTP section of the Delivery Properties. 
 * Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line): 
 
-,,,
-List-Unsubscribe-Post: List-Unsubscribe=One-Click 
-List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
-,,,
+```
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https//domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?
+subject=unsubscribe%=message.mimeMessageId%>
+```
  
 The above example will enable One-Click List-Unsubscribe for ISPs who support One-Click, while ensuring that receivers who do not support URL list-unsubscribe can still request a unsubscribe via email. 
  
