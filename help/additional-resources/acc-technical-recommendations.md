@@ -199,12 +199,12 @@ Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply wi
  
 To configure One-Click List-Unsubscribe directly: 
  
-•	Add in the following “Unsubscribe recipients no-click” web application  
-1;	Go to Resources -> Online -> Web Applications 
-2;	Upload the "Unsubscribe recipients no-click" XML 
-•	Configure List-Unsubscribe and List-Unsubscribe-Post 
-1;	Go to the SMTP section of the Delivery Properties. 
-2;	Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line): 
+* Add in the following “Unsubscribe recipients no-click” web application  
+1* Go to Resources -> Online -> Web Applications 
+2* Upload the "Unsubscribe recipients no-click" XML 
+* Configure List-Unsubscribe and List-Unsubscribe-Post 
+1* Go to the SMTP section of the Delivery Properties. 
+2* Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line): 
  
 List-Unsubscribe-Post: List-Unsubscribe=One-Click 
 List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%> 
