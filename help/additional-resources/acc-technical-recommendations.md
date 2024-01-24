@@ -220,7 +220,7 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
 Create the new Typology Rule
 
 * From the Navigation Tree click new to create a new Typology
-![image](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
+![typologyrues1](/help/assets/CreatingTypologyRules1.png)
 
 Proceed to configure the typology rule
 
