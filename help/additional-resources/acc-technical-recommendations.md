@@ -221,7 +221,7 @@ Create the new Typology Rule
 
 From the Navigation Tree click new to create a new Typology
 
-![typologyrues1](help/assets/CreatingTypologyRules1.png)
+![typologyrues1](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/commit/ae78f381d0501bbc71f5a33bd2e8dd52563b193f#diff-99b6d79de1599be3ab6a20bd059e70a4a39b09feae147af09a91009f90fd1ced)
 
 Proceed to configure the typology rule
 
