@@ -201,7 +201,7 @@ To configure One-Click List-Unsubscribe directly:
  
 * Add in the following “Unsubscribe recipients no-click” web application  
 * Go to Resources -> Online -> Web Applications 
-* Upload the "Unsubscribe recipients no-click" [XML](/help/assets/WebAppUnsubNoClick.xml)
+* Upload the "Unsubscribe recipients no-click" [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
  
 * Configure List-Unsubscribe and List-Unsubscribe-Post 
 * Go to the SMTP section of the Delivery Properties. 
@@ -218,13 +218,13 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
 
 ### Creating Typology Rule to Support One-Click List-Unsubscribe:
 
-Create the new Typology Rule
+Create the new Typology Rule:
 
-From the Navigation Tree click "new" to create a new Typology
+* From the Navigation Tree click "new" to create a new Typology
 
 ![image](/help/assets/CreatingTypologyRules1.png)
 
-Proceed to configure the typology rule
+Proceed to configure the typology rule:
 
 * Rule Type : control 
 * Channel: email 
@@ -234,7 +234,7 @@ Proceed to configure the typology rule
 
 ![image](/help/assets/CreatingTypologyRules2.png) 
 
-Code the javascript of the Typology rule.
+Code the javascript of the Typology rule:
 
 >[!NOTE]
 >
@@ -350,7 +350,7 @@ Add your new rule to a Typology to an email (Default typology is ok).
 
 ![image](/help/assets/CreatingTypologyRules4.png)
 
-Prepare a new delivery (verify that Additional SMTP headers in delivery property is empty).
+Prepare a new delivery (verify that Additional SMTP headers in delivery property is empty)
 
 ![image](/help/assets/CreatingTypologyRules5.png)
 
