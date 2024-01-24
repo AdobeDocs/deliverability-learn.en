@@ -201,7 +201,8 @@ To configure One-Click List-Unsubscribe directly:
  
 * Add in the following “Unsubscribe recipients no-click” web application  
 * Go to Resources -> Online -> Web Applications 
-* Upload the "Unsubscribe recipients no-click" XML 
+* Upload the "Unsubscribe recipients no-click" [XML](/help/assets/WebAppUnsubNoClick.xml)
+ 
 * Configure List-Unsubscribe and List-Unsubscribe-Post 
 * Go to the SMTP section of the Delivery Properties. 
 * Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line): 
