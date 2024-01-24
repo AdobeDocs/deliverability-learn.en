@@ -221,7 +221,7 @@ Create the new Typology Rule
 
 From the Navigation Tree click new to create a new Typology
 
-![image](main/help/assets/CreatingTypologyRules1.png)
+![image](/help/assets/CreatingTypologyRules1.png)
 
 Proceed to configure the typology rule
 
