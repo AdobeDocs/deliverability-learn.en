@@ -238,7 +238,7 @@ This example details how to:
 * Configure a URL List-Unsubscribe and will add the headers or append the existing mailto: parameters and replace it with: <mailto..>, <http:…>  
 * Add in the List-Unsubscribe-Post Header
 
-The post url example uses var headerUnsubUrl = "http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>";  You can add other parameters ( like &service = ... )
+The post url example uses var headerUnsubUrl = "http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>";  You can add other parameters ( like &service = ...)
 
 ```
 // Function to add or replace a header in the provided headers 
