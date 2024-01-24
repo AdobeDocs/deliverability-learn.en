@@ -217,12 +217,12 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
 
 ### Creating Typology Rule to Support One-Click List-Unsubscribe:
 
-# Create the new Typology Rule
+Create the new Typology Rule
 
 * From the Navigation Tree click new to create a new Typology
 ![image](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
 
-# Proceed to configure the typology rule
+Proceed to configure the typology rule
 
 * Rule Type : control 
 * Channel: email 
@@ -232,7 +232,7 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
 
 ![image](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png) 
 
-# Code the javascript of the Typology rule.
+Code the javascript of the Typology rule.
 
 >[!NOTE]
 >
@@ -344,19 +344,19 @@ return true;
 
 ![image](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
-# Add your new rule to a Typology to an email (Default typology is ok).
+Add your new rule to a Typology to an email (Default typology is ok).
 
 ![image](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
-# Prepare a new delivery (verify that Additional SMTP headers in delivery property is empty).
+Prepare a new delivery (verify that Additional SMTP headers in delivery property is empty).
 
 ![image](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
-# Check during delivery preparation that your new Typology Rule is applied.
+Check during delivery preparation that your new Typology Rule is applied.
 
 ![image](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
-# Validate that the List-Unsubscribe is present.
+Validate that the List-Unsubscribe is present.
 
 ![image](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
