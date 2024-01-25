@@ -174,7 +174,7 @@ Clicking the unsubscribe link opens the user’s default email client. This 
 
 * List-Unsubscribe: <https://domain.com/unsubscribe.jsp> 
 Clicking the unsubscribe link redirects the user to your unsubscribe form.
-![image](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+![image](/help/assets/ListUnsubscribe1.png)
 
 
 ### Creating a typology rule {#creating-a-typology-rule}
@@ -222,7 +222,7 @@ Create the new Typology Rule:
 
 * From the Navigation Tree click "new" to create a new Typology
 
-![image](/help/assets/CreatingTypologyRules1.png)
+![image](/help/assets/CreatingTypologyRules1.png){width="50%"}{hight="50%"}
 
 Proceed to configure the typology rule:
 
@@ -242,7 +242,7 @@ Code the javascript of the Typology rule:
 >This example details how to:  
 >* Configure a URL List-Unsubscribe and will add the headers or append the existing mailto: parameters and replace it with: <mailto..>, <http://…>  
 >* Add in the List-Unsubscribe-Post Header
->The post url example uses var headerUnsubUrl = "http;//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"; 
+>The post url example uses var headerUnsubUrl = "http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>": 
 >* You can add other parameters (like &service = ...)
 >
 
