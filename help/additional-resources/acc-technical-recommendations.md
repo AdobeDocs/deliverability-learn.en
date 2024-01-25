@@ -222,7 +222,7 @@ Create the new Typology Rule:
 
 * From the Navigation Tree click "new" to create a new Typology
 
-![image](/help/assets/CreatingTypologyRules1.png){width="50%"}{hight="50%"}
+![image](/help/assets/CreatingTypologyRules1.png){width="150%"}{hight="150%"}
 
 Proceed to configure the typology rule:
 
