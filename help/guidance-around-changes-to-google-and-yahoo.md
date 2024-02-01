@@ -41,7 +41,7 @@ The rules for DMARC are not changing, which means that unless configured to prev
 
 DMARC is fully supported in Adobe currently but is not required. Use any free DMARC checker to see if you have DMARC setup for your subdomains, and if you do not, talk to your Adobe support team to see how best to go about getting that setup. 
 
-You can also find more information about DMARC and how to implement it [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html){target="_blank"} for Adobe Campaign or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} for Marketo Engage.
+You can also find more information about DMARC and how to implement it [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html){target="_blank"} for Adobe Campaign, [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/dmarc-record-update.html?lang=en){target="_blank"} for AJO, or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} for Marketo Engage.
 
 ## 1-Click (List) Unsubscribe:
 
@@ -63,9 +63,9 @@ The need for list-unsubscribe headers does not apply to transactional emails. Pl
 > Adobe is working on enabling “post” support on all of our email sending platforms to support our users with meeting these requirements:
 > 
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]: Fully supports POST 1-Click today. Updates to step by step setup will be published [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} by mid-January. 
->* [!DNL Adobe Campaign Standard]: Is being updated to support POST 1-Click. Check back for updates soon. Instructions for setup will be provided [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}.
->* [!DNL Adobe Journey Optimizer]: Fully supports POST 1-Click today. Updates to step by step setup will be published [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} by mid-January.
+> * [!DNL Adobe Campaign Classic V7/V8]: Fully supports POST 1-Click today, instructions can be found [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} by mid-January. 
+>* [!DNL Adobe Campaign Standard]: Is being updated to support POST 1-Click by late February. Instructions for setup will be provided [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} once ready.
+>* [!DNL Adobe Journey Optimizer]: Supports POST 1-Click today, but some key improvements are underway. Updates to step by step setup will be published [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} once ready.
 > * [!DNL Marketo]: Is being updated to support POST 1-Click. Once ready it will be auto-applied where required.
 
 
@@ -104,7 +104,9 @@ June 1st, 2024 – Any sender not in full compliance, including List-Unsubscribe
 
 [!DNL Yahoo]:
 
-Has not provided exact dates, but has said “the rollout of enforcement will begin in February 2024. Enforcement will be gradually rolled out”.
+February 2024 – The gradual rollout of enforcement for all requirements other than 1-Click List-Unsubscribe will begin in February 2024.
+
+June 2024 – 1-Click List-Unsubscribe enforcement will begin in June 2024.
 
 ## How will this impact me as a marketer?
 
