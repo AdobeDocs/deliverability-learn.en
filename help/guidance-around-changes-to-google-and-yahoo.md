@@ -63,7 +63,7 @@ The need for list-unsubscribe headers does not apply to transactional emails. Pl
 > Adobe is working on enabling “post” support on all of our email sending platforms to support our users with meeting these requirements:
 > 
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]: Fully supports POST 1-Click today, instructions can be found [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} by mid-January. 
+> * [!DNL Adobe Campaign Classic V7/V8]: Fully supports POST 1-Click today, instructions can be found [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}. 
 >* [!DNL Adobe Campaign Standard]: Is being updated to support POST 1-Click by late February. Instructions for setup will be provided [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} once ready.
 >* [!DNL Adobe Journey Optimizer]: Supports POST 1-Click today, but some key improvements are underway. Updates to step by step setup will be published [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} once ready.
 > * [!DNL Marketo]: Is being updated to support POST 1-Click. Once ready it will be auto-applied where required.
