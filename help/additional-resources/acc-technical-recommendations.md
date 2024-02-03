@@ -218,20 +218,20 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
 
 ### Creating Typology Rule to Support One-Click List-Unsubscribe:
 
-1. **Create the new Typology Rule:**
+* **Create the new Typology Rule:**
 
-* From the Navigation Tree click "new" to create a new Typology
+    * From the Navigation Tree click "new" to create a new Typology
 
 ![image](/help/assets/CreatingTypologyRules1.png)
 
 
-2. **Proceed to configure the typology rule:**
+* **Proceed to configure the typology rule:**
 
-* Rule Type: control 
-* Channel: email 
-* Phase: At the start of personalization 
-* Level: Your choice  
-* Active
+    * Rule Type: control 
+    * Channel: email 
+    * Phase: At the start of personalization 
+    * Level: Your choice
+    * Active
 
 ![image](/help/assets/CreatingTypologyRules2.png)
 
@@ -347,22 +347,22 @@ return true;
 ![image](/help/assets/CreatingTypologyRules3.png)
 
 
-3. **Add your new rule to a Typology to an email (Default typology is ok):**
+* **Add your new rule to a Typology to an email (Default typology is ok):**
 
 ![image](/help/assets/CreatingTypologyRules4.png)
 
 
-4. **Prepare a new delivery (verify that Additional SMTP headers in delivery property is empty)**
+* **Prepare a new delivery (verify that Additional SMTP headers in delivery property is empty)**
 
 ![image](/help/assets/CreatingTypologyRules5.png)
 
 
-5. **Check during delivery preparation that your new Typology Rule is applied.**
+* **Check during delivery preparation that your new Typology Rule is applied.**
 
 ![image](/help/assets/CreatingTypologyRules6.png)
 
 
-6. **Validate that the List-Unsubscribe is present.**
+* **Validate that the List-Unsubscribe is present.**
 
 ![image](/help/assets/CreatingTypologyRules7.png)
 
