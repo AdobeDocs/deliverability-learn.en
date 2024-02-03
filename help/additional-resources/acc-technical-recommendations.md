@@ -143,7 +143,7 @@ Using this functionality helps to protect your reputation and feedback will be e
 To use List-Unsubscribe, you must enter a command line similar to:
 
 ```
-List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
+List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
 ```
 
 >[!CAUTION]
@@ -153,7 +153,7 @@ List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?bod
 The following command line can be used to create a dynamic **List-Unsubscribe**:
 
 ```
-List-Unsubscribe: <mailto: %=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
+List-Unsubscribe: <mailto:%=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
 Gmail, Outlook.com, and Microsoft Outlook support this method and an unsubscribe button is available directly in their interface. This technique lowers complaint rates.
@@ -169,11 +169,12 @@ The command line must be added in the additional section of the email's SMTP hea
 
 This addition can be done in each email, or in existing delivery templates. You can also create a new delivery template that includes this functionality.
 
-* List-Unsubscribe: <mailto:unsubscribe@domain.com> 
+  1. List-Unsubscribe: <mailto:unsubscribe@domain.com> 
 Clicking the unsubscribe link opens the user’s default email client. This typology rule must be added in a typology used for creating email.
 
-* List-Unsubscribe: <https://domain.com/unsubscribe.jsp> 
+  2. List-Unsubscribe: <https://domain.com/unsubscribe.jsp> 
 Clicking the unsubscribe link redirects the user to your unsubscribe form.
+
 ![image](/help/assets/UTF-8-1.png)
 
 
@@ -193,9 +194,9 @@ The rule must contain the script that generates the command line and it must be 
 
 Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. To comply with the One-Click List-Unsubscribe requirement senders must: 
  
-* Add in a “List-Unsubscribe-Post: List-Unsubscribe=One-Click” 
-* Include a URI unsubscribe Link 
-* Support reception of the HTTP POST response from the receiver, which Adobe Campaign supports. 
+  1. Add in a “List-Unsubscribe-Post: List-Unsubscribe=One-Click” 
+  2. Include a URI unsubscribe Link
+  3. Support reception of the HTTP POST response from the receiver, which Adobe Campaign supports. 
  
 To configure One-Click List-Unsubscribe directly: 
  
