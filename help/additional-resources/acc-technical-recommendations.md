@@ -140,7 +140,7 @@ This header can be used as an alternative to the "Report as SPAM" icon. It will 
 
 Using this functionality helps to protect your reputation and feedback will be executed as an unsubscribe.
 
-To use List-Unsubscribe, you must enter a command line similar to as follows:
+To use List-Unsubscribe, you must enter a command line similar to:
 
 ```
 List-Unsubscribe: <mailto: client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
@@ -174,7 +174,7 @@ Clicking the unsubscribe link opens the user’s default email client. This 
 
 * List-Unsubscribe: <https://domain.com/unsubscribe.jsp> 
 Clicking the unsubscribe link redirects the user to your unsubscribe form.
-![image](/help/assets/ListUnsubscribe1.png)
+![image](/help/assets/UTF-8-1.png)
 
 
 ### Creating a typology rule {#creating-a-typology-rule}
@@ -200,12 +200,11 @@ Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply wi
 To configure One-Click List-Unsubscribe directly: 
  
 * Add in the following “Unsubscribe recipients no-click” web application  
-* Go to Resources -> Online -> Web Applications 
-* Upload the "Unsubscribe recipients no-click" [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
- 
+  1. Go to Resources -> Online -> Web Applications 
+  2. Upload the "Unsubscribe recipients no-click" [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 * Configure List-Unsubscribe and List-Unsubscribe-Post 
-* Go to the SMTP section of the Delivery Properties. 
-* Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line): 
+  1. Go to the SMTP section of the Delivery Properties.
+  2. Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line): 
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
