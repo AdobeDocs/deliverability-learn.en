@@ -169,10 +169,10 @@ The command line must be added in the additional section of the email's SMTP hea
 
 This addition can be done in each email, or in existing delivery templates. You can also create a new delivery template that includes this functionality.
 
-    1. List-Unsubscribe: mailto:unsubscribe@domain.com 
+1.List-Unsubscribe: mailto:unsubscribe@domain.com 
 Clicking the unsubscribe link opens the user’s default email client. This typology rule must be added in a typology used for creating email.
 
-    2. List-Unsubscribe: https://domain.com/unsubscribe.jsp 
+2.List-Unsubscribe: https://domain.com/unsubscribe.jsp 
 Clicking the unsubscribe link redirects the user to your unsubscribe form.
 
 ![image](/help/assets/UTF-8-1.png)
