@@ -169,10 +169,10 @@ The command line must be added in the additional section of the email's SMTP hea
 
 This addition can be done in each email, or in existing delivery templates. You can also create a new delivery template that includes this functionality.
 
-  1. List-Unsubscribe: <mailto:unsubscribe@domain.com> 
+    1. List-Unsubscribe: mailto:unsubscribe@domain.com 
 Clicking the unsubscribe link opens the user’s default email client. This typology rule must be added in a typology used for creating email.
 
-  2. List-Unsubscribe: <https://domain.com/unsubscribe.jsp> 
+    2. List-Unsubscribe: https://domain.com/unsubscribe.jsp 
 Clicking the unsubscribe link redirects the user to your unsubscribe form.
 
 ![image](/help/assets/UTF-8-1.png)
@@ -240,7 +240,7 @@ Code the javascript of the Typology rule:
 >
 >The code described below is to be referenced as an example only.
 >This example details how to:  
->* Configure a URL List-Unsubscribe and will add the headers or append the existing mailto: parameters and replace it with: <mailto..>, <http://…>  
+>* Configure a URL List-Unsubscribe and will add the headers or append the existing mailto: parameters and replace it with: <mailto..>, http://…  
 >* Add in the List-Unsubscribe-Post Header
 >The post url example uses var headerUnsubUrl = "http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>": 
 >* You can add other parameters (like &service = ...)
