@@ -218,7 +218,7 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
 
 ### Creating Typology Rule to Support One-Click List-Unsubscribe:
 
-* **Create the new Typology Rule:**
+1. **Create the new Typology Rule:**
 
     * From the Navigation Tree click "new" to create a new Typology
 
