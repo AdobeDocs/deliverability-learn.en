@@ -221,8 +221,10 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
 **1. Create the new Typology Rule:**
 
     * From the Navigation Tree click "new" to create a new Typology
+    
 
 ![image](/help/assets/CreatingTypologyRules1.png)
+
 
 
 **2. **Proceed to configure the typology rule:**
@@ -233,10 +235,12 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
     * Level: Your choice
     * Active
 
+
 ![image](/help/assets/CreatingTypologyRules2.png)
 
 
 **Code the javascript of the Typology rule:**
+
 
 >[!NOTE]
 >
@@ -344,25 +348,30 @@ if ( headerUnsubPost === "" ) {
 return true; 
 ```
 
+
 ![image](/help/assets/CreatingTypologyRules3.png)
 
 
-* **Add your new rule to a Typology to an email (Default typology is ok):**
+
+**3. Add your new rule to a Typology to an email (Default typology is ok):**
 
 ![image](/help/assets/CreatingTypologyRules4.png)
 
 
-* **Prepare a new delivery (verify that Additional SMTP headers in delivery property is empty)**
+
+**4. Prepare a new delivery (verify that Additional SMTP headers in delivery property is empty)**
 
 ![image](/help/assets/CreatingTypologyRules5.png)
 
 
-* **Check during delivery preparation that your new Typology Rule is applied.**
+
+**5. Check during delivery preparation that your new Typology Rule is applied.**
 
 ![image](/help/assets/CreatingTypologyRules6.png)
 
 
-* **Validate that the List-Unsubscribe is present.**
+
+**6. Validate that the List-Unsubscribe is present.**
 
 ![image](/help/assets/CreatingTypologyRules7.png)
 
