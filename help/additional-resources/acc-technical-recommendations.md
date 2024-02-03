@@ -220,20 +220,20 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
 
 **1. Create the new Typology Rule:**
 
-    * From the Navigation Tree click "new" to create a new Typology
+  * From the Navigation Tree click "new" to create a new Typology
     
 
 ![image](/help/assets/CreatingTypologyRules1.png)
 
 
 
-**2. **Proceed to configure the typology rule:**
+**2. Proceed to configure the typology rule:**
 
-    * Rule Type: control 
-    * Channel: email 
-    * Phase: At the start of personalization 
-    * Level: Your choice
-    * Active
+  * Rule Type: control
+  * Channel: email
+  * Phase: At the start of personalization
+  * Level: Your choice
+  * Active
 
 
 ![image](/help/assets/CreatingTypologyRules2.png)
