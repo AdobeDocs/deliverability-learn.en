@@ -39,7 +39,7 @@ If you are an Adobe customer most of what they are requiring is already part of 
 
 The rules for DMARC are not changing, which means that unless configured to prevent it, a DMARC record on the parent domain (adobe.com as example) will be inherited and cover any subdomain (such as email.adobe.com). You do not need different DMARC records for your subdomains, unless you want or need to add them for a variety of business reasons.
 
-DMARC is fully supported in Adobe currently but is not required. Use any free DMARC checker to see if you have DMARC setup for your subdomains, and if you do not, talk to your Adobe support team to see how best to go about getting that setup. 
+Configuration of DMARC TXT records is currently fully supported in Adobe for Campaign and AJO but is not required. Use any free DMARC checker to see if you have DMARC setup for your subdomains, and if you do not, talk to your Adobe support team to see how best to go about getting that setup. 
 
 You can also find more information about DMARC and how to implement it [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html){target="_blank"} for Adobe Campaign, [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/dmarc-record-update.html?lang=en){target="_blank"} for AJO, or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} for Marketo Engage.
 
@@ -47,7 +47,7 @@ You can also find more information about DMARC and how to implement it [here](ht
 
 Don't panic. [!DNL Google] and [!DNL Yahoo] are not talking about the unsubscribe links in your email body or footer that might be clicked on by a security bot just doing its job or by accident. What they mean is the List-Unsubscribe header functionality for either the "mailto" or "http/URL" versions. This is the function within the [!DNL Yahoo] and Gmail UIs where users can click unsubscribe. Gmail even prompts users who click on "Report Spam" to see if they meant to unsubscribe instead, which can reduce the number of complaints you get (complaints hurt your reputation) by turning them into unsubscribes instead (doesn't hurt your reputation).
 
-It is important to note that [!DNL Google] and [!DNL Yahoo] are both referring to the "http/URL" option by the name "1-Click", and this is intentional. Technically the original "http/URL" option allowed you to redirect recipients to a website. That is not the focus of [!DNL Yahoo] and [!DNL Google], who both reference the updated [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} which focuses on processing the unsubscribe via an HTTPS POST request instead of a website, making it "1-Click".
+It is important to note that [!DNL Google] and [!DNL Yahoo] are both referring to the "http/URI" option by the name "1-Click", and this is intentional. Technically the original "http/URI" option allowed you to redirect recipients to a website. That is not the focus of [!DNL Yahoo] and [!DNL Google], who both reference the updated [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} which focuses on processing the unsubscribe via an HTTPS POST request instead of a website, making it "1-Click".
 
 Today, Gmail accepts the “mailto” list-unsubscribe option. Gmail has said that “mailto” does not meet their expectations going forward, and senders will need to have the “post” list-unsubscribe option enabled. Those senders who already have list-unsubscribe of some type in place will have until June 1st 2024 to have “1-click” list-unsubscribe in place.
 
@@ -65,8 +65,8 @@ The need for list-unsubscribe headers does not apply to transactional emails. Pl
 > 
 > * [!DNL Adobe Campaign Classic V7/V8]: Fully supports POST 1-Click today, instructions can be found [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}. 
 >* [!DNL Adobe Campaign Standard]: Is being updated to support POST 1-Click by late February. Instructions for setup will be provided [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} once ready.
->* [!DNL Adobe Journey Optimizer]: Supports POST 1-Click today, but some key improvements are underway. Updates to step by step setup will be published [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} once ready.
-> * [!DNL Marketo]: Is being updated to support POST 1-Click. Once ready it will be auto-applied where required.
+>* [!DNL Adobe Journey Optimizer]: Supports POST 1-Click today, but some key improvements are underway and expected to take place in March 2024. Updates to the documentation will be published [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} once ready.
+> * [!DNL Marketo]: As of January 31st, 2024 Fully supports POST 1-Click-List-Unsubscribe. No action is required by the user.
 
 
 ## Process Unsubscribes within 2 days:
