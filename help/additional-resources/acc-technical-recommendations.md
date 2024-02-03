@@ -218,14 +218,14 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
 
 ### Creating Typology Rule to Support One-Click List-Unsubscribe:
 
-1. **Create the new Typology Rule:**
+**1. Create the new Typology Rule:**
 
     * From the Navigation Tree click "new" to create a new Typology
 
 ![image](/help/assets/CreatingTypologyRules1.png)
 
 
-* **Proceed to configure the typology rule:**
+**2. **Proceed to configure the typology rule:**
 
     * Rule Type: control 
     * Channel: email 
