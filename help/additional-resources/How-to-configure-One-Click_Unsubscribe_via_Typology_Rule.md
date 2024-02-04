@@ -1,4 +1,4 @@
-### Creating Typology Rule to Support One-Click List-Unsubscribe: ###
+# Creating Typology Rule to Support One-Click List-Unsubscribe:
 
 **1. Create the new Typology Rule:**
   * From the Navigation Tree click "new" to create a new Typology 
