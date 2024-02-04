@@ -229,9 +229,9 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
 
 **2. Proceed to configure the typology rule:**
 
-  * Rule Type: control
-  * Channel: email
-  * Phase: At the start of personalization
+  * Rule Type: Control
+  * Phase: At the start of targeting
+  * Channel: Email
   * Level: Your choice
   * Active
 
