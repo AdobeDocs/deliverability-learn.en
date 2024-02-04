@@ -1,16 +1,11 @@
-### Creating Typology Rule to Support One-Click List-Unsubscribe:
+### Creating Typology Rule to Support One-Click List-Unsubscribe: ###
 
 **1. Create the new Typology Rule:**
-
-  * From the Navigation Tree click "new" to create a new Typology
-    
+  * From the Navigation Tree click "new" to create a new Typology 
 
 ![image](/help/assets/CreatingTypologyRules1.png)
 
-
-
 **2. Proceed to configure the typology rule:**
-
   * Rule Type: Control
   * Phase: At the start of targeting
   * Channel: Email
@@ -133,19 +128,13 @@ return true;
 
 ![image](/help/assets/CreatingTypologyRules3.png)
 
-
-
 **3. Add your new rule to a Typology to an email (Default typology is ok):**
 
 ![image](/help/assets/CreatingTypologyRules4.png)
 
-
-
 **4. Prepare a new delivery (verify that Additional SMTP headers in delivery property is empty)**
 
 ![image](/help/assets/CreatingTypologyRules5.png)
-
-
 
 **5. Check during delivery preparation that your new Typology Rule is applied.**
 
