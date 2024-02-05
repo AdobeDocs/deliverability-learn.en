@@ -153,7 +153,7 @@ List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body
 The following command line can be used to create a dynamic **List-Unsubscribe**:
 
 ```
-List-Unsubscribe: <mailto:%=errorAddress%?subject=unsubscribe%=message.mimeMessageId%>
+List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
 Gmail, Outlook.com, and Microsoft Outlook support this method and an unsubscribe button is available directly in their interface. This technique lowers complaint rates.
@@ -209,7 +209,7 @@ To configure One-Click List-Unsubscribe directly:
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: <https//domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?
 subject=unsubscribe%=message.mimeMessageId%>
 ```
  
