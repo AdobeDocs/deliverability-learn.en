@@ -209,8 +209,7 @@ To configure One-Click List-Unsubscribe directly:
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptidcamp %>>, <mailto: %=errorAddress%?
-subject=unsubscribe%=message.mimeMessageId%>
+List-Unsubscribe: https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
  
 The above example will enable One-Click List-Unsubscribe for ISPs who support One-Click, while ensuring that receivers who do not support URL list-unsubscribe can still request a unsubscribe via email. 
