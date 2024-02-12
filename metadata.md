@@ -2,7 +2,7 @@
 cloud: Experience Cloud
 product: experience cloud
 feature-set: Campaign, Journey Optimizer, Marketo Engage
-solution: Experience Cloud, Campaign Classic v7, Campaign Standard, Campaign v8, Marketo Engage
+solution: Experience Cloud, Campaign Classic v7, Campaign Standard, Campaign v8 Client Console, Campaign v8 Web User Interface, Marketo Engage
 type: Tutorial
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/deliverability-learn.en
