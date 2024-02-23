@@ -133,7 +133,7 @@ Adobe Campaign's Deliverability service manages your subscription to feedback lo
 
 ### About List-Unsubscribe {#about-list-unsubscribe}
 
-Adding an SMTP header called **List-Unsubscribe** is mandatory to ensure optimal deliverability management.Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. To understand how to configure One-Click List-Unsubscribe please see below.
+Adding an SMTP header called **List-Unsubscribe** is mandatory to ensure optimal deliverability management. Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. To understand how to configure One-Click List-Unsubscribe, see [this section](#one-click-list-unsubscribe).
 
 
 This header can be used as an alternative to the "Report as SPAM" icon. It will display as an unsubscribe link in the email interface.
@@ -170,12 +170,12 @@ The command line must be added in the additional section of the email's SMTP hea
 This addition can be done in each email, or in existing delivery templates. You can also create a new delivery template that includes this functionality.
 
 List-Unsubscribe: mailto:unsubscribe@domain.com 
-* Clicking the **unsubscribe** link opens the user’s default email client. This typology rule must be added in a typology used for creating email.
+* Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
 
 List-Unsubscribe: https://domain.com/unsubscribe.jsp 
 * Clicking the **unsubscribe** link redirects the user to your unsubscribe form.
 
-![image](/help/assets/UTF-8-1.png)
+![image](../assets/UTF-8-1.png)
 
 
 ### Creating a typology rule {#creating-a-typology-rule}
@@ -190,17 +190,17 @@ The rule must contain the script that generates the command line and it must be 
 >
 >Learn how to create typology rules in Adobe Campaign Classic in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
-### One-Click List Unsubscribe
+### One-Click List Unsubscribe {#one-click-list-unsubscribe}
 
 Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. To comply with the One-Click List-Unsubscribe requirement senders must: 
  
-  1. Add in a “List-Unsubscribe-Post: List-Unsubscribe=One-Click” 
+  1. Add in a "List-Unsubscribe-Post: List-Unsubscribe=One-Click" 
   2. Include a URI unsubscribe Link
   3. Support reception of the HTTP POST response from the receiver, which Adobe Campaign supports. 
  
 To configure One-Click List-Unsubscribe directly: 
  
-* Add in the following “Unsubscribe recipients no-click” web application  
+* Add in the following "Unsubscribe recipients no-click" web application  
   1. Go to Resources -> Online -> Web Applications 
   2. Upload the "Unsubscribe recipients no-click" [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 * Configure List-Unsubscribe and List-Unsubscribe-Post 
@@ -209,7 +209,7 @@ To configure One-Click List-Unsubscribe directly:
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
  
 The above example will enable One-Click List-Unsubscribe for ISPs who support One-Click, while ensuring that receivers who do not support URL list-unsubscribe can still request a unsubscribe via email. 
@@ -220,10 +220,8 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
 **1. Create the new Typology Rule:**
 
   * From the Navigation Tree click "new" to create a new Typology
-    
 
-![image](/help/assets/CreatingTypologyRules1.png)
-
+![image](../assets/CreatingTypologyRules1.png)
 
 
 **2. Proceed to configure the typology rule:**
@@ -235,7 +233,7 @@ The above example will enable One-Click List-Unsubscribe for ISPs who support On
   * Active
 
 
-![image](/help/assets/CreatingTypologyRules2.png)
+![image](../assets/CreatingTypologyRules2.png)
 
 
 **Code the javascript of the Typology rule:**
@@ -348,31 +346,31 @@ return true;
 ```
 
 
-![image](/help/assets/CreatingTypologyRules3.png)
+![image](../assets/CreatingTypologyRules3.png)
 
 
 
 **3. Add your new rule to a Typology to an email (Default typology is ok):**
 
-![image](/help/assets/CreatingTypologyRules4.png)
+![image](../assets/CreatingTypologyRules4.png)
 
 
 
 **4. Prepare a new delivery (verify that Additional SMTP headers in delivery property is empty)**
 
-![image](/help/assets/CreatingTypologyRules5.png)
+![image](../assets/CreatingTypologyRules5.png)
 
 
 
 **5. Check during delivery preparation that your new Typology Rule is applied.**
 
-![image](/help/assets/CreatingTypologyRules6.png)
+![image](../assets/CreatingTypologyRules6.png)
 
 
 
 **6. Validate that the List-Unsubscribe is present.**
 
-![image](/help/assets/CreatingTypologyRules7.png)
+![image](../assets/CreatingTypologyRules7.png)
 
 
 ## Email optimization {#email-optimization}
