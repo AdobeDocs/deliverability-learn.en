@@ -1,9 +1,9 @@
-### Unsubscribe Do’s and Do Not’s ###
-
+# Unsubscribe Do’s and Do Not’s #
 
 The purpose of this document is to review recommended best practices on email unsubscribe management.
 
-Unsubscribes are a natural part of the email lifecycle. But it is hard for marketers to say goodbye sometimes. You work so hard to craft the most engaging emails and present the best deals on products and services your brand offers. However, it is completely normal, and should be expected, that some subscribers decide to move on. This could be due to any number of reasons, but the bottom line is they are not interested in hearing from you any longer. 
+Unsubscribes are a natural part of the email lifecycle. But it is hard for marketers to say goodbye sometimes. You work so hard to craft the most engaging emails and present the best deals on products and services your brand offers. However, it is completely normal, and should be expected, that some subscribers decide to move on. This could be due to any number of reasons, but the bottom line is they are not interested in hearing from you any longer.
+
 We have created a list of things to do and things to avoid when managing unsubscribes from your email lists - read on to learn more.
 
 The Do’s
@@ -78,4 +78,3 @@ DO NOT: Force them to give you a reason why they unsubscribed before you process
 + A better approach would be to inform them that they have been unsubscribed successfully and then allow a space for them to optionally offer the reason(s).
 
 Remember that unsubscribes are better than complaints. People who are not engaging with your email program positively can have a negative effect on your deliverability reputation as well as your metrics. Now, it’s time for you to focus on cultivating deeper relationships with your current subscribers by treating them to engaged, relevant messaging that they can’t wait to open, click through, and make a purchase!
-
