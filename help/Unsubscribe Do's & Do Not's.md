@@ -20,9 +20,9 @@ DO: Have your unsubscribe link drive to a landing page where the user can confir
  
 DO: Make the process easy and transparent. Example:
 
-+	“Click this to unsubscribe from all marketing emails”. This should be the first option given to the user.
++	Click this to unsubscribe from all marketing emails. This should be the first option given to the user.
 
-+	“Click this to change your preferences.”
++	Click this to change your preferences.
 
 DO: Include the email address on the unsubscribe landing page.
 
