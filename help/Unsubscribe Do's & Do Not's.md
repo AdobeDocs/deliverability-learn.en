@@ -9,6 +9,7 @@ We have created a list of things to do and things to avoid when managing unsubsc
 The Do’s
 
 DO: Have a prominently placed unsubscribe link. This can help prevent users from clicking the “this is spam” complaint (also referred to as a feedback loop)
+
 + Some ideas on how to make the unsubscribe link stand out: Center it, underline it, and bold it, place it at either the very top or the very bottom of the email, make it a different font color
 Use the one word - ‘UNSUBSCRIBE’ - in the user’s language preference. Don’t use flowery or excessive verbiage.
 
@@ -20,6 +21,7 @@ DO: Have your unsubscribe link drive to a landing page where the user can confir
 DO: Make the process easy and transparent. Example:
 
 +	“Click this to unsubscribe from all marketing emails”. This should be the first option given to the user.
+
 +	“Click this to change your preferences.”
 
 DO: Include the email address on the unsubscribe landing page.
