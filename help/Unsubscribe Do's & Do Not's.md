@@ -1,22 +1,23 @@
 ### Unsubscribe Do’s and Do Not’s ###
 
+
 The purpose of this document is to review recommended best practices on email unsubscribe management.
 
 Unsubscribes are a natural part of the email lifecycle. But it is hard for marketers to say goodbye sometimes. You work so hard to craft the most engaging emails and present the best deals on products and services your brand offers. However, it is completely normal, and should be expected, that some subscribers decide to move on. This could be due to any number of reasons, but the bottom line is they are not interested in hearing from you any longer. 
 We have created a list of things to do and things to avoid when managing unsubscribes from your email lists - read on to learn more.
 
-# The Do’s #
+The Do’s
 
-#DO:# Have a prominently placed unsubscribe link. This can help prevent users from clicking the “this is spam” complaint (also referred to as a feedback loop)
+DO: Have a prominently placed unsubscribe link. This can help prevent users from clicking the “this is spam” complaint (also referred to as a feedback loop)
 + Some ideas on how to make the unsubscribe link stand out: Center it, underline it, and bold it, place it at either the very top or the very bottom of the email, make it a different font color
 Use the one word - ‘UNSUBSCRIBE’ - in the user’s language preference. Don’t use flowery or excessive verbiage.
 
-#DO:# Have your unsubscribe link drive to a landing page where the user can confirm they want to be removed from the list
+DO: Have your unsubscribe link drive to a landing page where the user can confirm they want to be removed from the list
 
 + The verbiage on the landing page should include a link to click that says, “Confirm my unsubscribe” and perhaps another link that says “Let me opt down and lower frequency of mail I receive from you”. While this is not a one-click unsubscribe method, it will help avoid bot clicks that result in an erroneous unsubscribe. 
  + If your unsubscribe takes a user to a landing page, ensure that the landing page offers a one click unsubscribe once the user lands on the page.
  
-#DO:# Make the process easy and transparent. Example:
+DO: Make the process easy and transparent. Example:
 
 +	“Click this to unsubscribe from all marketing emails”. This should be the first option given to the user.
 +	“Click this to change your preferences.”
