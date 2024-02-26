@@ -1,4 +1,4 @@
-### Unsubscribe Do’s and Do Not’s ###
+# Unsubscribe Do’s and Do Not’s
 
 The purpose of this document is to review recommended best practices on email unsubscribe management.
 
