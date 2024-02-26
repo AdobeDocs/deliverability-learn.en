@@ -42,7 +42,7 @@ DO: Allow your subscribers to dictate the relationship.
 
 DO: Use a List Unsubscribe header in your email templates so that email clients (for example: gmail.com) that display unsubscribe links at the top of the email are easily found where the user is accustomed to looking for unsubscribes.
 
-+ Click here (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) to read more about industry initiatives regarding one click unsubscribe. 
++ Click [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) to read more about industry initiatives regarding one click unsubscribe. 
 
 The Do Not’s
 
