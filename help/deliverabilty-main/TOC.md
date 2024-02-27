@@ -41,7 +41,7 @@ auto-video-transcripts: true
 + Appendix: Additional resources {#additional-resources}
   + [Overview](/help/additional-resources/general-resources.md)
   + [Yahoo and Gmail updates](/help/guidance-around-changes-to-google-and-yahoo.md)
-  + [Unsubscribe Do's and Dont's](/help/Unsubscribe-Do's-and-Do-Not's.md)
+  + [Unsubscribe Do's and Dont's](/help/Unsubscribe-Do's-and-Do-not's.md) {#undubscribe-dos_and_do_nots}
   + Generic resources {#generic-resources}
     + [All about spam traps](/help/additional-resources/all-about-spam-traps.md)
     + [Increase your email reputation with IP warming](/help/additional-resources/increase-reputation-with-ip-warming.md)
