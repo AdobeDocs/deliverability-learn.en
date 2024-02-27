@@ -133,10 +133,13 @@ Adobe Campaign's Deliverability service manages your subscription to feedback lo
 
 ### About List-Unsubscribe {#about-list-unsubscribe}
 
-Adding an SMTP header called **List-Unsubscribe** is mandatory to ensure optimal deliverability management. Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. To understand how to configure One-Click List-Unsubscribe, see [this section](#one-click-list-unsubscribe).
+Adding an SMTP header called **List-Unsubscribe** is mandatory to ensure optimal deliverability management.
 
+>[!CAUTION]
+>
+>Starting on June 1, 2024, Yahoo! and Gmail will both be requiring senders to comply with **One-Click List-Unsubscribe**. To understand how to configure One-Click List-Unsubscribe, see [this section](#one-click-list-unsubscribe).
 
-This header can be used as an alternative to the "Report as SPAM" icon. It will display as an unsubscribe link in the email interface.
+This header can be used as an alternative to the "Report as SPAM" icon. It displays as an unsubscribe link in the email interface.
 
 Using this functionality helps to protect your reputation and feedback will be executed as an unsubscribe.
 
@@ -185,27 +188,25 @@ The rule must contain the script that generates the command line and it must be 
 >[!NOTE]
 >
 >We recommend creating a typology rule: the List-Unsubscribe functionality will be automatically added in each email.
-
->[!NOTE]
 >
->Learn how to create typology rules in Adobe Campaign Classic in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+>Learn how to create typology rules in Adobe Campaign v7/v8 in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ### One-Click List Unsubscribe {#one-click-list-unsubscribe}
 
-Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. To comply with the One-Click List-Unsubscribe requirement senders must: 
+Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. To comply with this requirement, senders must: 
  
-  1. Add in a "List-Unsubscribe-Post: List-Unsubscribe=One-Click" 
-  2. Include a URI unsubscribe Link
-  3. Support reception of the HTTP POST response from the receiver, which Adobe Campaign supports. 
+1. Add the following command line:`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
+1. Include a URI unsubscribe link.
+1. Support reception of the HTTP POST response from the receiver, which Adobe Campaign supports.
  
-To configure One-Click List-Unsubscribe directly: 
+To configure One-Click List-Unsubscribe directly in Adobe Campaign v7/v8: 
  
 * Add in the following "Unsubscribe recipients no-click" web application  
-  1. Go to Resources -> Online -> Web Applications 
+  1. Go to Resources -> Online -> Web Applications
   2. Upload the "Unsubscribe recipients no-click" [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 * Configure List-Unsubscribe and List-Unsubscribe-Post 
   1. Go to the SMTP section of the Delivery Properties.
-  2. Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line): 
+  2. Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line):
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
