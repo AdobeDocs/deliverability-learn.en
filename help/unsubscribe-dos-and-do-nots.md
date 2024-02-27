@@ -1,7 +1,6 @@
 ---
 title: Unsubscribe Do's and Do Not's
 description: Use a list of things to do and things to avoid when managing unsubscribes.
-version:
 feature: Deliverability
 role: Admin
 level: Beginner
