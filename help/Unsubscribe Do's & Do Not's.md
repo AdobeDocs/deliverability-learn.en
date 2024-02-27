@@ -6,7 +6,7 @@ Unsubscribes are a natural part of the email lifecycle. But it is hard for marke
 
 We have created a list of things to do and things to avoid when managing unsubscribes from your email lists - read on to learn more.
 
-The Do’s
+## The Do’s
 
 DO: Have a prominently placed unsubscribe link. This can help prevent users from clicking the “this is spam” complaint (also referred to as a feedback loop)
 
@@ -28,51 +28,51 @@ DO: Include the email address on the unsubscribe landing page.
 
 + Important: Depending on the location/jurisdiction of your users, there may be privacy concerns about including the full email address – you may need to prepopulate a hashed version of the email address. This is because the email may have been forwarded from the originally subscribed address. Consult with your legal group to understand your specific requirements. 
 
-DO: Confirm that the unsubscribe was successfully submitted and confirm when they can expect to stop receiving emails.
+**DO:** Confirm that the unsubscribe was successfully submitted and confirm when they can expect to stop receiving emails.
 
 + If they have already unsubscribed and they try again, tell them that they had already unsubscribed and when (Date/Time)
 
-DO: Honor the unsubscribe and remove the address in a timely fashion.
+**DO:** Honor the unsubscribe and remove the address in a timely fashion.
 
 + Timeliness will depend on local laws and jurisdiction, so please consult with legal counsel on what applies to your business.
 
-DO: Allow your subscribers to dictate the relationship.
+**DO:** Allow your subscribers to dictate the relationship.
 
 + It’s okay to give your subscribers options – this can be managed through a preference center/opt down initiative.
 
-DO: Use a List Unsubscribe header in your email templates so that email clients (for example: gmail.com) that display unsubscribe links at the top of the email are easily found where the user is accustomed to looking for unsubscribes.
+**DO:** Use a List Unsubscribe header in your email templates so that email clients (for example: gmail.com) that display unsubscribe links at the top of the email are easily found where the user is accustomed to looking for unsubscribes.
 
 + Click [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) to read more about industry initiatives regarding one click unsubscribe. 
 
-The Do Not’s
+## The Do Not’s
 
 
-DO NOT: Bury the unsubscribe link in your content in the hopes that subscribers will ‘give up’ out of frustration.
+**DO NOT:** Bury the unsubscribe link in your content in the hopes that subscribers will ‘give up’ out of frustration.
 
 + This is a poor end-user experience and could lead to increased complaints, which can negatively impact your deliverability and reputation.
 
-DO NOT: Make it difficult to unsubscribe once the customer has arrived at the form. Trickery is annoying - and in some cases – unlawful. 
+**DO NOT:** Make it difficult to unsubscribe once the customer has arrived at the form. Trickery is annoying - and in some cases – unlawful. 
 
 + Be direct and avoid confusing the end user.
 
-DO NOT: Make the user manually add an email address on the unsubscribe form. 
+**DO NOT:** Make the user manually add an email address on the unsubscribe form. 
 
 + The address that subscribed may be different from the address the user logged into for mail (example, forwarded).  They may not know the email address that was used for the original subscription.
 
-DO NOT: Make the user log in to their account to unsubscribe.  
+**DO NOT:** Make the user log in to their account to unsubscribe.  
 
 + You may be sending the email to the wrong address and that address owner may not have access to the account.  If they are receiving the email, they should be allowed to unsubscribe from the link in the email alone; no other action or information should be required.
 + The fewer steps a customer needs to take, the better.
 
-DO NOT: Send an email confirming that the person has unsubscribed. 
+**DO NOT:** Send an email confirming that the person has unsubscribed. 
 
 + If you do, you have already broken your promise not to send them any more mail. 
 
-DO NOT: Be snarky in your verbiage. “I don’t like to hear about great deals – please unsubscribe me!”
+**DO NOT:** Be snarky in your verbiage. “I don’t like to hear about great deals – please unsubscribe me!”
 
 + This can come across as rude. Avoid a negative tone.
 
-DO NOT: Force them to give you a reason why they unsubscribed before you process the request.
+**DO NOT:** Force them to give you a reason why they unsubscribed before you process the request.
 
 + Allowing the customer a place to add this information can be helpful for you as far as future insights – but make it an optional field on the unsubscribe landing page. 
 + A better approach would be to inform them that they have been unsubscribed successfully and then allow a space for them to optionally offer the reason(s).
