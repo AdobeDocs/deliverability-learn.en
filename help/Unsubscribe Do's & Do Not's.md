@@ -8,23 +8,23 @@ We have created a list of things to do and things to avoid when managing unsubsc
 
 ## The Do’s
 
-DO: Have a prominently placed unsubscribe link. This can help prevent users from clicking the “this is spam” complaint (also referred to as a feedback loop)
+**DO:** Have a prominently placed unsubscribe link. This can help prevent users from clicking the “this is spam” complaint (also referred to as a feedback loop)
 
 + Some ideas on how to make the unsubscribe link stand out: Center it, underline it, and bold it, place it at either the very top or the very bottom of the email, make it a different font color
 Use the one word - ‘UNSUBSCRIBE’ - in the user’s language preference. Don’t use flowery or excessive verbiage.
 
-DO: Have your unsubscribe link drive to a landing page where the user can confirm they want to be removed from the list
+**DO:** Have your unsubscribe link drive to a landing page where the user can confirm they want to be removed from the list
 
 + The verbiage on the landing page should include a link to click that says, “Confirm my unsubscribe” and perhaps another link that says “Let me opt down and lower frequency of mail I receive from you”. While this is not a one-click unsubscribe method, it will help avoid bot clicks that result in an erroneous unsubscribe. 
  + If your unsubscribe takes a user to a landing page, ensure that the landing page offers a one click unsubscribe once the user lands on the page.
  
-DO: Make the process easy and transparent. Example:
+**DO:** Make the process easy and transparent. Example:
 
  + "Click this to unsubscribe from all marketing emails". This should be the first option given to the user.
 
  + "Click this to change your preferences".
 
-DO: Include the email address on the unsubscribe landing page.
+**DO:** Include the email address on the unsubscribe landing page.
 
 + Important: Depending on the location/jurisdiction of your users, there may be privacy concerns about including the full email address – you may need to prepopulate a hashed version of the email address. This is because the email may have been forwarded from the originally subscribed address. Consult with your legal group to understand your specific requirements. 
 
@@ -42,7 +42,7 @@ DO: Include the email address on the unsubscribe landing page.
 
 **DO:** Use a List Unsubscribe header in your email templates so that email clients (for example: gmail.com) that display unsubscribe links at the top of the email are easily found where the user is accustomed to looking for unsubscribes.
 
-+ Click [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) to read more about industry initiatives regarding one click unsubscribe. 
+   + Click [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) to read more about industry initiatives regarding one click unsubscribe. 
 
 ## The Do Not’s
 
