@@ -25,14 +25,15 @@ Use the one word - ‘UNSUBSCRIBE’ - in the user’s language preference. Don�
 
 **DO:** Have your unsubscribe link drive to a landing page where the user can confirm they want to be removed from the list
 
-+ The verbiage on the landing page should include a link to click that says, “Confirm my unsubscribe” and perhaps another link that says “Let me opt down and lower frequency of mail I receive from you”. While this is not a one-click unsubscribe method, it will help avoid bot clicks that result in an erroneous unsubscribe. 
- + If your unsubscribe takes a user to a landing page, ensure that the landing page offers a one click unsubscribe once the user lands on the page.
+The verbiage on the landing page should include a link to click that says, “Confirm my unsubscribe” and perhaps another link that says “Let me opt down and lower frequency of mail I receive from you”. While this is not a one-click unsubscribe method, it will help avoid bot clicks that result in an erroneous unsubscribe.
+
++ If your unsubscribe takes a user to a landing page, ensure that the landing page offers a one click unsubscribe once the user lands on the page.
  
 **DO:** Make the process easy and transparent. Example:
 
- + "Click this to unsubscribe from all marketing emails". This should be the first option given to the user.
++ "Click this to unsubscribe from all marketing emails". This should be the first option given to the user.
 
- + "Click this to change your preferences".
++ "Click this to change your preferences".
 
 **DO:** Include the email address on the unsubscribe landing page.
 
@@ -52,7 +53,7 @@ Use the one word - ‘UNSUBSCRIBE’ - in the user’s language preference. Don�
 
 **DO:** Use a List Unsubscribe header in your email templates so that email clients (for example: gmail.com) that display unsubscribe links at the top of the email are easily found where the user is accustomed to looking for unsubscribes.
 
-   + Click [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) to read more about industry initiatives regarding one click unsubscribe. 
+ Click [here](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html) to read more about industry initiatives regarding one click unsubscribe. 
 
 ## The Do Not’s
 
@@ -84,7 +85,8 @@ Use the one word - ‘UNSUBSCRIBE’ - in the user’s language preference. Don�
 
 **DO NOT:** Force them to give you a reason why they unsubscribed before you process the request.
 
-+ Allowing the customer a place to add this information can be helpful for you as far as future insights – but make it an optional field on the unsubscribe landing page. 
++ Allowing the customer a place to add this information can be helpful for you as far as future insights – but make it an optional field on the unsubscribe landing page.
+ 
 + A better approach would be to inform them that they have been unsubscribed successfully and then allow a space for them to optionally offer the reason(s).
 
 Remember that unsubscribes are better than complaints. People who are not engaging with your email program positively can have a negative effect on your deliverability reputation as well as your metrics. Now, it’s time for you to focus on cultivating deeper relationships with your current subscribers by treating them to engaged, relevant messaging that they can’t wait to open, click through, and make a purchase!
