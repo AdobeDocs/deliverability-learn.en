@@ -131,13 +131,13 @@ Adobe Campaign's Deliverability service manages your subscription to feedback lo
 
 ## List-Unsubscribe {#list-unsubscribe}
 
-### About List-Unsubscribe {#about-list-unsubscribe}
-
 Adding an SMTP header called **List-Unsubscribe** is mandatory to ensure optimal deliverability management.
 
 >[!CAUTION]
 >
 >Starting on June 1, 2024, Yahoo! and Gmail will both be requiring senders to comply with **One-Click List-Unsubscribe**. To understand how to configure One-Click List-Unsubscribe, see [this section](#one-click-list-unsubscribe).
+
+### About List-Unsubscribe {#about-list-unsubscribe}
 
 This header can be used as an alternative to the "Report as SPAM" icon. It displays as an unsubscribe link in the email interface.
 
@@ -159,7 +159,17 @@ The following command line can be used to create a dynamic **List-Unsubscribe**:
 List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
+<!--This example uses the error address.-->
+
 Gmail, Outlook.com, and Microsoft Outlook support this method and an unsubscribe button is available directly in their interface. This technique lowers complaint rates.
+
+>[!NOTE]
+>
+>The Unsubscribe button from the ISPs is not always displayed. Indeed, it can depend on each ISP's specific criteria and policy. Therefore, make sure your messages are sent by an IP/Sender:
+>
+>* With good reputation
+>* Under the ISPs spam complaint threshold
+>* Fully authenticated
 
 You can implement the **List-Unsubscribe** by either:
 
@@ -168,18 +178,26 @@ You can implement the **List-Unsubscribe** by either:
 
 ### Adding a command line in a delivery template {#adding-a-command-line-in-a-delivery-template}
 
-The command line must be added in the additional section of the email's SMTP header.
+The command line must be added in the **[!UICONTROL Additional SMTP headers]** section of the email's SMTP header.
 
 This addition can be done in each email, or in existing delivery templates. You can also create a new delivery template that includes this functionality.
 
+For example, enter the following script into the **[!UICONTROL Additional SMTP headers]**: `List-Unsubscribe: mailto:unsubscribe@domain.com`
+
+![image](../assets/List-Unsubscribe-template-SMTP.png)
+
+Clicking the **unsubscribe** link sends an email to the unsubscribe@domain.com address.
+
+<!--
 List-Unsubscribe: mailto:unsubscribe@domain.com 
 * Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
 
 List-Unsubscribe: https://domain.com/unsubscribe.jsp 
+
 * Clicking the **unsubscribe** link redirects the user to your unsubscribe form.
 
-![image](../assets/UTF-8-1.png)
-
+  ![image](../assets/UTF-8-1.png)
+-->
 
 ### Creating a typology rule {#creating-a-typology-rule}
 
@@ -191,34 +209,44 @@ The rule must contain the script that generates the command line and it must be 
 >
 >Learn how to create typology rules in Adobe Campaign v7/v8 in [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
+<!--Can you explain precisely how to create the tyology rule in the UI and what should be added to this typology rule?-->
+
 ### One-Click List Unsubscribe {#one-click-list-unsubscribe}
 
 Starting on June 1, 2024, Yahoo and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. To comply with this requirement, senders must: 
  
 1. Add the following command line:`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
 1. Include a URI unsubscribe link.
-1. Support reception of the HTTP POST response from the receiver, which Adobe Campaign supports.
+1. Support reception of the HTTP POST response from the receiver, which Adobe Campaign supports. You can also use an external service.
  
-To configure One-Click List-Unsubscribe directly in Adobe Campaign v7/v8: 
+To configure One-Click List-Unsubscribe directly in Adobe Campaign v7/v8:
  
 * Add in the following "Unsubscribe recipients no-click" web application  
   1. Go to Resources -> Online -> Web Applications
   2. Upload the "Unsubscribe recipients no-click" [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
-* Configure List-Unsubscribe and List-Unsubscribe-Post 
-  1. Go to the SMTP section of the Delivery Properties.
-  2. Under Additional SMTP Headers, enter in the command lines (Each header should be on a separate line):
 
-```
-List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
-```
- 
-The above example will enable One-Click List-Unsubscribe for ISPs who support One-Click, while ensuring that receivers who do not support URL list-unsubscribe can still request a unsubscribe via email. 
- 
+To configure One-Click List-Unsubscribe, you can either:
 
-### Creating Typology Rule to Support One-Click List-Unsubscribe:
+* [Add a command line in the delivery template](#one-click-delivery-template)
+* [Creating a typology rule](#one-click-typology-rule)
+
+### Configuring One-Click List-Unsubscribe in the delivery template {#one-click-delivery-template} 
+
+1. Go to the SMTP section of the Delivery Properties.
+2. Under Additional SMTP Headers, enter in the command lines below. Each header should be on a separate line.
+
+    ```
+    List-Unsubscribe-Post: List-Unsubscribe=One-Click
+    List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
+    ```
+ 
+The above example will enable One-Click List-Unsubscribe for ISPs who support One-Click, while ensuring that receivers who do not support URL List-Unsubscribe can still request a unsubscribe via email. 
+
+### Creating a typology rule to support One-Click List-Unsubscribe {#one-click-typology-rule}
 
 **1. Create the new Typology Rule:**
+
+<!--Need to check screenshots?-->
 
   * From the Navigation Tree click "new" to create a new Typology
 
