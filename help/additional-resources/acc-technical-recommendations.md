@@ -157,7 +157,7 @@ Two versions of the List-Unsubscribe header functionality exist:
 
 * **"One-Click" List-Unsubscribe** - With this method, clicking the **Unsubscribe** link directly unsubscribes the user. [Learn more](#one-click-list-unsubscribe)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Starting on June 1, 2024, Yahoo! and Gmail will both be requiring senders to comply with **One-Click List-Unsubscribe**. [Learn more on this change](../guidance-around-changes-to-google-and-yahoo.md)
 >
