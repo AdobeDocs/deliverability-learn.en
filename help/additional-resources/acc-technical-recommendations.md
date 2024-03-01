@@ -135,6 +135,8 @@ Adding an SMTP header called **List-Unsubscribe** is mandatory to ensure optimal
 
 This header can be used as an alternative to the "Report as SPAM" icon. It displays as an "Unsubscribe" link in the ISPs' email interfaces.
 
+Using this functionality lowers complaint rates and helps to protect your reputation. Feedback will be executed as an unsubscribe.
+
 Gmail, Outlook.com, Yahoo! and Microsoft Outlook support this method. An "Unsubscribe" link is available directly in their interface. For example:
 
 ![image](../assets/List-Unsubscribe-example-Gmail.png)
@@ -146,8 +148,6 @@ Gmail, Outlook.com, Yahoo! and Microsoft Outlook support this method. An "Unsubs
 >* With good reputation
 >* Under the ISPs' spam complaint threshold
 >* Fully authenticated
-
-Using this functionality lowers complaint rates and helps to protect your reputation. Feedback will be executed as an unsubscribe.
 
 Two versions of the List-Unsubscribe header functionality exist:
 
@@ -187,9 +187,7 @@ The command line must be added into the **[!UICONTROL Additional SMTP headers]**
 
 This addition can be done in each email, or in existing delivery templates. You can also create a new delivery template that includes this functionality.
 
-For example, enter the following script into the **[!UICONTROL Additional SMTP headers]** field: `List-Unsubscribe: mailto:unsubscribe@domain.com`
-
-Clicking the **unsubscribe** link sends an email to the unsubscribe@domain.com address.
+For example, enter the following script into the **[!UICONTROL Additional SMTP headers]** field: `List-Unsubscribe: mailto:unsubscribe@domain.com`. Clicking the **unsubscribe** link sends an email to the unsubscribe@domain.com address.
 
 You can also use a dynamic address. For example, to send an email to the error address defined for the platform, you can use the following script: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
@@ -239,7 +237,9 @@ To configure **One-Click List-Unsubscribe** in Campaign, you can either:
 * Add the command line in the delivery or delivery template - [Learn how](#one-click-delivery-template)
 * Create a typology rule - [Learn how](#one-click-typology-rule)
 
-#### Configuring One-Click List-Unsubscribe in the delivery or template {#one-click-delivery-template} 
+#### Configuring One-Click List-Unsubscribe in the delivery or template {#one-click-delivery-template}
+
+To configure One-Click List-Unsubscribe in the delivery or delivery template, follow the steps below.
 
 1. Go to the **[!UICONTROL SMTP]** section of the delivery properties.
 
@@ -257,6 +257,8 @@ List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.crypt
 The above example will enable One-Click List-Unsubscribe for ISPs who support One-Click, while ensuring that receivers who do not support "mailto" can still request unsubscribe via email. 
 
 #### Creating a typology rule to support One-Click List-Unsubscribe {#one-click-typology-rule}
+
+To configure One-Click List-Unsubscribe using a typology rule, follow the steps below.
 
 1. From the navigation tree, go to **[!UICONTROL Typolgy rules]** and click **[!UICONTROL New]**.
 
