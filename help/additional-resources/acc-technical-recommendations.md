@@ -133,11 +133,11 @@ Adobe Campaign's Deliverability service manages your subscription to feedback lo
 
 Adding an SMTP header called **List-Unsubscribe** is mandatory to ensure optimal deliverability management.
 
-This header can be used as an alternative to the "Report as SPAM" icon. It displays as an "Unsubscribe" link in the ISPs' email interfaces. For example:
+This header can be used as an alternative to the "Report as SPAM" icon. It displays as an "Unsubscribe" link in the ISPs' email interfaces.
+
+Gmail, Outlook.com, Yahoo! and Microsoft Outlook support this method. An "Unsubscribe" link is available directly in their interface. For example:
 
 ![image](../assets/List-Unsubscribe-example-Gmail.png)
-
-Gmail, Outlook.com, Yahoo! and Microsoft Outlook support this method. An "Unsubscribe" link is available directly in their interface.
 
 >[!NOTE]
 >
@@ -155,7 +155,6 @@ Two versions of the List-Unsubscribe header functionality exist:
 
 <!--OR: With this method, clicking the **Unsubscribe** link opens the user's default email client with a pre-filled email to the unsubscribe address specified in the email header. This allows the user to unsubscribe simply by sending the email without any further manual steps.-->
 
-and
 * **"One-Click" List-Unsubscribe** - With this method, clicking the **Unsubscribe** link directly unsubscribes the user. [Learn more](#one-click-list-unsubscribe)
 
 >[!CAUTION]
@@ -166,23 +165,17 @@ and
 
 ### "mailto" List-Unsubscribe {#mailto-list-unsubscribe}
 
-To use "mailto" List-Unsubscribe, you must enter a command line similar to:
+With this method, clicking the **Unsubscribe** link sends a pre-filled email to the unsubscribe address specified in the email header.
 
-```
-List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
-```
+To use "mailto" List-Unsubscribe, you must enter a command line where you specify an email address, such as: `List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>`
 
 >[!CAUTION]
 >
 >The example above is based on the recipient table. If database implementation is done from another table, make sure to reword the command line with the correct information.
 
-You can also create a dynamic "mailto" List-Unsubscribe using a command line such as:
+You can also create a dynamic "mailto" List-Unsubscribe using a command line such as: `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
-```
-List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
-```
-
-To implement **"mailto" List-Unsubscribe**, you can either:
+To implement **"mailto" List-Unsubscribe** in Campaign, you can either:
 
 * Directly add the command line in the delivery or delivery template - [Learn how](#adding-a-command-line-in-a-delivery-template)
 
@@ -194,7 +187,7 @@ The command line must be added into the **[!UICONTROL Additional SMTP headers]**
 
 This addition can be done in each email, or in existing delivery templates. You can also create a new delivery template that includes this functionality.
 
-For example, enter the following script into the **[!UICONTROL Additional SMTP headers]**: `List-Unsubscribe: mailto:unsubscribe@domain.com`
+For example, enter the following script into the **[!UICONTROL Additional SMTP headers]** field: `List-Unsubscribe: mailto:unsubscribe@domain.com`
 
 Clicking the **unsubscribe** link sends an email to the unsubscribe@domain.com address.
 
@@ -223,7 +216,9 @@ Learn how to create typology rules in Adobe Campaign v7/v8 in [this section](htt
 >
 >We recommend creating a typology rule: the List-Unsubscribe functionality will be automatically added in each email using this typolgy rule.
 
-### One-Click List Unsubscribe {#one-click-list-unsubscribe}
+### One-Click List-Unsubscribe {#one-click-list-unsubscribe}
+
+With this method, clicking the **Unsubscribe** link directly unsubscribes the user, requiring only a single action to unsubscribe.
 
 Starting on June 1, 2024, Yahoo! and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. [Learn more on this change](../guidance-around-changes-to-google-and-yahoo.md)
 
@@ -239,7 +234,7 @@ To support the One-Click List-Unsubscribe PSOT response directly in Adobe Campai
 
 1. Upload the "Unsubscribe recipients no-click" [XML](/help/assets/WebAppUnsubNoClick.xml.zip) file.
 
-To configure **One-Click List-Unsubscribe**, you can either:
+To configure **One-Click List-Unsubscribe** in Campaign, you can either:
 
 * Add the command line in the delivery or delivery template - [Learn how](#one-click-delivery-template)
 * Create a typology rule - [Learn how](#one-click-typology-rule)
@@ -259,7 +254,7 @@ List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.crypt
 
 ![image](../assets/List-Unsubscribe-1-click-template-SMTP.png)
 
-The above example will enable One-Click List-Unsubscribe for ISPs who support One-Click, while ensuring that receivers who do not support "mailto" List-Unsubscribe can still request unsubscribe via email. 
+The above example will enable One-Click List-Unsubscribe for ISPs who support One-Click, while ensuring that receivers who do not support "mailto" can still request unsubscribe via email. 
 
 #### Creating a typology rule to support One-Click List-Unsubscribe {#one-click-typology-rule}
 
