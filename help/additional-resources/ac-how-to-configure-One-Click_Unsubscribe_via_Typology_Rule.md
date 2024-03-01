@@ -1,11 +1,13 @@
 # Creating Typology Rule to Support One-Click List-Unsubscribe:
 
 **1. Create the new Typology Rule:**
+  
   * From the Navigation Tree click "new" to create a new Typology 
 
 ![image](/help/assets/CreatingTypologyRules1.png)
 
 **2. Proceed to configure the typology rule:**
+
   * Rule Type: Control
   * Phase: At the start of targeting
   * Channel: Email

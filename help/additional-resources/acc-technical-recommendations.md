@@ -256,6 +256,7 @@ For example:
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
 List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
+
 ![image](../assets/List-Unsubscribe-1-click-template-SMTP.png)
 
 The above example will enable One-Click List-Unsubscribe for ISPs who support One-Click, while ensuring that receivers who do not support "mailto" List-Unsubscribe can still request unsubscribe via email. 
