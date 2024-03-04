@@ -159,9 +159,7 @@ Two versions of the List-Unsubscribe header functionality exist:
 
 >[!IMPORTANT]
 >
->Starting on June 1, 2024, Yahoo! and Gmail will both be requiring senders to comply with **One-Click List-Unsubscribe**. [Learn more on this change](../guidance-around-changes-to-google-and-yahoo.md)
->
->Learn how to configure One-Click List-Unsubscribe in [this section](#one-click-list-unsubscribe).
+>>Learn how to configure One-Click List-Unsubscribe in [this section](#one-click-list-unsubscribe).
 
 ### "mailto" List-Unsubscribe {#mailto-list-unsubscribe}
 
@@ -217,8 +215,6 @@ Learn how to create typology rules in Adobe Campaign v7/v8 in [this section](htt
 ### One-Click List-Unsubscribe {#one-click-list-unsubscribe}
 
 With this method, clicking the **Unsubscribe** link directly unsubscribes the user, requiring only a single action to unsubscribe.
-
-Starting on June 1, 2024, Yahoo! and Gmail will be requiring senders to comply with One-Click List-Unsubscribe. [Learn more on this change](../guidance-around-changes-to-google-and-yahoo.md)
 
 To comply with this requirement, senders must: 
  
