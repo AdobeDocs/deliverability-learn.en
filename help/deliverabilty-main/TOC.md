@@ -40,6 +40,7 @@ auto-video-transcripts: true
 + [Putting it in practice](/help/putting-it-in-practice.md)
 + Appendix: Additional resources {#additional-resources}
   + [Overview](/help/additional-resources/general-resources.md)
+  + [Yahoo and Gmail updates](/help/guidance-around-changes-to-google-and-yahoo.md)
   + [Unsubscribe Do's and Do Not's](/help/unsubscribe-dos-and-do-nots.md)
   + Generic resources {#generic-resources}
     + [All about spam traps](/help/additional-resources/all-about-spam-traps.md)
