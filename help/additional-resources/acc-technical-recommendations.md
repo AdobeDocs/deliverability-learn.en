@@ -226,7 +226,7 @@ To comply with this requirement, senders must:
 * Include a URI unsubscribe link.
 * Support reception of the HTTP POST response from the receiver, which Adobe Campaign supports. You can also use an external service.
  
-To support the One-Click List-Unsubscribe PSOT response directly in Adobe Campaign v7/v8, you must add in the "Unsubscribe recipients no-click" web application. To do so: 
+To support the One-Click List-Unsubscribe POST response directly in Adobe Campaign v7/v8, you must add in the "Unsubscribe recipients no-click" web application. To do so: 
 
 1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Online]** > **[!UICONTROL Web applications]**.
 
