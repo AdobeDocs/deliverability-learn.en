@@ -157,10 +157,6 @@ Two versions of the List-Unsubscribe header functionality exist:
 
 * **"One-Click" List-Unsubscribe** - With this method, clicking the **Unsubscribe** link directly unsubscribes the user. [Learn more](#one-click-list-unsubscribe)
 
->[!IMPORTANT]
->
->>Learn how to configure One-Click List-Unsubscribe in [this section](#one-click-list-unsubscribe).
-
 ### "mailto" List-Unsubscribe {#mailto-list-unsubscribe}
 
 With this method, clicking the **Unsubscribe** link sends a pre-filled email to the unsubscribe address specified in the email header.
