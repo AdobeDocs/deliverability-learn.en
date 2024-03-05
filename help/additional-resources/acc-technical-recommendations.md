@@ -153,9 +153,11 @@ Two versions of the List-Unsubscribe header functionality exist:
 
 * **"mailto" List-Unsubscribe** - With this method, clicking the **Unsubscribe** link sends a pre-filled email to the unsubscribe address specified in the email header. [Learn more](#mailto-list-unsubscribe)
 
-<!--OR: With this method, clicking the **Unsubscribe** link opens the user's default email client with a pre-filled email to the unsubscribe address specified in the email header. This allows the user to unsubscribe simply by sending the email without any further manual steps.-->
-
 * **"One-Click" List-Unsubscribe** - With this method, clicking the **Unsubscribe** link directly unsubscribes the user. [Learn more](#one-click-list-unsubscribe)
+
+>[!NOTE]
+>
+>Starting on June 1, 2024, major ISPs will be requiring senders to comply with **One-Click List-Unsubscribe**.
 
 ### "mailto" List-Unsubscribe {#mailto-list-unsubscribe}
 
@@ -187,17 +189,6 @@ You can also use a dynamic address. For example, to send an email to the error a
 
 ![image](../assets/List-Unsubscribe-template-SMTP.png)
 
-<!--
-List-Unsubscribe: mailto:unsubscribe@domain.com 
-* Clicking the **unsubscribe** link opens the user's default email client. This typology rule must be added in a typology used for creating email.
-
-List-Unsubscribe: https://domain.com/unsubscribe.jsp 
-
-* Clicking the **unsubscribe** link redirects the user to your unsubscribe form.
-
-  ![image](../assets/UTF-8-1.png)
--->
-
 #### Creating a typology rule {#creating-a-typology-rule}
 
 The rule must contain the script that generates the command line and it must be included in the email header.
@@ -211,6 +202,8 @@ Learn how to create typology rules in Adobe Campaign v7/v8 in [this section](htt
 ### One-Click List-Unsubscribe {#one-click-list-unsubscribe}
 
 With this method, clicking the **Unsubscribe** link directly unsubscribes the user, requiring only a single action to unsubscribe.
+
+Starting on June 1, 2024, major ISPs will be requiring senders to comply with **One-Click List-Unsubscribe**.
 
 To comply with this requirement, senders must: 
  
