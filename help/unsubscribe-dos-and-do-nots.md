@@ -1,6 +1,6 @@
 ---
-title: Unsubscribe Do's and Do Not's
-description: Use a list of things to do and things to avoid when managing unsubscribes.
+title: Unsubscribe dos and do nots
+description: Learn the dos and donts when managing unsubscribes.
 feature: Deliverability
 role: Admin
 level: Beginner
@@ -10,24 +10,23 @@ last-substantial-update: 2024-02-27
 jira: KT-15029
 exl-id: d8ca4d48-c6c1-45a9-bf6a-3f58ee161a53
 ---
-# Unsubscribe Do’s and Do Not’s
+# Unsubscribe dos and do nots
 
 Unsubscribes are a natural part of the email lifecycle. But it is hard for marketers to say goodbye sometimes. You work so hard to craft the most engaging emails and present the best deals on products and services your brand offers. However, it is completely normal, and should be expected, that some subscribers decide to move on. This could be due to any number of reasons, but the bottom line is they are not interested in hearing from you any longer.
 
 We have created a list of things to do and things to avoid when managing unsubscribes from your email lists - read on to learn more.
 
-## The Do’s
+## The dos
 
-**DO:** Have a prominently placed unsubscribe link. This can help prevent users from clicking the “this is spam” complaint (also referred to as a feedback loop)
+**DO:** Have a prominently placed unsubscribe link. This can help prevent users from clicking the “this is spam” complaint (also referred to as a feedback loop).
 
-+ Some ideas on how to make the unsubscribe link stand out: Center it, underline it, and bold it, place it at either the very top or the very bottom of the email, make it a different font color
-Use the one word - ‘UNSUBSCRIBE’ - in the user’s language preference. Don’t use flowery or excessive verbiage.
++ Some ideas on how to make the unsubscribe link stand out: Center it, underline it, and bold it. Place it at either the very top or the very bottom of the email. Make it a different font color. Use the one word - ‘UNSUBSCRIBE’ - in the user’s language preference. Don’t use flowery or excessive verbiage.
 
-**DO:** Have your unsubscribe link drive to a landing page where the user can confirm they want to be removed from the list
+**DO:** Have your unsubscribe link drive to a landing page where the user can confirm they want to be removed from the list.
 
-The verbiage on the landing page should include a link to click that says, “Confirm my unsubscribe” and perhaps another link that says “Let me opt down and lower frequency of mail I receive from you”. While this is not a one-click unsubscribe method, it will help avoid bot clicks that result in an erroneous unsubscribe.
+The verbiage on the landing page should include a link to click that says, “Confirm my unsubscribe” and perhaps another link that says “Let me opt down and lower frequency of mail I receive from you”. While this is not a one-click unsubscribe method, it helps avoid bot clicks that result in an erroneous unsubscribe.
 
-+ If your unsubscribe takes a user to a landing page, ensure that the landing page offers a one click unsubscribe once the user lands on the page.
++ If your unsubscribe takes a user to a landing page, ensure that the landing page offers a one-click unsubscribe once the user lands on the page.
  
 **DO:** Make the process easy and transparent. Example:
 
@@ -41,11 +40,11 @@ The verbiage on the landing page should include a link to click that says, “Co
 
 **DO:** Confirm that the unsubscribe was successfully submitted and confirm when they can expect to stop receiving emails.
 
-+ If they have already unsubscribed and they try again, tell them that they had already unsubscribed and when (Date/Time)
++ If they have already unsubscribed and they try again, tell them that they had already unsubscribed and when (Date/Time).
 
 **DO:** Honor the unsubscribe and remove the address in a timely fashion.
 
-+ Timeliness will depend on local laws and jurisdiction, so please consult with legal counsel on what applies to your business.
++ Timeliness depends on local laws and jurisdiction, so please consult with legal counsel on what applies to your business.
 
 **DO:** Allow your subscribers to dictate the relationship.
 
@@ -54,7 +53,7 @@ The verbiage on the landing page should include a link to click that says, “Co
 **DO:** Use a List Unsubscribe header in your email templates so that email clients (for example: gmail.com) that display unsubscribe links at the top of the email are easily found where the user is accustomed to looking for unsubscribes.
 
 
-## The Do Not’s
+## The do nots
 
 
 **DO NOT:** Bury the unsubscribe link in your content in the hopes that subscribers will ‘give up’ out of frustration.
@@ -67,16 +66,16 @@ The verbiage on the landing page should include a link to click that says, “Co
 
 **DO NOT:** Make the user manually add an email address on the unsubscribe form. 
 
-+ The address that subscribed may be different from the address the user logged into for mail (example, forwarded).  They may not know the email address that was used for the original subscription.
++ The address that subscribed may be different from the address the user logged into for mail (example, forwarded). They may not know the email address that was used for the original subscription.
 
 **DO NOT:** Make the user log in to their account to unsubscribe.  
 
-+ You may be sending the email to the wrong address and that address owner may not have access to the account.  If they are receiving the email, they should be allowed to unsubscribe from the link in the email alone; no other action or information should be required.
++ You may be sending the email to the wrong address and that address owner may not have access to the account. If they are receiving the email, they should be allowed to unsubscribe from the link in the email alone; no other action or information should be required.
 + The fewer steps a customer needs to take, the better.
 
 **DO NOT:** Send an email confirming that the person has unsubscribed. 
 
-+ If you do, you have already broken your promise not to send them any more mail. 
++ If you do, you have already broken your promise not to send them more mail. 
 
 **DO NOT:** Be snarky in your verbiage. “I don’t like to hear about great deals – please unsubscribe me!”
 
