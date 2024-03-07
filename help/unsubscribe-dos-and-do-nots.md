@@ -8,8 +8,8 @@ doc-type: Feature Video
 duration: 0
 last-substantial-update: 2024-02-27
 jira: KT-15029
+exl-id: d8ca4d48-c6c1-45a9-bf6a-3f58ee161a53
 ---
-
 # Unsubscribe Do’s and Do Not’s
 
 Unsubscribes are a natural part of the email lifecycle. But it is hard for marketers to say goodbye sometimes. You work so hard to craft the most engaging emails and present the best deals on products and services your brand offers. However, it is completely normal, and should be expected, that some subscribers decide to move on. This could be due to any number of reasons, but the bottom line is they are not interested in hearing from you any longer.
