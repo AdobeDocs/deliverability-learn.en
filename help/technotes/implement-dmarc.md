@@ -63,6 +63,10 @@ The main use of these reports is to receive an overview of emails that are attem
 * [Dmarcian](https://dmarcian.com/)
 * [Proofpoint](https://www.proofpoint.com/us)
 
+>[!CAUTION]
+>
+>If the email addresses you are adding to receive reports are outside the domain for which the DMARC record is created,you need to authorize their external domain to specify to the DNS that you own this domain. To do this, follow the steps detailed in the [dmarc.org documentation](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+
 ### Example DMARC Record {#example}
 
 ```
