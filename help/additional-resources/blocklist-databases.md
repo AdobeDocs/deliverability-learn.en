@@ -47,6 +47,8 @@ The following is a list of the most widely used RBLs. For a more comprehensive l
 
   This is a list of IPs and is widely used in Germany. Refer to [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
-<!--* SORBS
+<!--
+* SORBS
 
-  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.-->
+  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.
+-->

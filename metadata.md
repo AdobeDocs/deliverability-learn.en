@@ -6,7 +6,7 @@ solution: Experience Cloud, Campaign, Marketo Engage
 type: Tutorial
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/deliverability-learn.en
-index: yes
+index: true
 ---
 
 # Metadata for internal use

@@ -27,9 +27,10 @@ This section lists some additional resources on deliverability, such as specific
 * [Real-time Blackhole Lists](../../help/additional-resources/blocklist-databases.md)
 * [Troubleshooting](../../help/additional-resources/troubleshooting.md)
 
-    <!--
-    [IP Certification](../../help/additional-resources/ip-certification.md)
-    [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
+<!--
+[IP Certification](../../help/additional-resources/ip-certification.md)
+[Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)
+-->
 
 ## Product specific resources
 
