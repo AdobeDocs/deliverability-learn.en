@@ -57,5 +57,4 @@ auto-video-transcripts: true
   + Technotes{#technotes}
     + [Implement DMARC](/help/technotes/implement-dmarc.md)
     + [Implement BIMI](/help/technotes/implement-bimi.md)
-    + [Update bounces after Italia Online outage](/help/technotes/update-bounces-after-it-outage.md)
-
+    + {hide-from-toc} [Update bounces after Italia Online outage](/help/technotes/update-bounces-after-it-outage.md)
