@@ -4,7 +4,6 @@ description: Learn how to update bounce qualification after Italia Online outage
 feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
-hidefromtoc: yes
 role: Admin
 level: Beginner
 ---
