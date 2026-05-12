@@ -1,6 +1,6 @@
 ---
 title: How to transition smoothly when switching email platforms.
-description: When moving email service providers (ESPs), it's not possible to also transition your existing, established IP addresses. It is important that you follow best practices for developing a positive reputation when starting afresh. 
+description: When moving email service providers (ESPs), it's not possible to also transition your existing, established IP addresses. It is important that you follow best practices for developing a positive reputation when starting afresh.
 topics: Deliverability
 jira: KT-5259
 thumbnail: kt5259.jpg
@@ -10,6 +10,23 @@ role: Admin
 level: Beginner
 team: ACS
 exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
+TQID: https://experienceleague.adobe.com/sxCdMHKqdCZ3z2xp-aMYKiFfqu5Y-iDhk8FeergrgZw
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+    internal-label: Forms
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # How to transition smoothly when switching email platforms
 

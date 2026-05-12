@@ -10,6 +10,38 @@ role: Leader, User
 level: Beginner
 team: ACS
 exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
+TQID: https://experienceleague.adobe.com/n9Vw-9SRtvqrwlohQOu07-u8ZlR5vY7kbexQlMemTk0
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+    internal-label: Forms
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+    internal-label: Database
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+    internal-label: Resources
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 ---
 # Engagement
 

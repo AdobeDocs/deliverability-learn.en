@@ -1,6 +1,6 @@
 ---
 title: Introduction to deliverability best practices
-description:  Learn key deliverability terms, concepts, and approaches to empower you to ensure your marketing program success.
+description: Learn key deliverability terms, concepts, and approaches to empower you to ensure your marketing program success.
 jira: KT-5321
 thumbnail: kt5321.jpg
 doc-type: article
@@ -9,6 +9,32 @@ role: Admin, Leader, User
 level: Beginner
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
+TQID: https://experienceleague.adobe.com/DJri5ynJJTd6RG2MDH4EqamoEnjT1Jg3-ilM9fZqA0M
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+    internal-label: Forms
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+    internal-label: Resources
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
 ---
 # Introduction to deliverability best practices
 
