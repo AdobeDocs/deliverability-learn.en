@@ -1,11 +1,39 @@
 ---
 title: SSL Certificate request process
-description:  Learn how to install SSL certificates on the subdomains you delegated to Adobe.
+description: Learn how to install SSL certificates on the subdomains you delegated to Adobe.
 topics: Deliverability
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
+TQID: https://experienceleague.adobe.com/zM1boPuxPGJbjlSk1ncR7vTvrhe529sv-OCZwNTCHRE
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45
+    internal-label: Configuration
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+    internal-label: Database
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+    internal-label: Resources
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 ---
 # SSL certificate request process
 

@@ -1,6 +1,6 @@
 ---
 title: Address collection and list growth
-description: Learn what the best sources for new email addresses are, how to ensure high data quality, and alignment with legal guidelines. 
+description: Learn what the best sources for new email addresses are, how to ensure high data quality, and alignment with legal guidelines.
 topics: Deliverability
 jira: KT-7063
 thumbnail: kt7063.jpg
@@ -8,6 +8,34 @@ doc-type: article
 activity: understand
 team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
+TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+    internal-label: Forms
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+    internal-label: Resources
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Address collection and list growth
 
