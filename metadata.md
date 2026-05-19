@@ -10,6 +10,7 @@ product_v2:
     internal-label: "Campaign"
   - id: b27e5950-9033-45ac-9f86-eb22e567f615
     internal-label: "Marketo Engage"
+usetq: true
 type: Tutorial
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/deliverability-learn.en
