@@ -2,7 +2,7 @@
 cloud: Experience Cloud
 product: experience cloud
 feature-set: Campaign, Journey Optimizer, Marketo Engage
-solution: Experience Cloud, Campaign, Marketo Engage
+solution: CX Enterprise, Campaign, Marketo Engage
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: "Experience Cloud"
