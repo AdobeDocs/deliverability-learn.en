@@ -9,7 +9,7 @@ duration: 0
 last-substantial-update: 2024-02-27T00:00:00.000Z
 jira: KT-15029
 exl-id: d8ca4d48-c6c1-45a9-bf6a-3f58ee161a53
-TQID: https://experienceleague.adobe.com/YRkDn6lXosAOfAtZrWRoNstTK-MGWl8Y3PicB6iDTJY
+TQID: 'https://experienceleague.adobe.com/YRkDn6lXosAOfAtZrWRoNstTK-MGWl8Y3PicB6iDTJY'
 product_v2:
   - id: b27e5950-9033-45ac-9f86-eb22e567f615
     internal-label: Marketo Engage
@@ -22,6 +22,8 @@ feature_v2:
     internal-label: Resources
   - id: f82558ea-6af5-44eb-a424-5b3389abb0a3
     internal-label: Templates
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
