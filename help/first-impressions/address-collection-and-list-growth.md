@@ -10,10 +10,10 @@ team: TM
 exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
 feature_v2:
